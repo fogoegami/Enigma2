@@ -13,71 +13,21 @@
 	<code> .. code .. </code>
 		"exec"s code
 -->
-		<item level="0" text="Timer" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
+		
 		<item level="1" text="VCR scart" entryID="scart_switch" configcondition="config.usage.show_vcr_scart" requires="ScartSwitch"><code>self.session.scart.VCRSbChanged(3)</code></item>
-
-		<menu level="0" text="Information" entryID="info_screen">
-			<id val="information"/>
-			<item level="1" text="Service" entryID="service_info_screen"><screen module="ServiceInfo" screen="ServiceInfo"/></item>
-			<item level="0" text="About" entryID="about_screen"><screen module="About"/></item>
-			<item level="2" text="Streaming clients info" entryID="streaming_clients_info_screen"><screen module="StreamingClientsInfo"/></item>
-		</menu>
-
-		<item level="0" text="Plugins" entryID="plugin_selection"><screen module="PluginBrowser" screen="PluginBrowser"/></item>
-		<menu level="0" text="Setup" flushConfigOnClose="1" entryID="setup_selection" >
-			<id val="setup"/>
-			<menu weight="7" level="0" text="Service searching" entryID="service_searching_selection">
-				<id val="scan"/>
-				<item text="Tuner configuration" entryID="tuner_setup"><screen module="Satconfig" screen="NimSelection"/></item>
-				<item text="Automatic scan" entryID="auto_scan"><screen module="ScanSetup" screen="ScanSimple"/></item>
-				<item text="Manual scan" entryID="manual_scan"><screen module="ScanSetup"/></item>
-				<item text="Fallback remote receiver setup" entryID="fallbacktuner_settings"><screen module="SetupFallbacktuner"/></item>
-			</menu>
-			<menu weight="5" level="0" text="System" entryID="system_selection">
-				<id val="system"/>
-
-				<menu level="0" text="Audio / Video" entryID="video_selection">
+        <menu level="0" weight="1" text="Ajuste del Terminal" entryID="usuario_screen">
+			<id val="menu_usuario"/>
+        <item level="0" weight="2" entryID="user_interface"><setup id="userinterface"/></item>
+<menu level="0" weight="4" text="Formato TV Audio / Video" entryID="video_selection">
 				<id val="video"/>
 				<item level="0" entryID="av_setup"><setup id="avsetup"/></item>
 				<item level="2" entryID="subtitle_setup"><setup id="subtitlesetup"/></item>
 				<item level="0" entryID="autolanguage_setup"><setup id="autolanguagesetup"/></item>
 				</menu>
-
-				<item level="0" entryID="usage_setup"><setup id="usage"/></item>
-
-				<menu level="0" text="GUI Settings" entryID="gui_settings">
-				<id val="gui"/>
-				<item level="0" text="Language" entryID="language_setup"><screen module="LanguageSelection"/></item>
-				<item level="0" entryID="timezone_setup"><setup id="timezone"/></item>
-				<item level="2" entryID="epg_settings"><setup id="epgsettings"/></item>
-				<item level="0" entryID="user_interface"><setup id="userinterface"/></item>
-				</menu>
-				<item level="1" entryID="rfmod_setup" requires="RfModulator"><setup id="RFmod"/></item>
-				<menu level="0" text="Expert settings" entryID="expert_selection">
-				<id val="expert"/>
-				<item level="0" entryID="accesslevel_setup"><setup id="accesslevel"/></item>
-				<item level="0" entryID="recording_setup"><setup id="recording"/></item>
-
-					<menu level="0" text="Harddisk" entryID="hardisk_selection" requires="Harddisk">
-					<id val="harddisk"/>
-					<item level="0" entryID="harddisk_setup"><setup id="harddisk"/></item>
-					<item level="0" text="Initialization" entryID="harddisk_init"><screen module="HarddiskSetup" screen="HarddiskSelection"/></item>
-					<item level="0" text="Filesystem check" entryID="harddisk_check"><screen module="HarddiskSetup" screen="HarddiskFsckSelection"/></item>
-					</menu>
-				<item level="0" text="Network" entryID="network_setup"><screen module="NetworkSetup" screen="NetworkAdapterSelection"/></item>
-				<item level="1" text="Input devices" entryID="input_device_setup"><screen module="InputDeviceSetup" screen="InputDeviceSelection"/></item>
-				<item entryID="lcd_setup" requires="Display"><setup level="1" id="lcd"/></item>
-				<item entryID="keyboard_setup" text="Keyboard"><setup id="keyboard"/></item>
-				<item level="2" text="Recording paths" entryID="RecordPaths"><screen module="RecordPaths" screen="RecordPathsSettings"/></item>
-				<item level="1" text="Hotkey" entryID="hotkey_setup"><screen module="Hotkey" screen="HotkeySetup"/></item>
-				</menu>
-			</menu>
-			<menu weight="10" text="SoftCam / CI" entryID="cam_setup">
-				<id val="cam"/>
-				<item weight="10" level="0" text="Softcam Setup" entryID="softcam_setup"><screen module="SoftcamSetup" screen="SoftcamSetup"/></item>
-				<item weight="10" level="0" text="Common Interface" entryID="ci_setup" requires="CommonInterface"><screen module="Ci" screen="CiSelection"/></item>
-			</menu>
-			<item weight="15" level="0" text="Parental control" entryID="parental_setup"><screen module="ParentalControlSetup" screen="ParentalControlSetup"/></item>
+        <menu level="0" weight="3" text="Opciones" flushConfigOnClose="1" entryID="setup_selection" >
+			<id val="setup"/>
+			
+           <item level="0" text="Language" entryID="language_setup"><screen module="LanguageSelection"/></item>
 			<item weight="15" level="0" text="Factory reset" entryID="factory_reset">
 				<code>
 from Screens.FactoryReset import FactoryReset
@@ -89,9 +39,76 @@ def msgClosed(ret):
 self.session.openWithCallback(msgClosed, FactoryReset)
 </code>
 			</item>
-			<item weight="15" level="0" text="Flash image" entryID="flash_image" requires="canFlashWithOfgwrite" ><screen module="FlashImage" screen="SelectImage"/></item>
-			<item weight="15" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin"/></item>
+            
+
+				
+				<item level="1" entryID="rfmod_setup" requires="RfModulator"><setup id="RFmod"/></item>
+
+				<menu level="0" text="Expert settings" entryID="expert_selection">
+				<id val="expert"/>
+				<item level="0" entryID="recording_setup"><setup id="recording"/></item>
+
+
+					<menu level="0" text="Harddisk" entryID="hardisk_selection" requires="Harddisk">
+					<id val="harddisk"/>
+					<item level="0" entryID="harddisk_setup"><setup id="harddisk"/></item>
+					<item level="0" text="Initialization" entryID="harddisk_init"><screen module="HarddiskSetup" screen="HarddiskSelection"/></item>
+					<item level="0" text="Filesystem check" entryID="harddisk_check"><screen module="HarddiskSetup" screen="HarddiskFsckSelection"/></item>
+					<item level="1" text="Convert ext3 filesystem to ext4" entryID="harddisk_convert" requires="ext4"><screen module="HarddiskSetup" screen="HarddiskConvertExt4Selection"/></item>
+					</menu>
+				<item level="1" text="Input devices" entryID="input_device_setup"><screen module="InputDeviceSetup" screen="InputDeviceSelection"/></item>
+				<item entryID="lcd_setup" requires="Display"><setup level="1" id="lcd"/></item>
+				<item entryID="keyboard_setup" text="Keyboard"><setup id="keyboard"/></item>
+				<item level="2" text="Recording paths" entryID="RecordPaths"><screen module="RecordPaths" screen="RecordPathsSettings"/></item>
+				<item level="0" entryID="timezone_setup"><setup id="timezone"/></item>
+				<item level="1" text="Hotkey" entryID="hotkey_setup"><screen module="Hotkey" screen="HotkeySetup"/></item>
+				</menu>
+	
+
+			
+			<item weight="10" level="0" text="Common Interface" entryID="ci_setup" requires="CommonInterface"><screen module="Ci" screen="CiSelection"/></item>
+			
+			
+			
 		</menu>
+            			
+            <item weight="1" level="0" text="Configurar Niveles Menu" entryID="usage_setup"><setup id="usage"/></item>
+			
+<item level="0" text="Timer" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
+        </menu>
+		<menu level="0" text="Information" entryID="info_screen">
+			<id val="information"/>
+			<item level="1" text="Service" entryID="service_info_screen"><screen module="ServiceInfo" screen="ServiceInfo"/></item>
+			<item level="0" text="About" entryID="about_screen"><screen module="About"/></item>
+			<item level="2" text="Streaming clients info" entryID="streaming_clients_info_screen"><screen module="StreamingClientsInfo"/></item>
+		</menu>
+<menu weight="5" level="0" text="Utilidades del Sistema" entryID="system_selection">
+				<id val="system"/>
+ <item level="2" text="Liberar Memoria" entryID="liberar_memoria"><screen module="liberarmemoria" screen="liberarmemoria"/></item>
+  <item level="2" text="DNS dinamico" entryID="dns_dinamico"><screen module="dns" screen="ddnsmenu"/></item>
+<item weight="15" level="0" text="Flash image" entryID="flash_image" requires="canFlashWithOfgwrite" ><screen module="FlashImage" screen="SelectImage"/></item>
+			<item weight="15" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin"/></item>
+<item weight="1" level="2" text="Softcam Setup" entryID="softcam_setup"><screen module="SoftcamSetup" screen="SoftcamSetup"/></item>
+		<menu weight="2" level="0" text="Descarga EPG" entryID="epg_screen">
+			<id val="configuracion_epg"/>
+			<item level="0" text="Descarga epg" entryID="descarga_epg">
+				<code>
+from Plugins.Extensions.EPGImport.plugin import EPGImportConfig
+self.session.open(EPGImportConfig)
+</code>
+			</item>
+			<item level="2" entryID="epg_settings"><setup id="epgsettings"/></item>
+		</menu>
+</menu>
+<menu weight="3" level="0" text="Memorizacion de Canales" entryID="service_searching_selection">
+				<id val="scan"/>
+				<item text="Tuner configuration" entryID="tuner_setup"><screen module="Satconfig" screen="NimSelection"/></item>
+				<item text="Automatic scan" entryID="auto_scan"><screen module="ScanSetup" screen="ScanSimple"/></item>
+				<item text="Manual scan" entryID="manual_scan"><screen module="ScanSetup"/></item>
+			</menu>
+		<item level="0" text="Plugins" entryID="plugin_selection"><screen module="PluginBrowser" screen="PluginBrowser"/></item>
+        <item weight="2" level="0" text="Bloqueo y de Codigo Seguridad" entryID="parental_setup"><screen module="ParentalControlSetup" screen="ParentalControlSetup"/></item>
+		<item level="0" weight="4" text="Parametros de Red" entryID="network_setup"><screen module="NetworkSetup" screen="NetworkAdapterSelection"/></item>
 		<menu text="Standby / restart" entryID="standby_restart_list">
 			<id val="shutdown"/>
 			<item text="Sleep timer" entryID="sleep"><screen module="SleepTimerEdit" screen="SleepTimerEdit"/></item>
