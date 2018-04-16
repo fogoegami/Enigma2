@@ -9499,7 +9499,7 @@ msgid ""
 msgstr ""
 "Esta prueba comprueba si su adaptador LAN está configurado para la configuración automática de direcciones IP con DHCP.\n"
 "Si recibe un mensaje de “inhabilitado”:\n"
-"  - entonces su adaptador LAN está configurado para la configuración IP manual\n"
+"  - entonces su adaptador LAN está configurado para la configuración IP manual\n"
 "- compruebe que ha introducido la información de IP correcta en el cuadro de diálogo de configuración del adaptador.\n"
 "Si obtiene un mensaje “enabeld”:\n"
 "-verifica que tienes un servidor DHCP configurado y en funcionamiento en tu red."
@@ -10088,7 +10088,7 @@ msgstr "Use las teclas arriba/abajo de su mando para seleccionar una opción. De
 
 #
 msgid "Use the wizard to set up basic features"
-msgstr "Use el asistente para configuración básicaUtilice el asistente para configurar las funciones básicas"
+msgstr "Utilice el asistente para configurar las funciones básicas"
 
 msgid "Use these input device settings?"
 msgstr "¿Utilizar estos ajustes de dispositivo de entrada?"
@@ -10457,9 +10457,7 @@ msgid ""
 "Press OK to start configuring your network"
 msgstr ""
 "Bienvenido.\n"
-"\n"
 "Si desea conectar su receptor a Internet, este asistente le guiará a través de la configuración de red básica de su receptor.\n"
-"\n"
 "Pulse OK para iniciar la configuración de su red"
 
 msgid ""
@@ -12445,3 +12443,4 @@ msgstr "zapeado"
 
 msgid "®"
 msgstr "®"
+
