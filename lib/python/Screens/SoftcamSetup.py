@@ -22,6 +22,7 @@ class SoftcamSetup(Screen, ConfigListScreen):
 		<widget name="key_red" position="0,410" zPosition="2" size="140,40" valign="center" halign="center" font="Regular;21" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
 		<widget name="key_green" position="140,410" zPosition="2" size="140,40" valign="center" halign="center" font="Regular;21" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
 		<widget name="key_blue" position="420,410" zPosition="2" size="140,40" valign="center" halign="center" font="Regular;21" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
+		<widget name="yellow" position="600,410" zPosition="2" size="140,40" valign="center" halign="center" font="Regular;21" transparent="1" shadowColor="black" shadowOffset="-1,-1" />
 	</screen>"""
 	def __init__(self, session):
 		Screen.__init__(self, session)
@@ -30,12 +31,13 @@ class SoftcamSetup(Screen, ConfigListScreen):
 		self.setTitle(self.setup_title)
 
 		self["actions"] = ActionMap(["OkCancelActions", "ColorActions", "CiSelectionActions"],
-			{
-				"cancel": self.cancel,
-				"green": self.save,
-				"red": self.cancel,
-				"blue": self.ppanelShortcut,
-			},-1)
+                                    {
+                "cancel": self.cancel,
+                "green": self.save,
+                "red": self.cancel,
+                "blue": self.ppanelShortcut,
+                "yellow": self.cccamimport,
+                },-1)
 
 		self.list = [ ]
 		ConfigListScreen.__init__(self, self.list, session = session)
@@ -70,11 +72,24 @@ class SoftcamSetup(Screen, ConfigListScreen):
 		self["key_red"] = Label(_("Cancel"))
 		self["key_green"] = Label(_("OK"))
 		self["key_blue"] = Label(_("Info"))
+		self["key_yellow"] = Label(_("Import CCcam.cfg"))
 
 	def setEcmInfo(self):
 		(newEcmFound, ecmInfo) = self.ecminfo.getEcm()
 		if newEcmFound:
 			self["info"].setText("".join(ecmInfo))
+
+	def cccamimport(self):
+		if os.path.exists("/media/hdd/CCcam.cfg"):
+			os.system("cp -r /media/hdd/CCcam.cfg /etc/CCcam.cfg")
+			self.session.open(MessageBox, _('Importado archivo CCcam.cfg desde HDD'), MessageBox.TYPE_INFO)
+		elif os.path.exists("/media/usb/CCcam.cfg"):
+			os.system("cp -r /media/usb/CCcam.cfg /etc/CCcam.cfg")
+			self.session.open(MessageBox, _('Importado archivo CCcam.cfg desde USB'), MessageBox.TYPE_INFO)
+		else:
+			self.session.open(MessageBox, _('No se ha encontrado CCcam.cfg en unidades Montadas'), MessageBox.TYPE_INFO)  
+
+
 
 	def ppanelShortcut(self):
 		ppanelFileName = '/etc/ppanels/' + self.softcams.value + '.xml'
