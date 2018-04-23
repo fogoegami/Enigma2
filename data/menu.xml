@@ -98,7 +98,7 @@ self.session.open(EPGImportConfig)
 			</item>
 			<item level="2" entryID="epg_settings"><setup id="epgsettings"/></item>
 		</menu>
-</menu>
+        </menu>
 <menu weight="3" level="0" text="Memorizacion de Canales" entryID="service_searching_selection">
 				<id val="scan"/>
 				<item text="Tuner configuration" entryID="tuner_setup"><screen module="Satconfig" screen="NimSelection"/></item>
