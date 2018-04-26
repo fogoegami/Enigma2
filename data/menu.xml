@@ -84,16 +84,22 @@ self.session.openWithCallback(msgClosed, FactoryReset)
 <menu weight="5" level="0" text="Utilidades del Sistema" entryID="system_selection">
 				<id val="system"/>
  <item level="2" text="Liberar Memoria" entryID="liberar_memoria"><screen module="liberarmemoria" screen="liberarmemoria"/></item>
-  <item level="2" text="DNS dinamico" entryID="dns_dinamico"><screen module="dns" screen="ddnsmenu"/></item>
+ <item level="2" text="DNS dinamico" entryID="dns_dinamico"><screen module="dns" screen="ddnsmenu"/></item>
 <item weight="15" level="0" text="Flash image" entryID="flash_image" requires="canFlashWithOfgwrite" ><screen module="FlashImage" screen="SelectImage"/></item>
 			<item weight="15" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin"/></item>
 <item weight="1" level="2" text="Softcam Setup" entryID="softcam_setup"><screen module="SoftcamSetup" screen="SoftcamSetup"/></item>
-		<menu weight="2" level="0" text="Descarga EPG" entryID="epg_screen">
+		<menu weight="2" level="0" text="Ajustes EPG" entryID="epg_screen">
 			<id val="configuracion_epg"/>
-			<item level="0" text="Descarga epg" entryID="descarga_epg">
+			<item level="0" text="Descarga EPG" entryID="descarga_epg">
 				<code>
 from Plugins.Extensions.EPGImport.plugin import EPGImportConfig
 self.session.open(EPGImportConfig)
+</code>
+			</item>
+            <item level="0" text="Parametros EPG" entryID="parametros_epg">
+				<code>
+from Plugins.Extensions.EPGRefresh.EPGRefreshConfiguration import EPGRefreshConfiguration
+self.session.open(EPGRefreshConfiguration)
 </code>
 			</item>
 			<item level="2" entryID="epg_settings"><setup id="epgsettings"/></item>
@@ -105,6 +111,7 @@ self.session.open(EPGImportConfig)
 				<item text="Automatic scan" entryID="auto_scan"><screen module="ScanSetup" screen="ScanSimple"/></item>
 				<item text="Manual scan" entryID="manual_scan"><screen module="ScanSetup"/></item>
                 <item text="Fallback remote receiver setup" entryID="fallbacktuner_settings"><screen module="SetupFallbacktuner"/></item>
+                <item level="2" text="Tuner Server" entryID="Tuner Server"><screen module="obtunerserver" screen="TunerServer"/></item>
 			</menu>
 		<item level="0" text="Plugins" entryID="plugin_selection"><screen module="PluginBrowser" screen="PluginBrowser"/></item>
         <item weight="2" level="0" text="Bloqueo y de Codigo Seguridad" entryID="parental_setup"><screen module="ParentalControlSetup" screen="ParentalControlSetup"/></item>
