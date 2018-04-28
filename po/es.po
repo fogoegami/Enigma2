@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-13 09:42+0200\n"
-"PO-Revision-Date: 2018-01-04 21:28+0200\n"
+"PO-Revision-Date: 2018-04-22 14:22+0200\n"
 "Last-Translator: Jose Juan <jzapater@gmail.com>\n"
 "Language-Team: Sfteam  angelo2807@hotmail.com\n"
 "Language: es\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.5\n"
+"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 #
@@ -10088,7 +10088,7 @@ msgstr "Use las teclas arriba/abajo de su mando para seleccionar una opción. De
 
 #
 msgid "Use the wizard to set up basic features"
-msgstr "Utilice el asistente para configurar las funciones básicas"
+msgstr "Usar el asistente para configuración basica"
 
 msgid "Use these input device settings?"
 msgstr "¿Utilizar estos ajustes de dispositivo de entrada?"
@@ -10467,9 +10467,8 @@ msgid ""
 "Press the OK button on your remote control to move to the next step."
 msgstr ""
 "Bienvenido.\n"
-"\n"
 "Este asistente de inicio le guiará a través de la configuración básica de su receptor.\n"
-"Pulse el botón OK del mando a distancia para pasar al siguiente paso."
+"Pulse el botón OK del mando a distancia para continuar."
 
 #
 msgid "Welcome..."
@@ -12443,4 +12442,3 @@ msgstr "zapeado"
 
 msgid "®"
 msgstr "®"
-
