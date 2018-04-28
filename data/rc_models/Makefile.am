@@ -1,5 +1,7 @@
 installdir = $(pkgdatadir)/rc_models
 
+SUBDIRS = ini4
+
 dist_install_DATA = \
 	rc_models.cfg \
 	dmmadv.png amiko.png amiko1.png edision1.png et4x00.png et8000.png et9x00.png vu.png xp1000.png \
