@@ -86,7 +86,7 @@
 		     <convert type="EventTime">Progress</convert>
 	    </widget>
 	    <widget source="parent.Event" render="Label" position="186,48" size="53,17" font="FdLcD;18" noWrap="1">
-		     <convert type="EventTime">VFDRemaining</convert>
+		     <convert type="EventTime">Remaining</convert>
 		     <convert type="RemainingToText">VFDNoSeconds</convert>
 	    </widget>
 	</screen>
