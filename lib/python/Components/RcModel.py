@@ -1,4 +1,4 @@
-# import os
+import os
 from Tools.HardwareInfo import HardwareInfo
 from Tools.Directories import SCOPE_SKIN, resolveFilename
 
@@ -7,23 +7,19 @@ class RcModel:
 
 	def __init__(self):
 		self.model = HardwareInfo().get_device_model()
+		self.device_name = open("/etc/hostname").read().strip()
 		# cfg files has modelname  rcname entries.
 		# modelname is boxname optionally followed by .rctype
 		for line in open((resolveFilename(SCOPE_SKIN, 'rc_models/rc_models.cfg')), 'r'):
-			if line[:len(self.model)] == self.model:
+			if line.startswith(self.model):
 				m, r = line.strip().split()
 				self.RcModels[m] = r
-				# on spark has only one rc
-				break
 
 	def rcIsDefault(self):
 		# Default RC can only happen with DMM type remote controls...
 		return self.model.startswith('dm')
 
 	def getRcFile(self, ext):
-		# on spark has only one rc
-		return resolveFilename(SCOPE_SKIN, 'rc_models/xpeedlx3.' + ext)
-
 		# check for rc/type every time so rctype changes will be noticed
 		if os.path.exists('/proc/stb/ir/rc/type'):
 			rc = open('/proc/stb/ir/rc/type').read().strip()
@@ -38,7 +34,9 @@ class RcModel:
 		else:
 			remote = 'dmm'	# default. Assume files for dmm exists
 		f = resolveFilename(SCOPE_SKIN, 'rc_models/' + remote + '.' + ext)
-		if not os.path.exists(f):
+		if self.device_name.startswith(("xpeedlx3")):
+			f = resolveFilename(SCOPE_SKIN, 'rc_models/xpeedlx3.' + ext)
+		elif not os.path.exists(f):
 			f = resolveFilename(SCOPE_SKIN, 'rc_models/dmm.' + ext)
 		return f
 
