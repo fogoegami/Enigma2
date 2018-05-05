@@ -392,9 +392,9 @@ class MultibootSelection(SelectImage):
 		mode = GetCurrentImageMode() or 0
 		for x in sorted(imagesdict.keys()):
 			if imagesdict[x]["imagename"] != _("Empty slot"):
-				list.append(ChoiceEntryComponent('',((_("slot%s - %s mode 1 (current image)") if x == currentimageslot and mode != 12 else _("slot%s - %s mode 1 ")) % (x, imagesdict[x]['imagename']), x)))
+				list.append(ChoiceEntryComponent('',((_("slot%s - %s mode 1 (current image)") if x == currentimageslot and mode != 12 else _("slot%s - %s mode 1")) % (x, imagesdict[x]['imagename']), x)))
 				if SystemInfo["canMode12"]:
-					list.append(ChoiceEntryComponent('',((_("slot%s - %s mode 12 (current image)") if x == currentimageslot and mode == 12 else _("slot%s - %s mode 12 ")) % (x, imagesdict[x]['imagename']), x + 12)))
+					list.append(ChoiceEntryComponent('',((_("slot%s - %s mode 12 (current image)") if x == currentimageslot and mode == 12 else _("slot%s - %s mode 12")) % (x, imagesdict[x]['imagename']), x + 12)))
 		self["list"].setList(list)
 
 	def keyOk(self):
@@ -413,7 +413,7 @@ class MultibootSelection(SelectImage):
 		model = HardwareInfo().get_machine_name()
 		if 'coherent_poll=2M' in open("/proc/cmdline", "r").read():
 			#when Gigablue do something else... this needs to be improved later!!! It even looks that the GB method is better :)
-			shutil.copyfile("/tmp/startupmount/STARTUP_%s" % self.slot, "/tmp/startupmount/STARTUP")
+			shutil.copyfile("/tmp/startupmount/STARTUP_%s" % slot, "/tmp/startupmount/STARTUP")
 		else:
 			if slot < 12:
 				startupFileContents = "boot emmcflash0.kernel%s 'root=/dev/mmcblk0p%s rw rootwait %s_4.boxmode=1'\n" % (slot, slot * 2 + 1, model)
