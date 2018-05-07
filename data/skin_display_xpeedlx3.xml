@@ -135,12 +135,11 @@
 		     <convert type="ClockToText">Format:%H:%M</convert>
 	    </widget>
         <widget source="session.CurrentService" render="Progress" position="0,36" size="256,7" borderWidth="1">
-		     <convert type="ServicePosition">VFDPosition</convert>
+		     <convert type="ServicePosition">Position</convert>
 	    </widget>
 	    <widget source="session.CurrentService" render="Label" position="0,0" size="145,35" font="FdLcD;35" halign="left" valign="center" noWrap="1">
 		     <convert type="ServicePosition">Remaining</convert>		 
 	    </widget>
-	    <widget name="statusicon_summary" position="135,10" size="23,20" pixmaps="play.png,pause.png,stop.png,forward.png,backward.png,slow.png"/>
 	    <widget source="session.CurrentService" render="Label" position="0,43" size="255,20" font="FdLcD;21" noWrap="1">
 		     <convert type="ServiceName">Name</convert>
         </widget>
@@ -173,7 +172,8 @@
 	<screen name="MovieSelectionSummary" position="0,0" size="255,64">
 	    <widget source="parent.Service" render="Label" position="0,0" size="175,35" font="FdLcD;16" halign="center" valign="top" noWrap="1">
 		    <convert type="MovieInfo">RecordServiceName</convert>
-	    </widget>	
+	    </widget>
+	    <ePixmap pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/play.png" position="135,10" size="23,20"/>		
 	    <widget source="name" render="Label" position="0,27" size="255,20" font="FdLcD;17" halign="left" noWrap="1"/>
 	    <widget source="parent.Service" render="Label" position="0,45" size="140,20" font="FdLcD;19" halign="left" noWrap="1">
 		    <convert type="ServiceTime">Duration</convert>
@@ -303,20 +303,20 @@
 	</screen>
     <!-- FdLcD screen EMCMoviePlayerSummary -->
     <screen name="EMCMoviePlayerSummary" position="0,0" size="256,64">
-	    <ePixmap pixmap="/usr/share/enigma2/display/skin_default/play.png" position="135,10" size="23,20"/>
+	    <ePixmap pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/play.png" position="140,10" size="23,20"/>
 	    <widget source="global.CurrentTime" render="Label" position="0,0" size="255,35" font="FdLcD;35" halign="right" valign="center" noWrap="1">
 		     <convert type="ClockToText">Format:%H:%M</convert>
 	    </widget>
         <widget source="session.CurrentService" render="Progress" position="0,36" size="256,7" borderWidth="1">
-		     <convert type="ServicePosition">VFDPosition</convert>
+		     <convert type="EMCServicePosition">Position</convert>
 	    </widget>
 	    <widget source="session.CurrentService" render="Label" position="0,0" size="145,35" font="FdLcD;35" halign="left" valign="center" noWrap="1">
-		     <convert type="ServicePosition">Remaining</convert>
+		     <convert type="EMCServicePosition">Remaining</convert>
 	    </widget>
 	    <widget source="session.CurrentService" render="Label" position="0,43" size="255,20" font="FdLcD;21" noWrap="1">
 		     <convert type="ServiceName">Name</convert>
         </widget>
-	    <widget source="session.RecordState" render="FixedLabel" text="REC" position="132,18" size="60,24">
+	    <widget source="session.RecordState" render="FixedLabel" text="REC" font="FdLcD;15" position="105,15" size="35,15">
 		     <convert type="ConditionalShowHide">Blink</convert>
 	    </widget>		
 	</screen>
