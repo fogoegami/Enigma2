@@ -8,13 +8,14 @@ from Components.Label import Label
 from Components.MovieList import AUDIO_EXTENSIONS, MOVIE_EXTENSIONS, DVD_EXTENSIONS
 from Components.PluginComponent import plugins
 from Components.ServiceEventTracker import ServiceEventTracker
-from Components.ServiceList import refreshServiceList
 from Components.Sources.Boolean import Boolean
 from Components.config import config, ConfigBoolean, ConfigClock
 from Components.SystemInfo import SystemInfo
 from Components.UsageConfig import preferredInstantRecordPath, defaultMoviePath
 from Components.VolumeControl import VolumeControl
 from Components.Sources.StaticText import StaticText
+from Components.Pixmap import Pixmap
+from Components.Renderer.Picon import getPiconName
 from EpgSelection import EPGSelection
 from Plugins.Plugin import PluginDescriptor
 
@@ -44,14 +45,12 @@ from enigma import eTimer, eServiceCenter, eDVBServicePMTHandler, iServiceInform
 from time import time, localtime, strftime
 import os
 from bisect import insort
+from sys import maxint
 
 from RecordTimer import RecordTimerEntry, RecordTimer, findSafeRecordPath
 
 # hack alert!
 from Menu import MainMenu, mdom
-
-# sys.maxint on 64bit (2**63-1) fails with OverflowError on eActionMap.bindAction use 32bit value (2**31-1)
-maxint = 2147483647
 
 def isStandardInfoBar(self):
 	return self.__class__.__name__ == "InfoBar"
@@ -228,13 +227,14 @@ class InfoBarShowHide(InfoBarScreenSaver):
 	STATE_HIDING = 1
 	STATE_SHOWING = 2
 	STATE_SHOWN = 3
+	STATE_EPG = 4
 	FLAG_HIDE_VBI = 512
-	FLAG_CENTER_DVB_SUBS = 2048
 
 	def __init__(self):
 		self["ShowHideActions"] = ActionMap( ["InfobarShowHideActions"] ,
 			{
 				"toggleShow": self.okButtonCheck,
+				"toggleShowInfo": self.toggleShow,
 				"hide": self.keyHide,
 				"toggleShowLong" : self.toggleShowLong,
 				"hideLong" : self.hideLong,
@@ -317,8 +317,8 @@ class InfoBarShowHide(InfoBarScreenSaver):
 				self.session.openWithCallback(self.hidePipOnExitCallback, MessageBox, _("Disable Picture in Picture"), simple=True)
 			else:
 				self.hidePipOnExitCallback(True)
-		elif config.usage.ok_is_channelselection.value and hasattr(self, "openServiceList"):
-			self.toggleShow()
+#		elif config.usage.ok_is_channelselection.value and hasattr(self, "openServiceList"):
+#			self.toggleShow()
 		elif self.__state == self.STATE_SHOWN:
 			self.hide()
 
@@ -359,6 +359,12 @@ class InfoBarShowHide(InfoBarScreenSaver):
 		if self.__state == self.STATE_SHOWN:
 			self.hide()
 
+	def epg(self):
+		self.__state = self.STATE_EPG
+		self.hide()
+		self.hideTimer.stop()
+		self.openEventView()
+
 	def okButtonCheck(self):
 		if config.usage.ok_is_channelselection.value and hasattr(self, "openServiceList"):
 			if isinstance(self, InfoBarTimeshift) and self.timeshiftEnabled() and isinstance(self, InfoBarSeek) and self.seekstate == self.SEEK_STATE_PAUSE:
@@ -381,7 +387,9 @@ class InfoBarShowHide(InfoBarScreenSaver):
 			self.show()
 			self.actualSecondInfoBarScreen.show()
 			self.startHideTimer()
-		else:
+		elif self.__state == self.STATE_SHOWN:
+			self.epg()
+		elif self.__state == self.STATE_EPG:
 			self.hide()
 			self.hideTimer.stop()
 
@@ -440,8 +448,6 @@ class BufferIndicator(Screen):
 		Screen.__init__(self, session)
 		self["status"] = Label()
 		self.mayShow = False
-		self.mayShowTimer = eTimer()
-		self.mayShowTimer.callback.append(self.mayShowEndTimer)
 		self.__event_tracker = ServiceEventTracker(screen=self, eventmap=
 			{
 				iPlayableService.evBuffering: self.bufferChanged,
@@ -451,32 +457,22 @@ class BufferIndicator(Screen):
 
 	def bufferChanged(self):
 		if self.mayShow:
-			value = self.getBufferValue()
-			if value and value != 100:
-				self["status"].setText(_("Buffering %d%%") % value)
-				if not self.shown:
-					self.show()
+			service = self.session.nav.getCurrentService()
+			info = service and service.info()
+			if info:
+				value = info.getInfo(iServiceInformation.sBuffer)
+				if value and value != 100:
+					self["status"].setText(_("Buffering %d%%") % value)
+					if not self.shown:
+						self.show()
 
 	def __evStart(self):
+		self.mayShow = True
 		self.hide()
-		self.mayShow = False
-		self.mayShowTimer.start(1000, True)
 
 	def __evGstreamerPlayStarted(self):
 		self.mayShow = False
-		self.mayShowTimer.stop()
 		self.hide()
-
-	def	mayShowEndTimer(self):
-		self.mayShow = True
-		if self.getBufferValue() == 0:
-			self["status"].setText(_("No data received yet"))
-			self.show()
-
-	def getBufferValue(self):
-		service = self.session.nav.getCurrentService()
-		info = service and service.info()
-		return info and info.getInfo(iServiceInformation.sBuffer)
 
 class InfoBarBuffer():
 	def __init__(self):
@@ -499,6 +495,12 @@ class NumberZap(Screen):
 			if not self.startBouquet:
 				self.startBouquet = self.bouquet
 
+	def handlePicon(self):
+		if self.service is not None:
+			sname = self.service.toString()
+			pngname = getPiconName(sname)
+			self["picon"].instance.setPixmapFromFile(pngname)
+
 	def keyBlue(self):
 		self.startTimer()
 		if self.searchNumber:
@@ -514,6 +516,7 @@ class NumberZap(Screen):
 		self["number"].text = self["number_summary"].text = self.numberString
 
 		self.handleServiceName()
+		self.handlePicon()
 
 		if len(self.numberString) >= 5:
 			self.keyOK()
@@ -530,7 +533,7 @@ class NumberZap(Screen):
 		self["channel_summary"] = StaticText(_("Channel:"))
 		self["number_summary"] = StaticText(self.numberString)
 		self["servicename_summary"] = StaticText()
-
+		self["picon"] = Pixmap()
 		self.handleServiceName()
 
 		self["actions"] = NumberActionMap( [ "SetupActions", "ShortcutActions" ],
@@ -555,6 +558,14 @@ class NumberZap(Screen):
 		self.Timer.start(250)
 		self.startTimer()
 
+	def onLayoutReady(self):
+			self.updateData()
+			self.startTimer()
+
+	def updateData(self):
+		self.handleServiceName()
+		self.handlePicon()
+		
 	def startTimer(self, repeat=False):
 		self.timer_target = repeat and self.timer_counter < 6 and [4,4,4,5,8,10][self.timer_counter] or 12
 		self.timer_counter = 0
@@ -563,6 +574,8 @@ class NumberZap(Screen):
 		self.timer_counter += 1
 		if self.timer_counter > self.timer_target:
 			self.keyOK()
+
+		self.onLayoutFinish.append(self.handlePicon)
 
 class InfoBarNumberZap:
 	""" Handles an initial number for NumberZapping """
@@ -674,6 +687,7 @@ class InfoBarChannelSelection:
 				"historyNext": (self.historyNext, _("Switch to next channel in history")),
 				"keyChannelUp": (self.keyChannelUpCheck, self.getKeyChannelUpHelptext),
 				"keyChannelDown": (self.keyChannelDownCheck, self.getKeyChannelDownHelptext),
+				"openServiceList": (self.openServiceList, _("Open service list")), 	
 			})
 
 	def showTvChannelList(self, zap=False):
@@ -991,6 +1005,8 @@ class InfoBarEPG:
 				"showEventInfoSingleEPG": (self.showSingleEPG, _("Show single service EPG")),
 				"showEventInfoMultiEPG": (self.showMultiEPG, _("Show multi channel EPG")),
 				"showInfobarOrEpgWhenInfobarAlreadyVisible": self.showEventInfoWhenNotVisible,
+				"showSingleEPG": self.openSingleServiceEPG,
+				"showMultiEPG": self.openMultiServiceEPG,
 			})
 
 	def getEPGPluginList(self, getAll=False):
@@ -1325,7 +1341,7 @@ class InfoBarSeek:
 
 		self["SeekActions"] = InfoBarSeekActionMap(self, actionmap,
 			{
-				"playpauseService": (self.playpauseService, _("Pause/Continue playback")),
+				"playpauseService": (self.playpauseService, _("Pauze/Continue playback")),
 				"pauseService": (self.pauseService, _("Pause playback")),
 				"unPauseService": (self.unPauseService, _("Continue playback")),
 				"okButton": (self.okButton, _("Continue playback")),
@@ -1789,21 +1805,13 @@ class InfoBarShowMovies:
 # note that a timeshift can be enabled ("recording") and
 # activated (currently time-shifting).
 
-class InfoBarTimeshift():
+class InfoBarTimeshift:
 	def __init__(self):
 		self["TimeshiftActions"] = HelpableActionMap(self, "InfobarTimeshiftActions",
 			{
 				"timeshiftStart": (self.startTimeshift, _("Start timeshift")),  # the "yellow key"
-				"timeshiftStop": (self.stopTimeshift, _("Stop timeshift")),      # currently undefined :), probably 'TV'
-				"seekFwdManual": (self.seekFwdManual, _("Seek forward (enter time)")),
-				"seekBackManual": (self.seekBackManual, _("Seek backward (enter time)")),
-				"seekdef:1": (boundFunction(self.seekdef,1), _("Seek")),
-				"seekdef:3": (boundFunction(self.seekdef,3), _("Seek")),
-				"seekdef:4": (boundFunction(self.seekdef,4), _("Seek")),
-				"seekdef:6": (boundFunction(self.seekdef,6), _("Seek")),
-				"seekdef:7": (boundFunction(self.seekdef,7), _("Seek")),
-				"seekdef:9": (boundFunction(self.seekdef,9), _("Seek")),
-			}, prio=0)
+				"timeshiftStop": (self.stopTimeshift, _("Stop timeshift"))      # currently undefined :), probably 'TV'
+			}, prio=1)
 		self["TimeshiftActivateActions"] = ActionMap(["InfobarTimeshiftActivateActions"],
 			{
 				"timeshiftActivateEnd": self.activateTimeshiftEnd, # something like "rewind key"
@@ -1829,16 +1837,6 @@ class InfoBarTimeshift():
 				iPlayableService.evEnd: self.__serviceEnd
 			})
 
-	def seekdef(self, key):
-		if self.seekstate == self.SEEK_STATE_PLAY:
-			return 0 # trade as unhandled action
-		time = (-config.seek.selfdefined_13.value, False, config.seek.selfdefined_13.value,
-			-config.seek.selfdefined_46.value, False, config.seek.selfdefined_46.value,
-			-config.seek.selfdefined_79.value, False, config.seek.selfdefined_79.value)[key-1]
-		self.doSeekRelative(time * 90000)
-		self.pvrStateDialog.show()
-		return 1
-
 	def getTimeshift(self):
 		service = self.session.nav.getCurrentService()
 		return service and service.timeshift()
@@ -1851,25 +1849,6 @@ class InfoBarTimeshift():
 		ts = self.getTimeshift()
 		return ts and ts.isTimeshiftActive()
 
-	def playpauseStreamService(self):
-		service = self.session.nav.getCurrentService()
-		playingref = self.session.nav.getCurrentlyPlayingServiceReference()
-		if not playingref or playingref.type < eServiceReference.idUser:
-			return 0
-		if service and service.streamed():
-			pauseable = service.pause()
-			if pauseable:
-				if self.seekstate == self.SEEK_STATE_PLAY:
-					pauseable.pause()
-					self.pvrStateDialog.show()
-					self.seekstate = self.SEEK_STATE_PAUSE
-				else:
-					pauseable.unpause()
-					self.pvrStateDialog.hide()
-					self.seekstate = self.SEEK_STATE_PLAY
-				return
-		return 0
-
 	def startTimeshift(self, pauseService = True):
 		print "enable timeshift"
 		ts = self.getTimeshift()
@@ -1877,10 +1856,7 @@ class InfoBarTimeshift():
 			if not pauseService and not int(config.usage.timeshift_start_delay.value):
 				self.session.open(MessageBox, _("Timeshift not possible!"), MessageBox.TYPE_ERROR, simple = True)
 			print "no ts interface"
-			if pauseService:
-				return self.playpauseStreamService()
-			else:
-				return 0
+			return 0
 
 		if ts.isTimeshiftEnabled():
 			print "hu, timeshift already enabled?"
@@ -1974,9 +1950,7 @@ class InfoBarTimeshift():
 		begin_date = strftime("%Y%m%d %H%M", localtime(time()))
 		filename = begin_date + " - " + service_name
 
-		if config.recording.filename_composition.value == "event":
-			filename = "%s - %s_%s" % (info["name"], strftime("%Y%m%d %H%M",localtime(time())), service_name)
-		elif config.recording.filename_composition.value == "short":
+		if config.recording.filename_composition.value == "short":
 			filename = strftime("%Y%m%d", localtime(time())) + " - " + info["name"]
 		elif config.recording.filename_composition.value == "long":
 			filename += " - " + info["name"] + " - " + info["description"]
@@ -2124,20 +2098,25 @@ class InfoBarExtensions:
 
 	def __init__(self):
 		self.list = []
-		self.addExtension((lambda: _("Softcam Setup"), self.openSoftcamSetup, lambda: config.misc.softcam_setup.extension_menu.value and SystemInfo["HasSoftcamInstalled"]), "1")
-		self.addExtension((lambda: _("Import channels from fallback tuner"), self.importChannels, lambda: config.usage.remote_fallback_extension_menu.value and config.usage.remote_fallback_import.value))
+		self.addExtension((lambda: _("Softcam Setup"), self.openSoftcamSetup, lambda: config.misc.softcam_setup.extension_menu.value), "1")
 		self["InstantExtensionsActions"] = HelpableActionMap(self, "InfobarExtensions",
 			{
 				"extensions": (self.showExtensionSelection, _("Show extensions...")),
+				"showPluginBrowser": (self.showPluginBrowser, _("Show the plugin browser..")),
+				"shownightupdate": (self.shownightupdate, _("Show the plugin nightupdate..")),
 			}, 1) # lower priority
 
 	def openSoftcamSetup(self):
 		from Screens.SoftcamSetup import SoftcamSetup
 		self.session.open(SoftcamSetup)
-
-	def importChannels(self):
-		from Components.ImportChannels import ImportChannels
-		ImportChannels()
+		
+	def showPluginBrowser(self):
+		from Screens.PluginBrowser import PluginBrowser
+		self.session.open(PluginBrowser)
+		
+	def shownightupdate(self):
+		from Plugins.Extensions.nightupdate.plugin import nightupdate_Updater
+		self.session.open(nightupdate_Updater)
 
 	def addExtension(self, extension, key = None, type = EXTENSION_SINGLE):
 		self.list.append((type, extension, key))
@@ -2620,7 +2599,7 @@ class InfoBarInstantRecord:
 	def addRecordingTime(self, entry):
 		if entry is not None and entry >= 0:
 			self.selectedEntry = entry
-			self.session.openWithCallback(self.inputAddRecordingTime, InputBox, title=_("How many minutes do you want add to the recording?"), text="5  ", maxSize=True, type=Input.NUMBER)
+			self.session.openWithCallback(self.inputAddRecordingTime, InputBox, title=_("How many minutes do you want add to record?"), text="5  ", maxSize=True, type=Input.NUMBER)
 
 	def inputAddRecordingTime(self, value):
 		if value:
@@ -2952,28 +2931,17 @@ class InfoBarNotifications:
 			self.checkNotifications()
 
 	def checkNotifications(self):
-		Notifications.lock.acquire(True)
 		notifications = Notifications.notifications
-		n = notifications and notifications[0]
-		if n:
+		if notifications:
+			n = notifications[0]
+
 			del notifications[0]
-		Notifications.lock.release()
-		if n:
 			cb = n[0]
 
 			if "onSessionOpenCallback" in n[3]:
 				n[3]["onSessionOpenCallback"]()
 				del n[3]["onSessionOpenCallback"]
 
-			if n[4] and n[4].startswith("ChannelsImport"):
-				if "channels" in config.usage.remote_fallback_import.value:
-					eDVBDB.getInstance().reloadBouquets()
-					eDVBDB.getInstance().reloadServicelist()
-					refreshServiceList()
-				if "epg" in config.usage.remote_fallback_import.value:
-					eEPGCache.getInstance().load()
-				if not(n[4].endswith("NOK") and config.usage.remote_fallback_nok.value or config.usage.remote_fallback_ok.value):
-					return
 			if cb:
 				dlg = self.session.openWithCallback(cb, n[1], *n[2], **n[3])
 			elif not Notifications.current_notifications and n[4] == "ZapError":
@@ -3339,19 +3307,6 @@ class InfoBarSubtitleSupport(object):
 		else:
 			return 0
 
-	def doCenterDVBSubs(self):
-		service = self.session.nav.getCurrentlyPlayingServiceReference()
-		servicepath = service and service.getPath()
-		if servicepath and servicepath.startswith("/"):
-			if service.toString().startswith("1:"):
-				info = eServiceCenter.getInstance().info(service)
-				service = info and info.getInfoString(service, iServiceInformation.sServiceref)
-				config.subtitles.dvb_subtitles_centered.value = service and eDVBDB.getInstance().getFlag(eServiceReference(service)) & self.FLAG_CENTER_DVB_SUBS and True
-				return
-		service = self.session.nav.getCurrentService()
-		info = service and service.info()
-		config.subtitles.dvb_subtitles_centered.value = info and info.getInfo(iServiceInformation.sCenterDVBSubs) and True
-
 	def __serviceChanged(self):
 		if self.selected_subtitle:
 			self.selected_subtitle = None
@@ -3363,7 +3318,6 @@ class InfoBarSubtitleSupport(object):
 			cachedsubtitle = subtitle and subtitle.getCachedSubtitle()
 			if cachedsubtitle:
 				self.enableSubtitle(cachedsubtitle)
-				self.doCenterDVBSubs()
 
 	def enableSubtitle(self, selectedSubtitle):
 		subtitle = self.getCurrentServiceSubtitle()
@@ -3371,7 +3325,6 @@ class InfoBarSubtitleSupport(object):
 		if subtitle and self.selected_subtitle:
 			subtitle.enableSubtitles(self.subtitle_window.instance, self.selected_subtitle)
 			self.subtitle_window.show()
-			self.doCenterDVBSubs()
 		else:
 			if subtitle:
 				subtitle.disableSubtitles(self.subtitle_window.instance)
