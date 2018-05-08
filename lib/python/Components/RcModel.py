@@ -7,6 +7,7 @@ class RcModel:
 
 	def __init__(self):
 		self.model = HardwareInfo().get_device_model()
+		self.device_name = open("/etc/hostname").read().strip()
 		# cfg files has modelname  rcname entries.
 		# modelname is boxname optionally followed by .rctype
 		for line in open((resolveFilename(SCOPE_SKIN, 'rc_models/rc_models.cfg')), 'r'):
@@ -33,7 +34,9 @@ class RcModel:
 		else:
 			remote = 'dmm'	# default. Assume files for dmm exists
 		f = resolveFilename(SCOPE_SKIN, 'rc_models/' + remote + '.' + ext)
-		if not os.path.exists(f):
+		if self.device_name.startswith(("xpeedlx3")):
+			f = resolveFilename(SCOPE_SKIN, 'rc_models/xpeedlx3.' + ext)
+		elif not os.path.exists(f):
 			f = resolveFilename(SCOPE_SKIN, 'rc_models/dmm.' + ext)
 		return f
 
