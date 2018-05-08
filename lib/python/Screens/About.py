@@ -16,7 +16,24 @@ from Tools.StbHardware import getFPVersion
 from enigma import eTimer, eLabel, eConsoleAppContainer
 
 from Components.GUIComponent import GUIComponent
-import skin, os
+import skin, os, re, urllib2, sys
+
+
+URL ='https://raw.githubusercontent.com/Tanharo/enigma2/develop/NEWS'
+
+def novedadessorys(url):
+    text = ""
+    try:
+        req = urllib2.Request(url)
+        response = urllib2.urlopen(req)
+        link = response.read().decode("windows-1252")
+        response.close()
+        text = link.encode("utf-8")
+
+    except:
+        print"ERROR novedades listas %s" %(url)
+
+    return text
 
 class About(Screen):
 	def __init__(self, session):
@@ -170,88 +187,26 @@ class TranslationInfo(Screen):
 			})
 
 class CommitInfo(Screen):
-	def __init__(self, session):
-		Screen.__init__(self, session)
-		self.setTitle(_("Latest Commits"))
-		self.skinName = ["CommitInfo", "About"]
-		self["AboutScrollLabel"] = ScrollLabel(_("Please wait"))
+    def __init__(self, session):
+        Screen.__init__(self, session)
+        self.session = session
+        self.skinName = "CommitInfo"
+        self.setup_title = _("Novedades Team OpenBox")
+        self.setTitle(self.setup_title)
+        self["novedades"] = ScrollLabel()
+        self["Actions"] = ActionMap(['OkCancelActions', 'ShortcutActions',"ColorActions","DirectionActions"],
+            {
+            "cancel" : self.cerrar,
+            "ok" : self.cerrar,
+            "up": self["novedades"].pageUp,
+            "down": self["novedades"].pageDown,
+            "left": self["novedades"].pageUp,
+            "right": self["novedades"].pageDown,
+            })
+        self['novedades'].setText(novedadessorys(URL))
 
-		self["actions"] = ActionMap(["SetupActions", "DirectionActions"],
-			{
-				"cancel": self.close,
-				"ok": self.close,
-				"up": self["AboutScrollLabel"].pageUp,
-				"down": self["AboutScrollLabel"].pageDown,
-				"left": self.left,
-				"right": self.right
-			})
-
-		self["key_red"] = Button(_("Cancel"))
-
-		# get the branch to display from the Enigma version
-		try:
-			branch = "?sha=" + "-".join(about.getEnigmaVersionString().split("-")[3:])
-		except:
-			branch = ""
-
-		self.project = 0
-		self.projects = [
-			("https://api.github.com/repos/openpli/enigma2/commits" + branch, "Enigma2"),
-			("https://api.github.com/repos/openpli/openpli-oe-core/commits" + branch, "Openpli Oe Core"),
-			("https://api.github.com/repos/openpli/enigma2-plugins/commits", "Enigma2 Plugins"),
-			("https://api.github.com/repos/openpli/aio-grab/commits", "Aio Grab"),
-			("https://api.github.com/repos/openpli/enigma2-plugin-extensions-epgimport/commits", "Plugin EPGImport"),
-			("https://api.github.com/repos/openpli/enigma2-plugin-skins-magic/commits", "Skin Magic SD"),
-			("https://api.github.com/repos/littlesat/skin-PLiHD/commits", "Skin PLi HD"),
-			("https://api.github.com/repos/E2OpenPlugins/e2openplugin-OpenWebif/commits", "OpenWebif"),
-			("https://api.github.com/repos/haroo/HansSettings/commits", "Hans settings")
-		]
-		self.cachedProjects = {}
-		self.Timer = eTimer()
-		self.Timer.callback.append(self.readGithubCommitLogs)
-		self.Timer.start(50, True)
-
-	def readGithubCommitLogs(self):
-		url = self.projects[self.project][0]
-		commitlog = ""
-		from datetime import datetime
-		from json import loads
-		from urllib2 import urlopen
-		try:
-			commitlog += 80 * '-' + '\n'
-			commitlog += url.split('/')[-2] + '\n'
-			commitlog += 80 * '-' + '\n'
-			try:
-				# OpenPli 5.0 uses python 2.7.11 and here we need to bypass the certificate check
-				from ssl import _create_unverified_context
-				log = loads(urlopen(url, timeout=5, context=_create_unverified_context()).read())
-			except:
-				log = loads(urlopen(url, timeout=5).read())
-			for c in log:
-				creator = c['commit']['author']['name']
-				title = c['commit']['message']
-				date = datetime.strptime(c['commit']['committer']['date'], '%Y-%m-%dT%H:%M:%SZ').strftime('%x %X')
-				commitlog += date + ' ' + creator + '\n' + title + 2 * '\n'
-			commitlog = commitlog.encode('utf-8')
-			self.cachedProjects[self.projects[self.project][1]] = commitlog
-		except:
-			commitlog += _("Currently the commit log cannot be retrieved - please try later again")
-		self["AboutScrollLabel"].setText(commitlog)
-
-	def updateCommitLogs(self):
-		if self.projects[self.project][1] in self.cachedProjects:
-			self["AboutScrollLabel"].setText(self.cachedProjects[self.projects[self.project][1]])
-		else:
-			self["AboutScrollLabel"].setText(_("Please wait"))
-			self.Timer.start(50, True)
-
-	def left(self):
-		self.project = self.project == 0 and len(self.projects) - 1 or self.project - 1
-		self.updateCommitLogs()
-
-	def right(self):
-		self.project = self.project != len(self.projects) - 1 and self.project + 1 or 0
-		self.updateCommitLogs()
+    def cerrar(self):
+        self.close()
 
 class MemoryInfo(Screen):
 	def __init__(self, session):

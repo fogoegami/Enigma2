@@ -9,4 +9,9 @@ install_PYTHON = \
 	ValueBitTest.py TunerInfo.py ConfigEntryTest.py ClientsStreaming.py TemplatedMultiContent.py ProgressToText.py \
 	Combine.py SensorToText.py ValueToPixmap.py PliExtraInfo.py genre.py TransponderInfo.py \
 	RotorPosition.py VfdDisplay.py CpuUsage.py ExtendedServiceInfo.py \
+<<<<<<< HEAD
 	ServiceName2.py ServiceName2.ref VMovieInfo.py iplusRefString.py openplusHDChannelCryptoInfo.py
+=======
+	ServiceName2.py ServiceName2.ref VMovieInfo.py iplusRefString.py openplusHDChannelCryptoInfo.py \
+	barraprogreso.py obrating.py
+>>>>>>> Tanharo/develop
