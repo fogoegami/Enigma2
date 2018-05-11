@@ -23,6 +23,8 @@ def testlista():
         lista = '/media/hdd/tuner/'
     elif os.path.ismount('/media/usb'):
         lista = '/media/usb/tuner/'
+    elif os.path.exists('/etc/enigma2/'):
+        lista = '/etc/enigma2/tuner/'
     return lista
 
 class TunerServer(ConfigListScreen, Screen):
@@ -77,6 +79,9 @@ class TunerServer(ConfigListScreen, Screen):
         elif os.path.ismount('/media/usb'):
             self['lab1'].setText(_('Your server is now building USB \nPlease wait ...'))
             self.activityTimer.start(10)
+        elif os.path.exists('/etc/enigma2/'):
+            self['lab1'].setText(_('Your server is now building /etc/enigma2/ \nPlease wait ...'))
+            self.activityTimer.start(10)
         else:
             self.session.open(MessageBox, _("Sorry, but you need to have a device mounted at '/media/hdd' or 'media/usb'"), MessageBox.TYPE_INFO)
 
@@ -87,6 +92,8 @@ class TunerServer(ConfigListScreen, Screen):
             folder = '/media/hdd/tuner'
         elif os.path.ismount('/media/usb'):
             folder = '/media/usb/tuner'
+        elif os.path.exists('/etc/enigma2/'):
+            folder = '/etc/enigma2/tuner'
 
         if os.path.exists(folder):
             rmtree(folder)
@@ -137,7 +144,7 @@ class TunerServer(ConfigListScreen, Screen):
 
                 out.write('#EXTM3U\n')
                 out.write('#EXTINF:-1,' + channel[1] + '\n')
-                out.write('http://' + 'root' + ':' + str(config.streamservice.streampass.value) + '@' + self.ip + ':' + str(config.streamservice.streamport.value) + '/' + channel[0] + '\n\n')
+                out.write('http:/' + 'root' + ':' + str(config.streamservice.streampass.value) + '@' + self.ip + ':' + str(config.streamservice.streamport.value) + '/' + channel[0] + '\n\n')
                 out.close()
                 
 
@@ -158,6 +165,8 @@ class TunerServer(ConfigListScreen, Screen):
                 folder = '/media/hdd/tuner'
             elif os.path.ismount('/media/usb'):
                 folder = '/media/usb/tuner'
+            elif os.path.exists('/etc/enigma2/'):
+                folder = '/etc/enigma2/tuner'
 
             if os.path.exists(folder):
                 rmtree(folder)
@@ -175,6 +184,8 @@ class TunerServer(ConfigListScreen, Screen):
             folder = '/media/hdd/tuner'
         elif os.path.ismount('/media/usb'):
             folder = '/media/usb/tuner'
+        elif os.path.exists('/etc/enigma2/'):
+            folder = '/etc/enigma2/tuner'
 
         if os.path.isdir(folder):
             self.my_serv_active = True
@@ -196,6 +207,7 @@ def settings(menuid, **kwargs):
           None)]
     else:
         return []
+
 
 
 
