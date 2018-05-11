@@ -144,7 +144,7 @@ class TunerServer(ConfigListScreen, Screen):
 
                 out.write('#EXTM3U\n')
                 out.write('#EXTINF:-1,' + channel[1] + '\n')
-                out.write('http:/' + 'root' + ':' + str(config.streamservice.streampass.value) + '@' + self.ip + ':' + str(config.streamservice.streamport.value) + '/' + channel[0] + '\n\n')
+                out.write('http://' + 'root' + ':' + str(config.streamservice.streampass.value) + '@' + self.ip + ':' + str(config.streamservice.streamport.value) + '/' + channel[0] + '\n\n')
                 out.close()
                 
 
