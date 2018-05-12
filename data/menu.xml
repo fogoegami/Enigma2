@@ -84,9 +84,7 @@ self.session.openWithCallback(msgClosed, FactoryReset)
 				<code>
 from Screens.Console import Console
 import os
-cmd = "/usr/lib/enigma2/python/Tools/puertos.py"
-os.chmod(cmd, 0755)
-self.session.open(Console,cmdlist = [cmd])
+self.session.open(Console,cmdlist = ["python /usr/lib/enigma2/python/Tools/puertos.pyo"])
 
 </code>
 			</item>
