@@ -23,12 +23,12 @@ class asistente_openbox(Screen):
 		<widget source="header" render="Label" position="200,30" size="700,300" foregroundColor="black" backgroundColor="white" font="Regular; 40" halign="left" transparent="1" />
 		<widget source="contenido" render="Label" position="200,200" size="700,300" foregroundColor="#848484" backgroundColor="white" font="Regular; 30" halign="left" transparent="1" />
 		<eLabel name="line" position="200,490" size="750,1" backgroundColor="#aba7a6" />
-		<ePixmap name="menu" position="5,5" size="158,600" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/menu.png" zPosition="-5" />
-		<ePixmap name="continuar" position="750,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/green.png" zPosition="-5" />
-		<ePixmap name="salir" position="190,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/red.png" zPosition="-5" />
+		<ePixmap name="menu" position="5,5" size="158,600" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/menu.png" zPosition="-5" />
+		<ePixmap name="continuar" position="750,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/green.png" zPosition="-5" />
+		<ePixmap name="salir" position="190,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/red.png" zPosition="-5" />
 		<widget source="key_green" render="Label" position="770,530" size="200,50" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="white" noWrap="1" />
 		<widget source="key_red" render="Label" position="270,530" size="200,50" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="white" noWrap="1" />
-		<ePixmap name="ayuda" position="470,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/blue.png" zPosition="-5" />
+		<ePixmap name="ayuda" position="470,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/blue.png" zPosition="-5" />
 <widget source="key_blue" render="Label" position="520,530" size="200,50" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="white" noWrap="1" />
 		</screen>"""
 
@@ -75,12 +75,12 @@ class backup(Screen):
 		<widget source="header" render="Label" position="200,30" size="700,300" foregroundColor="black" backgroundColor="white" font="Regular; 40" halign="left" transparent="1" />
 		<widget source="contenido" render="Label" position="200,160" size="700,300" foregroundColor="#848484" backgroundColor="white" font="Regular; 30" halign="left" transparent="1" />
 		<eLabel name="line" position="200,490" size="750,1" backgroundColor="#aba7a6" />
-		<ePixmap name="menu" position="5,5" size="158,600" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/menu.png" zPosition="-5" />
-		<ePixmap name="continuar" position="750,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/green.png" zPosition="-5" />
-		<ePixmap name="salir" position="190,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/red.png" zPosition="-5" />
+		<ePixmap name="menu" position="5,5" size="158,600" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/menu.png" zPosition="-5" />
+		<ePixmap name="continuar" position="750,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/green.png" zPosition="-5" />
+		<ePixmap name="salir" position="190,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/red.png" zPosition="-5" />
 		<widget source="key_green" render="Label" position="770,530" size="200,50" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="white" noWrap="1" />
 		<widget source="key_red" render="Label" position="270,530" size="200,50" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="white" noWrap="1" />
-		<ePixmap name="ayuda" position="470,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/blue.png" zPosition="-5" />
+		<ePixmap name="ayuda" position="470,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/blue.png" zPosition="-5" />
 <widget source="key_blue" render="Label" position="505,530" size="200,50" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="white" noWrap="1" />
 		</screen>"""
 	
@@ -133,9 +133,9 @@ class paso2(Screen):
 		<widget source="header" render="Label" position="200,30" size="700,300" foregroundColor="black" backgroundColor="white" font="Regular; 40" halign="left" transparent="1" />
 		<widget source="contenido" render="Label" position="200,200" size="700,300" foregroundColor="#848484" backgroundColor="white" font="Regular; 30" halign="left" transparent="1" />
 		<eLabel name="line" position="200,490" size="750,1" backgroundColor="#aba7a6" />
-		<ePixmap name="menu" position="5,5" size="158,600" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/menu.png" zPosition="-5" />
-		<ePixmap name="continuar" position="750,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/green.png" zPosition="-5" />
-		<ePixmap name="salir" position="190,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/red.png" zPosition="-5" />
+		<ePixmap name="menu" position="5,5" size="158,600" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/menu.png" zPosition="-5" />
+		<ePixmap name="continuar" position="750,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/green.png" zPosition="-5" />
+		<ePixmap name="salir" position="190,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/red.png" zPosition="-5" />
 		<widget source="key_green" render="Label" position="770,530" size="200,50" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="white" noWrap="1" />
 		<widget source="key_red" render="Label" position="270,530" size="200,50" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="white" noWrap="1" />
 		</screen>"""
@@ -176,8 +176,8 @@ class ayuda(Screen):
 		<widget source="header" render="Label" position="200,30" size="700,300" foregroundColor="black" backgroundColor="white" font="Regular; 40" halign="left" transparent="1" />
 		<widget source="contenido" render="Label" position="200,200" size="700,300" foregroundColor="#848484" backgroundColor="white" font="Regular; 30" halign="left" transparent="1" />
 		<eLabel name="line" position="200,490" size="750,1" backgroundColor="#aba7a6" />
-		<ePixmap name="menu" position="5,5" size="158,600" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/menu.png" zPosition="-5" />
-		<ePixmap name="salir" position="190,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/imagenes/red.png" zPosition="-5" />
+		<ePixmap name="menu" position="5,5" size="158,600" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/menu.png" zPosition="-5" />
+		<ePixmap name="salir" position="190,520" size="230,61" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/asistenteopenbox/red.png" zPosition="-5" />
 		<widget source="key_red" render="Label" position="270,530" size="200,50" zPosition="1" font="Regular; 30" transparent="1" foregroundColor="white" noWrap="1" />
 		<widget source="HardwareLabel" render="Label" position="460,135" zPosition="2" size="180,22" font="Regular;20" halign="right" valign="center" backgroundColor="background" foregroundColor="#03307dc3" transparent="1" />
 		<widget source="Hardware" render="Label" position="675,135" zPosition="2" size="390,22" font="Regular;20" halign="left" valign="center" backgroundColor="background" foregroundColor="foreground" transparent="1" />
