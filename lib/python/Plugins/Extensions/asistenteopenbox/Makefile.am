@@ -1,6 +1,6 @@
 installdir = $(pkglibdir)/python/Plugins/Extensions/asistenteopenbox
 
-install_PYTHON =	\
+install_PYTHON = \
 	__init__.py \
 	plugin.py
 
