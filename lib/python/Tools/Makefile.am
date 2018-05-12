@@ -8,8 +8,8 @@ install_PYTHON = \
 	Downloader.py Trashcan.py GetEcmInfo.py Alternatives.py TextBoundary.py \
 	camcontrol.py CountryCodes.py Multiboot.py 
 
-install_DATA = \
-	puertos.py
+dist_install_DATA = puertos.py
+	
 	
 	
 	
