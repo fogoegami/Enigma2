@@ -76,7 +76,7 @@ class SelectImage(Screen):
 		if not self.imagesList:
 			if not self.jsonlist:
 				try:
-					self.jsonlist = json.load(urllib2.urlopen('http://openbox.boxtvmania.com/build/json/%s' % model))
+					self.jsonlist = json.load(urllib2.urlopen('http://openbox.boxtvmania.com:8080/build/json/%s' % model))
 				except:
 					pass
 			self.imagesList = dict(self.jsonlist) if self.jsonlist else {}
