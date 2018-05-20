@@ -2129,21 +2129,11 @@ class InfoBarExtensions:
 		self["InstantExtensionsActions"] = HelpableActionMap(self, "InfobarExtensions",
 			{
 				"extensions": (self.showExtensionSelection, _("Show extensions...")),
-				"showPluginBrowser": (self.showPluginBrowser, _("Show the plugin browser..")),
-				"shownightupdate": (self.shownightupdate, _("Show the plugin nightupdate..")),
 			}, 1) # lower priority
 
 	def openSoftcamSetup(self):
 		from Screens.SoftcamSetup import SoftcamSetup
 		self.session.open(SoftcamSetup)
-		
-	def showPluginBrowser(self):
-		from Screens.PluginBrowser import PluginBrowser
-		self.session.open(PluginBrowser)
-		
-	def shownightupdate(self):
-		from Plugins.Extensions.nightupdate.plugin import nightupdate_Updater
-		self.session.open(nightupdate_Updater)
 
 	def importChannels(self):
 		from Components.ImportChannels import ImportChannels
@@ -3074,14 +3064,13 @@ class InfoBarCueSheetSupport:
 			seekable = self.__getSeekable()
 			if seekable is None:
 				return # Should not happen?
-			length = seekable.getLength()
-			if length[0]:
-				length = (-1, 0) #  Set length 0 if error in getLength()
+			length = seekable.getLength() or (None,0)
 			print "seekable.getLength() returns:", length
-			if (last > 900000) and (not length[1] or last < length[1] - 900000):
+			# Hmm, this implies we don't resume if the length is unknown...
+			if (last > 900000) and (not length[1]  or (last < length[1] - 900000)):
 				self.resume_point = last
 				l = last / 90000
-				if "ask" in config.usage.on_movie_start.value:
+				if "ask" in config.usage.on_movie_start.value or not length[1]:
 					Notifications.AddNotificationWithCallback(self.playLastCB, MessageBox, _("Do you want to resume this playback?") + "\n" + (_("Resume position at %s") % ("%d:%02d:%02d" % (l/3600, l%3600/60, l%60))), timeout=10, default="yes" in config.usage.on_movie_start.value)
 				elif config.usage.on_movie_start.value == "resume":
 # TRANSLATORS: The string "Resuming playback" flashes for a moment

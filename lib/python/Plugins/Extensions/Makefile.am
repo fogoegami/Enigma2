@@ -1,8 +1,6 @@
 installdir = $(pkglibdir)/python/Plugins/Extensions
 
-SUBDIRS = TuxboxPlugins CutListEditor PicturePlayer MediaScanner MediaPlayer GraphMultiEPG SocketMMI DVDBurn \ 
-	NetSpeedTest nightupdate asistenteopenbox
-	  
+SUBDIRS = TuxboxPlugins CutListEditor PicturePlayer MediaScanner MediaPlayer GraphMultiEPG SocketMMI DVDBurn NetSpeedTest nightupdate
 
 if HAVE_LIBDDVD
 SUBDIRS += DVDPlayer

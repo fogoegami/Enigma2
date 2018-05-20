@@ -80,14 +80,6 @@ self.session.openWithCallback(msgClosed, FactoryReset)
 			<item level="1" text="Service" entryID="service_info_screen"><screen module="ServiceInfo" screen="ServiceInfo"/></item>
 			<item level="0" text="About" entryID="about_screen"><screen module="About"/></item>
 			<item level="2" text="Streaming clients info" entryID="streaming_clients_info_screen"><screen module="StreamingClientsInfo"/></item>
-            <item level="2" text="Scaner de Puertos" entryID="scaner_puertos">
-				<code>
-from Screens.Console import Console
-import os
-self.session.open(Console,cmdlist = ["python /usr/lib/enigma2/python/Tools/puertos.pyo"])
-
-</code>
-			</item>
 		</menu>
 <menu weight="5" level="0" text="Utilidades del Sistema" entryID="system_selection">
 				<id val="system"/>

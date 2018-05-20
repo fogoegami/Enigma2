@@ -164,7 +164,7 @@ class liberarmemoria(ConfigListScreen, Screen):
 				if config.droptime.value not in ('1', '2', '3'):
 					cron_root.write('*/%s * * * * echo %s > /proc/sys/vm/drop_caches\n' % (config.droptime.value, config.dropmode.value))
 				else:
-					cron_root.write('1 */%s * * * echo %s > /proc/sys/vm/drop_caches\n' % (config.droptime.value, config.dropmode.value))
+					cron_root.write('1 */%s * * * echo %s > /proc/sys/vm/drop_caches\n' % (config.value, config.dropmode.value))
 				cron_root.close()
 			with open('%scron.update' % self.path[:-4], 'w') as cron_update:
 				cron_update.write('root')
