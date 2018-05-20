@@ -12196,4 +12196,3 @@ msgstr ""
 
 msgid "Video mode selection."
 msgstr "Selección de modo de video."
-
