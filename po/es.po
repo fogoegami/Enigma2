@@ -2408,7 +2408,7 @@ msgstr[0] "Hecho - Instalado, actualizado o borrado %d paquete (%s)"
 msgstr[1] "Hecho - Instalados, actualizados o borrados %d paquetes (%s)"
 
 msgid "Download plugins"
-msgstr "Descarga plugins"
+msgstr "Descargar plugins"
 
 msgid "Downloadable new plugins"
 msgstr "Nuevos plugins descargables"
@@ -10899,7 +10899,7 @@ msgid "Load unlinked userbouquets"
 msgstr "Carga los bouquets de usuario no vinculados"
 
 msgid "Maintain old EPG data for"
-msgstr "Mantener los datos de EPG antiguos para"
+msgstr "Mantener los datos de EPG antiguos durante"
 
 msgid "Margin after recording (minutes)"
 msgstr "Margen después de la grabación (minutos)"
