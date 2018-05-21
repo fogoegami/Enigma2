@@ -2408,7 +2408,7 @@ msgstr[0] "Hecho - Instalado, actualizado o borrado %d paquete (%s)"
 msgstr[1] "Hecho - Instalados, actualizados o borrados %d paquetes (%s)"
 
 msgid "Download plugins"
-msgstr "Descarga plugins"
+msgstr "Descargar plugins"
 
 msgid "Downloadable new plugins"
 msgstr "Nuevos plugins descargables"
