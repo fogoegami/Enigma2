@@ -5247,7 +5247,7 @@ msgstr "Presione amarillo para establecer esta interfaz como predeterminada."
 
 msgctxt "button label, 'previous screen'"
 msgid "Prev"
-msgstr "Prev"
+msgstr "Anterior"
 
 msgid "Preview"
 msgstr "Vista previa"
