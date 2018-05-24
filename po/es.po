@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-05-24 23:48+0200\n"
+"PO-Revision-Date: 2018-05-25 00:08+0200\n"
 "Language-Team: OpenBox <kuatto@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11541,7 +11541,7 @@ msgid "Backup file is not found!"
 msgstr "La copia del archivo no se encuentra!"
 
 msgid "Bouquets"
-msgstr ""
+msgstr "Bouquets"
 
 msgid "Channels"
 msgstr "Canales"
@@ -11672,8 +11672,8 @@ msgstr "Los siguientes servicios deben escanearse:"
 msgid "Force scan even if receiver is in use"
 msgstr "Forzar escaneo incluso si el receptor está en uso"
 
-msgid "En primer plano también"
-msgstr ""
+msgid "Foreground also"
+msgstr "En primer plano también"
 
 msgid "If \"Run AutoTimer after refresh\" and \"Shutdown after EPG refresh\" enabled and use \"Label series\" for match, set long timeout."
 msgstr "Si \"Ejecuta AutoTimer después de actualizar\" y \"Apagar después de EPG Actualizador\" habilitado y usa \"etiqueta series\" para la coincidencia, establezca el tiempo de espera largo."
@@ -11717,9 +11717,6 @@ msgstr "Cargar EPG manualmente"
 
 msgid "Manually load EPG from current cache file."
 msgstr "Cargar manualmente EPG desde el archivo de caché actual."
-
-msgid "Manually load EPG from current cachefile."
-msgstr ""
 
 msgid "Manually reload EPG"
 msgstr "Recargar manualmente EPG"
@@ -11866,10 +11863,10 @@ msgid "The duration that will be waited for the receiver to go into standby."
 msgstr "La duración que va a esperar para que el receptor entre en modo reposo."
 
 msgid "The same functions are used in Menu -> System -> EPG settings!"
-msgstr ""
+msgstr "Las mismas funciones se usan en Menu -> System -> EPG settings!"
 
 msgid "The same functions are used in plugin EPGD!!"
-msgstr "Las mismas funciones se usan en Menú->Sistema->Configuración de EPG!"
+msgstr "Las mismas funciones se usan en plugin EPG!"
 
 msgid "This is the duration each service will be shown in AutoZap mode."
 msgstr "Esta es la duración que cada canal se mostrará en modo AutoZap."
