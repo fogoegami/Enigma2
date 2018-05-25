@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-05-25 18:35+0200\n"
+"PO-Revision-Date: 2018-05-25 18:53+0200\n"
 "Language-Team: OpenBox <kuatto@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.3\n"
+"X-Generator: Poedit 2.0.7\n"
 "Last-Translator: Kuatto\n"
 "Language: es_ES\n"
 
@@ -12005,16 +12005,16 @@ msgid " (%s%d min)"
 msgstr " (%s%d minutos)"
 
 msgid "Add \"Search event in EPG\" to channel menu"
-msgstr "Agregar \"Evento de búsqueda en EPG\" al menú del canal"
+msgstr "Agregar 'Evento de búsqueda en EPG'  al menú del canal"
 
 msgid "Add \"Search event in EPG\" to event menu"
-msgstr "Agregar \"Evento de búsqueda en EPG\" al menú de eventos"
+msgstr "Agregar 'Evento de búsqueda en EPG'  al menú de eventos"
 
 msgid "Add \"Search\" Button to EPG"
 msgstr "Agregar \"Buscar\" Botón EPG"
 
 msgid "Adds \"Search event in EPG\" item into the channel selection context menu (needs restart GUI)"
-msgstr "Agrega \"Evento de búsqueda en EPG\" en el menú contextual de selección de canal (necesita reiniciar la GUI)"
+msgstr "Agrega 'Evento de búsqueda en EPG'  en el menú contextual de selección de canal (necesita reiniciar la GUI)"
 
 msgid "Adds \"Search event in EPG\" item into the event menu (needs restart GUI)"
 msgstr "Agrega \"Buscar evento en EPG\" en el menú del evento (necesita reiniciar la GUI)"
@@ -12042,16 +12042,16 @@ msgid "Custom search"
 msgstr "Búsqueda Personalizada"
 
 msgid "Display name service as in bouquets"
-msgstr "Mostrar el nombre del servicio como en bouquets"
+msgstr "Mostrar el nombre del canal como en bouquets"
 
 msgid "EPG Search"
 msgstr "Buscar EPG"
 
 msgid "EPGSearch"
-msgstr "BuscarEPG"
+msgstr "Buscar EPG"
 
 msgid "EPGSearch Setup"
-msgstr "Configuración BuscarEPG"
+msgstr "Configuración Buscar EPG"
 
 msgid "Encoding Search to EPG"
 msgstr "Búsqueda de codificación a EPG"
