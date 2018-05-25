@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-05-25 09:09+0200\n"
+"PO-Revision-Date: 2018-05-25 09:13+0200\n"
 "Language-Team: OpenBox <kuatto@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11477,7 +11477,7 @@ msgstr ""
 "%d más servicios."
 
 msgid "   (AutoZap)"
-msgstr "   (AutoZapear)"
+msgstr "   (AutoZapeo)"
 
 msgid "Adding schedule..."
 msgstr "Agregando horario."
@@ -11495,10 +11495,10 @@ msgid "Are you sure you want to save the EPG cache to:\n"
 msgstr "Seguro que quieres guardar el caché EPG:\n"
 
 msgid "AutoZap"
-msgstr "AutoZapear"
+msgstr "AutoZapeo"
 
 msgid "AutoZap for refreshing EPG data"
-msgstr "AutoZapear para actualizar los datos EPG"
+msgstr "AutoZapeo para actualizar los datos EPG"
 
 msgid "Automated refresh will start after this time of day, but before the time specified in next setting."
 msgstr "La actualización automática comenzará después de esta hora del día, pero antes del tiempo especificado en la siguiente configuración."
@@ -11586,7 +11586,7 @@ msgid "Don't wait for the receiver to go into standby when starting a refresh cy
 msgstr "No espere a que el receptor entre en modo de espera al iniciar un ciclo de actualización."
 
 msgid "Duration to show each service (in seconds) for 'AutoZap'"
-msgstr "Duración para mostrar cada servicio (en segundos) para 'AutoZapear'"
+msgstr "Duración para mostrar cada servicio (en segundos) para 'AutoZapeo'"
 
 msgid "EPG Cache Check"
 msgstr "Comprobar EPG cache"
@@ -11755,7 +11755,7 @@ msgid "Refresh now"
 msgstr "Refrescar Ahora"
 
 msgid "Refresh-EPG / AutoZap"
-msgstr "Actualizador-EPG / AutoZapear"
+msgstr "Actualizador-EPG / AutoZapeo"
 
 msgid "Refreshing"
 msgstr "Actualizando"
@@ -11833,7 +11833,7 @@ msgid "Show 'Stop running EPGRefresh' in main menu"
 msgstr "Mostrar 'Dejar de ejecutar Actualización EPG' en el menú principal"
 
 msgid "Show entry 'AutoZap' in extensions menu"
-msgstr "Mostrar entrada 'AutoZapear' en el menú de extensiones"
+msgstr "Mostrar entrada 'AutoZapeo' en el menú de extensiones"
 
 msgid "Show entry 'Manually change EPG' in main menu"
 msgstr "Mostrar entrada 'Cambiar manualmente EPG' en el menú principal"
