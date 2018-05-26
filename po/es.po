@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-05-26 22:21+0200\n"
+"PO-Revision-Date: 2018-05-26 22:56+0200\n"
 "Language-Team: OpenBox <kuatto@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12350,7 +12350,7 @@ msgid "Encoding the channel uses for it's EPG data. You only need to change this
 msgstr "Codificando los usos del canal para sus datos EPG. Solo necesita cambiar esto si está buscando caracteres especiales como las diéresis alemanas."
 
 msgid "End of \"after event\" timespan"
-msgstr "Fin de \"después del evento\" intervalo de tiempo"
+msgstr "Fin del \"después del evento\" intervalo de tiempo"
 
 msgid "End of timespan"
 msgstr "Final de intervalo de tiempo"
@@ -12608,7 +12608,7 @@ msgid "Please provide a Text to match"
 msgstr "Proporcione un texto para que coincida"
 
 msgid "Poll Interval (in h)"
-msgstr "Intervalo de encuesta (in horas)"
+msgstr "Intervalo de refresco (en horas)"
 
 msgid "Poll automatically"
 msgstr "Encuesta automáticamente"
