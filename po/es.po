@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-05-25 18:53+0200\n"
+"PO-Revision-Date: 2018-05-26 22:21+0200\n"
 "Language-Team: OpenBox <kuatto@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -800,12 +800,8 @@ msgstr "Las opciones de motor adicional te permiten introducir detalles de espec
 msgid "Adjust 3D settings"
 msgstr "Ajustes 3D"
 
-msgid ""
-"Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or "
-"use the number keys to select other test screens."
-msgstr ""
-"Ajuste la configuración de color para que todas las sombras de color se distingan, pero aparezcan lo más saturadas posibles. Si está satisfecho con el resultado, presione OK para cerrar el "
-"ajuste de video o use las teclas numéricas para seleccionar otras pantallas de prueba."
+msgid "Adjust the color settings so that all the color shades are distinguishable, but appear as saturated as possible. If you are happy with the result, press OK to close the video fine-tuning, or use the number keys to select other test screens."
+msgstr "Ajuste la configuración de color para que todas las sombras de color se distingan, pero aparezcan lo más saturadas posibles. Si está satisfecho con el resultado, presione OK para cerrar el ajuste de video o use las teclas numéricas para seleccionar otras pantallas de prueba."
 
 msgid "Advanced"
 msgstr "Avanzado"
@@ -879,12 +875,8 @@ msgstr "Todos los proveedores de servicios"
 msgid "Allocate"
 msgstr "Asignar"
 
-msgid ""
-"Allocate a number to the physical LNB you are configuring. You will be able to select this LNB again for other satellites (e.g. motorised dishes) to save setting up the same LNB multiple "
-"times."
-msgstr ""
-"Asigne un número al LNB físico que está configurando. Podrá volver a seleccionar este LNB para otros satélites (por ejemplo, platos motorizados) para guardar la configuración del mismo LNB "
-"varias veces."
+msgid "Allocate a number to the physical LNB you are configuring. You will be able to select this LNB again for other satellites (e.g. motorised dishes) to save setting up the same LNB multiple times."
+msgstr "Asigne un número al LNB físico que está configurando. Podrá volver a seleccionar este LNB para otros satélites (por ejemplo, platos motorizados) para guardar la configuración del mismo LNB varias veces."
 
 msgid "Allocate unused memory index"
 msgstr "Asignar índice de memoria no utilizada"
@@ -2459,12 +2451,9 @@ msgstr "Habilitar el receptor remoto de respaldo"
 msgid "Enable parental protection"
 msgstr "Activar protección parental"
 
-msgid ""
-"Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete "
-"URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
+msgid "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
 msgstr ""
-"Habilite el receptor remoto enigma2 para sintonizar servicios que no se pueden sintonizar localmente (ej: el sintonizador está ocupado o el tipo de servicio no está disponible en el "
-"sintonizador local. Especifique la URL completa incluyendo http:// y el número de puerto (normalmente …: 8001 ), ej: http://segundo_receptor:8001."
+"Habilite el receptor remoto enigma2 para sintonizar servicios que no se pueden sintonizar localmente (ej: el sintonizador está ocupado o el tipo de servicio no está disponible en el sintonizador local. Especifique la URL completa incluyendo http:// y el número de puerto (normalmente …: 8001 ), ej: http://segundo_receptor:8001."
 
 msgid "Enable this setting if your aerial system needs power"
 msgstr "Activa este ajuste si tu antena necesita alimentación eléctrica"
@@ -2543,8 +2532,7 @@ msgid "Enter the frequency at which you LNB switches between low band and high b
 msgstr "Ingrese la frecuencia a la que su LNB cambia entre banda baja y banda alta. Para obtener más información, consulte la hoja de especificaciones de su LNB."
 
 msgid "Enter the frequency step size for the tuner to use when searching for cable multiplexes. For more information consult your cable provider's documentation."
-msgstr ""
-"Ingrese el tamaño del paso de frecuencia para que el sintonizador lo use cuando busque múltiplex por cable. Para obtener más información, consulte la documentación de su proveedor de cable."
+msgstr "Ingrese el tamaño del paso de frecuencia para que el sintonizador lo use cuando busque múltiplex por cable. Para obtener más información, consulte la documentación de su proveedor de cable."
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
 msgstr "Ingrese el número almacenado en el posicionador que corresponde a este satélite."
@@ -2803,14 +2791,12 @@ msgid "FTA"
 msgstr "FTA"
 
 msgid ""
-"Factory reset will restore your receiver to its default configuration. All user data including system settings, tuner configuration, bouquets, services and plugins will be DELETED. "
-"Recordings and other files stored on HDD and USB media will remain intact. After completion, the system will restart automatically!\n"
+"Factory reset will restore your receiver to its default configuration. All user data including system settings, tuner configuration, bouquets, services and plugins will be DELETED. Recordings and other files stored on HDD and USB media will remain intact. After completion, the system will restart automatically!\n"
 "\n"
 "Do you really want to proceed?"
 msgstr ""
-"El restablecimiento de fábrica restaurará su receptor a su configuración predeterminada. Se ELIMINARÁN todos los datos del usuario, incluida la configuración del sistema, la configuración "
-"del sintonizador, los bouquets, los servicios y los plugins. Las grabaciones y otros archivos almacenados en el HDD y el dispositivo USB permanecerán intactos. ¡Después de la finalización, "
-"el sistema se reiniciará automáticamente!\n"
+"El restablecimiento de fábrica restaurará su receptor a su configuración predeterminada. Se ELIMINARÁN todos los datos del usuario, incluida la configuración del sistema, la configuración del sintonizador, los bouquets, los servicios y los plugins. Las grabaciones y otros archivos almacenados en el HDD y el dispositivo USB "
+"permanecerán intactos. ¡Después de la finalización, el sistema se reiniciará automáticamente!\n"
 "\n"
 "¿De verdad quiere continuar?"
 
@@ -3383,14 +3369,12 @@ msgstr ""
 "su conexión scart. Presione OK para regresar."
 
 msgid ""
-"If your TV has a brightness or contrast enhancement, disable it. If there is something called \"dynamic\", set it to standard. Adjust the backlight level to a value suiting your taste. Turn "
-"down contrast on your TV as much as possible.\n"
+"If your TV has a brightness or contrast enhancement, disable it. If there is something called \"dynamic\", set it to standard. Adjust the backlight level to a value suiting your taste. Turn down contrast on your TV as much as possible.\n"
 "Then turn the brightness setting as low as possible, but make sure that the two lowermost shades of gray stay distinguishable.\n"
 "Do not care about the bright shades now. They will be set up in the next step.\n"
 "If you are happy with the result, press OK."
 msgstr ""
-"Si su televisor tiene una mejora de brillo o contraste, desactívelo. Si hay algo llamado “dinámico”, configúralo en estándar. Ajuste el nivel de luz de fondo a un valor que se ajuste a su "
-"gusto. Reduzca el contraste en su televisor tanto como sea posible.\n"
+"Si su televisor tiene una mejora de brillo o contraste, desactívelo. Si hay algo llamado “dinámico”, configúralo en estándar. Ajuste el nivel de luz de fondo a un valor que se ajuste a su gusto. Reduzca el contraste en su televisor tanto como sea posible.\n"
 "Luego, cambie la configuración de brillo lo más bajo posible, pero asegúrese de que los dos tonos de gris más inferiores se distingan.\n"
 "No se preocupe de las sombras brillantes ahora. Se establecerán en el siguiente paso.\n"
 "Si está satisfecho con el resultado, presione OK."
@@ -3410,13 +3394,13 @@ msgid "Image: "
 msgstr "Imagen: "
 
 msgid "Import channels and/or EPG from remote receiver URL also when the receiver is getting out of standby"
-msgstr "Importar canales y / o EPG desde la URL del receptor remoto también cuando el receptor salga del modo de reposo"
+msgstr "Importar canales y/o EPG desde la URL del receptor remoto también cuando el receptor salga del modo de reposo"
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver is booted"
-msgstr "Importar canales y / o EPG desde la URL del receptor remoto cuando se inicia el receptor"
+msgstr "Importar canales y/o EPG desde la URL del receptor remoto cuando se inicia el receptor"
 
 msgid "Import channels and/or EPG from remote receiver URL when receiver or enigma2 is restarted"
-msgstr "Importar canales y / o EPG desde la URL del receptor remoto cuando se reinicie el receptor o enigma2"
+msgstr "Importar canales y/o EPG desde la URL del receptor remoto cuando se reinicie el receptor o enigma2"
 
 msgid "Import channels from fallback tuner"
 msgstr "Importar canales desde el sintonizador de respaldo"
@@ -3593,14 +3577,12 @@ msgstr "Israel"
 msgid ""
 "It seems you did not see all the eight arrow heads. This means your TV has overscan enabled, and is not configured properly.\n"
 "\n"
-"Please refer to your TV's manual to find how you can disable overscan on your TV. Look for terms like 'Just fit', 'Full width', etc. If you can't find it, ask other users at http://forums."
-"openpli.org.\n"
+"Please refer to your TV's manual to find how you can disable overscan on your TV. Look for terms like 'Just fit', 'Full width', etc. If you can't find it, ask other users at http://forums.openpli.org.\n"
 "\n"
 msgstr ""
 "Parece que no viste las ocho cabezas de flechas. Esto significa que su TV tiene el overscan habilitado, y no está configurado correctamente.\n"
 "\n"
-"Consulte el manual de su televisor para ver cómo puede desactivar el overscan en su televisor. Busque términos como ‘Just fit’, ‘Full width’, etc. Si no puede encontrarlo, pregunte a otros "
-"usuarios en http://forums.openpli.org.\n"
+"Consulte el manual de su televisor para ver cómo puede desactivar el overscan en su televisor. Busque términos como ‘Just fit’, ‘Full width’, etc. Si no puede encontrarlo, pregunte a otros usuarios en http://forums.openpli.org.\n"
 "\n"
 
 msgid "Italian"
@@ -3879,7 +3861,7 @@ msgid "Main menu"
 msgstr "Menú principal"
 
 msgid "Make it possible to manually initiate the channels import and/or EPG via the extension menu"
-msgstr "Permite iniciar manualmente los canales de importación y / o EPG a través del menú de extensión"
+msgstr "Permite iniciar manualmente los canales de importación y/o EPG a través del menú de extensión"
 
 msgid "Make this mark an 'in' point"
 msgstr "Hacer un punto ‘in’ de esta marca"
@@ -4480,12 +4462,8 @@ msgctxt "now/next: 'now' event label"
 msgid "Now"
 msgstr "Ahora"
 
-msgid ""
-"Now, use the contrast setting to turn up the brightness of the background as much as possible, but make sure that you can still see the difference between the two brightest levels of shades."
-"If you have done that, press OK."
-msgstr ""
-"Ahora, use la configuración de contraste para aumentar el brillo del fondo tanto como sea posible, pero asegúrese de que aún pueda ver la diferencia entre los dos niveles más brillantes de "
-"tonos. Si lo ha hecho, presione OK."
+msgid "Now, use the contrast setting to turn up the brightness of the background as much as possible, but make sure that you can still see the difference between the two brightest levels of shades.If you have done that, press OK."
+msgstr "Ahora, use la configuración de contraste para aumentar el brillo del fondo tanto como sea posible, pero asegúrese de que aún pueda ver la diferencia entre los dos niveles más brillantes de tonos. Si lo ha hecho, presione OK."
 
 msgid "OK"
 msgstr "OK"
@@ -4523,11 +4501,8 @@ msgstr "En final de película (como menú)"
 msgid "One"
 msgstr "Uno"
 
-msgid ""
-"Only change this setting if you are using a Unicable device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
-msgstr ""
-"Solo cambie esta configuración si está usando un dispositivo Unicable que se reprogramó con un programador personalizado. Para más información, consulte con la persona que reprogramó el "
-"dispositivo."
+msgid "Only change this setting if you are using a Unicable device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
+msgstr "Solo cambie esta configuración si está usando un dispositivo Unicable que se reprogramó con un programador personalizado. Para más información, consulte con la persona que reprogramó el dispositivo."
 
 msgid "Only extensions."
 msgstr "Solo extensiones."
@@ -5795,12 +5770,8 @@ msgstr "Seleccione ‘habilitado’ si este sintonizador tiene un cable de seña
 msgid "Select 'polarisation' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr "Seleccione ‘polarización’ si usa un LNB ‘universal’; de lo contrario, consulte la hoja de especificaciones de LNB."
 
-msgid ""
-"Select 'provider' to scan from the predefined list of cable multiplexes. Select 'bands' to only scan certain parts of the spectrum. Select 'steps' to scan in steps of a particular frequency "
-"bandwidth."
-msgstr ""
-"Seleccione ‘proveedor’ para escanear desde la lista predefinida de múltiplex de cable. Seleccione ‘bandas’ para solo escanear ciertas partes del espectro. Seleccione ‘pasos’ para escanear en "
-"pasos de un ancho de banda de frecuencia particular."
+msgid "Select 'provider' to scan from the predefined list of cable multiplexes. Select 'bands' to only scan certain parts of the spectrum. Select 'steps' to scan in steps of a particular frequency bandwidth."
+msgstr "Seleccione ‘proveedor’ para escanear desde la lista predefinida de múltiplex de cable. Seleccione ‘bandas’ para solo escanear ciertas partes del espectro. Seleccione ‘pasos’ para escanear en pasos de un ancho de banda de frecuencia particular."
 
 msgid "Select 'yes' if this tuner is connected to the Unicable device through another tuner, otherwise select 'no'."
 msgstr "Seleccione ‘sí’ si este sintonizador está conectado al dispositivo Unicable a través de otro sintonizador; de lo contrario, seleccione ‘no’."
@@ -5941,60 +5912,35 @@ msgstr "Seleccione el método de clasificación:"
 msgid "Select target folder"
 msgstr "Seleccionar carpeta de destino"
 
-msgid ""
-"Select the Unicable channel to be assigned to this tuner. This is a unique value. Be certain that no other device connected to this same Unicable system is allocated to the same Unicable "
-"channel."
-msgstr ""
-"Seleccione el canal Unicable que se asignará a este sintonizador. Este es un valor único. Asegúrese de que ningún otro dispositivo conectado a este mismo sistema Unicable esté asignado al "
-"mismo canal Unicable."
+msgid "Select the Unicable channel to be assigned to this tuner. This is a unique value. Be certain that no other device connected to this same Unicable system is allocated to the same Unicable channel."
+msgstr "Seleccione el canal Unicable que se asignará a este sintonizador. Este es un valor único. Asegúrese de que ningún otro dispositivo conectado a este mismo sistema Unicable esté asignado al mismo canal Unicable."
 
 msgid "Select the format of your Unicable device. Choices are 'SCR Unicable' (Unicable I format), or 'SCR JESS' (Unicable II format)."
 msgstr "Seleccione el formato de su dispositivo Unicable. Las opciones son ‘SCR Unicable’ (formato Unicable I) o ‘SCR JESS’ (formato Unicable II)."
 
 msgid "Select the manufacturer of your Unicable device. If the manufacturer is not listed, set 'SCR' to 'user defined' and enter the device parameters manually according to its spec sheet."
-msgstr ""
-"Seleccione el fabricante de su dispositivo Unicable. Si el fabricante no figura en la lista, configure ‘SCR’ como ‘definido por el usuario’ e ingrese los parámetros del dispositivo "
-"manualmente de acuerdo con su hoja de especificaciones."
+msgstr "Seleccione el fabricante de su dispositivo Unicable. Si el fabricante no figura en la lista, configure ‘SCR’ como ‘definido por el usuario’ e ingrese los parámetros del dispositivo manualmente de acuerdo con su hoja de especificaciones."
 
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'user defined' and enter the device parameters manually according to its spec sheet."
-msgstr ""
-"\\Seleccione el número de modelo de su dispositivo Unicable. Si el número de modelo no figura en la lista, configure ‘SCR’ como ‘definido por el usuario’ e ingrese los parámetros del "
-"dispositivo manualmente de acuerdo con su hoja de especificaciones."
+msgstr "\\Seleccione el número de modelo de su dispositivo Unicable. Si el número de modelo no figura en la lista, configure ‘SCR’ como ‘definido por el usuario’ e ingrese los parámetros del dispositivo manualmente de acuerdo con su hoja de especificaciones."
 
 msgid "Select the movie path"
 msgstr "Seleccione la ruta de las películas"
 
-msgid ""
-"Select the satellite which is connected to Port-A of your switch. If you are unsure select 'automatic' and the receiver will attempt to determine this for you. If nothing is connected to "
-"this port, select 'nothing connected'."
-msgstr ""
-"Seleccione el satélite que está conectado al puerto A de su interruptor. Si no está seguro, seleccione ‘automático’ y el receptor intentará determinarlo por usted. Si no hay nada conectado a "
-"este puerto, seleccione ‘nada conectado’."
+msgid "Select the satellite which is connected to Port-A of your switch. If you are unsure select 'automatic' and the receiver will attempt to determine this for you. If nothing is connected to this port, select 'nothing connected'."
+msgstr "Seleccione el satélite que está conectado al puerto A de su interruptor. Si no está seguro, seleccione ‘automático’ y el receptor intentará determinarlo por usted. Si no hay nada conectado a este puerto, seleccione ‘nada conectado’."
 
-msgid ""
-"Select the satellite which is connected to Port-B of your switch. If you are unsure select 'automatic' and the receiver will attempt to determine this for you. If nothing is connected to "
-"this port, select 'nothing connected'."
-msgstr ""
-"Seleccione el satélite que está conectado al puerto B de su interruptor. Si no está seguro, seleccione ‘automático’ y el receptor intentará determinarlo por usted. Si no hay nada conectado a "
-"este puerto, seleccione ‘nada conectado’."
+msgid "Select the satellite which is connected to Port-B of your switch. If you are unsure select 'automatic' and the receiver will attempt to determine this for you. If nothing is connected to this port, select 'nothing connected'."
+msgstr "Seleccione el satélite que está conectado al puerto B de su interruptor. Si no está seguro, seleccione ‘automático’ y el receptor intentará determinarlo por usted. Si no hay nada conectado a este puerto, seleccione ‘nada conectado’."
 
-msgid ""
-"Select the satellite which is connected to Port-C of your switch. If you are unsure select 'automatic' and the receiver will attempt to determine this for you. If nothing is connected to "
-"this port, select 'nothing connected'."
-msgstr ""
-"Seleccione el satélite que está conectado al puerto C de su interruptor. Si no está seguro, seleccione ‘automático’ y el receptor intentará determinarlo por usted. Si no hay nada conectado a "
-"este puerto, seleccione ‘nada conectado’."
+msgid "Select the satellite which is connected to Port-C of your switch. If you are unsure select 'automatic' and the receiver will attempt to determine this for you. If nothing is connected to this port, select 'nothing connected'."
+msgstr "Seleccione el satélite que está conectado al puerto C de su interruptor. Si no está seguro, seleccione ‘automático’ y el receptor intentará determinarlo por usted. Si no hay nada conectado a este puerto, seleccione ‘nada conectado’."
 
-msgid ""
-"Select the satellite which is connected to Port-D of your switch. If you are unsure select 'automatic' and the receiver will attempt to determine this for you. If nothing is connected to "
-"this port, select 'nothing connected'."
-msgstr ""
-"Seleccione el satélite que está conectado al puerto D de su interruptor. Si no está seguro, seleccione ‘automático’ y el receptor intentará determinarlo por usted. Si no hay nada conectado a "
-"este puerto, seleccione ‘nada conectado’."
+msgid "Select the satellite which is connected to Port-D of your switch. If you are unsure select 'automatic' and the receiver will attempt to determine this for you. If nothing is connected to this port, select 'nothing connected'."
+msgstr "Seleccione el satélite que está conectado al puerto D de su interruptor. Si no está seguro, seleccione ‘automático’ y el receptor intentará determinarlo por usted. Si no hay nada conectado a este puerto, seleccione ‘nada conectado’."
 
 msgid "Select the satellite you want to configure. Once that satellite is configured you can select and configure other satellites that will be accessed using this same tuner."
-msgstr ""
-"Seleccione el satélite que desea configurar. Una vez que el satélite está configurado, puede seleccionar y configurar otros satélites a los que se accederá usando este mismo sintonizador."
+msgstr "Seleccione el satélite que desea configurar. Una vez que el satélite está configurado, puede seleccionar y configurar otros satélites a los que se accederá usando este mismo sintonizador."
 
 msgid "Select the satellite your dish receives from. If you are unsure select 'automatic' and the receiver will attempt to determine this for you."
 msgstr "Selecciona el satélite que recibe tu plato. Si no está seguro, seleccione ‘automático’ y el receptor intentará determinarlo por usted."
@@ -6176,12 +6122,8 @@ msgstr "Establecer tipo de lista de películas."
 msgid "Set pin code persistent"
 msgstr "Establecer el código PIN persistente"
 
-msgid ""
-"Set sequence repeats if your aerial system requires this. Normally if the aerial system has been configured correctly sequence repeats will not be necessary. If yours does, recheck you have "
-"command order set correctly."
-msgstr ""
-"Establezca la secuencia repetida si su sistema aéreo lo requiere. Normalmente, si el sistema aéreo se ha configurado correctamente, no será necesario repetir la secuencia. Si la suya lo "
-"hace, vuelva a verificar que tienes establecidas correctamente las ordenes de comando."
+msgid "Set sequence repeats if your aerial system requires this. Normally if the aerial system has been configured correctly sequence repeats will not be necessary. If yours does, recheck you have command order set correctly."
+msgstr "Establezca la secuencia repetida si su sistema aéreo lo requiere. Normalmente, si el sistema aéreo se ha configurado correctamente, no será necesario repetir la secuencia. Si la suya lo hace, vuelva a verificar que tienes establecidas correctamente las ordenes de comando."
 
 msgid "Set startup service"
 msgstr "Establecer servicio de inicio"
@@ -6316,10 +6258,10 @@ msgid "Show multi channel EPG"
 msgstr "Mostrar EPG multicanal"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr "Mostrar notificación cuando los canales de importación y / o EPG de la URL del receptor remoto no se completaron"
+msgstr "Mostrar notificación cuando los canales de importación y/o EPG de la URL del receptor remoto no se completaron"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr "Mostrar notificación cuando se completen los canales de importación y / o EPG desde la URL del receptor remoto"
+msgstr "Mostrar notificación cuando se completen los canales de importación y/o EPG desde la URL del receptor remoto"
 
 msgid "Show notification when import channels was not successful"
 msgstr "Mostrar notificación cuando los canales de importación no tuvieron éxito"
@@ -7012,8 +6954,7 @@ msgid "The %d min remaining before the end of the event."
 msgstr "El %d min restante antes del final del evento."
 
 msgid "The DVD standard doesn't support H.264 (HDTV) video streams. Do you want to create a special format data DVD (which will not play in stand-alone DVD players) instead?"
-msgstr ""
-"El estándar de DVD no admite transmisiones de video H.264 (HDTV). ¿Desea crear un DVD de datos de formato especial (que no se reproducirá en reproductores de DVD independientes) en su lugar?"
+msgstr "El estándar de DVD no admite transmisiones de video H.264 (HDTV). ¿Desea crear un DVD de datos de formato especial (que no se reproducirá en reproductores de DVD independientes) en su lugar?"
 
 msgid "The PIN code has been changed successfully."
 msgstr "El código PIN ha sido cambiado con éxito."
@@ -7066,8 +7007,7 @@ msgstr ""
 msgid ""
 "The overscan wizard helps you to setup your TV in the correct way.\n"
 "\n"
-"For the majority of TV's, the factory default is to have overscan enabled. This means you are always watching a \"zoomed in\" picture instead of real HD, and parts of the user inferface "
-"(skin) may be invisible.\n"
+"For the majority of TV's, the factory default is to have overscan enabled. This means you are always watching a \"zoomed in\" picture instead of real HD, and parts of the user inferface (skin) may be invisible.\n"
 "\n"
 "The yellow area means a 5% border area of a full HD picture will be invisible.\n"
 "The green area means a 10% border area of a full HD picture will be invisible.\n"
@@ -7080,8 +7020,7 @@ msgid ""
 msgstr ""
 "El asistente de overscan le ayuda a configurar su TV de la manera correcta.\n"
 "\n"
-"Para la mayoría de los televisores, el valor predeterminado de fábrica es habilitar el overscan. Esto significa que siempre está viendo una imagen “ampliada” en lugar de HD real, y partes de "
-"la interfaz de usuario (piel) pueden no ser visibles.\n"
+"Para la mayoría de los televisores, el valor predeterminado de fábrica es habilitar el overscan. Esto significa que siempre está viendo una imagen “ampliada” en lugar de HD real, y partes de la interfaz de usuario (piel) pueden no ser visibles.\n"
 "\n"
 "El área amarilla significa que un área de borde del 5% de una imagen Full HD será invisible.\n"
 "El área verde significa que un área de borde del 10% de una imagen Full HD será invisible.\n"
@@ -7185,19 +7124,11 @@ msgstr ""
 "Para usuarios normales, no es relevante.\n"
 "¡No se preocupe si ve valores que se le parezcan sospechosos!"
 
-msgid ""
-"This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + "
-"satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
-msgstr ""
-"Este es un sintonizador multitipo. Las opciones disponibles dependen del hardware. El cable y el terrestre no se pueden configurar al mismo tiempo. Si desea utilizar como cable + satélite o "
-"terrestre + satélite, configure primero el cable/terrestre y luego guárdelo. Vuelva a abrir y configurar de nuevo como satélite."
+msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
+msgstr "Este es un sintonizador multitipo. Las opciones disponibles dependen del hardware. El cable y el terrestre no se pueden configurar al mismo tiempo. Si desea utilizar como cable + satélite o terrestre + satélite, configure primero el cable/terrestre y luego guárdelo. Vuelva a abrir y configurar de nuevo como satélite."
 
-msgid ""
-"This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting "
-"from the receiver end)."
-msgstr ""
-"Este es el orden en que los comandos DiSEqC se envían al sistema aéreo. El orden debe corresponderse exactamente con el orden en que los dispositivos físicos están dispuestos a lo largo del "
-"cable de señal (comenzando desde el extremo del receptor)."
+msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
+msgstr "Este es el orden en que los comandos DiSEqC se envían al sistema aéreo. El orden debe corresponderse exactamente con el orden en que los dispositivos físicos están dispuestos a lo largo del cable de señal (comenzando desde el extremo del receptor)."
 
 msgid "This option allows to reduce the block-noise in the picture. Obviously this is at the cost of the picture's sharpness."
 msgstr "Esta opción permite reducir el ruido (pixelado) en la imagen. Obviamente, esto es a costa de la nitidez de la imagen."
@@ -7296,19 +7227,11 @@ msgstr "¡Este receptor no puede decodificar %s streams!"
 msgid "This setting allows the tuner configuration to be a duplication of how another tuner is already configured."
 msgstr "Esta configuración permite que la configuración del sintonizador sea una duplicación de otro sintonizador ya configurado."
 
-msgid ""
-"This setting depends on your cable provider and location. If you don't know the correct setting refer to the menu in the official cable receiver, or get it from your cable provider, or seek "
-"help via internet forum."
-msgstr ""
-"Esta configuración depende de su proveedor de cable y su ubicación. Si no conoce la configuración correcta, consulte el menú en el receptor de cable oficial, o recíbalo de su proveedor de "
-"cable o busque ayuda en el foro de Internet."
+msgid "This setting depends on your cable provider and location. If you don't know the correct setting refer to the menu in the official cable receiver, or get it from your cable provider, or seek help via internet forum."
+msgstr "Esta configuración depende de su proveedor de cable y su ubicación. Si no conoce la configuración correcta, consulte el menú en el receptor de cable oficial, o recíbalo de su proveedor de cable o busque ayuda en el foro de Internet."
 
-msgid ""
-"This setting is for special setups only. It gives this LNB higher priority over other LNBs with lower values. The free LNB with the highest priority will be the first LNB selected for tuning "
-"services."
-msgstr ""
-"Esta configuración es solo para configuraciones especiales. Le da a este LNB una mayor prioridad que otros LNB con valores más bajos. El LNB libre con la prioridad más alta será el primer "
-"LNB seleccionado para servicios de ajuste."
+msgid "This setting is for special setups only. It gives this LNB higher priority over other LNBs with lower values. The free LNB with the highest priority will be the first LNB selected for tuning services."
+msgstr "Esta configuración es solo para configuraciones especiales. Le da a este LNB una mayor prioridad que otros LNB con valores más bajos. El LNB libre con la prioridad más alta será el primer LNB seleccionado para servicios de ajuste."
 
 msgid ""
 "This test checks for configured nameservers.\n"
@@ -7637,11 +7560,8 @@ msgstr "URL del receptor remoto de reserva"
 msgid "USALS"
 msgstr "USALS"
 
-msgid ""
-"USALS automatically moves a motorised dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
-msgstr ""
-"USALS mueve automáticamente un plato motorizado al satélite correcto en función de las coordenadas introducidas por el usuario. Sin USALS, cada satélite deberá configurarse y guardarse "
-"individualmente."
+msgid "USALS automatically moves a motorised dish to the correct satellite based on the coordinates entered by the user. Without USALS each satellite will need to be setup and saved individually."
+msgstr "USALS mueve automáticamente un plato motorizado al satélite correcto en función de las coordenadas introducidas por el usuario. Sin USALS, cada satélite deberá configurarse y guardarse individualmente."
 
 msgid "USALS calibration"
 msgstr "Calibrado de USALS"
@@ -8095,14 +8015,10 @@ msgid "When enabled you can specify a timeframe to ignore the shutdown timer whe
 msgstr "Cuando está habilitado, puede especificar un intervalo de tiempo para ignorar el temporizador de apagado cuando el receptor está en modo de reposo"
 
 msgid "When enabled you can specify a timeframe when the inactivity sleeptimer is ignored. Not the detection is disabled during this timeframe but the inactivity timeout is disabled"
-msgstr ""
-"Cuando está habilitado, puede especificar un marco de tiempo cuando se ignora el temporizador de inactividad. No la detección está deshabilitada durante este período de tiempo, pero el "
-"tiempo de inactividad está desactivado"
+msgstr "Cuando está habilitado, puede especificar un marco de tiempo cuando se ignora el temporizador de inactividad. No la detección está deshabilitada durante este período de tiempo, pero el tiempo de inactividad está desactivado"
 
 msgid "When enabled you can specify an extra timeframe when the inactivity sleeptimer is ignored. Not the detection is disabled during this timeframe but the inactivity timeout is disabled"
-msgstr ""
-"Cuando está habilitado, puede especificar un marco de tiempo adicional cuando se ignora el temporizador de inactividad. No la detección está deshabilitada durante este período de tiempo, "
-"pero el tiempo de inactividad está desactivado"
+msgstr "Cuando está habilitado, puede especificar un marco de tiempo adicional cuando se ignora el temporizador de inactividad. No la detección está deshabilitada durante este período de tiempo, pero el tiempo de inactividad está desactivado"
 
 msgid "When enabled, content with an aspect ratio of 4:3 will be stretched to fit the screen."
 msgstr "Cuando está habilitado, el contenido con una relación de aspecto de 4: 3 se extenderá para ajustarse a la pantalla."
@@ -8275,11 +8191,9 @@ msgid "You cannot delete this!"
 msgstr "No puedes borrar esto!"
 
 msgid ""
-"You did not see all eight arrow heads. This means your TV has overscan enabled and presents you with a zoomed-in picture, causing you to loose part of a full HD screen. In addition this you "
-"may also miss parts of the user interface, for example volume bars and more.\n"
+"You did not see all eight arrow heads. This means your TV has overscan enabled and presents you with a zoomed-in picture, causing you to loose part of a full HD screen. In addition this you may also miss parts of the user interface, for example volume bars and more.\n"
 "\n"
-"Unfortunately, your model of receiver is not capable to adjust the dimensions of the user interface. If not everything is visible, you should change the installed skin to one that supports "
-"the overscan area of your TV.\n"
+"Unfortunately, your model of receiver is not capable to adjust the dimensions of the user interface. If not everything is visible, you should change the installed skin to one that supports the overscan area of your TV.\n"
 "\n"
 "When you select a different skin, the user interface of your receiver will restart.\n"
 "\n"
@@ -8287,11 +8201,9 @@ msgid ""
 "\n"
 "menu->installation->system->Overscan wizard"
 msgstr ""
-"No viste las ocho cabezas de flecha. Esto significa que su TV tiene el overscan habilitado y le presenta una imagen ampliada, causando que pierda parte de una pantalla Full HD. Además, "
-"también puede omitir partes de la interfaz de usuario, por ejemplo, barras de volumen y más.\n"
+"No viste las ocho cabezas de flecha. Esto significa que su TV tiene el overscan habilitado y le presenta una imagen ampliada, causando que pierda parte de una pantalla Full HD. Además, también puede omitir partes de la interfaz de usuario, por ejemplo, barras de volumen y más.\n"
 "\n"
-"Desafortunadamente, su modelo de receptor no es capaz de ajustar las dimensiones de la interfaz de usuario. Si no todo está visible, debe cambiar la piel instalada a una que admita el área "
-"de overscan de su TV.\n"
+"Desafortunadamente, su modelo de receptor no es capaz de ajustar las dimensiones de la interfaz de usuario. Si no todo está visible, debe cambiar la piel instalada a una que admita el área de overscan de su TV.\n"
 "\n"
 "Cuando selecciona una piel diferente, la interfaz de usuario de su receptor se reiniciará.\n"
 "\n"
@@ -8300,16 +8212,14 @@ msgstr ""
 "menú correspondiente"
 
 msgid ""
-"You did not see all eight arrow heads. This means your TV has overscan enabled and presents you with a zoomed-in picture, causing you to loose part of a full HD screen. In addition to this "
-"you may also miss parts of the user interface, for example volume bars and more.\n"
+"You did not see all eight arrow heads. This means your TV has overscan enabled and presents you with a zoomed-in picture, causing you to loose part of a full HD screen. In addition to this you may also miss parts of the user interface, for example volume bars and more.\n"
 "\n"
 "You can now try to resize and change the position of the user interface until you see the eight arrow heads.\n"
 "\n"
 "When done press OK.\n"
 "\n"
 msgstr ""
-"No viste las ocho cabezas de flecha. Esto significa que su TV tiene el overscan habilitado y le presenta una imagen ampliada, causando que pierda parte de una pantalla Full HD. Además de "
-"esto, también puede omitir partes de la interfaz de usuario, por ejemplo, barras de volumen y más.\n"
+"No viste las ocho cabezas de flecha. Esto significa que su TV tiene el overscan habilitado y le presenta una imagen ampliada, causando que pierda parte de una pantalla Full HD. Además de esto, también puede omitir partes de la interfaz de usuario, por ejemplo, barras de volumen y más.\n"
 "\n"
 "Ahora puede intentar cambiar el tamaño y cambiar la posición de la interfaz de usuario hasta que vea las ocho puntas de flecha.\n"
 "\n"
@@ -9690,12 +9600,8 @@ msgstr "Prioridad de sintonizador de servicios alternativos"
 msgid "Always include ECM in recordings"
 msgstr "Incluye siempre ICM en las grabaciones"
 
-msgid ""
-"Always include ECM messages in recordings. This overrides the individual timer settings globally. It allows recordings to be always decrypted afterwards (sometimes called offline decoding), "
-"if supported by your receiver. Default: off."
-msgstr ""
-"Siempre incluya mensajes ECM en grabaciones. Esto anula las configuraciones de temporizador individuales. Permite que las grabaciones siempre se descifren después (a veces llamada "
-"decodificación sin conexión), si su receptor lo soporta. Predeterminado: apagado."
+msgid "Always include ECM messages in recordings. This overrides the individual timer settings globally. It allows recordings to be always decrypted afterwards (sometimes called offline decoding), if supported by your receiver. Default: off."
+msgstr "Siempre incluya mensajes ECM en grabaciones. Esto anula las configuraciones de temporizador individuales. Permite que las grabaciones siempre se descifren después (a veces llamada decodificación sin conexión), si su receptor lo soporta. Predeterminado: apagado."
 
 msgid "Audio language selection 1"
 msgstr "Selección de idioma de audio 1"
@@ -9850,12 +9756,8 @@ msgstr "Configure el color de los subtítulos del teletexto."
 msgid "Configure the contrast level of the front panel display."
 msgstr "Configure el nivel de contraste de la pantalla del panel frontal."
 
-msgid ""
-"Configure the cursor behaviour in the channel selection list. When opening the channel selection list you can keep on the current service or already select up/down and you are able to revert "
-"the B+/B- buttons."
-msgstr ""
-"Configure el comportamiento del cursor en la lista de selección de canales. Al abrir la lista de selección de canales puede continuar con el servicio actual o seleccionar arriba/abajo y "
-"puede revertir los botones B+/B-."
+msgid "Configure the cursor behaviour in the channel selection list. When opening the channel selection list you can keep on the current service or already select up/down and you are able to revert the B+/B- buttons."
+msgstr "Configure el comportamiento del cursor en la lista de selección de canales. Al abrir la lista de selección de canales puede continuar con el servicio actual o seleccionar arriba/abajo y puede revertir los botones B+/B-."
 
 msgid "Configure the duration in minutes for the screensaver."
 msgstr "Configure la duración en minutos para el protector de pantalla."
@@ -9900,9 +9802,7 @@ msgid "Configure the longitude of your location."
 msgstr "Configure la latitud de su ubicación."
 
 msgid "Configure the minimum amount of disk space to be available for recordings. When the amount of space drops below this value, deleted items will be removed from the trash can."
-msgstr ""
-"Configure la cantidad mínima de espacio en disco para estar disponible para las grabaciones. Cuando la cantidad de espacio cae por debajo de este valor, los elementos eliminados se "
-"eliminarán de la papelera."
+msgstr "Configure la cantidad mínima de espacio en disco para estar disponible para las grabaciones. Cuando la cantidad de espacio cae por debajo de este valor, los elementos eliminados se eliminarán de la papelera."
 
 msgid "Configure the nameserver (DNS)."
 msgstr "Configure DNS."
@@ -10000,18 +9900,11 @@ msgstr "Configure qué nivel de acceso usar para el menú de configuración. El 
 msgid "Configure which tuner for recordings will be preferred, when more than one tuner is available."
 msgstr "Configure qué sintonizador preferido para las grabaciones, cuando haya más de un sintonizador disponible."
 
-msgid ""
-"Configure which tuner type will be preferred when the same service is available on different types of tuners. Choose 'no priority' to try each alternative one by one regardless of the tuner "
-"type."
-msgstr ""
-"Configure qué tipo de sintonizador será preferido cuando el mismo servicio esté disponible en diferentes tipos de sintonizadores. Elija “sin prioridad” para probar cada alternativa una por "
-"una, independientemente del tipo de sintonizador."
+msgid "Configure which tuner type will be preferred when the same service is available on different types of tuners. Choose 'no priority' to try each alternative one by one regardless of the tuner type."
+msgstr "Configure qué tipo de sintonizador será preferido cuando el mismo servicio esté disponible en diferentes tipos de sintonizadores. Elija “sin prioridad” para probar cada alternativa una por una, independientemente del tipo de sintonizador."
 
-msgid ""
-"Configure which tuner will be preferred, when more than one tuner is available. If set to 'auto' the system will give priority to the tuner having the lowest number of channels/satellites."
-msgstr ""
-"Configure qué sintonizador será preferido, cuando haya más de un sintonizador disponible. Si se establece en ‘auto’, el sistema dará prioridad al sintonizador que tenga la menor cantidad de "
-"canales/satélites."
+msgid "Configure which tuner will be preferred, when more than one tuner is available. If set to 'auto' the system will give priority to the tuner having the lowest number of channels/satellites."
+msgstr "Configure qué sintonizador será preferido, cuando haya más de un sintonizador disponible. Si se establece en ‘auto’, el sistema dará prioridad al sintonizador que tenga la menor cantidad de canales/satélites."
 
 msgid "Custom skip time for '1'/'3' buttons"
 msgstr "Tiempo de salto personalizado para los botones 1 y 3"
@@ -10206,9 +10099,7 @@ msgid "Limit character set for recording filenames"
 msgstr "Juego de caracteres límite para nombres de archivo"
 
 msgid "Limit the characters that can be used in recording filenames to (7 bit) ascii. This ensures compatibility with operating systems or file systems with limited character sets."
-msgstr ""
-"Limitar los caracteres que se pueden usar para grabar nombres de archivos a (7 bits) ascii. Esto garantiza la compatibilidad con sistemas operativos o sistemas de archivos con conjuntos de "
-"caracteres limitados."
+msgstr "Limitar los caracteres que se pueden usar para grabar nombres de archivos a (7 bits) ascii. Esto garantiza la compatibilidad con sistemas operativos o sistemas de archivos con conjuntos de caracteres limitados."
 
 msgid "Load unlinked userbouquets"
 msgstr "Carga los bouquets de usuario no vinculados"
@@ -10228,12 +10119,8 @@ msgstr "Modulador"
 msgid "Multi-EPG bouquet selection"
 msgstr "Selección de bouquet MuliEPG"
 
-msgid ""
-"Never decrypt the content while recording. This overrides the individual timer settings globally. If enabled, recordings are stored in crypted presentation and must be decrypted afterwards "
-"(sometimes called offline decoding). Default: off."
-msgstr ""
-"Nunca descifre el contenido mientras graba. Esto anula las configuraciones de temporizador individuales a nivel general. Si está habilitado, las grabaciones se almacenan en una presentación "
-"encriptada y se deben descifrar posteriormente (a veces llamadas decodificación sin conexión). Predeterminado: apagado."
+msgid "Never decrypt the content while recording. This overrides the individual timer settings globally. If enabled, recordings are stored in crypted presentation and must be decrypted afterwards (sometimes called offline decoding). Default: off."
+msgstr "Nunca descifre el contenido mientras graba. Esto anula las configuraciones de temporizador individuales a nivel general. Si está habilitado, las grabaciones se almacenan en una presentación encriptada y se deben descifrar posteriormente (a veces llamadas decodificación sin conexión). Predeterminado: apagado."
 
 msgid "Never decrypt while recording"
 msgstr "Nunca descifrar mientras se graba"
@@ -10586,12 +10473,10 @@ msgstr "Por lo general, cuando el idioma de los subtítulos es el mismo que el d
 msgid "Wake On LAN"
 msgstr "Wake On LAN"
 
-msgid ""
-"When enabled enigma2 will load unlinked userbouquets. This means that userbouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This "
-"allows you for example to keep your own user bouquet while installed settings are upgraded"
+msgid "When enabled enigma2 will load unlinked userbouquets. This means that userbouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This allows you for example to keep your own user bouquet while installed settings are upgraded"
 msgstr ""
-"Cuando esté habilitado, enigma2 cargará los userbouquets no vinculados. Esto significa que los bucles de usuario que están disponibles, pero que no están incluidos en los archivos bouquets."
-"tv o bouquets.radio, seguirán cargándose. Esto le permite, por ejemplo, mantener su propio bouquet de usuario mientras se actualizan las configuraciones instaladas"
+"Cuando esté habilitado, enigma2 cargará los userbouquets no vinculados. Esto significa que los bucles de usuario que están disponibles, pero que no están incluidos en los archivos bouquets.tv o bouquets.radio, seguirán cargándose. Esto le permite, por ejemplo, mantener su propio bouquet de usuario mientras se actualizan las "
+"configuraciones instaladas"
 
 msgid "When enabled the PiP can be closed by the exit button."
 msgstr "Cuando está habilitado, el PiP se puede cerrar con el botón de salida."
@@ -10605,12 +10490,8 @@ msgstr "Cuando está habilitado los botones izquierdo, derecho, CH +/-, B +/-, P
 msgid "When enabled the set top box is able to wakeup on LAN"
 msgstr "Cuando está habilitado, el decodificador se puede activar desde su LAN"
 
-msgid ""
-"When enabled then when you select a new channel in the channel selection the channel selection will not close. It will only close when you select the current playing service. This is a kind "
-"of preview mode"
-msgstr ""
-"Cuando está habilitado, cuando selecciona un nuevo canal en la selección de canales, la selección del canal no se cierra. Solo se cerrará cuando seleccione el servicio de reproducción "
-"actual. Este es un tipo de modo de vista previa"
+msgid "When enabled then when you select a new channel in the channel selection the channel selection will not close. It will only close when you select the current playing service. This is a kind of preview mode"
+msgstr "Cuando está habilitado, cuando selecciona un nuevo canal en la selección de canales, la selección del canal no se cierra. Solo se cerrará cuando seleccione el servicio de reproducción actual. Este es un tipo de modo de vista previa"
 
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr "Cuando está habilitado, puede controlar el volumen con los botones de flecha en lugar de obtener la lista de selección de canales"
@@ -10645,12 +10526,8 @@ msgstr "Cuando está habilitado, una grabación puede interrumpir la televisión
 msgid "When enabled, a warning will be displayed and the user will get an option to stop or to continue the timeshift."
 msgstr "Cuando está habilitado, se mostrará una advertencia y el usuario tendrá la opción de detener o continuar con el Timeshift."
 
-msgid ""
-"When enabled, always descramble receiving http streams. This takes up more resources (descrambling demuxers), only enable if necessary. Individual streams are always descrambled if 0x100 is "
-"added to the service type, regardless of this setting. Default off."
-msgstr ""
-"Cuando esté habilitado, siempre descifrar la recepción de streams http. Esto requiere más recursos, habilita solo si es necesario. Los stremams individuales siempre se descodifican si se "
-"agrega 0x100 al tipo de servicio, independientemente de esta configuración. Predeterminado desactivado."
+msgid "When enabled, always descramble receiving http streams. This takes up more resources (descrambling demuxers), only enable if necessary. Individual streams are always descrambled if 0x100 is added to the service type, regardless of this setting. Default off."
+msgstr "Cuando esté habilitado, siempre descifrar la recepción de streams http. Esto requiere más recursos, habilita solo si es necesario. Los stremams individuales siempre se descodifican si se agrega 0x100 al tipo de servicio, independientemente de esta configuración. Predeterminado desactivado."
 
 msgid "When enabled, authentication is required to watch http streams."
 msgstr "Cuando está habilitado, se requiere autenticación para ver los streams http."
@@ -10882,6 +10759,9 @@ msgstr "PROXIMO"
 
 msgid "NOW"
 msgstr "AHORA"
+
+msgid "Import CCcam.cfg"
+msgstr "Importar CCcam.cfg"
 
 msgid "Nameserver setup"
 msgstr "Configuración del servidor de nombres"
@@ -11209,12 +11089,8 @@ msgstr "El asistente puede guardar tus ajustes actuales. Quieres hacer una copia
 msgid "The wizard is finished now."
 msgstr "El asistente ha terminado."
 
-msgid ""
-"Welcome to the image upgrade wizard. The wizard will assist you in upgrading the firmware of your receiver by providing a backup facility for your current settings and a short explanation of "
-"how to upgrade your firmware."
-msgstr ""
-"Bienvenido al asistente de actualización de imagen. El asistente le ayudará a actualizar el firmware de su receptor al proporcionar una utilidad de copia de seguridad para su configuración "
-"actual y una breve explicación de cómo actualizar su firmware."
+msgid "Welcome to the image upgrade wizard. The wizard will assist you in upgrading the firmware of your receiver by providing a backup facility for your current settings and a short explanation of how to upgrade your firmware."
+msgstr "Bienvenido al asistente de actualización de imagen. El asistente le ayudará a actualizar el firmware de su receptor al proporcionar una utilidad de copia de seguridad para su configuración actual y una breve explicación de cómo actualizar su firmware."
 
 msgid "Where do you want to backup your settings?"
 msgstr "Dónde guardar tus ajustes actuales?"
@@ -11340,7 +11216,7 @@ msgid "EPG Importer"
 msgstr "EPG Importer"
 
 msgid "EPGImport"
-msgstr "EPGImport"
+msgstr "Importar EPG"
 
 msgid ""
 "EPGImport\n"
@@ -11417,10 +11293,10 @@ msgid "Run AutoTimer after import"
 msgstr "Ejecutar Temporizador Automático después de importar"
 
 msgid "Show \"EPG Importer\" in main menu"
-msgstr "Mostrar \"EPG Importer\" en el menú principal"
+msgstr "Mostrar 'EPG Importer' en el menú principal"
 
 msgid "Show \"EPGImport\" in extensions"
-msgstr "Mostrar \"EPGImport\" en extensiones"
+msgstr "Mostrar 'Importar EPG' en extensiones"
 
 msgid "Show log"
 msgstr "Mostrar log"
@@ -11676,9 +11552,7 @@ msgid "Foreground also"
 msgstr "En primer plano también"
 
 msgid "If \"Run AutoTimer after refresh\" and \"Shutdown after EPG refresh\" enabled and use \"Label series\" for match, set long timeout."
-msgstr ""
-"Si \"Ejecuta Temporizador Automático después de actualizar\" y \"Apagar después de EPG Actualizador\" habilitado y usa \"etiqueta series\" para la coincidencia, establezca el tiempo de "
-"espera largo."
+msgstr "Si \"Ejecuta Temporizador Automático después de actualizar\" y \"Apagar después de EPG Actualizador\" habilitado y usa \"etiqueta series\" para la coincidencia, establezca el tiempo de espera largo."
 
 msgid "If enabled, show 'EPGRefresh now' in main menu when currently no EPGRefresh is running."
 msgstr "Si está habilitado, muestre 'Actualizador EPG ahora' en el menú principal cuando actualmente no se esté ejecutando Actualizador EPG."
@@ -11826,10 +11700,10 @@ msgid "Setup save / load EPG"
 msgstr "Configuración guardar/Cargar EPG"
 
 msgid "Show \"add to EPGRefresh\" in"
-msgstr "Mostrar \"agregar Actualizar EPG\" en"
+msgstr "Mostrar 'Agregar Actualizar EPG' en"
 
 msgid "Show 'EPGRefresh now' in main menu"
-msgstr "Mostrar 'Actualización EPG ahora' en menú principal"
+msgstr "Mostrar 'Actualización EPG Ahora' en el menú principal"
 
 msgid "Show 'Stop running EPGRefresh' in main menu"
 msgstr "Mostrar 'Dejar de ejecutar Actualización EPG' en el menú principal"
@@ -11838,7 +11712,7 @@ msgid "Show entry 'AutoZap' in extensions menu"
 msgstr "Mostrar entrada 'AutoZapeo' en el menú de extensiones"
 
 msgid "Show entry 'Manually change EPG' in main menu"
-msgstr "Mostrar entrada 'Cambiar manualmente EPG' en el menú principal"
+msgstr "Mostrar entrada 'Cambiar Manualmente EPG' en el menú principal"
 
 msgid "Show popup when refresh starts or ends"
 msgstr "Mostrar ventana emergente cuando la actualización comienza o termina"
@@ -11936,15 +11810,13 @@ msgstr "El menu configuración"
 
 msgid ""
 "This help screen is supposed to give you a quick look at everything EPGRefresh has to offer.\n"
-"You can abort it at any time by pressing the RED or EXIT button on your remote control or bring it up at a later point by pressing the HELP button from the configuration menu (more on that "
-"later).\n"
+"You can abort it at any time by pressing the RED or EXIT button on your remote control or bring it up at a later point by pressing the HELP button from the configuration menu (more on that later).\n"
 "But you really should consider to take the few minutes it takes to read these help pages\n"
 "\n"
 "\n"
 msgstr ""
 "Esta pantalla de ayuda se supone que le da una mirada rápida a todo lo que la Actualización EPG tiene para ofrecer.\n"
-"Puede cancelarlo en cualquier momento presionando el botón ROJO o SALIR en su mando a distancia o puede abrirlo más tarde presionando el botón AYUDA desde el menú de configuración (más sobre "
-"esto más adelante).\n"
+"Puede cancelarlo en cualquier momento presionando el botón ROJO o SALIR en su mando a distancia o puede abrirlo más tarde presionando el botón AYUDA desde el menú de configuración (más sobre esto más adelante).\n"
 "Pero realmente debería considerar tomarse los minutos que lleva leer estas páginas de ayuda\"\n"
 "\n"
 "\n"
@@ -11972,16 +11844,14 @@ msgid "Welcome to EPGRefresh"
 msgstr "Bienvenido a Actualización EPG"
 
 msgid ""
-"While the screen does not immediately show it, it does have a lot to offer. The topmost line allows you to choose between the editor for channels and bouquets and the following lines contain "
-"the channels/bouquets you chose to refresh.\n"
+"While the screen does not immediately show it, it does have a lot to offer. The topmost line allows you to choose between the editor for channels and bouquets and the following lines contain the channels/bouquets you chose to refresh.\n"
 "\n"
 "You can use the BLUE button to add a new entry to the list or the YELLOW button to remove an existing one.\n"
 "\n"
 "\n"
 "For most people it should be sufficient to add the \"Favourites\" bouquet by selecting \"Bouquets\" in the first line and by adding it using the BLUE button.\n"
 msgstr ""
-"Si bien la pantalla no lo muestra de inmediato, tiene mucho que ofrecer. La línea superior le permite elegir entre el editor de canales y bouquets y las siguientes líneas contienen los "
-"canales/bouquets que eligió para actualizar.\n"
+"Si bien la pantalla no lo muestra de inmediato, tiene mucho que ofrecer. La línea superior le permite elegir entre el editor de canales y bouquets y las siguientes líneas contienen los canales/bouquets que eligió para actualizar.\n"
 "\n"
 "Puede usar el botón AZUL para agregar una nueva entrada a la lista o el botón AMARILLO para eliminar una existente.\n"
 "\n"
@@ -11991,14 +11861,12 @@ msgstr ""
 msgid ""
 "You now know how to do your first steps in EPGRefresh.\n"
 "\n"
-"As a final note I want to hint you at the fact that this plugin will not do anything on its own without YOU telling it to. So if you want the refresh to happen automatically in the "
-"background you need to configure the plugin to do so.\n"
+"As a final note I want to hint you at the fact that this plugin will not do anything on its own without YOU telling it to. So if you want the refresh to happen automatically in the background you need to configure the plugin to do so.\n"
 "This was not done to cause you any inconvenience but rather to give you the freedom of choice.\n"
 msgstr ""
 "Ahora sabes cómo dar tus primeros pasos en Actualizador EPG.\n"
 "\n"
-"Como nota final, quiero comentarle que este plugin no hará nada por sí mismo sin que USTED se lo diga. Por lo tanto, si desea que la actualización se realice automáticamente en segundo "
-"plano, debe configurar el complemento para que lo haga.\n"
+"Como nota final, quiero comentarle que este plugin no hará nada por sí mismo sin que USTED se lo diga. Por lo tanto, si desea que la actualización se realice automáticamente en segundo plano, debe configurar el complemento para que lo haga.\n"
 "Esto no se hizo para causarle ningún inconveniente sino para darle libertad de elección.\n"
 
 msgid " (%s%d min)"
@@ -12011,7 +11879,7 @@ msgid "Add \"Search event in EPG\" to event menu"
 msgstr "Agregar 'Evento de búsqueda en EPG'  al menú de eventos"
 
 msgid "Add \"Search\" Button to EPG"
-msgstr "Agregar \"Buscar\" Botón EPG"
+msgstr "Agregar 'Buscar' Botón EPG"
 
 msgid "Adds \"Search event in EPG\" item into the channel selection context menu (needs restart GUI)"
 msgstr "Agrega 'Evento de búsqueda en EPG'  en el menú contextual de selección de canal (necesita reiniciar la GUI)"
@@ -12078,7 +11946,7 @@ msgid "If this setting is enabled, the plugin adds a \"Search\" Button to the re
 msgstr "Si esta configuración está habilitada, el plugin agrega un botón \"Buscar\" a la EPG normal."
 
 msgid "If this setting is enabled, the plugin adds picons."
-msgstr "Si esta configuración está habilitada, el complemento agrega picons."
+msgstr "Si esta configuración está habilitada, el plugin agrega picons."
 
 msgid "Import from AutoTimer"
 msgstr "Importar desde Temporizador Automático"
@@ -12147,7 +12015,7 @@ msgid "Select type for filter search. Press button P +/- for show/hide filter in
 msgstr "Seleccione tipo de filtro para la búsqueda. Pulse el botón +/- para mostrar/ocultar el filtro en la descripción después de la búsqueda."
 
 msgid "Select type for search, \"partial match\" for the most extensive search."
-msgstr "Seleccione el tipo de búsqueda, \"coincidencia parcial\" para la búsqueda más extensa."
+msgstr "Seleccione el tipo de búsqueda,  'coincidencia parcial' para la búsqueda más extensa."
 
 msgid "Select type: 'Search and Select channel' or 'Search'."
 msgstr "Seleccione el tipo: 'Buscar y seleccionar canal' o 'Buscar'."
@@ -12193,3 +12061,1078 @@ msgstr "buscar EPG..."
 
 msgid "title starts with"
 msgstr "el título comienza con"
+
+msgid ""
+"\n"
+"\n"
+"Cancel?"
+msgstr ""
+"\n"
+"\n"
+"¿Cancelar?"
+
+msgid " (if services are enabled, bouquets are ignored)."
+msgstr " (si los canales están habilitados, los bouquets se ignoran)."
+
+msgid " (if services are enabled, bouquets are ignored.)."
+msgstr " (si los canales están habilitados, los bouquets se ignoran)."
+
+msgid " (only services from bouquets when use \"favorites description match\")."
+msgstr " (solo los servicios de los ramos cuando se usa \"descripción de los favoritos coincide con\")."
+
+msgid " - Version: "
+msgstr " - Version: "
+
+#, python-format
+msgid ""
+"%d conflict(s) encountered when trying to add new timers:\n"
+"%s"
+msgstr ""
+"%d conflicto(s) encontrados al intentar agregar nuevos temporizadores:\n"
+"%s"
+
+#, python-format
+msgid ""
+"%d conflict(s) solved with similar timer(s):\n"
+"%s"
+msgstr ""
+"%d conflicto(s) resuelto(s) con temporizador(s) similar(es):\n"
+"%s"
+
+#, python-format
+msgid "%s: %s at %s"
+msgstr "%s: %s at %s"
+
+msgid "/etc/enigma2"
+msgstr "/etc/enigma2"
+
+msgid "/tmp"
+msgstr "/tmp"
+
+msgid "A new and empty config was created. A backup of the config can be found here (/etc/enigma2/autotimer.xml_old)."
+msgstr "Se creó una configuración nueva y vacía. Se puede encontrar una copia de la configuración aquí (/etc/enigma2/autotimer.xml_old)."
+
+msgid "Activate VPS"
+msgstr "Activar VPS"
+
+msgid "Add \"Choice list AutoTimer\" menu button to multi-EPG"
+msgstr "Agregue 'Elección lista Temporizador Automático'  botón  Menú Multi-EPG"
+
+msgid "Add \"Choice list AutoTimer\" menu button to single-EPG"
+msgstr "Agregue  'Elección lista Temporizador Automático' botón Menú EPG simple"
+
+msgid "Add AutoTimer"
+msgstr "Agregar Temporizador Automático"
+
+msgid "Add new AutoTimer"
+msgstr "Agregar Nuevo Temporizador Automático"
+
+msgid "Add services"
+msgstr "Agregar Canales"
+
+msgid "Add similar timer on conflict"
+msgstr "Agregar Temporizador similar en conflicto"
+
+msgid "Add timer as disabled on conflict"
+msgstr "Agregar Temporizador como deshabilitado en conflicto"
+
+msgid "All channels"
+msgstr "Todos los Canales"
+
+msgid "All non-repeating timers"
+msgstr "Todos los temporizadores no repetitivos"
+
+msgid "Always write config"
+msgstr "Siempre escriba configuración"
+
+msgid "Amount of recordings left"
+msgstr "Cantidad de grabaciones restantes"
+
+msgid "Any service/recording"
+msgstr "Cualquier canal/grabación"
+
+msgid "Any time"
+msgstr "En cualquier momento"
+
+msgid "AutoTimer"
+msgstr "Temporizador Automático"
+
+#, python-format
+msgid ""
+"AutoTimer\n"
+"%d timer(s) were added."
+msgstr ""
+"Temporizador Automático\n"
+"%d temporizador(s) fueron agregados."
+
+msgid "AutoTimer "
+msgstr "Temporizador Automático "
+
+#, python-format
+msgid "AutoTimer %s FilterListEntry"
+msgstr "Temporizador Automático %s Filtro entrada de la Lista"
+
+msgid "AutoTimer Context Menu"
+msgstr "Menú de contexto del temporizador automático"
+
+msgid "AutoTimer Editor"
+msgstr "Editor Temporizador Automático"
+
+msgid "AutoTimer Filters"
+msgstr "Filtros Temporizaodr Automático"
+
+msgid "AutoTimer Services"
+msgstr "Temporizador Automático canales"
+
+msgid "AutoTimer Settings"
+msgstr "Temporizador Automático Configuraciones"
+
+#, python-format
+msgid "AutoTimer failed with error %s"
+msgstr "Temporizador Automático falló con error %s"
+
+msgid "AutoTimer overview"
+msgstr "Descripción Temporizador Automático"
+
+msgid "AutoTimer scan"
+msgstr "Temporizador Automático escanear"
+
+msgid "AutoTimer was added successfully"
+msgstr "Temporizador Automático fue agregado exitosamente"
+
+msgid "AutoTimer was changed successfully"
+msgstr "Temporizador Automático fue cambiado exitosamente"
+
+msgid "AutoTimer was removed"
+msgstr "Temporizador Automático fue eliminado"
+
+msgid "AutoTimers were changed successfully"
+msgstr "Temporizador Automático fueron cambiados exitosamente"
+
+msgid "Begin of \"after event\" timespan"
+msgstr "Comienza \"después del evento\" espacio de tiempo"
+
+msgid "Begin of timespan"
+msgstr "Comienza el tiempo"
+
+msgid "By enabling this events will not be matched if they don't occur on certain dates."
+msgstr "Al habilitar estos eventos, no se combinarán si no ocurren en ciertas fechas."
+
+msgid "By enabling this you will be notified about similar timers added during automated polling. There is no intelligence involved, so it might bother you about the same conflict over and over."
+msgstr "Al habilitar esto, se le notificará sobre temporizadores similares agregados durante el sondeo automático. No hay inteligencia involucrada, por lo que puede molestarlo sobre el mismo conflicto una y otra vez."
+
+msgid "By enabling this you will be notified about timer conflicts found during automated polling. There is no intelligence involved, so it might bother you about the same conflict over and over."
+msgstr "Al habilitar esto, se le notificará acerca de los conflictos de temporizador encontrados durante el sondeo automático. No hay inteligencia involucrada, por lo que puede molestarlo sobre el mismo conflicto una y otra vez."
+
+msgid "By enabling this you will be notified about timer(s) added during automated polling. Just not in standby mode."
+msgstr "Al habilitar esto, se le notificará sobre el temporizador agregado durante el sondeo automático. Simplemente no en modo de espera."
+
+msgid "Change default recording offset?"
+msgstr "¿Cambiar la compensación de grabación predeterminada?"
+
+msgid "Check for uniqueness in"
+msgstr "Compruebe la exclusividad en"
+
+msgid "Check the event id (eit) and remove the timer if there is no corresponding EPG event. Due to compatibility issues with SerienRecorder and IPRec, only timer created by AutoTimer are affected."
+msgstr "Verifique la identificación del evento (eit) y elimine el temporizador si no hay un evento EPG correspondiente. Debido a problemas de compatibilidad con SerienRecorder e IPRec, solo el temporizador creado por AutoTimer se ve afectado."
+
+msgid "Choice list AutoTimer"
+msgstr "Lista de opciones Temporizador Automático"
+
+msgid "Choose target folder"
+msgstr "Elija la carpeta de destino"
+
+msgid "Classic"
+msgstr "Clásico"
+
+msgid "Clone selected timer"
+msgstr "Clona el temporizador seleccionado"
+
+msgid "Close and forget changes"
+msgstr "Cierre y olvide los cambios"
+
+msgid "Close and save"
+msgstr "Cerrar y guardar"
+
+msgid "Close without saving"
+msgstr "Cerrar sin guardar"
+
+msgid "Close, save changes and search now"
+msgstr "Cerrar, guardar cambios y buscar ahora"
+
+msgid "Configure AutoTimer behavior"
+msgstr "Configurar el comportamiento del temporizador automático"
+
+msgid "Control recording completely by service"
+msgstr "Controle la grabación completamente por servicio"
+
+msgid "Couldn't load config file!"
+msgstr "No se pudo cargar el archivo de configuración!"
+
+msgid "Create AutoTimer"
+msgstr "Crear Temporizador Automático"
+
+msgid "Create a new timer using the classic editor"
+msgstr "Crear nuevo Temporizador usando el editor clásico"
+
+msgid "Create a new timer using the wizard"
+msgstr "Crear nuevo temporizador usando el asistente"
+
+msgid "Create debug log file"
+msgstr "Crear archivo de registro de depuración"
+
+#, python-format
+msgid "Custom (%s)"
+msgstr "Personalizado (%s)"
+
+msgid "Custom location"
+msgstr "Ubicación personalizada"
+
+msgid "Custom offset"
+msgstr "Desplazamiento personalizado"
+
+msgid "Defines where to search for duplicates (only title, short description or even extended description)"
+msgstr "Define dónde buscar duplicados (solo título, descripción breve o incluso descripción extendida)"
+
+msgid "Delay after editing (in sec)"
+msgstr "Retraso después de la edición (en segundos)"
+
+msgid "Description - short equal extended for match"
+msgstr "Descripción - corto igual extendido para coincidir"
+
+msgid "Do not skip match when not description"
+msgstr "No se salte la coincidencia cuando no se describa"
+
+#, python-format
+msgid "EPG encoding"
+msgstr "Codificación EPG"
+
+msgid "Edit AutoTimer"
+msgstr "Editar Temporizador Automático"
+
+msgid "Edit AutoTimer filters"
+msgstr "Editar filtros del Temporizador Automático"
+
+msgid "Edit AutoTimer services"
+msgstr "Editar Canales del Temporizador Automático"
+
+msgid "Edit Timers and scan for new Events"
+msgstr "Edite temporizadores y busque nuevos eventos"
+
+msgid "Edit new timer defaults"
+msgstr "Editar nuevos valores predeterminados de temporizador"
+
+msgid "Edit selected AutoTimer"
+msgstr "Editar el temporizador automático seleccionado"
+
+msgid "Edit services"
+msgstr "Editar Canales"
+
+msgid "Editor for new AutoTimers"
+msgstr "Editor para nuevos Temporizadores Automáticos"
+
+msgid "Enable Filtering"
+msgstr "Habilitar filtrado"
+
+msgid "Enable Service Restriction"
+msgstr "Habilitar restricción de canal"
+
+msgid "Enable this to add item for create the AutoTimer into event menu (needs restart GUI)."
+msgstr "Habilítelo para agregar un elemento para crear el Temporizador Automático en el menú de eventos (necesita reiniciar la GUI)."
+
+msgid "Enable this to be able to access the AutoTimer Overview from within the extension menu."
+msgstr "Habilítelo para poder acceder a la Descripción general del temporizador automático desde el menú de extensión."
+
+msgid "Enable this to be able to access the add to AutoTimer from the channel selection context menu."
+msgstr "Habilítelo para poder acceder al agregar al Temporizador Automático desde el menú contextual de selección de canal."
+
+msgid "Encoding the channel uses for it's EPG data. You only need to change this if you're searching for special characters like the german umlauts."
+msgstr "Codificando los usos del canal para sus datos EPG. Solo necesita cambiar esto si está buscando caracteres especiales como las diéresis alemanas."
+
+msgid "End of \"after event\" timespan"
+msgstr "Fin de \"después del evento\" intervalo de tiempo"
+
+msgid "End of timespan"
+msgstr "Final de intervalo de tiempo"
+
+msgid "Enter or edit description"
+msgstr "Ingrese o edite la descripción"
+
+msgid "Enter or edit match title"
+msgstr "Ingresa o edita el título del evento"
+
+msgid "Enter or edit text"
+msgstr "Ingrese o edite texto"
+
+msgid "Everyday"
+msgstr "Cada día"
+
+msgid "Exact match"
+msgstr "Coincidencia exacta"
+
+msgid "Exclude"
+msgstr "Excluir"
+
+msgid "Execute \"after event\" during timespan"
+msgstr "Ejecute \"después de evento \" durante el intervalo de tiempo"
+
+msgid "Filter"
+msgstr "Filtrar"
+
+msgid "FilterEntry"
+msgstr "Entrar Filtro"
+
+msgid "Filterlist"
+msgstr "Lista de Filtros"
+
+#, python-format
+msgid ""
+"Finished add to filterList with %s event(s):\n"
+"\n"
+" %s event(s) added \n"
+" %s event(s) skipped"
+msgstr ""
+"Finalizado agregar a filterList con %s evento(s):\n"
+"\n"
+" %s evento(s) agregados \n"
+" %s evento(s) saltados"
+
+msgid "First day to match events. No event that begins before this date will be matched."
+msgstr "Primer día para unir eventos. Ningún evento que comience antes de esta fecha se igualará."
+
+#, python-format
+msgid ""
+"Found a total of %d matching Events.\n"
+"%d Timer were added and\n"
+"%d modified,\n"
+"%d conflicts encountered,\n"
+"%d similars added."
+msgstr ""
+"Encontrado un total de %d Eventos coincidentes.\n"
+"%d Se agrego temporizador y\n"
+"%d modificado,\n"
+"%d conflictos encontrados,\n"
+"%d similares agregados."
+
+msgid "Frequently asked questions"
+msgstr "Preguntas frecuentes"
+
+msgid "Guess existing timer based on begin/end"
+msgstr "Adivina el temporizador existente basado en comenzar/finalizar"
+
+msgid "Help"
+msgstr "Ayuda"
+
+msgid "If 0, the popup will remain open."
+msgstr "Si es 0, la ventana emergente permanecerá abierta."
+
+msgid "If a timer conflict occurs, AutoTimer will search outside the timespan for a similar event and add it."
+msgstr "Si se produce un conflicto de temporizador, El Temporizador Automático buscará fuera del intervalo de tiempo para un evento similar y lo agregará."
+
+msgid "If enabled, the polling will be skipped if EPGRefresh is currently running."
+msgstr "Si está habilitado, el sondeo se omitirá si el Actualizador EPG se está ejecutando actualmente."
+
+msgid "If enabled, the polling will be skipped if a recording is in progress."
+msgstr "Si está habilitado, el sondeo se saltará si hay una grabación en progreso."
+
+msgid "If the style is advanced, you will see more information about each auto timer."
+msgstr "Si el estilo está avanzado, verá más información sobre cada temporizador automático."
+
+msgid "If this enabled, debug Autotimer write in log file."
+msgstr "Si esto está habilitado, depure el Temporizador Automático escribe un archivo log."
+
+msgid "If this enabled, debug log print in console mode start enigma2."
+msgstr "Si esto está habilitado, imprimir el registro de depuración en el modo de consola, inicie enigma2."
+
+msgid "If this enabled, will check the list of timers, conflicting autotimers are disabled, the duplicate autotimers will be deleted."
+msgstr "Si esto está habilitado, verificará la lista de temporizadores, los temporizadores en conflicto estarán deshabilitados, los temporizadores duplicados serán eliminados."
+
+#, python-format
+msgid "If this is enabled an existing timer will also be considered recording an event if it records at least 80% of the it."
+msgstr "Si esto está habilitado, un temporizador existente también se considerará registrar un evento si registra al menos el 80% del mismo."
+
+msgid "If this is enabled, up on the MENU button in the multi-EPG will list of choices for AutoTimer."
+msgstr "Si esto está habilitado, al presionar el botón MENÚ en el EPG múltiple aparecerá una lista de opciones para el Temporizador automático."
+
+msgid "If this is enabled, up on the Menu button in the standard single-EPG will list of choices for AutoTimer."
+msgstr "Si esto está habilitado, hacia arriba en el botón Menú en el EPG único estándar aparecerá una lista de opciones para el Temporizador automático."
+
+msgid "If this is selected, the name of the respective AutoTimer will be added as a tag to timers created by this plugin."
+msgstr "Si se selecciona esto, el nombre del AutoTimer respectivo se agregará como una etiqueta a los temporizadores creados por este plugin."
+
+msgid "If this is selected, the tag \"AutoTimer\" will be given to timers created by this plugin."
+msgstr "Si se selecciona esta opción, la etiqueta \"Temporizador Automático\" se asignará a los temporizadores creados por este plugin."
+
+msgid "Import AutoTimer"
+msgstr "Importar Temporizador Automático"
+
+msgid "Import existing Timer"
+msgstr "Importar Temporizador Existente"
+
+msgid "Include"
+msgstr "Incluir"
+
+msgid "Include \"AutoTimer\" in tags"
+msgstr "Incluir 'Temporizador Automático' en las etiquetas"
+
+msgid "Include AutoTimer name in tags"
+msgstr "Incluir el nombre del Temporizador Automático en las etiquetas"
+
+msgid "Label Timers with season, episode and title, according to the SeriesPlugin settings."
+msgstr "Etiquete los temporizadores con la temporada, el episodio y el título, de acuerdo con la configuración de SeriesPlugin."
+
+msgid "Label series"
+msgstr "Serie de etiquetas"
+
+msgid "Last day to match events. Events have to begin before this date to be matched."
+msgstr "Último día para unir eventos. Los eventos deben comenzar antes de esta fecha para coincidir."
+
+msgid "Lower bound of timespan."
+msgstr "Límite inferior del período de tiempo."
+
+msgid "Lower bound of timespan. Nothing before this time will be matched. Offsets are not taken into account!"
+msgstr "Límite inferior del período de tiempo. Nada antes de este tiempo será igualado. ¡Las compensaciones no se tienen en cuenta!"
+
+#, python-format
+msgid "Match Timespan: %02d:%02d - %02d:%02d"
+msgstr "Coincidencia de tiempo: %02d:%02d - %02d:%02d"
+
+msgid "Match title"
+msgstr "Coincidencia de título"
+
+#, python-format
+msgid "Match title: %s"
+msgstr "Coincidencia Título: %s"
+
+msgid "Max. count for saved searchlog"
+msgstr "Contar Máximo para el registro de búsqueda guardado"
+
+msgid "Maximum duration (in m)"
+msgstr "Duración máxima (en minutos)"
+
+msgid "Maximum event duration to match. If an event is longer than this amount of time (without offset) it won't be matched."
+msgstr "Duración máxima del evento para que coincida. Si un evento es más largo que este período de tiempo (sin compensación), no se combinará."
+
+#, python-format
+msgid ""
+"Message\n"
+"Do you really want to delete %s?"
+msgstr ""
+"Mensaje\n"
+"¿De verdad quieres borrar %s?"
+
+msgid "Modify existing timers"
+msgstr "Modificar los temporizadores existentes"
+
+msgid "Monthly"
+msgstr "Mensual"
+
+msgid "No log file found"
+msgstr "No se encontró ningún archivo de registro"
+
+msgid ""
+"No searchLog found!\n"
+"\n"
+"So you have no new or modified timer at last autotimer-search."
+msgstr ""
+"No hay búsqueda de Log encontrado!\n"
+"\n"
+"Por lo tanto, no tiene temporizador nuevo o modificado en la última búsqueda del autotimer."
+
+msgid "Not after"
+msgstr "No después"
+
+msgid "Not before"
+msgstr "No antes"
+
+msgid "Not found xml config file!"
+msgstr "No se encontró el archivo de configuración xml!"
+
+msgid "Number of scheduled recordings left."
+msgstr "Cantidad de grabaciones programadas dejadas."
+
+msgid "Offset after recording (in m)"
+msgstr "Desplazamiento después de la grabación (en minutos)"
+
+msgid "Offset before recording (in m)"
+msgstr "Desplazamiento antes de grabar (en minutos)"
+
+msgid "On any service"
+msgstr "En cualquier canal"
+
+msgid "On same service"
+msgstr "En el mismo canal"
+
+msgid "Only AutoTimers created during this session"
+msgstr "Solo Temporizadores Automáticos creados durante esta sesión"
+
+msgid "Only add timer for next x days"
+msgstr "Solo agregue temporizador para los siguientes x días"
+
+msgid "Only match during timespan"
+msgstr "Solo coincide durante el intervalo de tiempo"
+
+#, python-format
+msgid "Only on Service: %s"
+msgstr "Solo en el canal: %s"
+
+#, python-format
+msgid "Only on Weekday: %s"
+msgstr "Solo en Día laborable: %s"
+
+msgid "Only poll while in standby"
+msgstr "Solo encuesta mientras está en modo de espera"
+
+msgid "Open Context Menu"
+msgstr "Abrir menú contextual"
+
+msgid "Open Timers list"
+msgstr "Abrir lista de Temporizadores"
+
+msgid "Open plugin"
+msgstr "Abrir plugin"
+
+msgid "Other filters (edit in filter menu)"
+msgstr "Otros filtros (editar en el menú de filtro)"
+
+msgid "Override found with alternative service"
+msgstr "Anular encontrado con canal alternativo"
+
+msgid "Path debug log"
+msgstr "Ruta de registro de depuración"
+
+msgid "Percentage ratio for duplicates matches"
+msgstr "Porcentaje de duplicados"
+
+msgid "Please provide a Text to match"
+msgstr "Proporcione un texto para que coincida"
+
+msgid "Poll Interval (in h)"
+msgstr "Intervalo de encuesta (in horas)"
+
+msgid "Poll automatically"
+msgstr "Encuesta automáticamente"
+
+msgid "Popup timeout in seconds"
+msgstr "Tiempo de espera emergente en segundos"
+
+msgid "Power state to change to after recordings. Select \"standard\" to not change the default behavior of enigma2 or values changed by yourself."
+msgstr "Estado de energía para cambiar a después de las grabaciones. Seleccione \"estándar\" para no cambiar el comportamiento predeterminado de enigma2 o valores modificados por usted mismo."
+
+msgid "Preview AutoTimer"
+msgstr "Vista previa Temporizador Automático"
+
+msgid "Preview for your AutoTimers"
+msgstr "Vista previa para sus Temporizadores Automáticos"
+
+msgid "Print shell log"
+msgstr "Imprimir registro de shell"
+
+msgid "Reading file...\n"
+msgstr "Leyendo archivo...\n"
+
+msgid "Record a maximum of x times"
+msgstr "Grabe un máximo de x veces"
+
+msgid "Record on"
+msgstr "Grabar en"
+
+msgid "Reload timers list after search events"
+msgstr "Volver a cargar lista de temporizadores después de eventos de búsqueda"
+
+#, python-format
+msgid ""
+"Reload timers list.\n"
+"%d autotimer(s) disabled because conflict.\n"
+"%d double autotimer(s) removed.\n"
+msgstr ""
+"Recargar la lista de temporizadores.\n"
+"%d Temporizador Automático(s) deshabilitado porque el conflicto.\n"
+"%d doble Temporizdor Automático(s) remoto.\n"
+
+msgid "Remove not existing events"
+msgstr "Eliminar eventos no existentes"
+
+msgid "Remove selected AutoTimer"
+msgstr "Eliminar el Temporizador Automático seleccionado"
+
+msgid "Require description to be unique"
+msgstr "Requiere descripción para ser único"
+
+msgid "Reset count"
+msgstr "Reiniciar conteo"
+
+msgid "Restrict \"after event\" to a certain timespan?"
+msgstr "¿Restringir \"después del evento\" a un cierto intervalo de tiempo?"
+
+msgid "Restrict to events on certain dates"
+msgstr "Restringir eventos en ciertas fechas"
+
+msgid "Restriction to certain bouquets (edit in services menu)"
+msgstr "Restricción a ciertos bouquets (editar en el menú de bouquets)"
+
+msgid "Restriction to certain days of week (edit in filter menu)"
+msgstr "Restricción a ciertos días de la semana (editar en el menú de filtro)"
+
+msgid "Restriction to certain services (edit in services menu)"
+msgstr "Restricción a ciertos canales (editar en el menú de canales)"
+
+msgid "Save and search now"
+msgstr "Guarde y busque ahora"
+
+msgid "Save the by SeriesPlugin generated timer-name in a filterlist to filter at later timer-searches (only with SeriesPlugin)"
+msgstr "Guarde el nombre del temporizador generado por SeriesPlugin en una lista de filtros para filtrar las búsquedas de temporizador posteriores (solo con SeriesPlugin)"
+
+msgid "Save/check labeled series in filterlist (SeriesPlugin)"
+msgstr "Guarde/marque series etiquetadas en lista de filtro (SeriesPlugin)"
+
+msgid "Search new events matching for your AutoTimers"
+msgstr "Buscar nuevos eventos que coincidan con sus Temporizadores Automáticos"
+
+msgid "Select \"exact match\" to enforce \"Match title\" to match exactly, \"partial match\" if you only want to search for a part of the event title or \"description match\" if you only want to search for a part of the event description"
+msgstr "Seleccione \"coincidencia exacta\" para imponer \"título de coincidencia\" para que coincida exactamente, \"coincidencia parcial\" si solo desea buscar una parte del título del evento o \"descripción de coincidencia\" si solo desea buscar una parte de la descripción del evento"
+
+msgid "Select a timer to import"
+msgstr "Seleccione un temporizador para importar"
+
+msgid "Select action for AutoTimer or input date/time:"
+msgstr "Seleccione acción para Temporizador automático o ingrese fecha/hora:"
+
+msgid "Select action for AutoTimer:"
+msgstr "Seleccionar acción para el Temporizador Automático:"
+
+msgid "Select bouquet to record on"
+msgstr "Seleccione el bouquet para grabar en"
+
+msgid "Select channel to record on"
+msgstr "Seleccione el canal para grabar en"
+
+msgid "Select the count of the last saved searchlogs (min=5 max=20)"
+msgstr "Seleccione el recuento de los últimos registros de búsqueda guardados (mínimo=5 máximo=20)"
+
+msgid "Select the location to save the recording to."
+msgstr "Seleccione la ubicación para guardar la grabación."
+
+msgid "Select the path for autotimer_search.log"
+msgstr "Seleccione la ruta de autotimer_search.log"
+
+msgid "Select the path where the autotimer_search.log should be saved"
+msgstr "Seleccione la ruta donde se guardará autotimer_search.log"
+
+msgid "Select type of Filter"
+msgstr "Seleccionar tipo de filtro"
+
+msgid "Set End Time"
+msgstr "Establecer hora de finalización"
+
+msgid "Set an end time for the timer. If you do, the timespan of the event might be blocked for recordings."
+msgstr "Establezca una hora de finalización para el temporizador. Si lo hace, el intervalo de tiempo del evento podría estar bloqueado para las grabaciones."
+
+msgid "Set maximum duration"
+msgstr "Establecer la duración máxima"
+
+msgid "Set this NO to disable this AutoTimer."
+msgstr "Establezca este NO para deshabilitar este Temporizador Automático."
+
+msgid "Set timer type: zap, simple record, zap+record (always zap to service before start record)."
+msgstr "Establezca el tipo de temporizador: zap, registro simple, zap + registro (siempre vuelva al servicio antes de comenzar el registro)"
+
+msgid "Set wakeup receiver type. This works only for zap timers."
+msgstr "Establecer el tipo de receptor de despertador. Esto funciona solo para temporizadores zap."
+
+msgid "Should this AutoTimer be restricted to a timespan?"
+msgstr "¿Debería este Temporizador Automático restringirse a un intervalo de tiempo?"
+
+msgid "Should this AutoTimer only match up to a certain event duration?"
+msgstr "¿Este Temporizador Automático solo debe coincidir con una determinada duración del evento?"
+
+msgid "Should timers created by this AutoTimer be recorded to a custom location?"
+msgstr "¿Deberían los temporizadores creados por este Temporizador Automático registrarse en una ubicación personalizada?"
+
+msgid "Show \"add to AutoTimer\" in channel selection menu"
+msgstr "Mostrar 'Agregar al Temporizador Automático' en Menú selección de canal"
+
+msgid "Show AutoTimer FilterTxt"
+msgstr "Mostrar Temporizador Automático FiltroTxt"
+
+msgid "Show Log file"
+msgstr "Mostrar archivo de registro"
+
+msgid "Show in event menu"
+msgstr "Mostrar en el menú del evento"
+
+msgid "Show in extension menu"
+msgstr "Mostrar en el menú de extensión"
+
+msgid "Show last SearchLog"
+msgstr "Mostrar la última búsqueda"
+
+msgid "Show notification on added timers"
+msgstr "Mostrar notificación sobre los temporizadores adicionales"
+
+msgid "Show notification on conflicts"
+msgstr "Mostrar notificación sobre conflictos"
+
+msgid "Show notification on similars"
+msgstr "Mostrar notificación sobre similares"
+
+msgid "Skip poll during epg refresh"
+msgstr "Omitir encuesta durante la actualización de EPG"
+
+msgid "Skip poll during records"
+msgstr "Omitir encuesta durante los registros"
+
+msgid "Sort AutoTimer"
+msgstr "Ordenar Temporizador Automático"
+
+msgid "Sort Time"
+msgstr "Tiempo de ordenación"
+
+msgid "Specify the name and location for the log."
+msgstr "Especifique el nombre y la ubicación del registro."
+
+msgid "Standard input date/time"
+msgstr "Fecha/hora de entrada estándar"
+
+msgid "Startup delay (in min)"
+msgstr "Demora de inicio (en minutos)"
+
+msgid "Style auto timers list"
+msgstr "Lista de temporizadores automáticos de estilo"
+
+msgid "Support \"Fast Scan\"?"
+msgstr "Soporte 'Escaneo rápido'?"
+
+msgid "Tags the Timer/Recording will have."
+msgstr "Etiquetas que tendrá el temporizador/grabación."
+
+msgid "The autotimer file (/etc/enigma2/autotimer.xml) is corrupt and could not be loaded."
+msgstr "El archivo del Temporizador Automático (/etc/enigma2/autotimer.xml) está corrupto y no se pudo cargar."
+
+msgid "The counter can automatically be reset to the limit at certain intervals."
+msgstr "El contador puede restablecerse automáticamente al límite en ciertos intervalos."
+
+msgid "The editor to be used for new AutoTimers. This can either be the Wizard or the classic editor."
+msgstr "El editor que se utilizará para los nuevos Temporizador Automático. Este puede ser el asistente o el editor clásico."
+
+#, python-format
+msgid ""
+"The filterEntry '%s' already exist!\n"
+"The change was canceled."
+msgstr ""
+"El filtro de Entrada '%s' ya existe!\n"
+"El cambio fue cancelado."
+
+msgid "The match attribute is mandatory."
+msgstr "El atributo de coincidencia es obligatorio."
+
+msgid "The title attribute is mandatory."
+msgstr "El atributo de título es obligatorio."
+
+msgid "This is a name you can give the AutoTimer. It will be shown in the Overview and the Preview."
+msgstr "Este es un nombre que puede darle al Temporizador Automático. Se mostrará en la Descripción y la Vista previa."
+
+msgid "This is the delay in hours that the AutoTimer will wait after a search to search the EPG again."
+msgstr "Esta es la demora en horas que el temporizador Automático esperará después de una búsqueda para buscar nuevamente la EPG."
+
+msgid "This is the delay in minutes that the AutoTimer will wait on initial launch to not delay enigma2 startup time."
+msgstr "Esta es la demora en minutos que el Temporizador Automático esperará en el inicio inicial para no retrasar el tiempo de inicio de enigma2."
+
+msgid "This is the delay in seconds that the AutoTimer will wait after editing the AutoTimers."
+msgstr "Esta es la demora en segundos que esperará el Temporizador Automático después de editar los Temporizadores Automáticos."
+
+msgid "This is the duration in minutes that the AutoTimer is allowed to run."
+msgstr "Esta es la duración en minutos que se permite ejecutar el Temporizador Automático."
+
+msgid "This is what will be looked for in event titles. Note that looking for e.g. german umlauts can be tricky as you have to know the encoding the channel uses."
+msgstr "Esto es lo que se buscará en los títulos de los eventos. Tenga en cuenta que, por ejemplo, las diéresis alemanas pueden ser complicadas ya que debes conocer la codificación que usa el canal."
+
+msgid "This option allows you to turn off the timer confict detection. This option is for advanced users."
+msgstr "Esta opción le permite desactivar la detección de confictos del temporizador. Esta opción es para usuarios avanzados."
+
+msgid "This setting controls the behavior when a timer matches a found event."
+msgstr "Esta configuración controla el comportamiento cuando un temporizador coincide con un evento encontrado."
+
+msgid "This toggles the behavior on timer conflicts. If an AutoTimer matches an event that conflicts with an existing timer it will not ignore this event but add it disabled."
+msgstr "Esto alterna el comportamiento en conflictos de temporizador. Si un AutoTimer coincide con un evento que entra en conflicto con un temporizador existente, no ignorará este evento sino que lo agregará deshabilitado."
+
+msgid "Thur"
+msgstr "Jueves"
+
+msgid "Time in minutes to append to recording."
+msgstr "Tiempo en minutos para agregar a la grabación."
+
+msgid "Time in minutes to prepend to recording."
+msgstr "Tiempo en minutos para anteponer a la grabación."
+
+msgid "Timeout (in min)"
+msgstr "Tiempo de espera (en minutos)"
+
+msgid "Timer from:\n"
+msgstr "Temporizador de:\n"
+
+msgid "Title and Short description"
+msgstr "Título y breve descripción"
+
+msgid "Title and all descriptions"
+msgstr "Título y todas las descripciones"
+
+msgid "To cater for spelling mistakes and small deviations in the EPG information, you can make the matching algorithm fuzzy by setting the percentage both programmes must be equal for. Use 100% if you only want a match when both are completely identical. Recommended default ratio 80%."
+msgstr "Para atender errores ortográficos y pequeñas desviaciones en la información EPG, puede difuminar el algoritmo de coincidencia estableciendo el porcentaje para el que ambos programas deben ser iguales. Use 100% si solo quiere una coincidencia cuando ambos son completamente idénticos. Relación predeterminada recomendada 80%."
+
+msgid "Unless this is enabled AutoTimer will NOT automatically look for events matching your AutoTimers but only when you leave the GUI with the green button."
+msgstr "A menos que esto esté habilitado, el Temporizador Automático NO buscará automáticamente eventos que coincidan con sus Temporizadores Automáticos, sino solo cuando salga de la GUI con el botón verde."
+
+msgid "Upper bound of timespan."
+msgstr "Límite superior del período de tiempo."
+
+msgid "Upper bound of timespan. Nothing after this time will be matched. Offsets are not taken into account!"
+msgstr "Límite superior del período de tiempo. Nada después de este tiempo será igualado. ¡Las compensaciones no se tienen en cuenta!"
+
+msgid "Use a custom location"
+msgstr "Usa una ubicación personalizada"
+
+msgid "Use blue key to edit bouquets or services."
+msgstr "Use la tecla azul para editar bouquets o canales."
+
+msgid "Use yellow key to edit filters."
+msgstr "Use la tecla amarilla para editar los filtros."
+
+msgid "Weekend"
+msgstr "Fin de semana"
+
+msgid "Weekly (Monday)"
+msgstr "Semanalmente (lunes)"
+
+msgid "Weekly (Sunday)"
+msgstr "Semanalmente (domingo)"
+
+msgid "When supporting \"Fast Scan\" the service type is ignored. You don't need to enable this unless your Image supports \"Fast Scan\" and you are using it."
+msgstr "Al admitir \"Exploración rápida\", se ignora el tipo de servicio. No necesita habilitar esto a menos que su Imagen sea compatible con \"Exploración rápida\" y lo esté usando."
+
+msgid "When this is enabled AutoTimer will ONLY check for new events whilst in stanadby."
+msgstr "Cuando esto está habilitado, el Temporizador Automático SOLAMENTE verificará si hay nuevos eventos mientras está en modo reposo."
+
+msgid "When this option enabled and short description and extended description match is empty and timer title exist in match title, match is not a duplicate. Attention, this may result in double timers."
+msgstr "Cuando esta opción está habilitada y la descripción breve y la coincidencia de la descripción extendida están vacías y el título del temporizador existe en el título del partido, la coincidencia no es un duplicado. Atención, esto puede dar como resultado tiempos dobles."
+
+msgid "When this option enabled, short description to equal extended description if short description is empty."
+msgstr "Cuando esta opción está habilitada, la descripción breve equivale a la descripción extendida si la breve descripción está vacía."
+
+msgid "When this option is enabled the AutoTimer won't match events where another timer with the same description already exists in the timer list."
+msgstr "Cuando esta opción está activada, el AutoTimer no coincidirá con los eventos en los que ya existe otro temporizador con la misma descripción en la lista de temporizadores."
+
+msgid "With this option enabled the channel to record on can be changed to a alternative service it is restricted to."
+msgstr "Con esta opción habilitada, el canal para grabar puede cambiarse a un servicio alternativo al que está restringido."
+
+msgid "With this option you can restrict the AutoTimer to a certain amount of scheduled recordings. Set this to 0 to disable this functionality."
+msgstr "Con esta opción, puede restringir el AutoTimer a una cierta cantidad de grabaciones programadas. Establezca esto en 0 para deshabilitar esta funcionalidad."
+
+msgid "Wizard"
+msgstr "Asistente"
+
+msgid "Write the config file after every change which the user quits by saving."
+msgstr "Escriba el archivo de configuración después de cada cambio que el usuario cierra guardando."
+
+msgid "Yes and show notify"
+msgstr "Sí y mostrar notificación"
+
+msgid "Yes, and delete all timers generated by this autotimer"
+msgstr "Sí, y eliminar todos los temporizadores generados por este Temporizador Automático"
+
+msgid "Yes, but keep timers generated by this autotimer"
+msgstr "Sí, pero mantenga los temporizadores generados por este Temporizador Automático"
+
+msgid "You can control for how many days in the future timers are added. Set this to 0 to disable this feature."
+msgstr "Puede controlar cuántos días en el futuro se agregarán temporizadores. Establezca esto en 0 para deshabilitar esta característica."
+
+#, python-format
+msgid ""
+"You entered \"%s\" as Text to match.\n"
+"Do you want to remove trailing whitespaces?"
+msgstr ""
+"Ingresó \"% s\" como Texto para hacer coincidir.\n"
+"¿Quieres eliminar espacios en blanco al final?"
+
+#, python-format
+msgid ""
+"Your config file is not well-formed:\n"
+"%s"
+msgstr ""
+"Tu archivo de configuración no está bien formado:\n"
+"%s"
+
+msgid "add AutoTimer"
+msgstr "agregar Temporizador Automático"
+
+msgid "add AutoTimer..."
+msgstr "agregar Temporizador Automático..."
+
+msgid "add filters"
+msgstr "agregar Filtros"
+
+msgid "add to AutoTimer filterList"
+msgstr "agregar lista de filtros al temporizador automático"
+
+msgid "autotimers need a match attribute"
+msgstr "los Temporizadores Automáticos necesitan un atributo de coincidencia"
+
+msgid "begin searchLog from"
+msgstr "comenzar búsqueda Log desde"
+
+msgid "config changed."
+msgstr "configuración modificada."
+
+msgid "create AutoTimer for current event"
+msgstr "crear Temporizador Automático para el evento actual"
+
+msgid "description match"
+msgstr "descripción del evento"
+
+msgid "edit filters"
+msgstr "editar filtros"
+
+msgid "favorites description match"
+msgstr "coincidencia de descripción de favoritos"
+
+msgid "in Description"
+msgstr "en descripción"
+
+msgid "in Shortdescription"
+msgstr "en breve descripción"
+
+msgid "in Title"
+msgstr "en Título"
+
+msgid "like autotimer.log"
+msgstr "como autotimer.log"
+
+msgid "missing parameter \"id\""
+msgstr "parámetro faltante \"id\""
+
+msgid "missing parameter \"xml\""
+msgstr "parámetro faltante \"xml\""
+
+msgid "on Weekday"
+msgstr "en un día de semana"
+
+msgid "scan for new Events"
+msgstr "buscar nuevos eventos"
+
+msgid "searchLog"
+msgstr "buscarLog"
+
+msgid "title ends with"
+msgstr "el título termina con"
+
+#, python-format
+msgid "unable to find timer with id %i"
+msgstr "no se puede encontrar el temporizador con id %i"
+
+msgid "Abort this Wizard."
+msgstr "Abortar este asistente."
+
+msgid "Create a new AutoTimer."
+msgstr "Crea un nuevo Temporizador Automático."
+
+msgid ""
+"Filters are another powerful tool when matching events. An AutoTimer can be restricted to certain Weekdays or only match an event with a text inside eg it's Description.\n"
+"Press BLUE to add a new restriction and YELLOW to remove the selected one."
+msgstr ""
+"Los filtros son otra herramienta poderosa cuando se combinan eventos. Un Temporizador Automático puede restringirse a ciertos días de la semana o solo coincidir con un evento con un texto dentro, por ejemplo, es Descripción.\n"
+"Press BLUE to add a new restriction and YELLOW to remove the selected one."
+
+msgid ""
+"It's possible to restrict an AutoTimer to certain Services or Bouquets or to deny specific ones.\n"
+"An Event will only match this AutoTimer if it's on a specific and not denied Service (inside a Bouquet).\n"
+"Press BLUE to add a new restriction and YELLOW to remove the selected one."
+msgstr ""
+"Es posible restringir un AutoTimer a ciertos Servicios o Ramos o denegar algunos específicos.\n"
+"Un Evento solo coincidirá con este Temporizador Automático si se trata de un canal específico y no denegado (dentro de un Bouquet).\n"
+"Presione AZUL para agregar una nueva restricción y AMARILLO para eliminar la seleccionada."
+
+msgid "No, remove them."
+msgstr "No, eliminarlos."
+
+msgid ""
+"Thank you for using the wizard. Your new AutoTimer has been added to the List.\n"
+"Please press OK to continue."
+msgstr ""
+"Gracias por usar el asistente. Su nuevo AutoTimer ha sido agregado a la lista.\n"
+"Por favor, presione OK para continuar."
+
+msgid ""
+"The Timer will not be added to the List.\n"
+"Please press OK to close this Wizard."
+msgstr ""
+"El temporizador no se agregará a la lista.\n"
+"Presione OK para cerrar este asistente."
+
+msgid "The Timespan of an AutoTimer is the first 'advanced' attribute. If a timespan is specified an event will only match this AutoTimer if it lies inside of this timespan."
+msgstr "El intervalo de tiempo de un Temporizador Automático es el primer atributo 'avanzado'. Si se especifica un intervalo de tiempo, un evento solo coincidirá con este Temporizador Automático si se encuentra dentro de este intervalo de tiempo."
+
+msgid ""
+"Welcome.\n"
+"\n"
+"This Wizard will help you to create a new AutoTimer by providing descriptions for common settings."
+msgstr ""
+"Bienvenido.\n"
+"\n"
+"Este asistente le ayudará a crear un nuevo temporizador automático al proporcionar descripciones para la configuración común."
+
+msgid "Yes, keep them."
+msgstr "Si, guárdalos."
+
+msgid ""
+"You can set the basic properties of an AutoTimer here.\n"
+"While 'Name' is just a human-readable name displayed in the Overview, 'Match in title' is what is looked for in the EPG."
+msgstr ""
+"Puede establecer las propiedades básicas de un temporizador automático aquí.\n"
+"Mientras que 'Nombre' es solo un nombre legible por humanos que se muestra en la Descripción general, 'Coincidencia en título' es lo que se busca en la EPG."
+
+msgid ""
+"You did not provide a valid 'Match in title' Attribute for your new AutoTimer.\n"
+"As this is a mandatory Attribute you cannot continue without doing so."
+msgstr ""
+"No proporcionó un atributo válido de \"Coincidir en el título\" para su nuevo Temporizador Automático.\n"
+"Como este es un Atributo obligatorio, no puede continuar sin hacerlo."
+
+msgid ""
+"You successfully configured a new AutoTimer. Do you want to add it to the list?\n"
+"\n"
+"You can go back a step by pressing EXIT on your remote."
+msgstr ""
+"Usted configuró exitosamente un nuevo Temporizador Automático. ¿Quieres agregarlo a la lista??\n"
+"\n"
+"Puede retroceder un paso presionando EXIT en su mando a distancia."
+
+msgid ""
+"Your 'Match in title' Attribute ends with a Whitespace.\n"
+"Please confirm if this was intentional, if not they will be removed."
+msgstr ""
+"Su atributo 'Coincidir en el título' termina con un espacio en blanco.\n"
+"Por favor, confirme si esto fue intencional, de lo contrario serán eliminados."
+
+msgid "AutoTimer FAQ"
+msgstr "Preguntas frecuentes sobre Temporizador Automático"
+
+msgid "FAQ"
+msgstr "Preguntas más frecuentes"
+
+msgid "Frequently asked questions about the AutoTimer"
+msgstr "Preguntas frecuentes sobre el Temporizador Automático"
+
+msgid ""
+"Question: I found a problem with the AutoTimer, can you fix it? \n"
+"Answer: First try the AutoTimer version in a recent (experimental) Image to see if the problem was fixed. Then read the Help again and the upcoming FAQs to make sure that this is actually a problem and not expected behavior. \n"
+"If you still think there is something wrong with the AutoTimer, please visit http://www.dream-multimedia-tv.de/board and post your problem there. \n"
+"\n"
+"Q: The plugin only adds timers when leaving the configuration, not automatically. What can I do? \n"
+"A: From the Overview press MENU and enter the \"Setup\". In this screen enable \"Poll automatically\" and you should be good to go."
+msgstr ""
+"Pregunta: Encontré un problema con el Temporizador Automático, ¿puedes arreglarlo?\n"
+"Respuesta: Primero pruebe la versión del Temporizador Automático en una imagen reciente (experimental) para ver si el problema fue resuelto. Luego lea de nuevo la Ayuda y las próximas preguntas frecuentes para asegurarse de que esto sea realmente un problema y no un comportamiento esperado.\n"
+"Si todavía crees que hay algún problema con el Temporizador Automático, visita http://www.dream-multimedia-tv.de/board y publica tu problema allí.\n"
+"\n"
+"El plugin solo agrega temporizadores al salir de la configuración, no automáticamente. ¿Que puedo hacer?\n"
+"Desde la Vista general, presione MENÚ e ingrese la \"Configuración\". En esta pantalla, habilite \"Encuesta automáticamente\" y debería estar listo para continuar."
