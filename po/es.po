@@ -13396,3 +13396,4 @@ msgid "Use new design"
 msgstr "Usa nuevo diseño"
 
 msgid "Allow IPK Upload"
+msgstr "Permitir subir IPK"
