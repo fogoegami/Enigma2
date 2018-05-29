@@ -73,7 +73,7 @@ self.session.openWithCallback(msgClosed, FactoryReset)
             <item weight="1" level="0" text="Permisos Acceso Niveles" entryID="usage_setup"><setup id="accesslevel"/></item>		
             <item weight="2" level="0" text="Configuracion Usuario" entryID="usage_setup"><setup id="usage"/></item>
 			
-<item level="0" text="Timer" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
+            <item level="0" text="Timer" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
         </menu>
 		<menu level="0" text="Information" entryID="info_screen">
 			<id val="information"/>
@@ -81,17 +81,15 @@ self.session.openWithCallback(msgClosed, FactoryReset)
 			<item level="0" text="About" entryID="about_screen"><screen module="About"/></item>
 			<item level="2" text="Streaming clients info" entryID="streaming_clients_info_screen"><screen module="StreamingClientsInfo"/></item>
 		</menu>
-<menu weight="5" level="0" text="Utilidades del Sistema" entryID="system_selection">
-				<id val="system"/>
- <item level="2" text="Liberar Memoria" entryID="liberar_memoria"><screen module="liberarmemoria" screen="liberarmemoria"/></item>
- <item level="2" text="DNS dinamico" entryID="dns_dinamico"><screen module="dns" screen="ddnsmenu"/></item>
-<item weight="15" level="0" text="Flash image" entryID="flash_image" requires="canFlashWithOfgwrite" ><screen module="FlashImage" screen="SelectImage"/></item>
+        <menu weight="5" level="0" text="Utilidades del Sistema" entryID="system_selection">
+			<id val="system"/>
+            <item weight="15" level="0" text="Flash image" entryID="flash_image" requires="canFlashWithOfgwrite" ><screen module="FlashImage" screen="SelectImage"/></item>
 			<item weight="15" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin"/></item>
-<item weight="1" level="2" text="Softcam Setup" entryID="softcam_setup"><screen module="SoftcamSetup" screen="SoftcamSetup"/></item>
+            <item weight="1" level="2" text="Softcam Setup" entryID="softcam_setup"><screen module="SoftcamSetup" screen="SoftcamSetup"/></item>
 		<menu weight="2" level="0" text="Ajustes EPG" entryID="epg_screen">
 			<id val="configuracion_epg"/>
 			<item level="0" text="Descarga EPG" entryID="descarga_epg">
-				<code>
+		     <code>
 from Plugins.Extensions.EPGImport.plugin import EPGImportConfig
 self.session.open(EPGImportConfig)
 </code>
@@ -105,14 +103,13 @@ self.session.open(EPGRefreshConfiguration)
 			<item level="2" entryID="epg_settings"><setup id="epgsettings"/></item>
 		</menu>
         </menu>
-<menu weight="3" level="0" text="Memorizacion de Canales" entryID="service_searching_selection">
-				<id val="scan"/>
-				<item text="Tuner configuration" entryID="tuner_setup"><screen module="Satconfig" screen="NimSelection"/></item>
-				<item text="Automatic scan" entryID="auto_scan"><screen module="ScanSetup" screen="ScanSimple"/></item>
-				<item text="Manual scan" entryID="manual_scan"><screen module="ScanSetup"/></item>
-                <item text="Fallback remote receiver setup" entryID="fallbacktuner_settings"><screen module="SetupFallbacktuner"/></item>
-                <item level="2" text="Tuner Server" entryID="Tuner Server"><screen module="obtunerserver" screen="TunerServer"/></item>
-			</menu>
+        <menu weight="3" level="0" text="Memorizacion de Canales" entryID="service_searching_selection">
+			<id val="scan"/>
+			<item text="Tuner configuration" entryID="tuner_setup"><screen module="Satconfig" screen="NimSelection"/></item>
+			<item text="Automatic scan" entryID="auto_scan"><screen module="ScanSetup" screen="ScanSimple"/></item>
+			<item text="Manual scan" entryID="manual_scan"><screen module="ScanSetup"/></item>
+            <item text="Fallback remote receiver setup" entryID="fallbacktuner_settings"><screen module="SetupFallbacktuner"/></item>
+		</menu>
 		<item level="0" text="Plugins" entryID="plugin_selection"><screen module="PluginBrowser" screen="PluginBrowser"/></item>
         <item weight="2" level="0" text="Bloqueo y de Codigo Seguridad" entryID="parental_setup"><screen module="ParentalControlSetup" screen="ParentalControlSetup"/></item>
 		<item level="0" weight="4" text="Parametros de Red" entryID="network_setup"><screen module="NetworkSetup" screen="NetworkAdapterSelection"/></item>
