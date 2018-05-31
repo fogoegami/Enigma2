@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-05-31 19:22+0200\n"
+"PO-Revision-Date: 2018-05-31 23:22+0200\n"
 "Language-Team: OpenBox <kuatto@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5922,7 +5922,7 @@ msgid "Select the manufacturer of your Unicable device. If the manufacturer is n
 msgstr "Seleccione el fabricante de su dispositivo Unicable. Si el fabricante no figura en la lista, configure ‘SCR’ como ‘definido por el usuario’ e ingrese los parámetros del dispositivo manualmente de acuerdo con su hoja de especificaciones."
 
 msgid "Select the model number of your Unicable device. If the model number is not listed, set 'SCR' to 'user defined' and enter the device parameters manually according to its spec sheet."
-msgstr "\\Seleccione el número de modelo de su dispositivo Unicable. Si el número de modelo no figura en la lista, configure ‘SCR’ como ‘definido por el usuario’ e ingrese los parámetros del dispositivo manualmente de acuerdo con su hoja de especificaciones."
+msgstr "Seleccione el número de modelo de su dispositivo Unicable. Si el número de modelo no figura en la lista, configure ‘SCR’ como ‘definido por el usuario’ e ingrese los parámetros del dispositivo manualmente de acuerdo con su hoja de especificaciones."
 
 msgid "Select the movie path"
 msgstr "Seleccione la ruta de las películas"
