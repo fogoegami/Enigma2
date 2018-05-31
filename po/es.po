@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-05-31 02:02+0200\n"
+"PO-Revision-Date: 2018-05-31 19:22+0200\n"
 "Language-Team: OpenBox <kuatto@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13406,3 +13406,51 @@ msgstr "Manejar Montaje"
 
 msgid "Rescan"
 msgstr "Reescanear"
+
+msgid "MountManager"
+msgstr "Administrar Montajes"
+
+msgid "Mount again"
+msgstr "Montar de nuevo"
+
+msgid "NetworkBrowser"
+msgstr "Navegador de red"
+
+msgid "Attempt to recover lost mounts (in background)"
+msgstr "Intentar recuperar montajes perdidos (en segundo plano)"
+
+msgid "Manage your network shares..."
+msgstr "Administre sus recursos compartidos de red..."
+
+msgid "Press OK to select."
+msgstr "Presione OK para seleccionar."
+
+msgid "Add a new NFS or CIFS mount point to your Receiver."
+msgstr "Agregue un nuevo punto de montaje NFS o CIFS a su receptor."
+
+msgid "Mountpoints management"
+msgstr "Gestión de puntos de montaje"
+
+msgid "View, edit or delete mountpoints on your Receiver."
+msgstr "Vea, edite o elimine puntos de montaje en su receptor."
+
+msgid "Change hostname"
+msgstr "Cambiar hostname"
+
+msgid "Change the hostname of your Receiver."
+msgstr "Cambie el hostname de su Receptor."
+
+msgid "Enter new hostname for your Receiver"
+msgstr "Ingrese un nuevo nombre de host para su receptor"
+
+msgid "Add new network mount point"
+msgstr "Agregar nuevo punto de montaje de red"
+
+msgid "Press OK to expand this host"
+msgstr "Presione OK para expandir este huésped"
+
+msgid "Press OK to collapse this host"
+msgstr "Presione OK para contraer este huésped"
+
+msgid "Search for network shares..."
+msgstr "Buscar recursos compartidos de red ..."
