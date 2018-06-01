@@ -47,27 +47,19 @@ self.session.openWithCallback(msgClosed, FactoryReset)
 				<id val="expert"/>
 				<item level="0" entryID="recording_setup"><setup id="recording"/></item>
 
-
-					<menu level="0" text="Harddisk" entryID="hardisk_selection" requires="Harddisk">
+				<menu level="0" text="Harddisk" entryID="hardisk_selection" requires="Harddisk">
 					<id val="harddisk"/>
 					<item level="0" entryID="harddisk_setup"><setup id="harddisk"/></item>
 					<item level="0" text="Initialization" entryID="harddisk_init"><screen module="HarddiskSetup" screen="HarddiskSelection"/></item>
 					<item level="0" text="Filesystem check" entryID="harddisk_check"><screen module="HarddiskSetup" screen="HarddiskFsckSelection"/></item>
-					<item level="1" text="Convert ext3 filesystem to ext4" entryID="harddisk_convert" requires="ext4"><screen module="HarddiskSetup" screen="HarddiskConvertExt4Selection"/></item>
-					</menu>
+                </menu>
 				<item level="1" text="Input devices" entryID="input_device_setup"><screen module="InputDeviceSetup" screen="InputDeviceSelection"/></item>
 				<item entryID="lcd_setup" requires="Display"><setup level="1" id="lcd"/></item>
 				<item entryID="keyboard_setup" text="Keyboard"><setup id="keyboard"/></item>
 				<item level="2" text="Recording paths" entryID="RecordPaths"><screen module="RecordPaths" screen="RecordPathsSettings"/></item>
 				<item level="0" entryID="timezone_setup"><setup id="timezone"/></item>
 				<item level="1" text="Hotkey" entryID="hotkey_setup"><screen module="Hotkey" screen="HotkeySetup"/></item>
-				</menu>
-	
-
-			
-			<item weight="10" level="0" text="Common Interface" entryID="ci_setup" requires="CommonInterface"><screen module="Ci" screen="CiSelection"/></item>
-			
-			
+				</menu>			
 			
 		</menu>
             <item weight="1" level="0" text="Permisos Acceso Niveles" entryID="usage_setup"><setup id="accesslevel"/></item>		
@@ -84,8 +76,7 @@ self.session.openWithCallback(msgClosed, FactoryReset)
         <menu weight="5" level="0" text="Utilidades del Sistema" entryID="system_selection">
 			<id val="system"/>
             <item weight="15" level="0" text="Flash image" entryID="flash_image" requires="canFlashWithOfgwrite" ><screen module="FlashImage" screen="SelectImage"/></item>
-			<item weight="15" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin"/></item>
-            <item weight="1" level="2" text="Softcam Setup" entryID="softcam_setup"><screen module="SoftcamSetup" screen="SoftcamSetup"/></item>
+			<item weight="15" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin"/></item>		
 		<menu weight="2" level="0" text="Ajustes EPG" entryID="epg_screen">
 			<id val="configuracion_epg"/>
 			<item level="0" text="Descarga EPG" entryID="descarga_epg">
@@ -123,4 +114,9 @@ self.session.open(EPGRefreshConfiguration)
 			<item text="Deep standby" requires="DeepstandbySupport" entryID="deep_standby"><screen module="Standby" screen="TryQuitMainloop">1</screen></item>
 			<item text="Shutdown" requires="!DeepstandbySupport" entryID="deep_standby"><screen module="Standby" screen="TryQuitMainloop">1</screen></item>
 		</menu>
+		<menu weight="10" text="SoftCam / CI" entryID="cam_setup">
+				<id val="cam"/>
+				<item weight="10" level="0" text="Softcam Setup" entryID="softcam_setup"><screen module="SoftcamSetup" screen="SoftcamSetup"/></item>
+				<item weight="10" level="0" text="Common Interface" entryID="ci_setup" requires="CommonInterface"><screen module="Ci" screen="CiSelection"/></item>
+        </menu>		
 </menu>
