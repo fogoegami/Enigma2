@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-06-02 00:33+0200\n"
+"PO-Revision-Date: 2018-06-02 18:16+0200\n"
 "Language-Team: OpenBox <kuatto@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -5564,7 +5564,7 @@ msgid "Sao Tome and Principe"
 msgstr "Santo Tomé y Príncipe"
 
 msgid "Sat"
-msgstr "Sat"
+msgstr "Sáb"
 
 msgid "Satellite"
 msgstr "Satélite"
@@ -7298,13 +7298,13 @@ msgid "Threshold"
 msgstr "Límite"
 
 msgid "Thu"
-msgstr "Mie"
+msgstr "Juev"
 
 msgid "Thumbnails"
 msgstr "Miniaturas"
 
 msgid "Thursday"
-msgstr "Miércoles"
+msgstr "Jueves"
 
 msgid "Time"
 msgstr "Tiempo"
@@ -7978,10 +7978,10 @@ msgid "Watch recordings..."
 msgstr "Ver grabaciones…"
 
 msgid "Wed"
-msgstr "Jue"
+msgstr "Mié"
 
 msgid "Wednesday"
-msgstr "Jueves"
+msgstr "Miércoles"
 
 msgid "Weekday"
 msgstr "Día laborable"
@@ -12899,7 +12899,7 @@ msgid "Weekend"
 msgstr "Fin de semana"
 
 msgid "Weekly (Monday)"
-msgstr "Semanalmente (lunes)"
+msgstr "Semanalmente (Lunes)"
 
 msgid "Weekly (Sunday)"
 msgstr "Semanalmente (domingo)"
