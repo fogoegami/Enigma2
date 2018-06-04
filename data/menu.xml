@@ -13,8 +13,6 @@
 	<code> .. code .. </code>
 		"exec"s code
 -->
-		
-		<item level="1" text="VCR scart" entryID="scart_switch" configcondition="config.usage.show_vcr_scart" requires="ScartSwitch"><code>self.session.scart.VCRSbChanged(3)</code></item>
         <menu level="0" weight="1" text="Ajuste del Terminal" entryID="usuario_screen">
 			<id val="menu_usuario"/>
         <item level="0" weight="2" entryID="user_interface"><setup id="userinterface"/></item>
