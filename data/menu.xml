@@ -13,6 +13,8 @@
 	<code> .. code .. </code>
 		"exec"s code
 -->
+		<item level="0" text="Timer" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
+		<item level="1" text="VCR scart" entryID="scart_switch" conditional="config.usage.show_vcr_scart.value" requires="ScartSwitch"><code>self.session.scart.VCRSbChanged(3)</code></item>
         <menu level="0" weight="1" text="Ajuste del Terminal" entryID="usuario_screen">
 			<id val="menu_usuario"/>
         <item level="0" weight="2" entryID="user_interface"><setup id="userinterface"/></item>
@@ -63,7 +65,6 @@ self.session.openWithCallback(msgClosed, FactoryReset)
             <item weight="1" level="0" text="Permisos Acceso Niveles" entryID="usage_setup"><setup id="accesslevel"/></item>		
             <item weight="2" level="0" text="Configuracion Usuario" entryID="usage_setup"><setup id="usage"/></item>
 			
-            <item level="0" text="Timer" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
         </menu>
 		<menu level="0" text="Information" entryID="info_screen">
 			<id val="information"/>
