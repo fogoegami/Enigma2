@@ -10,4 +10,4 @@ install_PYTHON = \
 	Combine.py SensorToText.py ValueToPixmap.py PliExtraInfo.py genre.py TransponderInfo.py \
 	RotorPosition.py VfdDisplay.py CpuUsage.py ExtendedServiceInfo.py \
 	ServiceName2.py ServiceName2.ref VMovieInfo.py iplusRefString.py openplusHDChannelCryptoInfo.py \
-    barraprogreso.py obrating.py
+	barraprogreso.py obrating.py AnalogClock.py

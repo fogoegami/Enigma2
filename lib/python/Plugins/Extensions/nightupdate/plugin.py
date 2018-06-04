@@ -25,7 +25,7 @@ config.pud.satname = ConfigText(visible_width = 200, default='Enigma2 D 19E FTA'
 config.pud.update_question = ConfigYesNo(default=False)
 config.pud.just_update = ConfigYesNo(default=False)
 
-URL = 'http://linuxzonewiki.es/lista_canales_nightupdate/descarga.php'
+URL = 'http://openbox.boxtvmania.com/nightupdate/descarga.php'
 Version = '1.2'
 
 class MenuListSetting(MenuList):
