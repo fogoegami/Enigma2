@@ -563,13 +563,13 @@ msgid ": 0000 - default (disabled)"
 msgstr ": 0000 - por defecto (desactivado)"
 
 msgid "<Current movielist location>"
-msgstr "<ubicacion lista peliculas>"
+msgstr "<ubicación lista peliculas>"
 
 msgid "<Default movie location>"
-msgstr "<ubicacion peliculas>"
+msgstr "<ubicación peliculas>"
 
 msgid "<Last timer location>"
-msgstr "<ubicacion ultimo temporizador>"
+msgstr "<ubicación ultimo temporizador>"
 
 msgid "<unknown>"
 msgstr "<desconocido>"
@@ -6838,7 +6838,7 @@ msgid "Switch to next channel"
 msgstr "Cambiar al próximo canal"
 
 msgid "Switch to next channel in history"
-msgstr "Cambiar al próximo canal en historial"
+msgstr "Cambiar al próximo canal del historial"
 
 msgid "Switch to next sub service"
 msgstr "Cambiar al próximo subservicio"
@@ -13447,7 +13447,7 @@ msgid "Press OK to expand this host"
 msgstr "Presione OK para expandir este host"
 
 msgid "Press OK to collapse this host"
-msgstr "Presione OK para contraer este huésped"
+msgstr "Presione OK para contraer este host"
 
 msgid "Search for network shares..."
 msgstr "Buscar recursos compartidos de red ..."
@@ -13459,7 +13459,7 @@ msgid "Convert ext3 filesystem to ext4"
 msgstr "Convertir sistema de archivos ext3 a ext4"
 
 msgid "CHOOSE AN OPTION AND PRESS OK BUTTON TO ACCESS"
-msgstr "PULSA OK PARA ACCEDER A LA OPCION DEL MENU PREFERIDA"
+msgstr "PULSA OK PARA ACCEDER A LA OPCIÓN DEL MENÚ PREFERIDA"
 
 msgid "PROGRAM"
 msgstr "PROGRAMA"
@@ -13483,16 +13483,16 @@ msgid "MEMORY"
 msgstr "MEMORIA"
 
 msgid "RESS EXIT BUTTON WHEN THE PROCESS IS COMPLETE"
-msgstr "PULSA BOTON EXIT UNA VEZ FINALIZADO EL PROCESO"
+msgstr "PULSA BOTÓN EXIT UNA VEZ FINALIZADO EL PROCESO"
 
 msgid "DESCRIPTION"
 msgstr "DESCRIPCIÓN"
 
 msgid "PRESS OK BUTTON TO CHECK THE DEVICE"
-msgstr "PULSA BOTON OK PARA CHEQUEAR EL DISPOSITIVO"
+msgstr "PULSA BOTÓN OK PARA CHEQUEAR EL DISPOSITIVO"
 
 msgid "LOCATION"
-msgstr "UBICACION"
+msgstr "UBICACIÓN"
 
 msgid "Minutes:"
 msgstr "Minutos:"
@@ -13501,13 +13501,13 @@ msgid "ALL RECORDINGS"
 msgstr "GRABACIONES REALIZADAS"
 
 msgid "STORAGE USAGE"
-msgstr "ESPACIO GRABACION"
+msgstr "ESPACIO GRABACIÓN"
 
 msgid "DATE"
 msgstr "FECHA"
 
 msgid "Press MENU for more options"
-msgstr "Pulse MENU para mas opciones"
+msgstr "Pulse MENÚ para mas opciones"
 
 msgid "SIGNAL STRENGTH:"
 msgstr "NIVEL DE SEÑAL:"
@@ -13549,13 +13549,13 @@ msgid "CLEAR"
 msgstr "LIMPIAR"
 
 msgid "SELECT AN OPTION AND SAVE CHANGES"
-msgstr "SELECCIONE LA OPCION DESEADA Y GUARDE CAMBIOS"
+msgstr "SELECCIONE LA OPCIÓN DESEADA Y GUARDE CAMBIOS"
 
 msgid "SAVE"
 msgstr "GUARDAR"
 
 msgid "SELECT AN OPTION WITH ARROW BUTTONS"
-msgstr "UTILICE LAS FLECHAS PARA SELECCIONAR SU OPCION PREFERIDA"
+msgstr "UTILICE LAS FLECHAS PARA SELECCIONAR SU OPCIÓN PREFERIDA"
 
 msgid "PRESS OK TO UPDATE OR STOP THE STREAMING PROCESS"
 msgstr "PULSA OK PARA ACTUALIZAR O PARAR EL ESTADO DEL STREAMING"
@@ -13570,7 +13570,7 @@ msgid "Or choose the image to install."
 msgstr "O seleccione la imagen a Instalar."
 
 msgid "PRESS BUTTON               TO CHANGE THE POSITION MENU"
-msgstr "PULSA BOTON                PARA MOVER MENU DE POSICION"
+msgstr "PULSA BOTÓN                PARA MOVER MENÚ DE POSICIÓN"
 
 msgid "MY CHANNEL"
 msgstr "MI CANAL"
@@ -13585,13 +13585,13 @@ msgid "Options"
 msgstr "Opciones"
 
 msgid "Advanced Settings"
-msgstr "Configuracion Avanzada"
+msgstr "Configuración Avanzada"
 
 msgid "Access levels configuration"
 msgstr "Permisos Acceso Niveles"
 
 msgid "Custom settings"
-msgstr "Configuracion Usuario"
+msgstr "Configuración Usuario"
 
 msgid "Ports Scan"
 msgstr "Scaner de Puertos"
@@ -13606,7 +13606,7 @@ msgid "Password Center"
 msgstr "Centro Control Password"
 
 msgid "Dynamic DNS Settings"
-msgstr "DNS dinamico"
+msgstr "DNS dinámico"
 
 msgid "EPG Setup"
 msgstr "Ajustes EPG"
@@ -13615,22 +13615,22 @@ msgid "EPG Download"
 msgstr "Descarga EPG"
 
 msgid "EPG Settings"
-msgstr "Parametros EPG"
+msgstr "Parámetros EPG"
 
 msgid "Tuner Setup"
-msgstr "Memorizacion de Canales"
+msgstr "Memorización de Canales"
 
 msgid "Parental Control"
-msgstr "Bloqueo y Codigo Seguridad"
+msgstr "Bloqueo y Código Seguridad"
 
 msgid "Network Setup"
-msgstr "Parametros de Red"
+msgstr "Parámetros de Red"
 
 msgid "BACK"
 msgstr "VOLVER"
 
 msgid "PRESS EXIT TO RETURN BACK"
-msgstr "PULSA EXIT PARA SALIR DEL MENU"
+msgstr "PULSA EXIT PARA SALIR DEL MENÚ"
 
 msgid "LIST"
 msgstr "LISTA"
@@ -13651,7 +13651,7 @@ msgid "NEXT PROGRAMS"
 msgstr "PROGRAMAS SIGUIENTES"
 
 msgid "SATELLITE"
-msgstr "SATELITE"
+msgstr "SATÉLITE"
 
 msgid "PRESS EXIT TO RETURN TO TV MENU"
 msgstr "PULSE EXIT PARA VOLVER A TV"
