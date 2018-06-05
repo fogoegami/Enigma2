@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-06-05 00:32+0200\n"
+"PO-Revision-Date: 2018-06-05 14:02+0200\n"
 "Language-Team: OpenBox <kuatto@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 1.8.12\n"
 "Last-Translator: Kuatto\n"
 "Language: es_ES\n"
 
@@ -10755,7 +10755,7 @@ msgid "Mute"
 msgstr "Sin sonido"
 
 msgid "NEXT"
-msgstr "PROXIMO"
+msgstr "SIGUIENTE"
 
 msgid "NOW"
 msgstr "AHORA"
@@ -13444,7 +13444,7 @@ msgid "Add new network mount point"
 msgstr "Agregar nuevo punto de montaje de red"
 
 msgid "Press OK to expand this host"
-msgstr "Presione OK para expandir este huésped"
+msgstr "Presione OK para expandir este host"
 
 msgid "Press OK to collapse this host"
 msgstr "Presione OK para contraer este huésped"
@@ -13457,3 +13457,204 @@ msgstr "Navegador de Red Local"
 
 msgid "Convert ext3 filesystem to ext4"
 msgstr "Convertir sistema de archivos ext3 a ext4"
+
+msgid "CHOOSE AN OPTION AND PRESS OK BUTTON TO ACCESS"
+msgstr "PULSA OK PARA ACCEDER A LA OPCION DEL MENU PREFERIDA"
+
+msgid "PROGRAM"
+msgstr "PROGRAMA"
+
+msgid "information"
+msgstr "información"
+
+msgid "PREVIOUS"
+msgstr "ANTERIOR"
+
+msgid "BOUQUETS"
+msgstr "FAVORITOS"
+
+msgid "NEWS"
+msgstr "NOVEDAD"
+
+msgid "TRANSL."
+msgstr "TRADUC."
+
+msgid "MEMORY"
+msgstr "MEMORIA"
+
+msgid "RESS EXIT BUTTON WHEN THE PROCESS IS COMPLETE"
+msgstr "PULSA BOTON EXIT UNA VEZ FINALIZADO EL PROCESO"
+
+msgid "DESCRIPTION"
+msgstr "DESCRIPCIÓN"
+
+msgid "PRESS OK BUTTON TO CHECK THE DEVICE"
+msgstr "PULSA BOTON OK PARA CHEQUEAR EL DISPOSITIVO"
+
+msgid "LOCATION"
+msgstr "UBICACION"
+
+msgid "Minutes:"
+msgstr "Minutos:"
+
+msgid "ALL RECORDINGS"
+msgstr "GRABACIONES REALIZADAS"
+
+msgid "STORAGE USAGE"
+msgstr "ESPACIO GRABACION"
+
+msgid "DATE"
+msgstr "FECHA"
+
+msgid "Press MENU for more options"
+msgstr "Pulse MENU para mas opciones"
+
+msgid "SIGNAL STRENGTH:"
+msgstr "NIVEL DE SEÑAL:"
+
+msgid "MODERATE"
+msgstr "SUFICIENTE"
+
+msgid "LOW"
+msgstr "BAJO"
+
+msgid "NO SIGNAL"
+msgstr "NO HAY SEÑAL"
+
+msgid "EXIT"
+msgstr "SALIR"
+
+msgid "CUSTOM SETTINGS"
+msgstr "PERSONALIZACIÓN"
+
+msgid "FREQUENCY"
+msgstr "FRECUENCIA"
+
+msgid "RECEPTION SETTINGS"
+msgstr "MEMORIZACIÓN DE CANALES"
+
+msgid "PRESS EXIT TO OPERATION IN PROGRESS"
+msgstr "PULSE EXIT PARA ABANDONAR LA OPERACIÓN EN CURSO"
+
+msgid "CHANNEL"
+msgstr "CANAL"
+
+msgid "DELETE"
+msgstr "BORRAR"
+
+msgid "ADD"
+msgstr "AÑADIR"
+
+msgid "CLEAR"
+msgstr "LIMPIAR"
+
+msgid "SELECT AN OPTION AND SAVE CHANGES"
+msgstr "SELECCIONE LA OPCION DESEADA Y GUARDE CAMBIOS"
+
+msgid "SAVE"
+msgstr "GUARDAR"
+
+msgid "SELECT AN OPTION WITH ARROW BUTTONS"
+msgstr "UTILICE LAS FLECHAS PARA SELECCIONAR SU OPCION PREFERIDA"
+
+msgid "PRESS OK TO UPDATE OR STOP THE STREAMING PROCESS"
+msgstr "PULSA OK PARA ACTUALIZAR O PARAR EL ESTADO DEL STREAMING"
+
+msgid "+ OPENBOX Image"
+msgstr "+ Imagen OPENBOX"
+
+msgid "Choose the image to next boot."
+msgstr "Seleccione de entre las disponibles la imagen con la que deseamos arrancar el receptor."
+
+msgid "Or choose the image to install."
+msgstr "O seleccione la imagen a Instalar."
+
+msgid "PRESS BUTTON               TO CHANGE THE POSITION MENU"
+msgstr "PULSA BOTON                PARA MOVER MENU DE POSICION"
+
+msgid "MY CHANNEL"
+msgstr "MI CANAL"
+
+msgid "System Setup"
+msgstr "Ajuste del Terminal"
+
+msgid "Audio / Video setup"
+msgstr "Formato Tv Audio/Video"
+
+msgid "Options"
+msgstr "Opciones"
+
+msgid "Advanced Settings"
+msgstr "Configuracion Avanzada"
+
+msgid "Access levels configuration"
+msgstr "Permisos Acceso Niveles"
+
+msgid "Custom settings"
+msgstr "Configuracion Usuario"
+
+msgid "Ports Scan"
+msgstr "Scaner de Puertos"
+
+msgid "System Tools"
+msgstr "Utilidades del Sistema"
+
+msgid "Free Memory"
+msgstr "Liberar Memoria"
+
+msgid "Password Center"
+msgstr "Centro Control Password"
+
+msgid "Dynamic DNS Settings"
+msgstr "DNS dinamico"
+
+msgid "EPG Setup"
+msgstr "Ajustes EPG"
+
+msgid "EPG Download"
+msgstr "Descarga EPG"
+
+msgid "EPG Settings"
+msgstr "Parametros EPG"
+
+msgid "Tuner Setup"
+msgstr "Memorizacion de Canales"
+
+msgid "Parental Control"
+msgstr "Bloqueo y Codigo Seguridad"
+
+msgid "Network Setup"
+msgstr "Parametros de Red"
+
+msgid "BACK"
+msgstr "VOLVER"
+
+msgid "PRESS EXIT TO RETURN BACK"
+msgstr "PULSA EXIT PARA SALIR DEL MENU"
+
+msgid "LIST"
+msgstr "LISTA"
+
+msgid "PREVIOUS SERVICES"
+msgstr "CANALES ANTERIORES"
+
+msgid "PRESS INFO BUTTON FOR ADITIONAL INFORMATION"
+msgstr "PULSA INFO PARA OBTENER MÁS INFORMACIÓN"
+
+msgid "PREVIOUS PROGRAMS"
+msgstr "PROGRAMA ANTERIORES"
+
+msgid "NEXT SERVICES"
+msgstr "CANALES SIGUIENTES"
+
+msgid "NEXT PROGRAMS"
+msgstr "PROGRAMAS SIGUIENTES"
+
+msgid "SATELLITE"
+msgstr "SATELITE"
+
+msgid "PRESS EXIT TO RETURN TO TV MENU"
+msgstr "PULSE EXIT PARA VOLVER A TV"
+
+msgid "CANALES"
+msgstr "SERVICES"
