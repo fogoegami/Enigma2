@@ -2347,7 +2347,7 @@ msgid "Downloading Image"
 msgstr "Descargando imagen"
 
 msgid "Downloading plugin information. Please wait..."
-msgstr "Descargado información del plugin…"
+msgstr "Descargando información del plugin. Espera por favor..."
 
 msgid "Dutch"
 msgstr "Holandés"
