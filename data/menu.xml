@@ -17,7 +17,7 @@
 		<item level="1" text="VCR scart" entryID="scart_switch" configcondition="config.usage.show_vcr_scart" requires="ScartSwitch"><code>self.session.scart.VCRSbChanged(3)</code></item>
         <menu level="0" weight="1" text="System Setup" entryID="usuario_screen">
 			<id val="menu_usuario"/>
-        <item level="0" weight="2" entryID="user_interface"><setup id="userinterface"/></item>
+       <item level="0" weight="2" entryID="user_interface"><setup id="userinterface"/></item>
 <menu level="0" weight="4" text="Audio / Video setup" entryID="video_selection">
 				<id val="video"/>
 				<item level="0" entryID="av_setup"><setup id="avsetup"/></item>
@@ -87,15 +87,16 @@ import os
 self.session.open(Console,cmdlist = ["python /usr/lib/enigma2/python/Tools/puertos.pyo"])
 
 </code>
+
 			</item>
 		</menu>
+<item weight="15" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin"/></item>
 <menu weight="5" level="0" text="System Tools" entryID="system_selection">
 				<id val="system"/>
  <item level="2" text="Free Memory" entryID="liberar_memoria"><screen module="liberarmemoria" screen="liberarmemoria"/></item>
  <item level="2" text="Password Center" entryID="centro_control"><screen module="resetpass" screen="SetPasswd"/></item>
  <item level="2" text="Dynamic DNS Settings" entryID="dns_dinamico"><screen module="dns" screen="ddnsmenu"/></item>
-			<item weight="15" level="0" text="Software update" entryID="software_update"><screen module="SoftwareUpdate" screen="UpdatePlugin"/></item>
-<item weight="1" level="2" text="Softcam Setup" entryID="softcam_setup"><screen module="SoftcamSetup" screen="SoftcamSetup"/></item>
+ <item weight="1" level="2" text="Softcam Setup" entryID="softcam_setup"><screen module="SoftcamSetup" screen="SoftcamSetup"/></item>
 		<menu weight="2" level="0" text="EPG Setup" entryID="epg_screen">
 			<id val="configuracion_epg"/>
 			<item level="0" text="EPG Download" entryID="descarga_epg">
@@ -135,3 +136,4 @@ self.session.open(EPGRefreshConfiguration)
 			<item text="Shutdown" requires="!DeepstandbySupport" entryID="deep_standby"><screen module="Standby" screen="TryQuitMainloop">1</screen></item>
 		</menu>
 </menu>
+
