@@ -9,7 +9,7 @@ from Components.config import config, ConfigText, ConfigSubsection, getConfigLis
 from Components.ConfigList import ConfigListScreen
 from Components.ScrollLabel import ScrollLabel
 from Components.Sources.List import List
-from random import Random 
+from random import Random
 import string
 from os import environ
 from telnetlib import Telnet
@@ -22,12 +22,12 @@ class SetPasswd(Screen):
 
     def __init__(self, session):
         Screen.__init__(self, session)
-        self['lab1'] = Label('Has accedido al centro control de Password de acceso a su Receptor, use la opcion deseada.')
+        self['lab1'] = Label('You have accessed the Password control center to access your Receiver, choose the desired option.')
         self['lab2'] = Label('OPENBOX')
-        self['lab3'] = Label('Acceso Centro Control Password')
-        self['lab4'] = Label('Centro Control Password')
-        self['key_red'] = Label(_('Resetear'))
-        self['key_green'] = Label(_('Cambiar'))
+        self['lab3'] = Label('Access Password Center')
+        self['lab4'] = Label('Password Center')
+        self['key_red'] = Label(_('Reset'))
+        self['key_green'] = Label(_('Change'))
         self['actions'] = ActionMap(['WizardActions', 'ColorActions'], {'back': self.close,
          'red': self.passwd,'green': self.change})
 
@@ -35,8 +35,8 @@ class SetPasswd(Screen):
         self.session.open(SetPasswdMain)
 
     def passwd(self):
-        restartbox = self.session.openWithCallback(self.restartGUI, MessageBox, _('Se va a eliminar su Password.\nEstas seguro que quieres eliminar password y reiniciar el receptor?'), MessageBox.TYPE_YESNO)
-        restartbox.setTitle(_('Desea eliminar Password del receptor?'))
+        restartbox = self.session.openWithCallback(self.restartGUI, MessageBox, _('The Password will be deleted.\nAre you sure you want to delete the password and restart the receiver?'), MessageBox.TYPE_YESNO)
+        restartbox.setTitle(_('Do you want to delete the decoder Password?'))
 
     def restartGUI(self, answer):
         if answer is True:
@@ -59,10 +59,10 @@ class SetPasswdMain(Screen, ConfigListScreen):
 		self.list = []
 		ConfigListScreen.__init__(self, self.list)
 		self["lab1"] = Label("OPENBOX")
-		self["lab2"] = Label("Acceso Centro Control Password")
-		self["lab3"] = Label("Centro Control Password")
-		self["key_red"] = Label(_("Cambiar"))
-		self["key_green"] = Label(_("Generar"))
+		self["lab2"] = Label("Access Password Center")
+		self["lab3"] = Label("Password Center")
+		self["key_red"] = Label(_("Change"))
+		self["key_green"] = Label(_("Generate"))
 		self["key_blue"] = Label(_("Cancel"))
 
 		self["actions"] = ActionMap(["OkCancelActions", "ColorActions"],
@@ -80,8 +80,8 @@ class SetPasswdMain(Screen, ConfigListScreen):
 	
 	def updateList(self):
 		self.list = []
-		self.list.append(getConfigListEntry('Introduzca passwd antigua', self.oldp))
-		self.list.append(getConfigListEntry('Introduzca passwd nueva', self.newp))
+		self.list.append(getConfigListEntry('Enter old passwd', self.oldp))
+		self.list.append(getConfigListEntry('Enter new passwd', self.newp))
 		self["config"].list = self.list
 		self["config"].l.setList(self.list)
 		
