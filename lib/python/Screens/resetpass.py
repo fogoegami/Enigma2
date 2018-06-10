@@ -22,10 +22,10 @@ class SetPasswd(Screen):
 
     def __init__(self, session):
         Screen.__init__(self, session)
-        self['lab1'] = Label('You have accessed the Password control center to access your Receiver, choose the desired option.')
-        self['lab2'] = Label('OPENBOX')
-        self['lab3'] = Label('Access Password Center')
-        self['lab4'] = Label('Password Center')
+        self['lab1'] = Label(_('You have accessed the Password control center to access your Receiver, choose the desired option.'))
+        self['lab2'] = Label(_('OPENBOX'))
+        self['lab3'] = Label(_('Access Password Center'))
+        self['lab4'] = Label(_('Password Center'))
         self['key_red'] = Label(_('Reset'))
         self['key_green'] = Label(_('Change'))
         self['actions'] = ActionMap(['WizardActions', 'ColorActions'], {'back': self.close,
@@ -58,9 +58,9 @@ class SetPasswdMain(Screen, ConfigListScreen):
 		self.skin = SetPasswdMain.skin
 		self.list = []
 		ConfigListScreen.__init__(self, self.list)
-		self["lab1"] = Label("OPENBOX")
-		self["lab2"] = Label("Access Password Center")
-		self["lab3"] = Label("Password Center")
+		self["lab1"] = Label(_("OPENBOX"))
+		self["lab2"] = Label(_("Access Password Center"))
+		self["lab3"] = Label(_("Password Center"))
 		self["key_red"] = Label(_("Change"))
 		self["key_green"] = Label(_("Generate"))
 		self["key_blue"] = Label(_("Cancel"))
@@ -80,8 +80,8 @@ class SetPasswdMain(Screen, ConfigListScreen):
 	
 	def updateList(self):
 		self.list = []
-		self.list.append(getConfigListEntry('Enter old passwd', self.oldp))
-		self.list.append(getConfigListEntry('Enter new passwd', self.newp))
+		self.list.append(getConfigListEntry(_('Enter old passwd'), self.oldp))
+		self.list.append(getConfigListEntry(_('Enter new passwd'), self.newp))
 		self["config"].list = self.list
 		self["config"].l.setList(self.list)
 		
