@@ -6267,7 +6267,7 @@ msgid "Show notification when import channels was not successful"
 msgstr "Mostrar notificación cuando los canales de importación no tuvieron éxito"
 
 msgid "Show notification when import channels was successful"
-msgstr "Mostrar notificación cuando los canales de importación se completaron con éxito"
+msgstr "Mostrar notificación cuando los canales se importaron con éxito"
 
 msgid "Show packages to be upgraded"
 msgstr "Mostrar paquetes a actualizar"
