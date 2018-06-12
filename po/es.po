@@ -11985,7 +11985,7 @@ msgid "Search EPG by title event"
 msgstr "Buscar evento EPG por título"
 
 msgid "Search event in EPG"
-msgstr "Evento de búsqueda en EPG"
+msgstr "Búsqueda de evento en EPG"
 
 msgid "Search for TMDb info"
 msgstr "Buscar información TMDb"
