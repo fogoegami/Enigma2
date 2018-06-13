@@ -91,6 +91,7 @@ self.session.open(EPGRefreshConfiguration)
 </code>
 			</item>
 			<item level="2" entryID="epg_settings"><setup id="epgsettings"/></item>
+            <item text="Epg Download mhw2" entryID="epg_descarga"><screen module="dowepg" screen="epgdd"/></item>			
 		</menu>
         </menu>
         <menu weight="3" level="0" text="Memorizacion de Canales" entryID="service_searching_selection">
