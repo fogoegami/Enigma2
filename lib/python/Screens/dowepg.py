@@ -104,7 +104,7 @@ class epgdd(ConfigListScreen, Screen):
 		self.session = session
 		Screen.__init__(self, session)
 		config.plugins.epgdd.direct = ConfigSelection(choices = mountp())
-		self.setTitle(_('EPG from %s') % config.plugins.epgdd.url.value.split('/')[2])
+		self.setTitle(_('EPG desde %s') % config.plugins.epgdd.url.value.split('/')[2])
 		self.list = []
 		self.list.append(getConfigListEntry(_('Select path to save epg.dat'), config.plugins.epgdd.direct))
 		self.list.append(getConfigListEntry(_('Set EPG filename'), config.plugins.epgdd.epgname))
@@ -333,7 +333,7 @@ def Plugins(**kwargs):
 		),
 		PluginDescriptor(
 			name=_("2boom's Auto EPG Downloader"),
-			description = _('EPG from %s') % config.plugins.epgdd.url.value.split('/')[2],
+			description = _('EPG desde %s') % config.plugins.epgdd.url.value.split('/')[2],
 			where = PluginDescriptor.WHERE_PLUGINMENU,
 			icon = 'epgdd.png',
 			fnc = main
@@ -342,7 +342,7 @@ def Plugins(**kwargs):
 	if config.plugins.epgdd.menuext.value:
 		result.append(PluginDescriptor(
 			name=_("2boom's Auto EPG Downloader"),
-			description = _('EPG from %s') % config.plugins.epgdd.url.value.split('/')[2],
+			description = _('EPG desde %s') % config.plugins.epgdd.url.value.split('/')[2],
 			where = PluginDescriptor.WHERE_EXTENSIONSMENU,
 			fnc = main
 			))
