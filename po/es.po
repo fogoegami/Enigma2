@@ -13499,3 +13499,15 @@ msgstr "Espere mientras se elimina su montaje de red..."
 
 msgid "Your network mount has been removed."
 msgstr "Su montaje de red ha sido eliminado."
+
+msgid "Wait please while scanning for devices..."
+msgstr "Espere mientras busca dispositivos..."
+
+msgid "Use as HDD"
+msgstr "Usar como HDD"
+
+msgid "Reset USB devices"
+msgstr "Restablecer dispositivos USB"
+
+msgid "Mount Manager"
+msgstr "Manejar Montajes"
