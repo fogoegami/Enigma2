@@ -13495,7 +13495,7 @@ msgid "configuration is saved"
 msgstr "la configuración está guardada"
 
 msgid "Please wait while removing your network mount..."
-msgstr "Espere mientras elimina su montaje de red..."
+msgstr "Espere mientras se elimina su montaje de red..."
 
 msgid "Your network mount has been removed."
 msgstr "Su montaje de red ha sido eliminado."
