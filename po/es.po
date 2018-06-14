@@ -13511,3 +13511,16 @@ msgstr "Restablecer dispositivos USB"
 
 msgid "Mount Manager"
 msgstr "Manejar Montajes"
+
+msgid "Label for device"
+msgstr "Etiqueta para dispositivo"
+
+msgid "TRIM"
+msgstr "Ajustar"
+
+msgid "Edit fstab"
+msgstr "Editar fstab"
+
+msgid "Install / Info"
+msgstr "Instalar/Info"
+
