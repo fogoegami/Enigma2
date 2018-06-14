@@ -13878,3 +13878,4 @@ msgstr "Disminuir velocidad de giro HDD antes de que el receptor sea apagado"
 
 msgid "mount"
 msgstr "montar"
+
