@@ -13559,7 +13559,7 @@ msgid ""
 "Attention!\n"
 "Not highly recommend that you remove or edit the system entry!\n"
 msgstr ""
-"Attention!\n"
+"Atención!\n"
 "No es muy recomendable que elimine o edite la entrada del sistema!\n"
 
 msgid "Can't unmount partiton, make sure it is not being used for swap or record/timeshift paths!"
