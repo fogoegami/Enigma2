@@ -343,7 +343,6 @@
 		<panel name="SummaryEpgPanel"/>
 		<panel name="SummaryIconsPanel"/>
 		<panel name="SummaryTunerStatusPanel"/>
-		<panel name="SummaryClockPanel"/>
 	</screen>
 	
 	<screen name="QuickEPG_summary" position="0,0" size="255,64">
