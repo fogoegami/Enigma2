@@ -13528,7 +13528,7 @@ msgid "Press OK..."
 msgstr "Pulse OK..."
 
 msgid "Save mount in fstab"
-msgstr "Guardar mountaje en fstab"
+msgstr "Guardar montaje en fstab"
 
 msgid " from "
 msgstr " desde "
