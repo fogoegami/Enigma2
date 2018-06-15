@@ -13588,7 +13588,7 @@ msgstr ""
 "¿Reiniciar su receptor ahora?"
 
 msgid "Device name:"
-msgstr "Nombre del dispositivo:"
+msgstr "Nombre dispositivo:"
 
 msgid "Device: "
 msgstr "Dispositivo: "
@@ -13601,7 +13601,7 @@ msgstr ""
 "¿Reiniciar su receptor ahora?"
 
 msgid "Dump frequency:"
-msgstr "Frecuencia de descarga:"
+msgstr "Frecuencia descarga:"
 
 msgid "Enter directory"
 msgstr "Ingrese el directorio"
@@ -13878,5 +13878,3 @@ msgstr "Disminuir velocidad de giro HDD antes de que el receptor sea apagado"
 
 msgid "mount"
 msgstr "montar"
-
-
