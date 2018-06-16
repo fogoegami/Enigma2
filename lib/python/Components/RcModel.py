@@ -36,7 +36,9 @@ class RcModel:
         if self.device_name.startswith('xpeedlx3'):
             f = resolveFilename(SCOPE_SKIN, 'rc_models/xpeedlx3.' + ext)
         elif self.device_name.startswith('atemionemesis'):
-            f = resolveFilename(SCOPE_SKIN, 'rc_models/atemionemesis.' + ext)		
+            f = resolveFilename(SCOPE_SKIN, 'rc_models/atemionemesis.' + ext)
+        elif self.device_name.startswith('sezammarvel'):
+            f = resolveFilename(SCOPE_SKIN, 'rc_models/sezammarvel.' + ext)		
         elif not os.path.exists(f):
             f = resolveFilename(SCOPE_SKIN, 'rc_models/dmm.' + ext)
         return f
