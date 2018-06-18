@@ -13987,3 +13987,42 @@ msgstr "Escanear Rango"
 
 msgid "IP Address"
 msgstr "Dirección IP"
+
+msgid "Audio Sync Setup"
+msgstr "Configuración Sincronización Audio"
+
+msgid "Setup for the Audio Sync Plugin"
+msgstr "Configuración para el plugin Sincronización Audio"
+
+msgid "AC3 Lip Sync Setup"
+msgstr "Configuración AC3 Sincronización de Labios"
+
+msgid "Outer Bound (+/-)"
+msgstr "Límite exterior (+/-)"
+
+msgid "Step in ms for arrow keys"
+msgstr "Paso en ms para las teclas flechas"
+
+msgid "Wait time in ms before activation:"
+msgstr "Espere tiempo en ms antes de la activación:"
+
+msgid "Step in ms for keys '%s'"
+msgstr "Paso en ms para las teclas '%s'"
+
+msgid "Step in ms for key %i"
+msgstr "Paso en ms para la tecla %i"
+
+msgid "Restart audio"
+msgstr "Reiniciar audio"
+
+msgid "Restart audio delay (in sec)"
+msgstr "Reiniciar la demora de audio (en segundos)"
+
+msgid "after restart"
+msgstr "después de reiniciar"
+
+msgid "after standby"
+msgstr "después de modo reposo"
+
+msgid "after restart/standby"
+msgstr "después reiniciar/modo reposo"
