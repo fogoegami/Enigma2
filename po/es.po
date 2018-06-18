@@ -2236,7 +2236,7 @@ msgid ""
 "Do you really want to remove\n"
 "the plugin \"%s\"?"
 msgstr ""
-"¿Realmente quiere desistalar\n"
+"¿Realmente quiere desinstalar\n"
 "el plugin “%s”?"
 
 #, python-format
@@ -13878,3 +13878,100 @@ msgstr "Disminuir velocidad de giro HDD antes de que el receptor sea apagado"
 
 msgid "mount"
 msgstr "montar"
+
+msgid "Mount view"
+msgstr "Vista de Montaje"
+
+msgid "Mount informations"
+msgstr "Información de Montajes"
+
+msgid ""
+"Mounted/\n"
+"Unmounted"
+msgstr ""
+"Montado/\n"
+"Desmontado"
+
+msgid ""
+"Active/\n"
+"Inactive"
+msgstr ""
+"Activo/\n"
+"Inactivo"
+
+msgid "Active"
+msgstr "Activo"
+
+msgid "Local share name"
+msgstr "Nombre compartido local"
+
+msgid "Mount type"
+msgstr "Tipo de montaje"
+
+msgid "NFS share"
+msgstr "Compartir NFS"
+
+msgid "CIFS share"
+msgstr "Compartir CIFS"
+
+msgid "Server IP"
+msgstr "IP del Servidor"
+
+msgid "Server share"
+msgstr "Compartir del Servidor"
+
+msgid "use as HDD replacement"
+msgstr "usar como reemplazo de HDD"
+
+msgid "Mount options"
+msgstr "Opciones Montaje"
+
+msgid "Mounts editor"
+msgstr "Editor de Montajes"
+
+msgid "Password"
+msgstr "Contraseña"
+
+msgid "Username"
+msgstr "Nombre de usuario"
+
+msgid "Press OK to save settings."
+msgstr "Presione OK para guardar la configuración."
+
+msgid "Enter username:"
+msgstr "Introduzca su nombre de usuario:"
+
+msgid "Enter password:"
+msgstr "Introduzca su contraseña:"
+
+msgid "Press OK to mount this share!"
+msgstr "Presione OK para montar este recurso compartido!"
+
+msgid ""
+"Are you sure you want to save this network mount?\n"
+"\n"
+msgstr ""
+"¿Seguro que quieres guardar este montaje de red?\n"
+"\n"
+
+msgid ""
+"A mount entry with this name already exists!\n"
+"Update existing entry and continue?\n"
+msgstr ""
+"Ya existe una entrada de montaje con este nombre!\n"
+"Actualizar la entrada existente y continuar?\n"
+
+msgid "User management"
+msgstr "Administrador de usuarios"
+
+msgid "View, edit or delete usernames and passwords for your network."
+msgstr "Vea, edite o elimine nombres de usuario y contraseñas para su red."
+
+msgid "Usermanager"
+msgstr "Administrador de usuarios"
+
+msgid "Press OK to edit selected settings."
+msgstr "Presione OK para editar las configuración seleccionada."
+
+msgid "Enter user and password for host: "
+msgstr "Ingrese usuario y contraseña para el host: "
