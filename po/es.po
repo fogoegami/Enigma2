@@ -6709,7 +6709,7 @@ msgid "Stop service on return to movie list"
 msgstr "Detener el servicio al regresar a la lista de películas"
 
 msgid "Stop test"
-msgstr "Detener test"
+msgstr "Detener prueba"
 
 msgid "Stop testing plane after # failed transponders"
 msgstr "Detener el testeo plano tras # transpondedores fallidos"
