@@ -5394,7 +5394,7 @@ msgid "Restart softcam"
 msgstr "Reiniciar softcam"
 
 msgid "Restart test"
-msgstr "Reiniciar test"
+msgstr "Reiniciar prueba"
 
 msgid "Restart your network connection and interfaces.\n"
 msgstr "Reiniciar la conexión de red e interfaces.\n"
