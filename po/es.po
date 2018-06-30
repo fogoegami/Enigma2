@@ -14191,7 +14191,7 @@ msgid "Duration type"
 msgstr "Tipo de Duración"
 
 msgid "History zap: count %d"
-msgstr "Historia zap: contar %d"
+msgstr "Historial zap: contar %d"
 
 msgid "Del entry  Clear history        Preview"
 msgstr "Borrar entrada  Limpiar historia      Vista Previa"
@@ -14200,7 +14200,7 @@ msgid "Del entry  Clear history  List  Preview"
 msgstr "Borrar entrada  Limpiar Lista historia   Vista Previa"
 
 msgid "Delete selected  Clear history                 Preview"
-msgstr "Borrar seleccion   Limpiar historial              Vista Previa"
+msgstr "Borrar selección   Limpiar historial              Vista Previa"
 
 msgid "Delete selected  Clear history  All list       Preview"
-msgstr "Borrar seleccion   Limpiar historial completo   Vista Previa"
+msgstr "Borrar selección   Limpiar historial completo   Vista Previa"
