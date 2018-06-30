@@ -14026,3 +14026,181 @@ msgstr "después de modo reposo"
 
 msgid "after restart/standby"
 msgstr "después reiniciar/modo reposo"
+
+msgid "HistoryZapSelector"
+msgstr "HistorialZapSelector"
+
+msgid "Preview zap to service ?"
+msgstr "Vista previa zap al servicio?"
+
+msgid "Really clear history list ?"
+msgstr "Realmente quiere limpiar el historial?"
+
+msgid "Really delete current entry ?"
+msgstr "Eliminar realmente la entrada actual?"
+
+msgid "Settings zap history"
+msgstr "Configuración historial de zap"
+
+msgid "Setup Zap History:"
+msgstr "Configurar la historia de Zap:"
+
+msgid "Show duration events"
+msgstr "Mostrar duración de eventos"
+
+msgid "Show panel buttons on display"
+msgstr "Mostrar los botones del panel en la pantalla"
+
+msgid "Show warning message before action"
+msgstr "Mostrar mensaje de advertencia antes de la acción"
+
+msgid "Style services list"
+msgstr "Estilo de la lista servicios"
+
+msgid "Use number zap"
+msgstr "Usar número zap"
+
+msgid "Use the number keys for zap to service"
+msgstr "Use las teclas numéricas para acceder al servicio"
+
+msgid "Zap as:"
+msgstr "Zap como:"
+
+msgid "Zap focus PiP (if only enabled)"
+msgstr "Zap focos PiP (si solo está habilitado)"
+
+msgid "clear history list"
+msgstr "limpiar lista historia"
+
+msgid "default (only service name)"
+msgstr "predeterminado (solo nombre de servicio)"
+
+msgid "delete selected entry"
+msgstr "eliminar la entrada seleccionada"
+
+msgid "event name"
+msgstr "nombre evento"
+
+msgid "event name and description"
+msgstr "nombre de evento y descripción"
+
+msgid "next entry"
+msgstr "próxima entrada"
+
+msgid "only CH+/-,B+/-,P+/-"
+msgstr "sólo CH+/-,B+/-,P+/-"
+
+msgid "only LEFT/RIGHT"
+msgstr "sólo IZQUIERDA/DERECHA"
+
+msgid "only Pipzap"
+msgstr "sólo Pipzap"
+
+msgid "only TEXT/HELP"
+msgstr "sólo TEXT/HELP"
+
+msgid "only standard PiP"
+msgstr "sólo Pip standard"
+
+msgid "open Event View"
+msgstr "abrir Vista de Eventos"
+
+msgid "open list options"
+msgstr "abrir opciones lista"
+
+msgid "open single EPG"
+msgstr "abrir EPG único"
+
+msgid "preview for selected entry"
+msgstr "vista previa para la entrada seleccionada"
+
+msgid "previous entry"
+msgstr "entrada anterior"
+
+msgid "progress bar"
+msgstr "barra progreso"
+
+msgid "remaining minutes"
+msgstr "minutos restantes"
+
+msgid "show all list"
+msgstr "mostrar toda la lista"
+
+msgid "show options list"
+msgstr "mostrar opciones de lista"
+
+msgid "zap to service"
+msgstr "zap al servicio"
+
+msgid ""
+"Warning!\n"
+"VCS plugin hotkey need disabled!\n"
+msgstr ""
+"¡Advertencia!\n"
+"La tecla rápida del complemento VCS debe estar deshabilitada!\n"
+
+msgid "GUI needs restart to activate hotkey!"
+msgstr "La GUI necesita reiniciarse para activar la tecla de acceso directo!"
+
+msgid "Successed!"
+msgstr "Exitoso!"
+
+msgid "Failed!"
+msgstr "Fallido!"
+
+msgid "Disable auto saving?"
+msgstr "Deshabilitar el guardado automático?"
+
+msgid "Enable auto saving?"
+msgstr "Habilitar el guardado automático?"
+
+msgid "Options"
+msgstr "Opciones"
+
+msgid "Options for history"
+msgstr "Opciones para el historial"
+
+msgid "Save history list"
+msgstr "Guardar lista historial"
+
+msgid "Restore history list"
+msgstr "Restaurar lista historial"
+
+msgid "Delete history list"
+msgstr "Eliminar lista historial"
+
+msgid "Clear History"
+msgstr "Limpiar Historial"
+
+msgid "Show history list"
+msgstr "Mostrar lista historial"
+
+msgid "Auto save history before stopping E2"
+msgstr "Historial de guardado automático antes de detener E2"
+
+msgid "Behavior of keys for use"
+msgstr "Comportamiento de las teclas de uso"
+
+msgid "Enable Zap History"
+msgstr "Habilitar el historial de Zap"
+
+msgid "Maximum zap history entries"
+msgstr "Entradas máximas de historial zap"
+
+msgid "Duration type"
+msgstr "Tipo de Duración"
+
+msgid "History zap: count %d"
+msgstr "Historia zap: contar %d"
+
+msgid "Del entry  Clear history        Preview"
+msgstr "Borrar entrada  Limpiar historia      Vista Previa"
+
+msgid "Del entry  Clear history  List  Preview"
+msgstr "Borrar entrada  Limpiar Lista historia   Vista Previa"
+
+msgid "Delete selected  Clear history                 Preview"
+msgstr "Borrar seleccion   Limpiar historial              Vista Previa"
+
+msgid "Delete selected  Clear history  All list       Preview"
+msgstr "Borrar seleccion   Limpiar historial completo   Vista Previa"
