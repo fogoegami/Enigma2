@@ -14194,13 +14194,13 @@ msgid "History zap: count %d"
 msgstr "Historial zap: contar %d"
 
 msgid "Del entry  Clear history        Preview"
-msgstr "Borrar entrada  Limpiar historia      Vista Previa"
+msgstr "Borrar entrada  Limpiar historia      Vista previa"
 
 msgid "Del entry  Clear history  List  Preview"
 msgstr "Borrar entrada  Limpiar Lista historia   Vista Previa"
 
 msgid "Delete selected  Clear history                 Preview"
-msgstr "Borrar selección   Limpiar historial              Vista previa"
+msgstr "Borrar selección      Limpiar historial         Vista previa"
 
 msgid "Delete selected  Clear history  All list       Preview"
 msgstr "Borrar selección   Limpiar historial completo   Vista previa"
