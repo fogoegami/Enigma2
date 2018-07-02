@@ -14213,3 +14213,6 @@ msgstr "Pip Standard"
 
 msgid "Pipzap"
 msgstr "Zapear-PiP"
+
+msgid "Include CI assignment"
+msgstr "Incluir asignación de CI"
