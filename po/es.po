@@ -14204,3 +14204,12 @@ msgstr "Borrar selección      Limpiar historial         Vista previa"
 
 msgid "Delete selected  Clear history  All list       Preview"
 msgstr "Borrar selección   Limpiar historial completo   Vista previa"
+
+msgid "Main screen"
+msgstr "Pantalla principal"
+
+msgid "Standard PiP"
+msgstr "Pip Standard"
+
+msgid "Pipzap"
+msgstr "Zapear-PiP"
