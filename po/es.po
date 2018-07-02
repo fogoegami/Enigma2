@@ -14216,3 +14216,6 @@ msgstr "Zapear-PiP"
 
 msgid "Include CI assignment"
 msgstr "Incluir asignación de CI"
+
+msgid "Set CI assignment for detection of available services."
+msgstr "Establecer asignación de CI para la detección de servicios disponibles."
