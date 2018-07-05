@@ -14267,3 +14267,9 @@ msgstr "Corte No especificado"
 
 msgid "Cut Parameter Input"
 msgstr "Cortar entrada de parámetros"
+
+msgid "Cuts (an IN OUT IN OUT ... sequence of hour:min:sec)"
+msgstr "Cortes (una ENTRADA HACIA FUERA...secuencia de la hora:min:sec)"
+
+msgid "Couldn't open input .ap file"
+msgstr "No se pudo abrir la entrada del archivo .ap"
