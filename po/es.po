@@ -14273,3 +14273,6 @@ msgstr "Cortes (una ENTRADA HACIA FUERA...secuencia de la hora:min:sec)"
 
 msgid "Couldn't open input .ap file"
 msgstr "No se pudo abrir la entrada del archivo .ap"
+
+msgid "Zap to selected channel and exit GMEPG"
+msgstr "Zapear al canal seleccionado y salir de GMEPG"
