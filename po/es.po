@@ -10126,7 +10126,7 @@ msgid "Never decrypt while recording"
 msgstr "Nunca descifrar mientras se graba"
 
 msgid "Number of channels shown in channel selection list"
-msgstr "Número de canales que se muestran en la lista de selección de canales"
+msgstr "Número de canales que se muestran en la lista de canales"
 
 msgid "Number of repeating text on display."
 msgstr "Número de texto repetido en pantalla."
