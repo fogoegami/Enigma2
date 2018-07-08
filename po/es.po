@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-07-04 23:31+0200\n"
+"PO-Revision-Date: 2018-07-08 21:20+0200\n"
 "Language-Team: OpenBox <kuatto@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14269,10 +14269,115 @@ msgid "Cut Parameter Input"
 msgstr "Cortar entrada de parámetros"
 
 msgid "Cuts (an IN OUT IN OUT ... sequence of hour:min:sec)"
-msgstr "Cortes (una ENTRADA HACIA FUERA...secuencia de la hora:min:sec)"
+msgstr "Cortes (una ENTRADA HACIA FUERA...secuencia de la hora:min:seg)"
 
 msgid "Couldn't open input .ap file"
 msgstr "No se pudo abrir la entrada del archivo .ap"
 
 msgid "Zap to selected channel and exit GMEPG"
 msgstr "Zapear al canal seleccionado y salir de GMEPG"
+
+msgid "AAC transcoding"
+msgstr "AAC Transcodificación"
+
+msgid "AC3"
+msgstr "AC3"
+
+msgid "AC3 plus transcoding"
+msgstr "AC3 plus Transcodificación"
+
+msgid "Allow 10bit"
+msgstr "Permitir 10bit"
+
+msgid "Allow 12bit"
+msgstr "Permitir 12bit"
+
+msgid "Choose whether multi channel sound tracks should be convert to PCM or SPDIF."
+msgstr "Elija si las pistas de sonido multicanal deben convertirse a PCM o SPDIF."
+
+msgid "Configure whether AAC sound tracks should be transcoded."
+msgstr "Configure si las pistas de sonido AAC deben transcodificarse."
+
+msgid "Configure whether AC3 plus sound tracks should be transcoded to AC3."
+msgstr "Configure si las pistas de sonido AC3 plus deben transcodificarse a AC3."
+
+msgid "Configure whether DTS-HD channel sound tracks should be downmixed or transcoded."
+msgstr "Configure si las pistas de sonido del canal DTS-HD deben mezclarse o transcodificarse."
+
+msgid "Configure whether WMA pro channel sound tracks should be downmixed or transcoded."
+msgstr "Configure si las pistas de sonido del canal pro WMA deben mezclarse o transcodificarse."
+
+msgid "DTS"
+msgstr "DTS"
+
+msgid "DTS-HD downmix"
+msgstr "DTS-HD downmix"
+
+msgid "Downmix"
+msgstr "Downmix"
+
+msgid "HDMI audio source"
+msgstr "Fuente audio HDMI"
+
+msgid "HDR10 support"
+msgstr "HDR10 soportado"
+
+msgid "HLG support"
+msgstr "HLG soportado"
+
+msgid "PCM"
+msgstr "PCM"
+
+msgid "Passthrough"
+msgstr "Pasar por"
+
+msgid "Press OK to select a service."
+msgstr "Pulse OK para seleccionar un servicio."
+
+msgid "This option allows you to enable or disable the 10 bit color mode"
+msgstr "Esta opción le permite habilitar o deshabilitar el modo de color de 10 bits"
+
+msgid "This option allows you to enable or disable the 12 bit color mode"
+msgstr "Esta opción le permite habilitar o deshabilitar el modo de color de 12 bits"
+
+msgid "This option allows you to force the HDR10 modes for UHD"
+msgstr "Esta opción le permite forzar los modos HDR10 para UHD"
+
+msgid "This option allows you to force the HLG modes for UHD"
+msgstr "Esta opción le permite forzar los modos HLG para UHD"
+
+msgid "WMA pro downmix"
+msgstr "WMA pro downmix"
+
+msgid "controlled by HDMI"
+msgstr "controlado por HDMI"
+
+msgid "convert to AC3"
+msgstr "convertir a AC3"
+
+msgid "convert to DTS"
+msgstr "convertir a DTS"
+
+msgid "convert to multi channel PCM"
+msgstr "convertir a multicanal PCM"
+
+msgid "convert to multi-channel PCM"
+msgstr "convertir a multi-canal PCM"
+
+msgid "force AC3 plus"
+msgstr "forzar AC3 plus"
+
+msgid "force disabled"
+msgstr "forzar desactivado"
+
+msgid "force enabled"
+msgstr "forzar activado"
+
+msgid "use best, controlled by HDMI"
+msgstr "uso mejor, controlado por HDMI"
+
+msgid "Your network mount has been updated."
+msgstr "Su montaje de red ha sido actualizado."
+
+msgid "Please wait while updating your network mount..."
+msgstr "Por favor espere mientras se actualiza su montaje de red..."
