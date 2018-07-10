@@ -6539,7 +6539,7 @@ msgid "Spanish"
 msgstr "Español"
 
 msgid "Specify extra timeframe to ignore inactivity sleeptimer"
-msgstr "Especifique un marco de tiempo adicional para ignorar la inactividad del temporizador"
+msgstr "Especifique un tiempo adicional para ignorar la inactividad del temporizador"
 
 msgid "Specify if you want to set the blocktimes separately by weekday"
 msgstr "Especifique si desea establecer los tiempos de bloqueo por separado por día de la semana"
