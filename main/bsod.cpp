@@ -23,7 +23,7 @@
 
 static const char *crash_emailaddr =
 #ifndef CRASH_EMAILADDR
-	"the OpenPLi forum";
+	"el foro boxtvmania.com";
 #else
 	CRASH_EMAILADDR;
 #endif
