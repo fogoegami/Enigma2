@@ -19,7 +19,7 @@ from Components.GUIComponent import GUIComponent
 import skin, os, re, urllib2, sys
 
 
-URL ='https://raw.githubusercontent.com/boxtvmania/Imagen-Openbox/develop/NEWS'
+URL ='https://raw.githubusercontent.com/fogoegami/enigma2/enigma2-norhap/NEWS'
 
 def novedadesopenbox(url):
     text = ""
