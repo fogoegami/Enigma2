@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-07-08 21:20+0200\n"
+"PO-Revision-Date: 2018-08-04 10:34+0200\n"
 "Language-Team: OpenBox <kuatto@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.8\n"
+"X-Generator: Poedit 2.1.1\n"
 "Last-Translator: Kuatto\n"
 "Language: es_ES\n"
 
@@ -4385,6 +4385,12 @@ msgstr ""
 
 msgid "No, I do not want to install plugins"
 msgstr "No, no quiero instalar plugins"
+
+msgid "No, I do not want to install channels"
+msgstr "No, no quiero instalar lista de canales"
+
+msgid "Yes, I do want to install channels"
+msgstr "Sí, si quiero instalar lista de canales"
 
 msgid "No, but restart from begin"
 msgstr "No, pero reiniciar desde el principio"
