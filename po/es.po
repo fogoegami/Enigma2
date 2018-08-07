@@ -6084,7 +6084,7 @@ msgstr ""
 "Revise configuración del sintonizador!"
 
 msgid "Servicename"
-msgstr "Nobre de servicio"
+msgstr "Nombre de servicio"
 
 msgid "Services"
 msgstr "Servicios"
