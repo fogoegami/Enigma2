@@ -43,6 +43,8 @@ class RcModel:
             f = resolveFilename(SCOPE_SKIN, 'rc_models/mbultra.' + ext)
         elif self.device_name.startswith('ventonhdx'):
             f = resolveFilename(SCOPE_SKIN, 'rc_models/ventonhdx.' + ext)
+        elif self.device_name.startswith('mbmini'):
+            f = resolveFilename(SCOPE_SKIN, 'rc_models/mbmini.' + ext)			
         elif not os.path.exists(f):
             f = resolveFilename(SCOPE_SKIN, 'rc_models/dmm.' + ext)
         return f
