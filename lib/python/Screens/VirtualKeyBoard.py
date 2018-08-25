@@ -17,6 +17,7 @@ from Tools.Directories import resolveFilename, SCOPE_CURRENT_SKIN
 from Tools.LoadPixmap import LoadPixmap
 from Tools.NumericalTextInput import NumericalTextInput
 
+
 class VirtualKeyBoardList(MenuList):
 	def __init__(self, list, enableWrapAround=False):
 		MenuList.__init__(self, list, enableWrapAround, eListboxPythonMultiContent)
@@ -30,10 +31,11 @@ class VirtualKeyBoardEntryComponent:
 	def __init__(self):
 		pass
 
-# For more information see /doc/VIRTUALKEYBOARD
 
+# For more information about using VirtualKeyBoard see /doc/VIRTUALKEYBOARD
+#
 class VirtualKeyBoard(Screen, HelpableScreen):
-	def __init__(self, session, title=_("Virtual KeyBoard Text:"), **kwargs):
+	def __init__(self, session, title=_("Virtual KeyBoard Text:"), text="", maxSize=False, visible_width=False, type=Input.TEXT, currPos=0, allMarked=False):
 		Screen.__init__(self, session)
 		HelpableScreen.__init__(self)
 		prompt = title  # Title should only be used for screen titles!
@@ -125,14 +127,14 @@ class VirtualKeyBoard(Screen, HelpableScreen):
 				[u"\u00B2", u"&", u"\u00E9", u"\"", u"'", u"(", u"-", u"\u00E8", u"_", u"\u00E7", u"\u00E0", u")", u"=", u"BACKSPACE"],
 				[u"FIRST", u"a", u"z", u"e", u"r", u"t", u"y", u"u", u"i", u"o", u"p", u"$", u"[", u"]"],
 				[u"LAST", u"q", u"s", u"d", u"f", u"g", u"h", u"j", u"k", u"l", u"m", u"\u00F9", u"*", u"ENTER"],
-				[u"SHIFT", u"<", u"w", u"x", u"c", u"v", u"b", u"n", u",", u";", u":", u"!", u"\u00F8", u"SHIFT"],
+				[u"SHIFT", u"<", u"w", u"x", u"c", u"v", u"b", u"n", u",", u";", u":", u"!", u"\u20AC", u"SHIFT"],
 				[u"EXIT", u"LOC", u"LEFT", u"RIGHT", u"ALL", u"CLR", u"SPACE", u"#", u"@", u"`"]
 			], [
 				[u"", u"1", u"2", u"3", u"4", u"5", u"6", u"7", u"8", u"9", u"0", u"\u00B0", u"+", u"BACKSPACE"],
 				[u"FIRST", u"A", u"Z", u"E", u"R", u"T", u"Y", u"U", u"I", u"O", u"P", u"\u00A3", u"{", u"}"],
 				[u"LAST", u"Q", u"S", u"D", u"F", u"G", u"H", u"J", u"K", u"L", u"M", u"%", u"\u00B5", u"ENTER"],
 				[u"SHIFT", u">", u"W", u"X", u"C", u"V", u"B", u"N", u"?", u".", u"/", u"\u00A7", u"\u00A6", u"SHIFT"],
-				[u"EXIT", u"LOC", u"LEFT", u"RIGHT", u"ALL", u"CLR", u"SPACE", u"~", u"^", u"\\", u"\u20AC"]
+				[u"EXIT", u"LOC", u"LEFT", u"RIGHT", u"ALL", u"CLR", u"SPACE", u"~", u"^", u"\\"]
 			], [
 				[u"", u"", u"\u00E2", u"\u00EA", u"\u00EE", u"\u00F4", u"\u00FB", u"\u00E4", u"\u00EB", u"\u00EF", u"\u00F6", u"\u00FC", u"", u"BACKSPACE"],
 				[u"FIRST", u"", u"\u00E0", u"\u00E8", u"\u00EC", u"\u00F2", u"\u00F9", u"\u00E1", u"\u00E9", u"\u00ED", u"\u00F3", u"\u00FA", u"", u""],
@@ -233,10 +235,10 @@ class VirtualKeyBoard(Screen, HelpableScreen):
 					[u"SHIFT", u"Y", u"X", u"C", u"V", u"B", u"N", u"M", u"?", u":", u"_", u"\u0147", u"", u"SHIFT"],
 					[u"EXIT", u"LOC", u"LEFT", u"RIGHT", u"ALL", u"CLR", u"SPACE"]
 				], [
-					[u"", u"~", u"", u"", u"", u"", u"", u"`", u"", u"", u"", u"", u"", u"BACKSPACE"],
-					[u"FIRST", u"\\", u"|", u"\u20AC", u"\u0165", u"\u0164", u"", u"", u"", u"\u00F3", u"\u00D3", u"\u00F7", u"\u00D7", u""],
-					[u"LAST", u"", u"\u0111", u"\u00D0", u"[", u"]", u"\u010F", u"\u010E", u"\u0142", u"\u0141", u"$", u"\u00DF", u"\u00A4", u"ENTER"],
-					[u"SHIFT", u"", u"#", u"&", u"@", u"{", u"}", u"", u"<", u">", u"*", u"", u"", u"SHIFT"],
+					[u"", u"~", u"\u011A", u"\u0160", u"\u010C", u"\u0158", u"\u017D", u"\u00DD", u"\u00C1", u"\u00CD", u"\u00C9", u"`", u"", u"BACKSPACE"],
+					[u"FIRST", u"\\", u"|", u"\u20AC", u"\u0165", u"\u0164", u"", u"", u"", u"\u00F3", u"\u00D3", u"\u00DA", u"\u00F7", u"\u00D7"],
+					[u"LAST", u"", u"\u0111", u"\u00D0", u"[", u"]", u"\u010F", u"\u010E", u"\u0142", u"\u0141", u"\u016E", u"$", u"\u00DF", u"ENTER"],
+					[u"SHIFT", u"", u"#", u"&", u"@", u"{", u"}", u"", u"<", u">", u"*", u"", u"\u00A4", u"SHIFT"],
 					[u"EXIT", u"LOC", u"LEFT", u"RIGHT", u"ALL", u"CLR", u"SPACE"]
 				]
 			]],
@@ -272,6 +274,7 @@ class VirtualKeyBoard(Screen, HelpableScreen):
 				]
 			]],
 			"lv_LV": [_("Latvian"), _("Latvia"), self.latvian(self.english)],
+			"lt_LT": [_("Lithuanian"), _("Lithuania"), self.lithuanian(self.english)],
 			"nb_NO": [_("Norwegian"), _("Norway"), self.norwegian(self.scandinavian)],
 			"fa_IR": [_("Persian"), _("Iran, Islamic Republic"), self.persian(self.english)],
 			"pl_PL": [_("Polish"), _("Poland"), self.polish(self.english)],
@@ -349,7 +352,7 @@ class VirtualKeyBoard(Screen, HelpableScreen):
 
 		self.lang = language.getLanguage()
 		self["prompt"] = Label(prompt)
-		self["text"] = Input(maxSize=False, visible_width=False, type=0, currPos=len(kwargs.get("text", "").decode("utf-8", "ignore")), allMarked=False, **kwargs)  # type=TEXT(0)
+		self["text"] = Input(text=text, maxSize=maxSize, visible_width=visible_width, type=type, currPos=len(text), allMarked=allMarked)
 		self["list"] = VirtualKeyBoardList([])
 		self["mode"] = Label(_("INS"))
 		self["locale"] = Label(_("Locale") + ": " + self.lang)
@@ -373,7 +376,7 @@ class VirtualKeyBoard(Screen, HelpableScreen):
 		self.keyboardHeight = 0
 		self.maxKey = 0
 		self.overwrite = False
-		self.selectedKey = 0
+		self.selectedKey = None
 		self.sms = NumericalTextInput(self.smsGotChar)
 		self.smsChar = None
 		self.setLocale()
@@ -411,7 +414,6 @@ class VirtualKeyBoard(Screen, HelpableScreen):
 		keyList[0][0][12] = u"-"
 		keyList[0][2][12] = u"\u00B5"
 		keyList[0][3][11] = u"="
-		keyList[0][3][12] = u""
 		keyList[1][0][0] = u"\u00B3"
 		keyList[1][0][12] = u"_"
 		keyList[1][1][11] = u"*"
@@ -479,6 +481,23 @@ class VirtualKeyBoard(Screen, HelpableScreen):
 		])
 		return keyList
 
+	def lithuanian(self, base):
+		keyList = copy.deepcopy(base)
+		keyList[0][0] = [u"`", u"\u0105", u"\u010D", u"\u0119", u"\u0117", u"\u012F", u"\u0161", u"\u0173", u"\u016B", u"", u"", u"", u"\u017E", u"BACKSPACE"]
+		keyList[0][1][13] = u""
+		keyList[0][2][12] = u"\\"
+		keyList[1][0] = [u"~", u"\u0104", u"\u010C", u"\u0118", u"\u0116", u"\u012E", u"\u0160", u"\u0172", u"\u016A", u"\u201E", u"\u201C", u"", u"\u017D", u"BACKSPACE"]
+		keyList[1][1][13] = u""
+		keyList[1][2][12] = u"|"
+		keyList.append([
+			[u"\u02DC", u"\u00BC", u"\u00BD", u"\u00BE", u"\u00A4", u"\u00A2", u"\u00B0", u"\u00A7", u"\u00D7", u"\u00AB", u"\u00BB", u"\u00F7", u"\u00B1", u"BACKSPACE"],
+			[u"FIRST", u"1", u"2", u"3", u"4", u"5", u"6", u"7", u"8", u"9", u"0", u"-", u"=", u"\u00AD"],
+			[u"LAST", u"!", u"@", u"#", u"$", u"%", u"^", u"&", u"*", u"(", u")", u"_", u"+", u"ENTER"],
+			[u"SHIFT", u"", u"\u00DF", u"\u00A9", u"\u00AE", u"\u2122", u"\u00AC", u"\u00A3", u"\u20AC", u"\u00B7", u"\u00B9", u"\u00B2", u"\u00B3", u"SHIFT"],
+			[u"EXIT", u"LOC", u"LEFT", u"RIGHT", u"ALL", u"CLR", u"SPACE"]
+		])
+		return keyList
+
 	def norwegian(self, base):
 		keyList = copy.deepcopy(base)
 		keyList[0][0][0] = u"|"
@@ -509,11 +528,11 @@ class VirtualKeyBoard(Screen, HelpableScreen):
 		keyList = copy.deepcopy(base)
 		keyList[0][3][11] = u"\u0105"
 		keyList[0][3][12] = u"\u0107"
-		keyList[0][-1].extend([u"\u0119", u"\u0141", u"\u0144", u"\u00F3", u"\u015B", u"\u017A", u"\u017C"])
+		keyList[0][-1].extend([u"\u0119", u"\u0142", u"\u0144", u"\u00F3", u"\u015B", u"\u017A", u"\u017C"])
 		keyList[1][2][12] = u"\u20AC"
 		keyList[1][3][11] = u"\u0104"
 		keyList[1][3][12] = u"\u0106"
-		keyList[1][-1].extend([u"\u0118", u"\u0142", u"\u0143", u"\u00D3", u"\u015A", u"\u0179", u"\u017B"])
+		keyList[1][-1].extend([u"\u0118", u"\u0141", u"\u0143", u"\u00D3", u"\u015A", u"\u0179", u"\u017B"])
 		return keyList
 
 	def swedish(self, base):
@@ -578,6 +597,8 @@ class VirtualKeyBoard(Screen, HelpableScreen):
 		for keys in self.keyList[self.shiftLevel]:
 			self.list.append(self.virtualKeyBoardEntryComponent(keys))
 		self.previousSelectedKey = None
+		if self.selectedKey is None:
+			self.selectedKey = self.keyboardWidth
 		self.markSelectedKey()
 
 	def virtualKeyBoardEntryComponent(self, keys):
