@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-08-04 10:34+0200\n"
+"PO-Revision-Date: 2018-08-26 09:35+0200\n"
 "Language-Team: OpenBox <kuatto@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14387,3 +14387,57 @@ msgstr "Su montaje de red ha sido actualizado."
 
 msgid "Please wait while updating your network mount..."
 msgstr "Por favor espere mientras se actualiza su montaje de red..."
+
+msgid "Select locale"
+msgstr "Seleccionar local"
+
+msgid "Upper case"
+msgstr "Mayúscula"
+
+msgid "Lower case"
+msgstr "Minúscula"
+
+msgid "Move the virtual keyboard cursor right"
+msgstr "Mueva el cursor del teclado virtual hacia la derecha"
+
+msgid "Select the virtual keyboard locale from a menu"
+msgstr "Seleccione la configuración regional del teclado virtual desde un menú"
+
+msgid "Toggle new text inserts before or overwrites existing text"
+msgstr "Alternar nuevas inserciones de texto antes o sobrescribir el texto existente"
+
+msgid "Move the virtual keyboard cursor down"
+msgstr "Mover el cursor del teclado virtual hacia abajo"
+
+msgid "Move the virtual keyboard cursor left"
+msgstr "Mover el cursor del teclado virtual hacia la izquierda"
+
+msgid "Cancel any text changes and exit"
+msgstr "Cancelar cualquier cambio de texto y salir"
+
+msgid "Number or SMS style data entry"
+msgstr "Entrada de datos de estilo de número o SMS"
+
+msgid "Delete the character to the left of text buffer cursor"
+msgstr "Eliminar el carácter a la izquierda del cursor del búfer de texto"
+
+msgid "Move the text buffer cursor to the last character"
+msgstr "Mueva el cursor del búfer de texto al último carácter"
+
+msgid "Save any text changes and exit"
+msgstr "Guarde los cambios de texto y salga"
+
+msgid "Select the character or action under the virtual keyboard cursor"
+msgstr "Seleccione el carácter o la acción debajo del cursor del teclado virtual"
+
+msgid "Select the virtual keyboard shifted character set"
+msgstr "Seleccione el juego de caracteres desplazado del teclado virtual"
+
+msgid "Move the virtual keyboard cursor up"
+msgstr "Mueva el cursor del teclado virtual hacia arriba"
+
+msgid "Move the text buffer cursor to the first character"
+msgstr "Mueva el cursor del búfer de texto al primer carácter"
+
+msgid "Delete the character under the text buffer cursor"
+msgstr "Eliminar el carácter debajo del cursor del búfer de texto"
