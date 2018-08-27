@@ -18,7 +18,7 @@
         <menu level="0" weight="1" text="Configuración" entryID="usuario_screen">
 			<id val="menu_usuario"/>
         <item level="0" weight="2" entryID="user_interface"><setup id="userinterface"/></item>
-<menu level="0" weight="4" text="Formato TV Audio / Video" entryID="video_selection">
+<menu level="0" weight="4" text="TV Audio / Video / OSD" entryID="video_selection">
 				<id val="video"/>
 				<item level="0" entryID="av_setup"><setup id="avsetup"/></item>
 				<item level="2" entryID="subtitle_setup"><setup id="subtitlesetup"/></item>
