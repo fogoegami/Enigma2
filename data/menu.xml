@@ -15,7 +15,7 @@
 -->
 		<item level="0" text="Timer" entryID="timer_edit"><screen module="TimerEdit" screen="TimerEditList"/></item>
 		<item level="1" text="VCR scart" entryID="scart_switch" conditional="config.usage.show_vcr_scart.value" requires="ScartSwitch"><code>self.session.scart.VCRSbChanged(3)</code></item>
-        <menu level="0" weight="1" text="Ajuste del Terminal" entryID="usuario_screen">
+        <menu level="0" weight="1" text="Configuración" entryID="usuario_screen">
 			<id val="menu_usuario"/>
         <item level="0" weight="2" entryID="user_interface"><setup id="userinterface"/></item>
 <menu level="0" weight="4" text="Formato TV Audio / Video" entryID="video_selection">
@@ -24,7 +24,7 @@
 				<item level="2" entryID="subtitle_setup"><setup id="subtitlesetup"/></item>
 				<item level="0" entryID="autolanguage_setup"><setup id="autolanguagesetup"/></item>
 				</menu>
-        <menu level="0" weight="3" text="Opciones" flushConfigOnClose="1" entryID="setup_selection" >
+        <menu level="0" weight="3" text="Configuración Avanzada" flushConfigOnClose="1" entryID="setup_selection" >
 			<id val="setup"/>
 			<item level="0" text="Language" entryID="language_setup"><screen module="LanguageSelection"/></item>
            	<item weight="15" level="0" text="Factory reset" entryID="factory_reset">
@@ -43,7 +43,7 @@ self.session.openWithCallback(msgClosed, FactoryReset)
 				
 				<item level="1" entryID="rfmod_setup" requires="RfModulator"><setup id="RFmod"/></item>
 
-				<menu level="0" text="Configuracion Avanzada" entryID="expert_selection">
+				<menu level="0" text="Opciones Avanzadas" entryID="expert_selection">
 				<id val="expert"/>
 				<item level="0" entryID="recording_setup"><setup id="recording"/></item>
 
@@ -94,7 +94,7 @@ self.session.open(EPGRefreshConfiguration)
             <item text="Epg Download mhw2" entryID="epg_descarga"><screen module="dowepg" screen="epgdd"/></item>			
 		</menu>
         </menu>
-        <menu weight="3" level="0" text="Memorizacion de Canales" entryID="service_searching_selection">
+        <menu weight="3" level="0" text="Búsqueda de Canales" entryID="service_searching_selection">
 			<id val="scan"/>
 			<item text="Tuner configuration" entryID="tuner_setup"><screen module="Satconfig" screen="NimSelection"/></item>
 			<item text="Automatic scan" entryID="auto_scan"><screen module="ScanSetup" screen="ScanSimple"/></item>
@@ -103,12 +103,12 @@ self.session.open(EPGRefreshConfiguration)
 		</menu>
 		<item level="0" text="Plugins" entryID="plugin_selection"><screen module="PluginBrowser" screen="PluginBrowser"/></item>
         <item weight="2" level="0" text="Bloqueo y de Codigo Seguridad" entryID="parental_setup"><screen module="ParentalControlSetup" screen="ParentalControlSetup"/></item>
-		<item level="0" weight="4" text="Parametros de Red" entryID="network_setup"><screen module="NetworkSetup" screen="NetworkAdapterSelection"/></item>
-		<menu text="Standby / restart" entryID="standby_restart_list">
+		<item level="0" weight="4" text="Red / Internet" entryID="network_setup"><screen module="NetworkSetup" screen="NetworkAdapterSelection"/></item>
+		<menu text="Reposo / Reiniciar" entryID="standby_restart_list">
 			<id val="shutdown"/>
 			<item text="Sleep timer" entryID="sleep"><screen module="SleepTimerEdit" screen="SleepTimerEdit"/></item>
 			<item text="Standby" entryID="standby"><screen module="Standby" screen="Standby"/></item>
-			<item text="Restart" entryID="restart"><screen module="Standby" screen="TryQuitMainloop">2</screen></item>
+			<item text="Reiniciar" entryID="restart"><screen module="Standby" screen="TryQuitMainloop">2</screen></item>
 			<item text="Multiboot" entryID="multiboot" requires="canMultiBoot"><screen module="FlashImage" screen="MultibootSelection">1</screen></item>
 			<item text="Restart enigma" entryID="restart_enigma"><screen module="Standby" screen="TryQuitMainloop">3</screen></item>
 			<item text="Deep standby" requires="DeepstandbySupport" entryID="deep_standby"><screen module="Standby" screen="TryQuitMainloop">1</screen></item>
