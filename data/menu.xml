@@ -63,7 +63,7 @@ self.session.openWithCallback(msgClosed, FactoryReset)
 			
 		</menu>
             <item weight="1" level="0" text="Permisos Acceso Menús" entryID="usage_setup"><setup id="accesslevel"/></item>		
-            <item weight="2" level="0" text="Configuración Usuario" entryID="usage_setup"><setup id="usage"/></item>
+            <item weight="2" level="0" text="Personalizar" entryID="usage_setup"><setup id="usage"/></item>
 			
         </menu>
 		<menu level="0" text="Information" entryID="info_screen">
