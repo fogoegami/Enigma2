@@ -8259,7 +8259,7 @@ msgid "Your internet connection is working (ip: %s)"
 msgstr "Su conexión a internet está funcionando (ip: %s)"
 
 msgid "Your network configuration has been activated."
-msgstr "Su configuración de res ha sido activada."
+msgstr "Su configuración de red ha sido activada."
 
 msgid "Your receiver can use SCPC optimized search range. Consult your receiver's manual for more information."
 msgstr "Su receptor puede usar el rango de búsqueda optimizado SCPC. Consulte el manual de su receptor para más información."
@@ -14280,47 +14280,11 @@ msgstr "No se pudo abrir la entrada del archivo .ap"
 msgid "Zap to selected channel and exit GMEPG"
 msgstr "Zapear al canal seleccionado y salir de GMEPG"
 
-msgid "AAC transcoding"
-msgstr "AAC Transcodificación"
-
-msgid "AC3"
-msgstr "AC3"
-
-msgid "AC3 plus transcoding"
-msgstr "AC3 plus Transcodificación"
-
 msgid "Allow 10bit"
 msgstr "Permitir 10bit"
 
 msgid "Allow 12bit"
 msgstr "Permitir 12bit"
-
-msgid "Choose whether multi channel sound tracks should be convert to PCM or SPDIF."
-msgstr "Elija si las pistas de sonido multicanal deben convertirse a PCM o SPDIF."
-
-msgid "Configure whether AAC sound tracks should be transcoded."
-msgstr "Configure si las pistas de sonido AAC deben transcodificarse."
-
-msgid "Configure whether AC3 plus sound tracks should be transcoded to AC3."
-msgstr "Configure si las pistas de sonido AC3 plus deben transcodificarse a AC3."
-
-msgid "Configure whether DTS-HD channel sound tracks should be downmixed or transcoded."
-msgstr "Configure si las pistas de sonido del canal DTS-HD deben mezclarse o transcodificarse."
-
-msgid "Configure whether WMA pro channel sound tracks should be downmixed or transcoded."
-msgstr "Configure si las pistas de sonido del canal pro WMA deben mezclarse o transcodificarse."
-
-msgid "DTS"
-msgstr "DTS"
-
-msgid "DTS-HD downmix"
-msgstr "DTS-HD downmix"
-
-msgid "Downmix"
-msgstr "Downmix"
-
-msgid "HDMI audio source"
-msgstr "Fuente audio HDMI"
 
 msgid "HDR10 support"
 msgstr "HDR10 soportado"
@@ -14330,9 +14294,6 @@ msgstr "HLG soportado"
 
 msgid "PCM"
 msgstr "PCM"
-
-msgid "Passthrough"
-msgstr "Pasar por"
 
 msgid "Press OK to select a service."
 msgstr "Pulse OK para seleccionar un servicio."
@@ -14349,35 +14310,11 @@ msgstr "Esta opción le permite forzar los modos HDR10 para UHD"
 msgid "This option allows you to force the HLG modes for UHD"
 msgstr "Esta opción le permite forzar los modos HLG para UHD"
 
-msgid "WMA pro downmix"
-msgstr "WMA pro downmix"
-
-msgid "controlled by HDMI"
-msgstr "controlado por HDMI"
-
-msgid "convert to AC3"
-msgstr "convertir a AC3"
-
-msgid "convert to DTS"
-msgstr "convertir a DTS"
-
-msgid "convert to multi channel PCM"
-msgstr "convertir a multicanal PCM"
-
-msgid "convert to multi-channel PCM"
-msgstr "convertir a multi-canal PCM"
-
-msgid "force AC3 plus"
-msgstr "forzar AC3 plus"
-
 msgid "force disabled"
 msgstr "forzar desactivado"
 
 msgid "force enabled"
 msgstr "forzar activado"
-
-msgid "use best, controlled by HDMI"
-msgstr "uso mejor, controlado por HDMI"
 
 msgid "Your network mount has been updated."
 msgstr "Su montaje de red ha sido actualizado."
