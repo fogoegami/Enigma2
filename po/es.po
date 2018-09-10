@@ -14402,3 +14402,12 @@ msgstr "Configuración Hora del Sistema"
 
 msgid "System time"
 msgstr "Hora del Sistema"
+
+msgid "Could not find suitable media - Please remove some downloaded images or insert a media (e.g. USB stick) with sufficiant free space and try again!"
+msgstr "No se pudieron encontrar los medios adecuados. Elimine algunas imágenes descargadas o inserte un medio (por ejemplo, un dispositivo USB) con suficiente espacio libre y vuelva a intentarlo!"
+
+msgid "Define the location of the EPG Cache file."
+msgstr "Defina la ubicación del archivo EPG Cache."
+
+msgid "Location EPG Cache file"
+msgstr "Localización del archivo EPG"
