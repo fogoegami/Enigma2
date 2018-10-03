@@ -23,6 +23,7 @@ class SoftcamSetup(Screen, ConfigListScreen):
 		<widget objectTypes="key_blue,StaticText" source="key_blue" render="Label"  position="420,410" zPosition="2" size="140,40" valign="center" halign="center" font="Regular;21" transparent="1" shadowColor="black" shadowOffset="-1,-1"/>
 		<widget objectTypes="key_blue,StaticText" source="key_blue" render="Pixmap" pixmap="skin_default/buttons/blue.png"  position="420,410" zPosition="1" size="140,40" transparent="1" alphatest="on">
 			<convert type="ConditionalShowHide"/>
+		</widget>
 	</screen>"""
 	def __init__(self, session):
 		Screen.__init__(self, session)
