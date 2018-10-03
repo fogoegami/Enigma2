@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLI Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-03 21:04+0200\n"
+"POT-Creation-Date: 2018-09-29 17:41+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: MCelliot_g <mcelliot_g@hotmail.com>\n"
 "Language-Team: MCelliot_g <mcelliot_g@hotmail.com>\n"
@@ -378,9 +378,11 @@ msgstr "%k:%M %e/%m"
 #, python-format
 msgid ""
 "%s\n"
+"Press ok for multiboot selection\n"
 "Press exit to close"
 msgstr ""
 "%s\n"
+"Πιέστε ok για επιλογή πολλαπλής εκκίνησης\n"
 "Πιέστε exit για κλείσιμο"
 
 #, python-format
@@ -4061,6 +4063,9 @@ msgstr "Ελληνικά"
 msgid "Greek (Modern)"
 msgstr "Ελληνικά (Νέα)"
 
+msgid "Modern Greek (1453-)"
+msgstr "Νέα Ελληνικά (1453-)"
+
 msgid "Green"
 msgstr "Πράσινο"
 
@@ -6640,6 +6645,9 @@ msgstr "Έξοδος από γρήγορο ζάπινγκ των υπό-υπηρ
 msgid "Really reboot now?"
 msgstr "Επανεκκίνηση τώρα;"
 
+msgid "Really restart in debug mode now?"
+msgstr "Να γίνει σίγουρα επανεκκίνηση σε κατάσταση αποσφαλμάτωσης τώρα;"
+
 msgid "Really restart now?"
 msgstr "Επανεκκίνηση τώρα;"
 
@@ -6916,6 +6924,9 @@ msgstr "Επανεκκίνηση cardserver"
 
 msgid "Restart enigma"
 msgstr "Επανεκκίνηση enigma"
+
+msgid "Restart enigma in debug mode"
+msgstr "Επανεκκίνηση enigma σε λειτουργία αποσφαλμάτωσης"
 
 msgid "Restart network"
 msgstr "Eπανεκκίνηση δικτύου"
@@ -9110,6 +9121,11 @@ msgid ""
 msgstr ""
 "Γίνεται επανεκκίνηση της επιφάνειας χρήστη του δέκτη σας\n"
 "εξαιτίας σφάλματος στο mytest.py"
+
+msgid "The user interface of your receiver is restarting in debug mode"
+msgstr ""
+"Γίνεται επανεκκίνηση της επιφάνειας χρήστη του δέκτη σας σε λειτουργία "
+"αποσφαλμάτωσης"
 
 msgid ""
 "The wireless LAN plugin is not installed!\n"
@@ -12468,6 +12484,3 @@ msgstr "Ήχος:"
 
 msgid "Video:"
 msgstr "Βίντεο:"
-
-msgid "Modern Greek (1453-)"
-msgstr "Νέα Ελληνικά (1453-)"

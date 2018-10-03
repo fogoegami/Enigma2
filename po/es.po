@@ -382,9 +382,11 @@ msgstr "%k:%M %e/%m"
 #, python-format
 msgid ""
 "%s\n"
+"Press ok for multiboot selection\n"
 "Press exit to close"
 msgstr ""
 "%s\n"
+"Presiona OK para la selección de arranque múltiple\n"
 "Pulsa exit para cerrar"
 
 #, python-format
@@ -5145,13 +5147,15 @@ msgstr "Salir del quickzap de subcanales?"
 msgid "Really reboot now?"
 msgstr "Reiniciar ahora?"
 
+msgid "Really restart in debug mode now?"
+msgstr "¿Quiere reiniciar ahora en modo debug?"
+
 msgid "Really restart now?"
 msgstr "Reinicio completo ahora?"
 
 msgid "Really shutdown now?"
 msgstr "Apagar ahora?"
 
-#, python-format
 msgid "Really store at index %2d for current position?"
 msgstr "¿Realmente almacena en el índice %2d para la posición actual?"
 
@@ -5170,7 +5174,6 @@ msgstr "Volver al canal anterior"
 msgid "Record"
 msgstr "Grabación"
 
-#, python-format
 msgid "Record time limited due to conflicting timer %s"
 msgstr "Tiempo de grabación limitado por conflicto de tmporizador %s"
 
@@ -5389,6 +5392,9 @@ msgstr "Reiniciar servidor de tarjetas"
 
 msgid "Restart enigma"
 msgstr "Reiniciar enigma"
+
+msgid "Restart enigma in debug mode"
+msgstr "Reiniciar enigma2 en modo debug"
 
 msgid "Restart network"
 msgstr "Reiniciar red"
@@ -7081,17 +7087,26 @@ msgstr ""
 "La interfaz de usuario de tu receptor se está reiniciando\n"
 "debido a un error en mytest.py"
 
+msgid "The user interface of your receiver is restarting in debug mode"
+msgstr "La interfaz de usuario de su receptor está reiniciando en modo debug"
+
+msgid ""
+"The wireless LAN plugin is not installed!\n"
+"Please install it and choose what you want to do next."
+msgstr ""
+"El plugin de LAN inalámbrica no está instalado!\n"
+"Instálalo y elige lo que quieres hacer a continuación."
+
 msgid ""
 "The wireless LAN plugin is not installed!\n"
 "Please install it."
 msgstr ""
-"¡El complemento de LAN inalámbrica no está instalado!\n"
-"Por favor instálelo."
+"El plugin de LAN inalámbrica no está instalado!\n"
+"Por favor instálalo."
 
 msgid "There are at least "
 msgstr "Hay por lo menos "
 
-#, python-format
 msgid "There are at least %s updates available."
 msgstr "Hay al menos %s actualizaciones disponibles."
 
@@ -11007,13 +11022,6 @@ msgid ""
 msgstr ""
 "Gracias por usar el asistente.\n"
 "Por favor, pulsa OK para continuar."
-
-msgid ""
-"The wireless LAN plugin is not installed!\n"
-"Please install it and choose what you want to do next."
-msgstr ""
-"El plugin de red inalámbrica no está instalado!\n"
-"Instálalo y elige que quieres hacer."
 
 msgid ""
 "Welcome.\n"
