@@ -46,7 +46,9 @@ class RcModel:
         elif self.device_name.startswith('mbmini'):
             f = resolveFilename(SCOPE_SKIN, 'rc_models/mbmini.' + ext)
         elif self.device_name.startswith('dinobot4kse'):
-            f = resolveFilename(SCOPE_SKIN, 'rc_models/dinobot4kse.' + ext)			
+            f = resolveFilename(SCOPE_SKIN, 'rc_models/dinobot4kse.' + ext)
+        elif self.device_name.startswith('ferguson4k'):
+            f = resolveFilename(SCOPE_SKIN, 'rc_models/ferguson4k.' + ext)			
         elif not os.path.exists(f):
             f = resolveFilename(SCOPE_SKIN, 'rc_models/dmm.' + ext)
         return f
