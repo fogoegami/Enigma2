@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-29 17:41+0200\n"
+"POT-Creation-Date: 2018-10-27 22:07+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Frenske <voorzitter@openpli.org>\n"
 "Language-Team: PLiteam <translators@openpli.org>\n"
@@ -71,6 +71,13 @@ msgstr ""
 
 msgid ""
 "\n"
+"Press OK or Exit to abort!"
+msgstr ""
+"\n"
+"Druk Ok of Exit om af te sluiten!"
+
+msgid ""
+"\n"
 "Recording in progress."
 msgstr ""
 "\n"
@@ -89,13 +96,6 @@ msgid ""
 msgstr ""
 "\n"
 "Herstel de ontvangerinstellingen."
-
-msgid ""
-"\n"
-"Restore your receiver with a new firmware."
-msgstr ""
-"\n"
-"Herstel de ontvanger met nieuwe firmware."
 
 msgid ""
 "\n"
@@ -380,6 +380,9 @@ msgid ""
 "Press ok for multiboot selection\n"
 "Press exit to close"
 msgstr ""
+"%s\n"
+"Druk ok om multiboot te kiezen\n"
+"Druk exit om af te sluiten"
 
 #, python-format
 msgid "%s %d.%d"
@@ -1201,6 +1204,16 @@ msgstr "Speel blu-ray bestand automatisch af"
 
 msgid "Auto scart switching"
 msgstr "Automatisch scart schakelen"
+
+#, python-format
+msgid "Autoinstalling %s"
+msgstr "(Auto)Installeert %s"
+
+msgid "Autoinstalling Completed"
+msgstr "(Auto)installatie afgerond "
+
+msgid "Autoinstalling please wait for packages being updated"
+msgstr "Autoinstallatie, wacht totdat alle packages ge-update zijn"
 
 msgid "Automatic"
 msgstr "Automatisch"
@@ -2330,9 +2343,6 @@ msgstr "De inhoud past niet op deze DVD!"
 
 msgid "Continue"
 msgstr "Doorgaan"
-
-msgid "Continue in background"
-msgstr "Verder op de achtergrond"
 
 msgid "Continue playback"
 msgstr "Doorlopend afspelen"
@@ -3695,6 +3705,9 @@ msgstr "Flash de image"
 msgid "Flash image"
 msgstr "Image flashen"
 
+msgid "Flashing Image"
+msgstr "De image wordt geflasht"
+
 msgid "Flashing image succesfull"
 msgstr "Het flashen van de image is gelukt."
 
@@ -3783,7 +3796,7 @@ msgstr "Volledig beeld"
 msgid "Full transparency"
 msgstr "Volledige transparantie"
 
-msgid "Fulview resulution"
+msgid "Full view resolution"
 msgstr "Resolutie van de volledige beeldgrootte"
 
 msgid "Function of OK button"
@@ -4063,6 +4076,9 @@ msgstr "Hulp om de schotel in te stellen"
 
 msgid "Hidden network"
 msgstr "Verborgen netwerk"
+
+msgid "Hide"
+msgstr "Verberg"
 
 msgid "Hide channel list in radio mode"
 msgstr "Verberg de zenderlijst tijdens de radiomodus"
@@ -4384,12 +4400,6 @@ msgstr "Invoerapparaten"
 
 msgid "Install"
 msgstr "Installeer"
-
-msgid "Install a new image with a USB stick"
-msgstr "Installeer een nieuwe image d.m.v. een USB-stick"
-
-msgid "Install a new image with your web browser"
-msgstr "Installeer een nieuwe image via uw browser"
 
 msgid "Install channel list"
 msgstr "Plaats een zenderlijst"
@@ -5296,9 +5306,6 @@ msgstr "Geen harde schijf gevonden of de harde schijf is niet geïnitialiseerd!"
 msgid "No age block"
 msgstr "Geen leeftijdsbeperking"
 
-msgid "No backup needed"
-msgstr "Geen backup nodig"
-
 msgid ""
 "No data on transponder!\n"
 "(Timeout reading PAT)"
@@ -5430,14 +5437,8 @@ msgstr "Nee, maar start opnieuw"
 msgid "No, do not flash image"
 msgstr "Nee, flash geen nieuwe image"
 
-msgid "No, do nothing."
-msgstr "Nee, geen actie."
-
 msgid "No, except Wakeup timer"
 msgstr "Nee, behoudens de wakeup timer"
-
-msgid "No, just start my receiver"
-msgstr "Nee, start de ontvanger."
 
 msgid "No, never"
 msgstr "Nee, nooit"
@@ -5528,9 +5529,6 @@ msgstr "Cijfer of SMS-stijl invoer"
 
 msgid "OK"
 msgstr "Bevestigen"
-
-msgid "OK, guide me through the upgrade process"
-msgstr "Ok, begeleid mij tijdens de software update"
 
 msgid "ONID"
 msgstr "ONID"
@@ -5838,6 +5836,9 @@ msgstr ""
 "Configureer of controleer uw nameservers door de verplichte velden in te vullen.\n"
 "Druk op Ok om verder te gaan."
 
+msgid "Please configure the fallback tuner setup?"
+msgstr "Configureer aub de installatie van de Fallback tuner"
+
 msgid ""
 "Please configure your internet connection by filling out the required values.\n"
 "When you are ready press OK to continue."
@@ -5973,6 +5974,9 @@ msgstr "Stel aub Tuner Q in"
 
 msgid "Please set up tuner R"
 msgstr "Stel aub Tuner R in"
+
+msgid "Please setup the following basic configs!"
+msgstr "Configureer aub de volgende basisinstellingen!"
 
 msgid ""
 "Please use direction keys to move the PiP window.\n"
@@ -6373,9 +6377,8 @@ msgstr "Subzenders snelzap verlaten?"
 msgid "Really reboot now?"
 msgstr "Nu herstarten?"
 
-#, fuzzy
 msgid "Really restart in debug mode now?"
-msgstr "Nu herstarten?"
+msgstr "Wilt u werkelijk in debug modus opstarten?"
 
 msgid "Really restart now?"
 msgstr "Nu herstarten?"
@@ -6651,9 +6654,8 @@ msgstr "Herstart de kaartserver"
 msgid "Restart enigma"
 msgstr "Herstart Enigma2"
 
-#, fuzzy
 msgid "Restart enigma in debug mode"
-msgstr "Herstart Enigma2"
+msgstr "Herstart enigma in debug modus"
 
 msgid "Restart network"
 msgstr "Netwerk herstarten"
@@ -6698,10 +6700,10 @@ msgstr "Hervat positie op %s"
 msgid "Resuming playback"
 msgstr "Afspelen wordt hervat"
 
-msgid "Retreiving image list - Please wait..."
+msgid "Retrieving image list - Please wait..."
 msgstr "De gegevens worden opgehaald. Een ogenblik geduld aub..."
 
-msgid "Retreiving image slots - Please wait..."
+msgid "Retrieving image slots - Please wait..."
 msgstr "De slotinfo wordt opgehaald. Een ogenblik geduld aub..."
 
 msgid "Return to movie list"
@@ -7542,6 +7544,9 @@ msgstr "Shellscript"
 msgid "Short filenames"
 msgstr "Korte bestandsnamen"
 
+msgid "Show"
+msgstr "Toon"
+
 msgid "Show Audioselection"
 msgstr "Toon de audioselectie"
 
@@ -7926,9 +7931,6 @@ msgstr "Softwarebeheer"
 
 msgid "Software manager setup"
 msgstr "Softwarebeheer setup"
-
-msgid "Software restore"
-msgstr "Software herstellen"
 
 msgid "Software update"
 msgstr "Software updaten"
@@ -8432,7 +8434,7 @@ msgstr "Systeem & Modulatie"
 msgid "TRANSLATOR_INFO"
 msgstr ""
 "Deze vertaling wordt u aangeboden door het OpenPLi team.\n"
-"De huidige vertaling is van 1 september 2018.\n"
+"De huidige vertaling is van 28 oktober 2018.\n"
 "Voor aanvullingen en opmerkingen stuurt u een mail naar\n"
 "translators@openpli.org."
 
@@ -8533,9 +8535,6 @@ msgstr "Pincode met succes opgeslagen."
 
 msgid "The PIN codes you entered are different."
 msgstr "De ingevoerde pincodes zijn niet gelijk."
-
-msgid "The backup failed. Please choose a different backup location."
-msgstr "De backup is mislukt. Kies een andere back-up locatie aub."
 
 #, python-format
 msgid ""
@@ -8651,9 +8650,8 @@ msgstr ""
 "De gebruikersomgeving van uw ontvanger wordt opnieuw opgestart\n"
 "als gevolg van een geconstateerd probleem in mytest.py"
 
-#, fuzzy
 msgid "The user interface of your receiver is restarting in debug mode"
-msgstr "De gebruikersomgeving van uw ontvanger wordt herstart."
+msgstr "De gebruikersomgeving van uw ontvanger wordt in debug modus herstart"
 
 msgid ""
 "The wireless LAN plugin is not installed!\n"
@@ -8666,12 +8664,6 @@ msgid ""
 "The wireless LAN plugin is not installed!\n"
 "Please install it."
 msgstr "De WiFi plugin is niet geïnstalleerd. Deze plugin eerst installeren aub."
-
-msgid "The wizard can backup your current settings. Do you want to do a backup now?"
-msgstr "De wizard kan de huidige instellingen opslaan. Wilt u nu een backup maken?"
-
-msgid "The wizard is finished now."
-msgstr "De wizard is nu gereed."
 
 msgid "There are at least "
 msgstr "Er zijn ten minste"
@@ -9280,6 +9272,18 @@ msgstr "Ongeldige toets"
 msgid "Unhide parental control services"
 msgstr "Maak het kinderslot zichtbaar"
 
+#, fuzzy
+msgid "Unicable delay after change voltage before switch command"
+msgstr "Schakel-commando vertraging nadat de spanning gewijzigd is."
+
+#, fuzzy
+msgid "Unicable delay after enable voltage before switch command"
+msgstr "De Unicable-vertraging na 'power on' maar voor het schakelcommando"
+
+#, fuzzy
+msgid "Unicable delay after last diseqc command"
+msgstr "De Unicable-vertraging na het laatste diseqc commando"
+
 msgid "Uninstall"
 msgstr "De-installeer"
 
@@ -9312,6 +9316,9 @@ msgstr "Ontkoppel"
 
 msgid "Unsupported"
 msgstr "Niet ondersteund"
+
+msgid "Unzipping Image"
+msgstr "De image wordt uitgepakt"
 
 msgid "Update"
 msgstr "Update"
@@ -9761,9 +9768,6 @@ msgstr ""
 "\n"
 "Ga naar het einde, druk op Ok, selecteer 'eindpunt'. Eenvoudiger kan niet."
 
-msgid "Welcome to the image upgrade wizard. The wizard will assist you in upgrading the firmware of your receiver by providing a backup facility for your current settings and a short explanation of how to upgrade your firmware."
-msgstr "Welkom bij de software updatewizard. De wizard assisteert u bij het opwaarderen van de software van de ontvanger door een backupmogelijkheid aan te bieden voor de huidige instellingen, gecombineerd met een korte uitleg hoe u de software kunt updaten."
-
 msgid ""
 "Welcome.\n"
 "\n"
@@ -10031,9 +10035,6 @@ msgstr ""
 "\n"
 "U kunt kiezen uit pillarbox, schalen, automatisch, non liniair of pan & scan."
 
-msgid "Where do you want to backup your settings?"
-msgstr "Waar wilt u de backup van uw instellingen opslaan?"
-
 msgid "Where to save temporary timeshift recordings?"
 msgstr "Waar wilt u de tijdelijke timeshift opnames opslaan?"
 
@@ -10063,6 +10064,9 @@ msgstr "Met popup"
 
 msgid "Without popup"
 msgstr "Zonder popup"
+
+msgid "Wizard setup"
+msgstr "Installatiewizard"
 
 msgid "Wizard to arrange the overscan"
 msgstr "Wizard om de overscan in te stellen"
@@ -10131,9 +10135,6 @@ msgstr "Ja, altijd"
 msgid "Yes, and delete this movie"
 msgstr "Ja, en verwijder dit bestand"
 
-msgid "Yes, backup my settings!"
-msgstr "Ja, ik wil een backup maken van mijn instellingen!"
-
 msgid "Yes, delete this movie and return to movie list"
 msgstr "Ja, verwijder deze opname en keer terug naar het opnameoverzicht"
 
@@ -10142,12 +10143,6 @@ msgstr "Ja, enkel vanuit 'deep standby'"
 
 msgid "Yes, only from standby"
 msgstr "Ja, enkel vanuit standby"
-
-msgid "Yes, perform a shutdown now."
-msgstr "Ja, ik wil nu afsluiten."
-
-msgid "Yes, restore the settings now"
-msgstr "Ja, de gegevens nu terugplaatsen"
 
 msgid "Yes, returning to movie list"
 msgstr "Ja, terug naar de opname lijst"
@@ -10247,12 +10242,6 @@ msgstr ""
 msgid "You didn't select a channel to record from."
 msgstr "U heeft geen kanaal geselecteerd om van op te nemen."
 
-msgid "You have chosen to backup your settings. Please press OK to start the backup now."
-msgstr "U heeft gekozen een backup van uw instellingen te maken. Druk op Ok om te beginnen."
-
-msgid "You have chosen to restore your settings. Enigma2 will restart after restore. Please press OK to start the restore now."
-msgstr "U heeft gekozen om uw instellingen te herstellen. Enigma2 zal herstarten na het herstel. Druk op Ok om te beginnen met het herstel."
-
 #, python-format
 msgid "You have to wait %s!"
 msgstr "Wacht op %s!"
@@ -10260,16 +10249,6 @@ msgstr "Wacht op %s!"
 #, python-format
 msgid "You must switch to the service %s (%s - '%s')!\n"
 msgstr "U moet naar %s (%s-'%s') omschakelen!\n"
-
-msgid ""
-"You need a PC connected to your receiver. If you need further instructions, please visit the website https://openpli.org\n"
-"Your receiver will now be halted. After you have performed the update instructions from the website, your new firmware will ask you to restore your settings."
-msgstr ""
-"U heeft een PC nodig die met uw ontvanger verbonden is. Indien u meer info wenst bezoek dan de website https://openpli.org\n"
-"Uw ontvanger zal nu stoppen. Nadat u de update-instructie van de website uitgevoerd heeft zal de firmware vragen om de eerdere settings te restoren."
-
-msgid "Your backup succeeded. We will now continue to explain the further upgrade process."
-msgstr "De backup is geslaagd. U krijgt nu een korte uitleg over het vervolg van het update proces."
 
 msgid "Your collection exceeds the size of a single layer medium, you will need a blank dual layer DVD!"
 msgstr "Uw verzameling is groter dan wat erop een single layer medium past, u heeft een lege dual layer DVD nodig!"
@@ -10338,9 +10317,6 @@ msgstr "Uw ontvanger wordt herstart."
 
 msgid "Your receiver is shutting down"
 msgstr "Uw ontvanger gaat uit"
-
-msgid "Your receiver is shutting down. Please stand by..."
-msgstr "Uw ontvanger wordt uitgeschakeld. Een moment geduld AUB..."
 
 msgid "Your receiver might be unusable now. Please consult the manual for further assistance before rebooting your receiver."
 msgstr "Uw ontvanger kan nu onbruikbaar zijn. Leest u eerst de handleiding voor extra informatie voordat u de ontvanger herstart."
@@ -10417,6 +10393,9 @@ msgstr "Naar timer kanaal %s geschakeld!"
 
 msgid "Zgemma H.S/H.2S/H.2H/H5/H7"
 msgstr "Zgemma H.S/H.2S/H.2H/H5/H7"
+
+msgid "Zgemma H9"
+msgstr "Zgemma H9"
 
 msgid "Zgemma Star S/2S/H1/H2"
 msgstr "Zgemma Star S/2S/H1/H2"
@@ -10888,9 +10867,6 @@ msgstr "hoogte"
 msgid "help..."
 msgstr "Help..."
 
-msgid "hide"
-msgstr "verberg"
-
 msgid "horizontal"
 msgstr "horizontaal"
 
@@ -11302,9 +11278,6 @@ msgstr "zenders buiten gebruik"
 
 msgid "set as startup service"
 msgstr "Kanaal kiezen bij opstarten"
-
-msgid "show"
-msgstr "toon"
 
 msgid "show DVD main menu"
 msgstr "DVD hoofdmenu weergeven"

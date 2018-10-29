@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-29 17:41+0200\n"
+"POT-Creation-Date: 2018-10-27 22:08+0200\n"
 "PO-Revision-Date: 2017-03-05 13:24+0100\n"
 "Last-Translator: Magnus Nilsson <mag_nilsson@hotmail.com>\n"
 "Language-Team: \n"
@@ -75,6 +75,13 @@ msgstr ""
 "\n"
 "Tryck OK på fjärrkontrollen för att forsätta."
 
+#
+#, fuzzy
+msgid ""
+"\n"
+"Press OK or Exit to abort!"
+msgstr "Tryck OK för sökning"
+
 msgid ""
 "\n"
 "Recording in progress."
@@ -96,13 +103,6 @@ msgid ""
 msgstr ""
 "\n"
 "Återställ mottagares inställningar."
-
-msgid ""
-"\n"
-"Restore your receiver with a new firmware."
-msgstr ""
-"\n"
-"Återställ din mottagare med en ny firmware."
 
 #
 msgid ""
@@ -1342,6 +1342,18 @@ msgid "Auto scart switching"
 msgstr "Auto scart växling"
 
 #
+#, fuzzy, python-format
+msgid "Autoinstalling %s"
+msgstr "Installerar"
+
+#, fuzzy
+msgid "Autoinstalling Completed"
+msgstr "Installationen är klar."
+
+msgid "Autoinstalling please wait for packages being updated"
+msgstr ""
+
+#
 msgid "Automatic"
 msgstr "Automatisk"
 
@@ -2423,10 +2435,6 @@ msgstr "Innehållet för stort för en DVD!"
 
 msgid "Continue"
 msgstr "Forsätt"
-
-#
-msgid "Continue in background"
-msgstr "Fortsätta i bakgrund"
 
 #
 msgid "Continue playback"
@@ -3964,6 +3972,11 @@ msgstr "Flash"
 msgid "Flash image"
 msgstr "Flash"
 
+#
+#, fuzzy
+msgid "Flashing Image"
+msgstr "Flash"
+
 msgid "Flashing image succesfull"
 msgstr ""
 
@@ -4064,7 +4077,7 @@ msgstr "Stoppa bild"
 msgid "Full transparency"
 msgstr "Helt transparent"
 
-msgid "Fulview resulution"
+msgid "Full view resolution"
 msgstr "Fullbildsupplösning"
 
 msgid "Function of OK button"
@@ -4374,6 +4387,9 @@ msgstr "Hjälper dig att ställa in parabolen"
 
 msgid "Hidden network"
 msgstr "Dolt nätverk"
+
+msgid "Hide"
+msgstr ""
 
 msgid "Hide channel list in radio mode"
 msgstr "Dölj kanallistan i radioläge"
@@ -4723,14 +4739,6 @@ msgstr "Inmatningsenheter"
 #
 msgid "Install"
 msgstr "Installera"
-
-#
-msgid "Install a new image with a USB stick"
-msgstr "Installera ny image med hjälp av en USB sticka"
-
-#
-msgid "Install a new image with your web browser"
-msgstr "Installera ny image med hjälp av din webläsare"
 
 #
 msgid "Install channel list"
@@ -5781,10 +5789,6 @@ msgid "No age block"
 msgstr "Ingen åldersblockering"
 
 #
-msgid "No backup needed"
-msgstr "Ingen säkerhetskopia behövs"
-
-#
 msgid ""
 "No data on transponder!\n"
 "(Timeout reading PAT)"
@@ -5938,15 +5942,8 @@ msgstr "Nej, men starta om från början"
 msgid "No, do not flash image"
 msgstr "Nej, gör inget."
 
-#
-msgid "No, do nothing."
-msgstr "Nej, gör inget."
-
 msgid "No, except Wakeup timer"
 msgstr "Nej, bara uppväckningstimer"
-
-msgid "No, just start my receiver"
-msgstr "Nej, starta bara mottagaren"
 
 msgid "No, never"
 msgstr "Nej, aldrig"
@@ -6047,10 +6044,6 @@ msgstr ""
 #
 msgid "OK"
 msgstr "OK"
-
-#
-msgid "OK, guide me through the upgrade process"
-msgstr "OK, guida mig genom uppgraderingen"
 
 msgid "ONID"
 msgstr "ONID"
@@ -6396,6 +6389,10 @@ msgstr ""
 "Vänligen konfigurera eller bekräfta din namnserver med att fylla i de begärda fälten.\n"
 "När du är klar tryck OK för att fortsätta."
 
+#, fuzzy
+msgid "Please configure the fallback tuner setup?"
+msgstr "URL för reserv fjärrmottagare"
+
 #
 msgid ""
 "Please configure your internet connection by filling out the required values.\n"
@@ -6559,6 +6556,9 @@ msgstr "Vänligen installera tuner A"
 #, fuzzy
 msgid "Please set up tuner R"
 msgstr "Vänligen installera tuner A"
+
+msgid "Please setup the following basic configs!"
+msgstr ""
 
 #
 msgid ""
@@ -7409,12 +7409,12 @@ msgstr "Återupptar uppspelning"
 
 #
 #, fuzzy
-msgid "Retreiving image list - Please wait..."
+msgid "Retrieving image list - Please wait..."
 msgstr "Hämtar plugin information. Var vänlig vänta..."
 
 #
 #, fuzzy
-msgid "Retreiving image slots - Please wait..."
+msgid "Retrieving image slots - Please wait..."
 msgstr "Söker efter tillgängliga uppdateringar. Vänligen vänta..."
 
 #
@@ -8372,6 +8372,10 @@ msgstr "Shellskript"
 msgid "Short filenames"
 msgstr "Korta filnamn"
 
+#, fuzzy
+msgid "Show"
+msgstr "Visa BiB"
+
 msgid "Show Audioselection"
 msgstr "Visa ljudval"
 
@@ -8808,10 +8812,6 @@ msgstr "Mjukvaruhantering"
 
 msgid "Software manager setup"
 msgstr "Mjukvaruhanterare installation"
-
-#
-msgid "Software restore"
-msgstr "Återställning av mjukvara"
 
 #
 msgid "Software update"
@@ -9488,9 +9488,6 @@ msgstr "PIN-koden har sparats ."
 msgid "The PIN codes you entered are different."
 msgstr "PIN-koden matchar inte."
 
-msgid "The backup failed. Please choose a different backup location."
-msgstr "Säkerhetskopian misslyckades. Välj en annan plats för din säkerhetskopia."
-
 #, fuzzy, python-format
 msgid ""
 "The current image might not be stable.\n"
@@ -9633,14 +9630,6 @@ msgid ""
 msgstr ""
 "Pluginet för trådlöst LAN är inte installerad!\n"
 "Vänligen installera den."
-
-#
-msgid "The wizard can backup your current settings. Do you want to do a backup now?"
-msgstr "Guiden kan ta en säkerhetskopia på nuvarande inställningar. Vill du ta en säkerhetskopia nu?"
-
-#
-msgid "The wizard is finished now."
-msgstr "Guiden är nu färdig."
 
 #
 msgid "There are at least "
@@ -10332,6 +10321,18 @@ msgstr "Okänd knapp"
 msgid "Unhide parental control services"
 msgstr "Dölj inte föräldrakontrollsintällningar"
 
+#, fuzzy
+msgid "Unicable delay after change voltage before switch command"
+msgstr "Fördröjning efter ändrad spänning före switchkommando"
+
+#, fuzzy
+msgid "Unicable delay after enable voltage before switch command"
+msgstr "Fördröjning efter aktiverad spänning före switchkommando"
+
+#, fuzzy
+msgid "Unicable delay after last diseqc command"
+msgstr "Fördröjning efter senaste diseqc kommando"
+
 #
 msgid "Uninstall"
 msgstr "Avinstallera"
@@ -10367,6 +10368,11 @@ msgstr "Avmontera"
 #
 msgid "Unsupported"
 msgstr "Stöds ej"
+
+#
+#, fuzzy
+msgid "Unzipping Image"
+msgstr "Laddar ner"
 
 #
 msgid "Update"
@@ -10885,9 +10891,6 @@ msgstr ""
 "\n"
 "Sök därefter slutet på det innehåll du vill klippa bort, tryck OK, välj 'slutklipp'. Det var allt."
 
-msgid "Welcome to the image upgrade wizard. The wizard will assist you in upgrading the firmware of your receiver by providing a backup facility for your current settings and a short explanation of how to upgrade your firmware."
-msgstr "Välkommen till uppgraderingsguiden för din image. Guiden hjälper dig med uppgraderingen av mjukvaran i din mottagare genom att tillgodose en säkerhetskopia av dina aktuella inställningar och en kort förklaring hur du uppgraderar mjukvaran."
-
 msgid ""
 "Welcome.\n"
 "\n"
@@ -11135,10 +11138,6 @@ msgid "When the content has an aspect ratio of 4:3, choose whether to scale/stre
 msgstr "När innehållet har ett bildförhållande på 4:3, välj om man ska skala / sträcka bilden."
 
 #
-msgid "Where do you want to backup your settings?"
-msgstr "Var vill du spara din säkerhetskopia på dina inställningar?"
-
-#
 msgid "Where to save temporary timeshift recordings?"
 msgstr "Var ska temporära timeshiftinspelningar sparas?"
 
@@ -11170,6 +11169,11 @@ msgstr "Med popup"
 
 msgid "Without popup"
 msgstr "Utan popup"
+
+#
+#, fuzzy
+msgid "Wizard setup"
+msgstr "Videoinställning"
 
 msgid "Wizard to arrange the overscan"
 msgstr "Guide för att ändra överskanning"
@@ -11247,10 +11251,6 @@ msgstr "Ja, alltid"
 msgid "Yes, and delete this movie"
 msgstr "Ja, och ta bort den här filmen"
 
-#
-msgid "Yes, backup my settings!"
-msgstr "Ja, ta en säkerhetskopia på inställningarna!"
-
 msgid "Yes, delete this movie and return to movie list"
 msgstr "Ja, radera denna film och återgå till filmlistan"
 
@@ -11259,14 +11259,6 @@ msgstr "Ja, endast från avstängt läge"
 
 msgid "Yes, only from standby"
 msgstr "Ja, endast från viloläge"
-
-#
-msgid "Yes, perform a shutdown now."
-msgstr "Ja, utför avstängning nu."
-
-#
-msgid "Yes, restore the settings now"
-msgstr "Ja, återställ inställningarna nu"
 
 #
 msgid "Yes, returning to movie list"
@@ -11380,14 +11372,6 @@ msgid "You didn't select a channel to record from."
 msgstr "Du valde ingen kanal att spela in från."
 
 #
-msgid "You have chosen to backup your settings. Please press OK to start the backup now."
-msgstr "Du har valt att ta en säkerhetskopia på dina inställningar. Vänligen tryck OK för att starta din säkerhetskopia nu."
-
-#
-msgid "You have chosen to restore your settings. Enigma2 will restart after restore. Please press OK to start the restore now."
-msgstr "Du har valt att återskapa dina inställningar. Enigma2 kommer starta om efter återskapningen. Vänligen tryck OK för att starta återskapningen nu."
-
-#
 #, python-format
 msgid "You have to wait %s!"
 msgstr "Du måste vänta %s!"
@@ -11395,18 +11379,6 @@ msgstr "Du måste vänta %s!"
 #, python-format
 msgid "You must switch to the service %s (%s - '%s')!\n"
 msgstr "Du måste växla till denna kanal %s (%s- '%s')!\n"
-
-#, fuzzy
-msgid ""
-"You need a PC connected to your receiver. If you need further instructions, please visit the website https://openpli.org\n"
-"Your receiver will now be halted. After you have performed the update instructions from the website, your new firmware will ask you to restore your settings."
-msgstr ""
-"Du behöver ha en PC kopplad till din mottagare. Behöver du ytterligare instruktioner vänligen gå till websidan http://www.dm7025.de.\n"
-"Din mottagare kommer nu att stoppas. När du har genomfört uppdateringen enligt instruktionerna från websidan, kommer din nya mjukvara att fråga dig om du vill återställa dina inställningar."
-
-#
-msgid "Your backup succeeded. We will now continue to explain the further upgrade process."
-msgstr "Säkerhetskopieringen lyckades. Vi kommer nu att fortsätta förklara uppgraderingsprocessen."
 
 #
 msgid "Your collection exceeds the size of a single layer medium, you will need a blank dual layer DVD!"
@@ -11480,9 +11452,6 @@ msgstr "Din mottagare startar om"
 
 msgid "Your receiver is shutting down"
 msgstr "Din mottagare stängs av"
-
-msgid "Your receiver is shutting down. Please stand by..."
-msgstr "Din mottagare håller på att stängas av. Vänligen vänta..."
 
 msgid "Your receiver might be unusable now. Please consult the manual for further assistance before rebooting your receiver."
 msgstr "Din mottagare kanske inte fungerar längre. Vänligen läs manualen hur du får hjälp innan du startar om din mottagare."
@@ -11561,6 +11530,9 @@ msgid "Zapped to timer service %s!"
 msgstr "Gå till första tjänsten"
 
 msgid "Zgemma H.S/H.2S/H.2H/H5/H7"
+msgstr ""
+
+msgid "Zgemma H9"
 msgstr ""
 
 msgid "Zgemma Star S/2S/H1/H2"
@@ -12107,9 +12079,6 @@ msgstr "höjd"
 msgid "help..."
 msgstr "hjälp..."
 
-msgid "hide"
-msgstr "dölj"
-
 #
 msgid "horizontal"
 msgstr "horisontal"
@@ -12592,9 +12561,6 @@ msgstr "Alla kanaloperatörer"
 
 msgid "set as startup service"
 msgstr "använd som startkanal"
-
-msgid "show"
-msgstr "visa"
 
 #
 msgid "show DVD main menu"
