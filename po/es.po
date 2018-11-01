@@ -14419,3 +14419,33 @@ msgstr "Defina la ubicación del archivo EPG Cache."
 
 msgid "Location EPG Cache file"
 msgstr "Localización del archivo EPG"
+
+msgid "Autoinstalling %s"
+msgstr "Autoinstalación %s"
+
+msgid "Autoinstalling Completed"
+msgstr "Autoinstalación completada"
+
+msgid "Autoinstalling please wait for packages being updated"
+msgstr "Instalación automática, espere actualizando los paquetes"
+
+msgid "Full view resolution"
+msgstr "Resolución vista completa"
+
+msgid "Please configure the fallback tuner setup?"
+msgstr "Configurar del sintonizador de respaldo?"
+
+msgid "Unicable delay after change voltage before switch command"
+msgstr "Retraso unicable después del cambio de voltaje antes del comando de cambio"
+
+msgid "Unicable delay after enable voltage before switch command"
+msgstr "Retraso unicable después de habilitar voltaje antes de conmutar comando"
+
+msgid "Unicable delay after last diseqc command"
+msgstr "Retraso unicable después del último comando diseqc"
+
+msgid "Unzipping Image"
+msgstr "Descomprimiendo imagen"
+
+msgid "Wizard setup"
+msgstr "Configuración del asistente"
