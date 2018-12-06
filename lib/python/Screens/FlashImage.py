@@ -5,7 +5,6 @@ from Components.ChoiceList import ChoiceList, ChoiceEntryComponent
 from Components.config import config, configfile
 from Components.ActionMap import ActionMap
 from Components.Console import Console
-from Components.Harddisk import getNetworkMediaMounts, getNonNetworkMediaMounts
 from Components.Label import Label
 from Components.Pixmap import Pixmap
 from Components.ProgressBar import ProgressBar
@@ -34,6 +33,7 @@ class SelectImage(Screen):
 		self["key_green"] = StaticText()
 		self["key_yellow"] = StaticText()
 		self["key_blue"] = StaticText()
+		self["description"] = StaticText()
 		self["list"] = ChoiceList(list=[ChoiceEntryComponent('',((_("Retrieving image list - Please wait...")), "Waiter"))])
 
 		self["actions"] = ActionMap(["OkCancelActions", "ColorActions", "DirectionActions", "KeyboardInputActions", "MenuActions"],
@@ -64,10 +64,9 @@ class SelectImage(Screen):
 			for file in [x for x in files if os.path.splitext(x)[1] == ".zip" and model in x]:
 				try:
 					if checkimagefiles([x.split(os.sep)[-1] for x in zipfile.ZipFile(file).namelist()]):
-						medium = path.split(os.sep)[-1]
-						if medium not in self.imagesList:
-							self.imagesList[medium] = {}
-						self.imagesList[medium][file] = { 'link': file, 'name': file.split(os.sep)[-1]}
+						if "Downloaded Images" not in self.imagesList:
+							self.imagesList["Downloaded Images"] = {}
+						self.imagesList["Downloaded Images"][file] = {'link': file, 'name': file.split(os.sep)[-1]}
 				except:
 					pass
 
@@ -76,13 +75,13 @@ class SelectImage(Screen):
 		if not self.imagesList:
 			if not self.jsonlist:
 				try:
-					self.jsonlist = json.load(urllib2.urlopen('https://openpli.org/download/json/%s' % model))
+					self.jsonlist = json.load(urllib2.urlopen('http://downloads.openpli.org/json/%s' % model))
 				except:
 					pass
 			self.imagesList = dict(self.jsonlist) if self.jsonlist else {}
 
-			for media in getNonNetworkMediaMounts() + getNetworkMediaMounts():
-				if not(SystemInfo['HasMMC'] and "/mmc" in media):
+			for media in ['/media/%s' % x for x in os.listdir('/media')] + ['/media/net/%s' % x for x in os.listdir('/media/net')] if os.path.isdir('/media/net') else []:
+				if not(SystemInfo['HasMMC'] and "/mmc" in media) and os.path.isdir(media):
 					getImages(media, [os.path.join(media, x) for x in os.listdir(media) if os.path.splitext(x)[1] == ".zip" and model in x])
 					if "downloaded_images" in os.listdir(media):
 						media = os.path.join(media, "downloaded_images")
@@ -146,7 +145,12 @@ class SelectImage(Screen):
 		if currentSelected[0][1] == "Waiter":
 			self["key_green"].setText("")
 		else:
-			self["key_green"].setText((_("Compress") if currentSelected[0][0] in self.expanded else _("Expand")) if currentSelected[0][1] == "Expander" else _("Flash Image"))
+			if currentSelected[0][1] == "Expander":
+				self["key_green"].setText(_("Compress") if currentSelected[0][0] in self.expanded else _("Expand"))
+				self["description"].setText("")
+			else:
+				self["key_green"].setText(_("Flash Image"))
+				self["description"].setText(currentSelected[0][1])
 
 	def keyLeft(self):
 		self["list"].instance.moveSelection(self["list"].instance.pageUp)
@@ -212,7 +216,7 @@ class FlashImage(Screen):
 		if SystemInfo["canMultiBoot"]:
 			self.getImageList = GetImagelist(self.getImagelistCallback)
 		else:
-			choices = [(_("Yes, with backup"), "with backup"), (_("No, do not flash image"), False), (_("Yes, without backup"), "without backup")]
+			choices = [(_("Yes, with backup"), "with backup"), (_("Yes, without backup"), "without backup"), (_("No, do not flash image"), False)]
 			self.session.openWithCallback(self.checkMedia, MessageBox, self.message , list=choices, default=False, simple=True)
 
 	def getImagelistCallback(self, imagedict):
@@ -221,9 +225,9 @@ class FlashImage(Screen):
 		currentimageslot = GetCurrentImage()
 		for x in range(1, SystemInfo["canMultiBoot"][1] + 1):
 			choices.append(((_("slot%s - %s (current image) with, backup") if x == currentimageslot else _("slot%s - %s, with backup")) % (x, imagedict[x]['imagename']), (x, "with backup")))
-		choices.append((_("No, do not flash image"), False))
 		for x in range(1, SystemInfo["canMultiBoot"][1] + 1):
 			choices.append(((_("slot%s - %s (current image), without backup") if x == currentimageslot else _("slot%s - %s, without backup")) % (x, imagedict[x]['imagename']), (x, "without backup")))
+		choices.append((_("No, do not flash image"), False))
 		self.session.openWithCallback(self.checkMedia, MessageBox, self.message, list=choices, default=currentimageslot, simple=True)
 
 	def checkMedia(self, retval):
@@ -234,19 +238,34 @@ class FlashImage(Screen):
 			else:
 				doBackup = retval == "with backup"
 
-			def findmedia(destination):
+			def findmedia(path):
 				def avail(path):
-					if not(SystemInfo["HasMMC"] and '/mmc' in path) and not os.path.islink(path):
+					if not '/mmc' in path and os.path.isdir(path) and os.access(path, os.W_OK):
 						try:
 							statvfs = os.statvfs(path)
-							return (statvfs.f_bavail * statvfs.f_frsize) / (1 << 20) >= 500 and path
+							return (statvfs.f_bavail * statvfs.f_frsize) / (1 << 20)
 						except:
 							pass
-				for path in [destination] + getNonNetworkMediaMounts() + getNetworkMediaMounts():
-					if avail(path):
-						return path
 
-			self.destination = findmedia(os.path.isfile(self.BACKUP_SCRIPT) and config.plugins.autobackup.where.value or "/media/hdd")
+				def checkIfDevice(path, diskstats):
+					st_dev = os.stat(path).st_dev
+					return (os.major(st_dev), os.minor(st_dev)) in diskstats
+
+				diskstats = [(int(x[0]), int(x[1])) for x in [x.split()[0:3] for x in open('/proc/diskstats').readlines()] if x[2].startswith("sd")]
+				if os.path.isdir(path) and checkIfDevice(path, diskstats) and avail(path) > 500:
+					return (path, True)
+				mounts = []
+				devices = []
+				for path in ['/media/%s' % x for x in os.listdir('/media')] + ['/media/net/%s' % x for x in os.listdir('/media/net')] if os.path.isdir('/media/net') else []:
+					if checkIfDevice(path, diskstats):
+						devices.append((path, avail(path)))
+					else:
+						mounts.append((path, avail(path)))
+				devices.sort(key=lambda x: x[1], reverse=True)
+				mounts.sort(key=lambda x: x[1], reverse=True)
+				return ((devices[0][1] > 500 and (devices[0][0], True)) if devices else mounts and mounts[0][1] > 500 and (mounts[0][0], False)) or (None, None)
+
+			self.destination, isDevice = findmedia(os.path.isfile(self.BACKUP_SCRIPT) and config.plugins.autobackup.where.value or "/media/hdd")
 
 			if self.destination:
 
@@ -260,10 +279,10 @@ class FlashImage(Screen):
 					os.mkdir(destination)
 
 				if doBackup:
-					if self.destination in getNetworkMediaMounts():
-						self.session.openWithCallback(self.startBackupsettings, MessageBox, _("Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"), simple=True)
-					else:
+					if isDevice:
 						self.startBackupsettings(True)
+					else:
+						self.session.openWithCallback(self.startBackupsettings, MessageBox, _("Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"), simple=True)
 				else:
 					self.startDownload()
 			else:
@@ -417,9 +436,9 @@ class MultibootSelection(SelectImage):
 		mode = GetCurrentImageMode() or 0
 		for x in sorted(imagesdict.keys()):
 			if imagesdict[x]["imagename"] != _("Empty slot"):
-				list.append(ChoiceEntryComponent('',((_("slot%s - %s mode 1 (current image)") if x == currentimageslot and mode != 12 else _("slot%s - %s mode 1 ")) % (x, imagesdict[x]['imagename']), x)))
+				list.append(ChoiceEntryComponent('',((_("slot%s - %s mode 1 (current image)") if x == currentimageslot and mode != 12 else _("slot%s - %s mode 1")) % (x, imagesdict[x]['imagename']), x)))
 				if SystemInfo["canMode12"]:
-					list.append(ChoiceEntryComponent('',((_("slot%s - %s mode 12 (current image)") if x == currentimageslot and mode == 12 else _("slot%s - %s mode 12 ")) % (x, imagesdict[x]['imagename']), x + 12)))
+					list.append(ChoiceEntryComponent('',((_("slot%s - %s mode 12 (current image)") if x == currentimageslot and mode == 12 else _("slot%s - %s mode 12")) % (x, imagesdict[x]['imagename']), x + 12)))
 		self["list"].setList(list)
 
 	def keyOk(self):
@@ -430,15 +449,14 @@ class MultibootSelection(SelectImage):
 				self.ContainterFallback()
 			else:
 				os.mkdir('/tmp/startupmount')
-				self.container.ePopen('mount /dev/mmcblk0p1 /tmp/startupmount', self.ContainterFallback)
+				self.container.ePopen('mount /dev/%sp1 /tmp/startupmount' % SystemInfo["canMultiBoot"][2], self.ContainterFallback)
 
 	def ContainterFallback(self, data=None, retval=None, extra_args=None):
 		self.container.killAll()
 		slot = self.currentSelected[0][1]
 		model = HardwareInfo().get_machine_name()
-		if 'coherent_poll=2M' in open("/proc/cmdline", "r").read():
-			#when Gigablue do something else... this needs to be improved later!!! It even looks that the GB method is better :)
-			shutil.copyfile("/tmp/startupmount/STARTUP_%s" % self.slot, "/tmp/startupmount/STARTUP")
+		if SystemInfo["canMultiBoot"][3]:
+			shutil.copyfile("/tmp/startupmount/STARTUP_%s" % slot, "/tmp/startupmount/STARTUP")
 		else:
 			if slot < 12:
 				startupFileContents = "boot emmcflash0.kernel%s 'root=/dev/mmcblk0p%s rw rootwait %s_4.boxmode=1'\n" % (slot, slot * 2 + 1, model)
