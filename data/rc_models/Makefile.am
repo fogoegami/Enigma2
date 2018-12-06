@@ -8,8 +8,6 @@ dist_install_DATA = \
 	spycat.png xpeedlx.png revo4k.png sab.png sh1.png i55.png qviart.png gb7252.png e4hd.png \
 	edision2.png xpeedlx3.png atemionemesis.png sezammarvel.png mbultra.png ventonhdx.png mbmini.png \
 	hd60.png edision3.png edision4.png dinobot4kse.png ferguson4k.png \
-	spycat.png xpeedlx.png revo4k.png sab.png sh1.png i55.png qviart.png gb7252.png e4hd.png \
-	edision2.png edision3.png edision4.png hd60.png \
 	dmmadv.xml edision1.xml et4x00.xml et8000.xml et9x00.xml vuultimo.xml xp1000.xml dmm.xml amiko.xml \
 	amiko1.xml et6x00.xml et9500.xml et7x00.xml vuduo2.xml vu.xml vu2.xml formuler1.xml hd2400.xml hd-gen.xml \
 	vs1x00.xml xsarius.xml xsarius.png wetekplay.xml osmini.xml zgemma.xml miraclebox.xml miraclebox2.xml \
