@@ -11,7 +11,6 @@ dist_install_DATA = \
 	DroidSans-Bold.ttf \	
 	lcd.ttf \
 	md_khmurabi_10.ttf \
-	tuxtxt.ttf \
 	nmsbd.ttf \
 	LiberationSans-Bold.ttf \
 	LiberationSans-BoldItalic.ttf \
