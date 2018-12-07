@@ -8,8 +8,10 @@ dist_install_DATA = \
 	ae_AlMateen.ttf \
 	andale.ttf \
 	DejaVuSans.ttf \
+	DroidSans-Bold.ttf \	
 	lcd.ttf \
 	md_khmurabi_10.ttf \
+	tuxtxt.ttf
 	nmsbd.ttf \
 	LiberationSans-Bold.ttf \
 	LiberationSans-BoldItalic.ttf \
