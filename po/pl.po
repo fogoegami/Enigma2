@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-01 11:52+0330\n"
+"POT-Creation-Date: 2018-12-16 20:38+0100\n"
 "PO-Revision-Date: 2018-11-12 17:39+0100\n"
 "Last-Translator: blzr <blzr@o2.pl>\n"
 "Language-Team: \n"
@@ -423,6 +423,10 @@ msgid "%s%d min"
 msgstr ""
 
 #, python-format
+msgid "%s%d%s"
+msgstr ""
+
+#, python-format
 msgid "%s/%s: %s"
 msgstr ""
 
@@ -735,6 +739,10 @@ msgstr "UZYSKIWANIE TSID/ONID"
 
 msgid "AGC:"
 msgstr ""
+
+#, fuzzy
+msgid "ASS File"
+msgstr "Plik ASS"
 
 msgid "ASS file"
 msgstr "Plik ASS"
@@ -1138,6 +1146,13 @@ msgstr ""
 msgid "Audio PID"
 msgstr ""
 
+#, python-format
+msgid "Audio PID%s, codec & lang"
+msgstr ""
+
+msgid "Audio PID, codec & lang"
+msgstr ""
+
 msgid "Audio auto volume level"
 msgstr "Automatyczny poziom głośności"
 
@@ -1321,6 +1336,9 @@ msgid "Bangladesh"
 msgstr "Bangladesz"
 
 msgid "Barbados"
+msgstr ""
+
+msgid "Basic PID info"
 msgstr ""
 
 msgid "Basque"
@@ -2365,6 +2383,9 @@ msgstr "DUAL LAYER DVD"
 msgid "DVB CI Delay"
 msgstr "Opóźnienie DVB CI"
 
+msgid "DVB Subtitles PID & lang"
+msgstr ""
+
 msgid "DVB driver version: "
 msgstr "Sterowniki DVB:"
 
@@ -2959,6 +2980,10 @@ msgstr "Salwador"
 msgid "Electronic Program Guide"
 msgstr "EPG"
 
+#, fuzzy
+msgid "Embedded"
+msgstr "wtopione"
+
 msgid "Empty slot"
 msgstr "Pusty slot"
 
@@ -2975,6 +3000,10 @@ msgid "Enable 5V for active antenna"
 msgstr "Włącz 5V dla aktywnej anteny"
 
 msgid "Enable EIT EPG"
+msgstr "Włącz EIT EPG"
+
+#, fuzzy
+msgid "Enable HDMI-CEC"
 msgstr "Włącz EIT EPG"
 
 msgid "Enable MHW EPG"
@@ -3322,6 +3351,10 @@ msgid "Extend sleeptimer 15 minutes"
 msgstr "Wydłuż sleeptimer o 15 minut"
 
 msgid "Extended"
+msgstr "Rozszerzone"
+
+#, fuzzy
+msgid "Extended PID info"
 msgstr "Rozszerzone"
 
 msgid "Extended Software"
@@ -5464,6 +5497,10 @@ msgstr "Oryginalny"
 msgid "Other"
 msgstr "Inne"
 
+#, fuzzy
+msgid "Other Subtitles & lang"
+msgstr "Ustawienia napisów"
+
 msgid "Output"
 msgstr "Wyjście"
 
@@ -5490,6 +5527,10 @@ msgstr ""
 
 msgid "PDC"
 msgstr ""
+
+#, fuzzy
+msgid "PGS File"
+msgstr "Plik PGS"
 
 msgid "PGS file"
 msgstr "Plik PGS"
@@ -6633,8 +6674,16 @@ msgstr ""
 msgid "SPDIF"
 msgstr ""
 
+#, fuzzy
+msgid "SRT File"
+msgstr "Plik SRT"
+
 msgid "SRT file"
 msgstr "Plik SRT"
+
+#, fuzzy
+msgid "SSA File"
+msgstr "Plik SSA"
 
 msgid "SSA file"
 msgstr "Plik SSA"
@@ -7068,7 +7117,7 @@ msgstr ""
 msgid "Select the User Band frequency to be assigned to this tuner. This is the frequency the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
 msgstr ""
 
-msgid "Select the User Band to be assigned to this tuner. This is an index into the table of frequencies the SCR switch or SCR LNB uses to pass the requested tranponder to the tuner."
+msgid "Select the User Band to be assigned to this tuner. This is an index into the table of frequencies the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
 msgstr ""
 
 msgid "Select the character or action under the virtual keyboard cursor"
@@ -7222,6 +7271,14 @@ msgstr "Parametry kanału"
 
 msgid "Service info - ECM Info"
 msgstr "Parametry kanału - ECM Info"
+
+#, fuzzy
+msgid "Service info - service & Basic PID Info"
+msgstr "Parametry serwisu - kanał i PIDy"
+
+#, fuzzy
+msgid "Service info - service & Extended PID Info"
+msgstr "Parametry serwisu - kanał i PIDy"
 
 msgid "Service info - service & PIDs"
 msgstr "Parametry serwisu - kanał i PIDy"
@@ -7505,7 +7562,8 @@ msgstr "Wyświetl ostatnie commity"
 msgid "Show latest upgrade log"
 msgstr "Ostatni log aktualizacji"
 
-msgid "Show menu numbers"
+#, fuzzy
+msgid "Show menu or plugin numbers"
 msgstr "Wyświetlaj numerację menu"
 
 msgid "Show menu paths"
@@ -8297,6 +8355,10 @@ msgstr "Raportowanie fizycznego adresu TV"
 msgid "TXT PID"
 msgstr ""
 
+#, fuzzy
+msgid "TXT Subtitles page & lang"
+msgstr "Ustawienia napisów"
+
 msgid "Table of contents for collection"
 msgstr "Lista zawartości dla kolekcji"
 
@@ -8632,7 +8694,8 @@ msgstr "Ta opcja pozwala wyłączyć wyświetlacz."
 msgid "This option allows you to show all symbols on the display."
 msgstr "Ta opcja włącza wyświetlanie wszystkich symboli na wyświetlaczu."
 
-msgid "This option allows you to show menu number quick links."
+#, fuzzy
+msgid "This option allows you to show menu and/or plugin number quick links."
 msgstr "Ta opcja włącza wyświetlanie numerowania pozycji menu."
 
 msgid "This option allows you to show menu paths."
@@ -9338,6 +9401,10 @@ msgstr "Połączenie VLAN"
 msgid "VMGM (intro trailer)"
 msgstr ""
 
+#, fuzzy
+msgid "VOB File"
+msgstr "Plik VOB"
+
 msgid "VOB file"
 msgstr "Plik VOB"
 
@@ -9682,6 +9749,10 @@ msgstr "Gdy włączone, dane ECM będą zawarte w streamach http. To pozwala wyk
 
 msgid "When enabled, EIT data will be included in http streams. This allows a client receiver to show EPG."
 msgstr "Gdy włączone, dane EIT będą zawarte w streamach http. To pozwala wyświetlić EPG na odbiorniku 'kliencie'."
+
+#, fuzzy
+msgid "When enabled, HDMI-CEC is enabled with standard configuration"
+msgstr "Gdy włączone, używa DHCP do konfiguracji IP."
 
 msgid "When enabled, a popup message will be shown when a movie has finished and the next one will start."
 msgstr "Gdy włączone, gdy film się zakończy i następny rozpocznie, na ekranie zostanie wyświetlona wiadomość."
@@ -10665,6 +10736,18 @@ msgstr "Pomoc..."
 
 msgid "horizontal"
 msgstr "Pozioma (H)"
+
+#, fuzzy
+msgid "in menu and plugins"
+msgstr "Pobierz wtyczki"
+
+#, fuzzy
+msgid "in menu only"
+msgstr "Menu główne"
+
+#, fuzzy
+msgid "in plugins only"
+msgstr "Nie znaleziono nowych wtyczek"
 
 msgid "information/education/school program"
 msgstr "Program edukacyjny"

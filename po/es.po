@@ -697,8 +697,11 @@ msgstr "ACQUIRING TSID/ONID"
 msgid "AGC:"
 msgstr "AGC:"
 
+msgid "ASS File"
+msgstr "ASS archivo"
+
 msgid "ASS file"
-msgstr "ASS fichero"
+msgstr "ASS Archivo"
 
 msgid "ATSC"
 msgstr "ATSC"
@@ -14449,3 +14452,46 @@ msgstr "Descomprimiendo imagen"
 
 msgid "Wizard setup"
 msgstr "Configuración del asistente"
+
+#, python-format
+msgid "Audio PID%s, codec & lang"
+msgstr "PID audio %s, codec & lang"
+
+msgid "Audio PID, codec & lang"
+msgstr "PID audio, codec & lang"
+
+msgid "Basic PID info"
+msgstr "Info básica PID"
+
+msgid "DVB Subtitles PID & lang"
+msgstr "Subtítulos DVB PID & lang"
+
+msgid "Embedded"
+msgstr "Embebido"
+
+msgid "Extended PID info"
+msgstr "Extender info PID"
+
+msgid "Other Subtitles & lang"
+msgstr "Otros Subtítulos & lang"
+
+msgid "PGS File"
+msgstr "Archivo PGS"
+
+msgid "SRT File"
+msgstr "Archivo SRT"
+
+msgid "SSA File"
+msgstr "Archivo SSA"
+
+msgid "Service info - service & Basic PID Info"
+msgstr "Info Servicio - servicio & info PID básico"
+
+msgid "Service info - service & Extended PID Info"
+msgstr "Info Servicio - servicio & Info PID extendido"
+
+msgid "TXT Subtitles page & lang"
+msgstr "Página Subtítulos TXT & lang"
+
+msgid "VOB File"
+msgstr "Archivo VOB"
