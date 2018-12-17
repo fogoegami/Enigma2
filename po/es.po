@@ -14507,3 +14507,15 @@ msgstr "No hay listas de reproducción guardadas para cargar!"
 
 msgid "When enabled, HDMI-CEC is enabled with standard configuration"
 msgstr "Si está habilitado, HDMI-CEC está habilitado en configuración estándar"
+
+msgid "This option allows you to show menu and/or plugin number quick links."
+msgstr "Esta opción le permite mostrar enlaces rápidos y/o número de complemento."
+
+msgid "in menu and plugins"
+msgstr "en menu y plugins"
+
+msgid "in menu only"
+msgstr "solo en menu"
+
+msgid "in plugins only"
+msgstr "solo en complementos"
