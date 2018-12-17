@@ -14495,3 +14495,15 @@ msgstr "Página Subtítulos TXT & lang"
 
 msgid "VOB File"
 msgstr "Archivo VOB"
+
+msgid "Enable HDMI-CEC"
+msgstr "Activar HDMI-CEC"
+
+msgid "There are no saved playlists to delete!"
+msgstr "No hay listas de reproducción guardadas para eliminar!"
+
+msgid "There are no saved playlists to load!"
+msgstr "No hay listas de reproducción guardadas para cargar!"
+
+msgid "When enabled, HDMI-CEC is enabled with standard configuration"
+msgstr "Si está habilitado, HDMI-CEC está habilitado en configuración estándar"
