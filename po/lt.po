@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PLi enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-16 20:38+0100\n"
-"PO-Revision-Date: 2018-12-07 23:41+0200\n"
+"POT-Creation-Date: 2018-12-22 14:39+0100\n"
+"PO-Revision-Date: 2018-12-17 18:08+0200\n"
 "Last-Translator: Audronis Grincevicius <adga45@gmail.com>\n"
 "Language-Team: Adga (C) <adga45@gmail.com>\n"
 "Language: lt_LT\n"
@@ -425,7 +425,7 @@ msgstr "%s%d min."
 
 #, python-format
 msgid "%s%d%s"
-msgstr ""
+msgstr "%s%d%s"
 
 #, python-format
 msgid "%s/%s: %s"
@@ -741,7 +741,6 @@ msgstr "GAUNAMAS TSID/ONID"
 msgid "AGC:"
 msgstr "AGC:"
 
-#, fuzzy
 msgid "ASS File"
 msgstr "ASS failas"
 
@@ -1149,10 +1148,10 @@ msgstr "Garso PID"
 
 #, python-format
 msgid "Audio PID%s, codec & lang"
-msgstr ""
+msgstr "Garso PID %s, kodekas ir kalba"
 
 msgid "Audio PID, codec & lang"
-msgstr ""
+msgstr "Garso PID, kodekas ir kalba"
 
 msgid "Audio auto volume level"
 msgstr "Garso automatinis garsumo lygis"
@@ -1340,7 +1339,7 @@ msgid "Barbados"
 msgstr "Barbadosas"
 
 msgid "Basic PID info"
-msgstr ""
+msgstr "Pagrindinė PID info"
 
 msgid "Basque"
 msgstr "Baskų"
@@ -2384,7 +2383,7 @@ msgid "DVB CI Delay"
 msgstr "DVB CI delsa"
 
 msgid "DVB Subtitles PID & lang"
-msgstr ""
+msgstr "DVB subtitrai PID ir kalba"
 
 msgid "DVB driver version: "
 msgstr "DVB tvarkyklės versija: "
@@ -2982,9 +2981,8 @@ msgstr "El salvadoras"
 msgid "Electronic Program Guide"
 msgstr "Elektroninis programų vadovas"
 
-#, fuzzy
 msgid "Embedded"
-msgstr "integruotas"
+msgstr "Įterpta"
 
 msgid "Empty slot"
 msgstr "Tuščias lizdas"
@@ -3004,9 +3002,8 @@ msgstr "Įjungti 5V aktyviai antenai"
 msgid "Enable EIT EPG"
 msgstr "Įjungti EIT EPG"
 
-#, fuzzy
 msgid "Enable HDMI-CEC"
-msgstr "Įjungti EIT EPG"
+msgstr "Įjungti HDMI-CEC"
 
 msgid "Enable MHW EPG"
 msgstr "Įjungti MHW EPG"
@@ -3353,9 +3350,8 @@ msgstr "Pratęsti miego laikmatį 15 minučių"
 msgid "Extended"
 msgstr "Išplėstas"
 
-#, fuzzy
 msgid "Extended PID info"
-msgstr "Išplėstas"
+msgstr "Išplėstinė PID info"
 
 msgid "Extended Software"
 msgstr "Išplėstinė programinė įranga"
@@ -5059,8 +5055,8 @@ msgstr "Serverio pavadinimo nustatymai"
 msgid "Nameserver setup"
 msgstr "Serverio pavadinimo valdymas"
 
-msgid "Namespace"
-msgstr "Pavadinimo erdvė"
+msgid "Namespace & Orbital pos."
+msgstr ""
 
 msgid "Namibia"
 msgstr "Namibija"
@@ -5494,9 +5490,8 @@ msgstr "Originalus"
 msgid "Other"
 msgstr "Kiti"
 
-#, fuzzy
 msgid "Other Subtitles & lang"
-msgstr "Subtitrų nustatymai"
+msgstr "Kiti subtitrai ir kalba"
 
 msgid "Output"
 msgstr "Išvestis"
@@ -5525,7 +5520,6 @@ msgstr "PCR PID"
 msgid "PDC"
 msgstr "PDC"
 
-#, fuzzy
 msgid "PGS File"
 msgstr "PGS failas"
 
@@ -6671,14 +6665,12 @@ msgstr "SNR:"
 msgid "SPDIF"
 msgstr "SPDIF"
 
-#, fuzzy
 msgid "SRT File"
 msgstr "SRT failas"
 
 msgid "SRT file"
 msgstr "SRT failas"
 
-#, fuzzy
 msgid "SSA File"
 msgstr "SSA failas"
 
@@ -7262,13 +7254,11 @@ msgstr "Apie kanalą"
 msgid "Service info - ECM Info"
 msgstr "Kanalo info - ECM info"
 
-#, fuzzy
 msgid "Service info - service & Basic PID Info"
-msgstr "Kanalo informacija - kanalas ir PID's"
+msgstr "Kanalo info - kanalas ir pagrindinė PID info"
 
-#, fuzzy
 msgid "Service info - service & Extended PID Info"
-msgstr "Kanalo informacija - kanalas ir PID's"
+msgstr "Kanalo info - kanalas ir išplėstinė PID info"
 
 msgid "Service info - service & PIDs"
 msgstr "Kanalo informacija - kanalas ir PID's"
@@ -7554,9 +7544,8 @@ msgstr "Rodyti paskutinius veiksmus"
 msgid "Show latest upgrade log"
 msgstr "Rodyti paskutinio atnaujinimo žurnalą"
 
-#, fuzzy
 msgid "Show menu or plugin numbers"
-msgstr "Rodyti meniu numerius"
+msgstr "Rodyti meniu arba priedų numerius"
 
 msgid "Show menu paths"
 msgstr "Rodyti meniu kelius"
@@ -8326,7 +8315,7 @@ msgstr "Sistema ir moduliacija"
 msgid "TRANSLATOR_INFO"
 msgstr ""
 "Audronis Grincevičius (Adga) Pasvalys, Lietuva\n"
-"2018-12-08 versija"
+"2018-12-16"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS failas per didelis 1 lygio ISO9660!"
@@ -8346,15 +8335,14 @@ msgstr "TV fizinio adreso ataskaita"
 msgid "TXT PID"
 msgstr "TXT PID"
 
-#, fuzzy
 msgid "TXT Subtitles page & lang"
-msgstr "Subtitrų nustatymai"
+msgstr "TXT subtitrų puslapis ir kalba"
 
 msgid "Table of contents for collection"
 msgstr "Rinkinio turinys"
 
 msgid "Tags"
-msgstr "Kortelės"
+msgstr "Žymos"
 
 msgid "Tajikistan"
 msgstr "Tadžikistanas"
@@ -8681,9 +8669,8 @@ msgstr "Ši parinktis leidžia jums išsijungti ekraną."
 msgid "This option allows you to show all symbols on the display."
 msgstr "Ši parinktis leidžia jums rodyti visus simbolius ekrane."
 
-#, fuzzy
 msgid "This option allows you to show menu and/or plugin number quick links."
-msgstr "Ši parinktis leidžia jums parodyti greitų nuorodų meniu numerį."
+msgstr "Ši parinktis leidžia rodyti greitosios nuorodos meniu ir/arba priedo numerį."
 
 msgid "This option allows you to show menu paths."
 msgstr "Ši funkcija leidžia jums rodyti meniu kelius."
@@ -9388,7 +9375,6 @@ msgstr "VLAN prisijungimas"
 msgid "VMGM (intro trailer)"
 msgstr "VMGM (anonsas)"
 
-#, fuzzy
 msgid "VOB File"
 msgstr "VOB failas"
 
@@ -9405,7 +9391,7 @@ msgid "Various"
 msgstr "Įvairūs"
 
 msgid "Venezuela (Bolivarian Republic of)"
-msgstr "Venesuelos Bolivaro Respublika"
+msgstr "Venesuela (Bolivaro Respublika)"
 
 msgid "Vertical"
 msgstr "Vertikali"
@@ -9467,7 +9453,7 @@ msgid "Viet Nam"
 msgstr "Vietnamas"
 
 msgid "View Rass interactive..."
-msgstr "Peržiūrėti Rass interaktyviai..."
+msgstr "Interaktyvi Rass peržiūra..."
 
 msgid "View details"
 msgstr "Išsami informacija"
@@ -9518,7 +9504,7 @@ msgid "View teletext..."
 msgstr "Žiūrėti teletekstą..."
 
 msgid "View video CD..."
-msgstr "Peržiūrėti vaizdo CD..."
+msgstr "Žiūrėti vaizdo CD..."
 
 msgid "Virgin Islands (British)"
 msgstr "Mergelių salos (J.K.)"
@@ -9602,7 +9588,7 @@ msgid "Wakeup type"
 msgstr "Pažadinimo tipas"
 
 msgid "Wallis and Futuna"
-msgstr "Volisas ir Futuna"
+msgstr "Valis ir Futuna"
 
 msgid "Warning"
 msgstr "Įspėjimas"
@@ -9737,9 +9723,8 @@ msgstr "Kai čia įjungta, http sraute bus įtraukti ir ECM duomenys. Tai leis k
 msgid "When enabled, EIT data will be included in http streams. This allows a client receiver to show EPG."
 msgstr "Kai čia įjungta, http sraute bus įtraukti ir EIT duomenys. Tai leis kliento imtuvui rodyti EPG."
 
-#, fuzzy
 msgid "When enabled, HDMI-CEC is enabled with standard configuration"
-msgstr "Kai čia įjungta, IP adresą priskirs tinklo DHCP serveris."
+msgstr "Kai įjungta, HDMI-CEC įjungta su standartine konfigūracija"
 
 msgid "When enabled, a popup message will be shown when a movie has finished and the next one will start."
 msgstr "Kai čia įjungta, bus rodomas iššokančios žinutės langas, kai baigsis filmas ir prasidės kitas."
@@ -10726,17 +10711,14 @@ msgstr "pagalba..."
 msgid "horizontal"
 msgstr "horizontali"
 
-#, fuzzy
 msgid "in menu and plugins"
-msgstr "Parsiųsti priedus"
+msgstr "meniu ir prieduose"
 
-#, fuzzy
 msgid "in menu only"
-msgstr "Pagrindinis meniu"
+msgstr "tik meniu"
 
-#, fuzzy
 msgid "in plugins only"
-msgstr "Naujų priedų nerasta"
+msgstr "tik prieduose"
 
 msgid "information/education/school program"
 msgstr "informacija, švietimas, mokyklos programa"
@@ -11150,7 +11132,7 @@ msgid "show DVD main menu"
 msgstr "rodyti pagrindinį DVD meniu"
 
 msgid "show all tags"
-msgstr "rodyti visas žymes"
+msgstr "rodyti visas žymas"
 
 msgid "show alternatives"
 msgstr "rodyti alternatyvas"

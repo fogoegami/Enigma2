@@ -4155,8 +4155,8 @@ msgstr "Nombre del servidor %d"
 msgid "Nameserver settings"
 msgstr "Configuración de nombre del servidor"
 
-msgid "Namespace"
-msgstr "Espacio de nombre"
+msgid "Namespace & Orbital pos."
+msgstr "Espacio de nombres y posición orbital."
 
 msgid "Namibia"
 msgstr "Namibia"

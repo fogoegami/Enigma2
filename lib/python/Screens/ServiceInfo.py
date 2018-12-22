@@ -204,6 +204,8 @@ class ServiceInfo(Screen):
 			self.fillList(self.getFEData(self.transponder_info))
 
 	def namespace(self, nmspc):
+		if isinstance(nmspc, str):
+			return "N/A - N/A"
 		namespace = "%08X" % (to_unsigned(nmspc))
 		if namespace[:4] == "EEEE":
 			return "%s - DVB-T" % (namespace)
@@ -224,11 +226,11 @@ class ServiceInfo(Screen):
 			for i in range(0, self.numberofTracks):
 				audioDesc = self.audio.getTrackInfo(i).getDescription()
 				audioPID = self.audio.getTrackInfo(i).getPID()
-				audioLang = self.audio.getTrackInfo(i).getLanguage().upper()
+				audioLang = self.audio.getTrackInfo(i).getLanguage()
 				if audioLang == "":
 					audioLang = "Not Defined"
 				if self.showAll or currentTrack == i:
-					trackList += [(_("Audio PID%s, codec & lang" % ((" %s") % (i + 1) if self.numberofTracks > 1 and self.showAll else "")), "%04X (%d) - %s - %s" % (to_unsigned(audioPID), audioPID, audioDesc, audioLang), TYPE_TEXT)]
+					trackList += [(_("Audio PID%s, codec & lang") % ((" %s") % (i + 1) if self.numberofTracks > 1 and self.showAll else ""), "%04X (%d) - %s - %s" % (to_unsigned(audioPID), audioPID, audioDesc, audioLang), TYPE_TEXT)]
 				if self.getServiceInfoValue(iServiceInformation.sAudioPID) == "N/A":
 					trackList = [(_("Audio PID, codec & lang"), "N/A - %s - %s" % (audioDesc, audioLang), TYPE_TEXT)] 
 		else:
@@ -251,34 +253,35 @@ class ServiceInfo(Screen):
 		subtitle = self.service and self.service.subtitle()
 		subtitlelist = subtitle and subtitle.getSubtitleList()
 		subList = []
-		for x in subtitlelist:
-			subNumber = str(x[1])
-			subPID = x[1]
-			subLang = ""
-			subLang = x[4].upper()
+		if subtitlelist:
+			for x in subtitlelist:
+				subNumber = str(x[1])
+				subPID = x[1]
+				subLang = ""
+				subLang = x[4]
 
-			if x[0] == 0:  # DVB PID
-				subNumber = "%04X" % (x[1])
-				subList += [(_("DVB Subtitles PID & lang"), "%04X (%d) - %s" % (to_unsigned(subPID), subPID, subLang), TYPE_TEXT)]
+				if x[0] == 0:  # DVB PID
+					subNumber = "%04X" % (x[1])
+					subList += [(_("DVB Subtitles PID & lang"), "%04X (%d) - %s" % (to_unsigned(subPID), subPID, subLang), TYPE_TEXT)]
 
-			elif x[0] == 1: # Teletext
-				subNumber = "%x%02x" %(x[3] and x[3] or 8, x[2])
-				subList += [(_("TXT Subtitles page & lang"), "%s - %s" % (subNumber, subLang), TYPE_TEXT)]
+				elif x[0] == 1: # Teletext
+					subNumber = "%x%02x" %(x[3] and x[3] or 8, x[2])
+					subList += [(_("TXT Subtitles page & lang"), "%s - %s" % (subNumber, subLang), TYPE_TEXT)]
 
-			elif x[0] == 2: # File
-				types = (_("unknown"), _("Embedded"), _("SSA File"), _("ASS File"),
-						_("SRT File"), _("VOB File"), _("PGS File"))
-				try:
-					description = types[x[2]]
-				except:
-					description = _("unknown") + ": %s" % x[2]
-				subNumber = str(int(subNumber) + 1)
-				subList += [(_("Other Subtitles & lang"), "%s - %s - %s" % (subNumber, description, subLang), TYPE_TEXT)]
+				elif x[0] == 2: # File
+					types = (_("unknown"), _("Embedded"), _("SSA File"), _("ASS File"),
+							_("SRT File"), _("VOB File"), _("PGS File"))
+					try:
+						description = types[x[2]]
+					except:
+						description = _("unknown") + ": %s" % x[2]
+					subNumber = str(int(subNumber) + 1)
+					subList += [(_("Other Subtitles & lang"), "%s - %s - %s" % (subNumber, description, subLang), TYPE_TEXT)]
 		return subList
 
 	def ShowTransponderInformation(self):
-		self["key_yellow"].text = self["yellow"].text = _("Service & PIDs")
 		if self.type == TYPE_SERVICE_INFO:
+			self["key_yellow"].text = self["yellow"].text = _("Service & PIDs")
 			frontendData = self.feinfo and self.feinfo.getAll(True)
 			if frontendData:
 				if self["key_blue"].text == _("Tuner setting values"):
@@ -354,10 +357,10 @@ class ServiceInfo(Screen):
 		return ""
 
 	def ShowECMInformation(self):
-		self["key_yellow"].text = self["yellow"].text = _("Service & PIDs")
 		if self.info:
 			from Components.Converter.PliExtraInfo import caid_data
 			self["Title"].text = _("Service info - ECM Info")
+			self["key_yellow"].text = self["yellow"].text = _("Service & PIDs")
 			tlist = []
 			for caid in sorted(set(self.info.getInfoObject(iServiceInformation.sCAIDPIDs)), key=lambda x: (x[0], x[1])):
 				CaIdDescription = _("Undefined")
