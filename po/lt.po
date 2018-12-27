@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PLi enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-22 14:39+0100\n"
-"PO-Revision-Date: 2018-12-17 18:08+0200\n"
+"POT-Creation-Date: 2018-12-27 17:56+0100\n"
+"PO-Revision-Date: 2018-12-22 17:37+0200\n"
 "Last-Translator: Audronis Grincevicius <adga45@gmail.com>\n"
 "Language-Team: Adga (C) <adga45@gmail.com>\n"
 "Language: lt_LT\n"
@@ -2777,6 +2777,10 @@ msgstr "Jūs iš tikrųjų norite pašalinti katalogą %s iš disko?"
 msgid "Do you really want to remove your bookmark of %s?"
 msgstr "Ar tikrai norite pašalinti savo žymę %s?"
 
+#, fuzzy, python-format
+msgid "Do you really want to stop current event and delete timer %s?"
+msgstr "Ar tikrai norite ištrinti %s?"
+
 msgid "Do you want this?"
 msgstr "Jums šito reikia?"
 
@@ -4123,13 +4127,13 @@ msgstr ""
 "Kai būsite patenkinti gautu rezultatu, spauskite 'OK'."
 
 msgid "Ignore DVB-C namespace sub network"
-msgstr "Ignoruoti DVB-C pavadinimų srities potinklį"
+msgstr "Ignoruoti DVB-C pavadinimo vietos potinklį"
 
 msgid "Ignore DVB-S namespace sub network"
-msgstr "Ignoruoti DVB-S pavadinimų srities potinklį"
+msgstr "Ignoruoti DVB-S pavadinimo vietos potinklį"
 
 msgid "Ignore DVB-T namespace sub network"
-msgstr "Ignoruoti DVB-T pavadinimų srities potinklį"
+msgstr "Ignoruoti DVB-T pavadinimo vietos potinklį"
 
 msgid "Ignore conflict"
 msgstr "Ignoruoti konfliktą"
@@ -5028,7 +5032,7 @@ msgid "NEXT"
 msgstr "KITAS"
 
 msgid "NIM & Type"
-msgstr "Imtuvas ir tipas"
+msgstr "IMTUVAS IR TIPAS"
 
 msgid "NO"
 msgstr "NE"
@@ -5043,20 +5047,20 @@ msgid "Name"
 msgstr "Pavadinimas"
 
 msgid "Nameserver"
-msgstr "Serverio pavadinimas"
+msgstr "DNS serveris"
 
 #, python-format
 msgid "Nameserver %d"
-msgstr "Serverio pavadinimas %d"
+msgstr "DNS serveris %d"
 
 msgid "Nameserver settings"
-msgstr "Serverio pavadinimo nustatymai"
+msgstr "DNS serverio nustatymai"
 
 msgid "Nameserver setup"
-msgstr "Serverio pavadinimo valdymas"
+msgstr "DNS serverio valdymas"
 
 msgid "Namespace & Orbital pos."
-msgstr ""
+msgstr "Pavadinimo vieta ir orbitinė poz."
 
 msgid "Namibia"
 msgstr "Namibija"
