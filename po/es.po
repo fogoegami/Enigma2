@@ -14519,3 +14519,6 @@ msgstr "solo en menu"
 
 msgid "in plugins only"
 msgstr "solo en complementos"
+
+msgid "Do you really want to stop current event and delete timer %s?"
+msgstr "¿Realmente quieres detener el evento actual y borrar el temporizador %s?"
