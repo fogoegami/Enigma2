@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-27 17:56+0100\n"
-"PO-Revision-Date: 2018-05-02 18:32+0300\n"
+"POT-Creation-Date: 2019-01-25 20:37+0100\n"
+"PO-Revision-Date: 2019-02-05 10:33+0200\n"
 "Last-Translator: Dimitrij <Dima-73@inbox.lv>\n"
 "Language-Team: openPLi Dimitrij\n"
 "Language: ru\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 1.7.5\n"
 
 msgid ""
 "\n"
@@ -228,9 +228,6 @@ msgstr "%A %e %B %Y"
 msgid "%H:%M"
 msgstr "%H:%M"
 
-msgid "%Y-%m-%d %H:%M"
-msgstr "%Y-%m-%d %H:%M"
-
 #. TRANSLATORS: full date representations short dayname daynum monthname long year in strftime() format! See 'man strftime'
 msgid "%a %e %B %Y"
 msgstr "%a %e %B %Y"
@@ -384,6 +381,15 @@ msgstr "%d:%02d"
 msgid "%k:%M %e/%m"
 msgstr "%k:%M %e/%m"
 
+msgid ""
+"%s\n"
+"Do you still want to flash image\n"
+"%s?"
+msgstr ""
+"%s\n"
+"Вы все еще хотите прошить имидж\n"
+"%s?"
+
 #, python-format
 msgid ""
 "%s\n"
@@ -417,6 +423,9 @@ msgid_plural "%s updated packages available"
 msgstr[0] "%s обновленный пакет доступен"
 msgstr[1] "%s обновленных пакета доступно"
 msgstr[2] "%s обновленных пакетов доступно"
+
+msgid "%s%% Autoinstalling %s"
+msgstr "%s%% Авто инсталляция %s"
 
 #, python-format
 msgid "%s%d min"
@@ -974,6 +983,9 @@ msgstr "Также из режима ожидания"
 msgid "Alternative"
 msgstr "Альтернатива"
 
+msgid "Alternative URL for images listed on FlashImage"
+msgstr "Альтернативный URL для списка имиджей онлайн прошивки"
+
 msgid "Alternative numbering mode"
 msgstr "Альтернативный режим нумерации каналов"
 
@@ -1146,10 +1158,10 @@ msgstr "Аудио PID"
 
 #, python-format
 msgid "Audio PID%s, codec & lang"
-msgstr ""
+msgstr "Аудио PID%s, кодек & язык"
 
 msgid "Audio PID, codec & lang"
-msgstr ""
+msgstr "Аудио PID, кодек & язык"
 
 msgid "Audio auto volume level"
 msgstr "Уровень авто громкости звука"
@@ -1228,10 +1240,6 @@ msgstr "Авто проигрывание blu-ray файла"
 
 msgid "Auto scart switching"
 msgstr "Автоматическое переключение SCART"
-
-#, python-format
-msgid "Autoinstalling %s"
-msgstr "Авто инсталляция %s"
 
 msgid "Autoinstalling Completed"
 msgstr "Авто инсталляция завершена."
@@ -1552,6 +1560,9 @@ msgstr "Отменить любые изменения текста и выйт�
 msgid "Cancelled upon user request"
 msgstr "Отменено по запросу пользователя"
 
+msgid "Cannot delete downloaded image"
+msgstr "Невозможно удалить загруженный имидж"
+
 msgid "Cannot determine"
 msgstr "Невозможно определить"
 
@@ -1752,6 +1763,9 @@ msgstr "Очистить лог"
 
 msgid "Clear playlist"
 msgstr "Очистить список воспроизведения"
+
+msgid "Client is streaming from this box!"
+msgstr "Клиент использует стрим из этого ресивера!"
 
 msgid "Clone TV screen to LCD"
 msgstr "Клон ТВ экрана на LCD"
@@ -2251,6 +2265,9 @@ msgstr "Запись невозможна из-за конфликтного т�
 msgid "Could not record due to invalid service %s"
 msgstr "Запись невозможна - недействительный сервис %s"
 
+msgid "Could not some setup the required directories on the media (e.g. USB stick) - Please verify media and try again!"
+msgstr "Не удалось настроить необходимые каталоги на устройстве (например, на USB флешке)- пожалуйста, проверьте устройство и попробуйте снова!"
+
 msgid "Country"
 msgstr "Страна"
 
@@ -2334,6 +2351,9 @@ msgstr "Пользовательский интервал времени для 
 
 msgid "Customize"
 msgstr "Индивидуальные настройки"
+
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Настройте параметры OpenWebIF для резервного тюнера"
 
 msgid "Customize channel list cursor behavior"
 msgstr "Настройка поведения курсора в списке каналов"
@@ -2445,6 +2465,9 @@ msgstr "Ввод времени/даты"
 
 msgid "Debug to file"
 msgstr "Отладка в файл"
+
+msgid "Deep Standby LED"
+msgstr "LED в глубоком режиме ожидания"
 
 msgid "Deep standby"
 msgstr "Глубокий режим ожидания"
@@ -2683,6 +2706,15 @@ msgstr "Показывать 4:3 контент как"
 msgid "Display >16:9 content as"
 msgstr "Показывать >16:9 контент как"
 
+msgid "Display EPG as MultiEPG"
+msgstr "Показать EPG как MultiEPG"
+
+msgid "Display EPG info for current event"
+msgstr "Показать EPG для текущего события"
+
+msgid "Display EPG list for current channel"
+msgstr "Показать список EPG для текущего канала"
+
 msgid "Display and userinterface"
 msgstr "Экран и пользовательский интерфейс"
 
@@ -2773,9 +2805,8 @@ msgstr "Вы действительно хотите удалить директ
 msgid "Do you really want to remove your bookmark of %s?"
 msgstr "Вы действительно хотите удалить Вашу закладку %s?"
 
-#, fuzzy, python-format
 msgid "Do you really want to stop current event and delete timer %s?"
-msgstr "Вы действительно хотите удалить %s?"
+msgstr "Вы действительно хотите остановить текущее событие и удалить таймер %s?"
 
 msgid "Do you want this?"
 msgstr "Вы хотите это сделать?"
@@ -3126,6 +3157,9 @@ msgstr "Ввод PIN-кода"
 
 msgid "Enter URL"
 msgstr "Ввод URL"
+
+msgid "Enter an URL where alternative images could be listed for FlashImage"
+msgstr "Введите URL для списка альтернативных имиджей"
 
 msgid "Enter if you are in the east or west hemisphere."
 msgstr "Ввод, где Вы находитесь, в восточном или западном полушарии."
@@ -3586,12 +3620,12 @@ msgstr "Прошивка имиджа"
 msgid "Flashing Image"
 msgstr "Прошивка имиджа"
 
-msgid "Flashing image succesfull"
+msgid "Flashing image successful"
 msgstr "Прошивка имиджа завершена успешна"
 
 #, python-format
 msgid ""
-"Flashing image was not succesfull\n"
+"Flashing image was not successful\n"
 "%s"
 msgstr ""
 "Прошивка имиджа не закончилась успехом\n"
@@ -3599,12 +3633,6 @@ msgstr ""
 
 msgid "Following tasks will be done after you press OK!"
 msgstr "Выполнение процесса начнется после того, как вы нажмете ОК!"
-
-msgid "Force LNB Power"
-msgstr "Принудительное питание LNB"
-
-msgid "Force ToneBurst"
-msgstr "Принудительный тоновый импульс (Tone Burst)"
 
 msgid "Force legacy signal stats"
 msgstr "Применять устаревшую статистику вывода сигналов"
@@ -3939,6 +3967,9 @@ msgstr "Жесткий диск"
 
 msgid "Harddisk Setup"
 msgstr "Настройки жестокого диска"
+
+msgid "Harddisk is not in sleepmode it could be in use!"
+msgstr "Жесткий диск не находится в спящем режиме, возможно он используется!"
 
 msgid "Hardware: "
 msgstr "Аппаратные средства: "
@@ -5058,7 +5089,7 @@ msgid "Nameserver setup"
 msgstr "Настройка сервера имен (DNS)"
 
 msgid "Namespace & Orbital pos."
-msgstr ""
+msgstr "Пространство имен & Орбитальная позиция"
 
 msgid "Namibia"
 msgstr "Namibia"
@@ -5355,9 +5386,6 @@ msgstr "Нет места на диске. Пожалуйста, освобод�
 msgid "Not tested:"
 msgstr "Без теста:"
 
-msgid "Not yet implemented!"
-msgstr "Еще не реалезовано!"
-
 msgid "Note: when enabled, and you do want standby mode after wake up, set option 'Startup to Standby' as 'No, except Wakeup timer'."
 msgstr "Заметка: если активировано и вы хотите перейти в режим ожидания после включения, установите опцию 'Режим ожидания при старте' как 'Нет, исключение таймер включения'."
 
@@ -5596,6 +5624,9 @@ msgstr "Редактор сервисов родительского контр�
 
 msgid "Parental control setup"
 msgstr "Установки родительского контроля"
+
+msgid "Password"
+msgstr "Password"
 
 msgid "Pause"
 msgstr "Пауза"
@@ -5932,6 +5963,9 @@ msgstr "Поляризация"
 
 msgid "Polish"
 msgstr "Польский"
+
+msgid "Port"
+msgstr "Порт"
 
 msgid "Port A"
 msgstr "Порт А"
@@ -6309,15 +6343,6 @@ msgstr "Тип записи"
 
 msgid "Recording(s) are in progress or coming up in few seconds!"
 msgstr "Запись(и) в процессе или начнется в ближайшие несколько минут/секунд!"
-
-#, python-format
-msgid ""
-"Recording(s) are in progress or coming up in few seconds!\n"
-"Do you still want to flash image\n"
-"%s?"
-msgstr ""
-"Запись(и) в процессе или начнется в ближайшие несколько минут/секунд! Вы все еще хотите прошить имидж\n"
-"%s?"
 
 msgid "Recordings"
 msgstr "Записи"
@@ -7259,9 +7284,8 @@ msgstr "Информация о сервисе"
 msgid "Service info - ECM Info"
 msgstr "Информация о сервисе - ECM информация"
 
-#, fuzzy
 msgid "Service info - service & Basic PID Info"
-msgstr "Информация о сервисе - сервис & расширенная информация PID"
+msgstr "Информация о сервисе - сервис & базовая информация PID"
 
 msgid "Service info - service & Extended PID Info"
 msgstr "Информация о сервисе - сервис & расширенная информация PID"
@@ -7367,6 +7391,15 @@ msgstr "Установите последовательность повторо
 
 msgid "Set startup service"
 msgstr "Установить сервис стартовым"
+
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Установить ID пользователя OpenWebif из вашего резервного ресивера"
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Установить пароль OpenWebif из вашего резервного ресивера"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Установить порт OpenWebif из вашего резервного ресивера"
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Установите тип индикации прогресса текущего события в списке выбора каналов."
@@ -7974,6 +8007,9 @@ msgstr "Режим ожидания"
 msgid "Standby / restart"
 msgstr "Меню выключения"
 
+msgid "Standby LED"
+msgstr "LED в режиме ожидания"
+
 msgid "Standby after current event"
 msgstr "Режим ожидания после текущего события"
 
@@ -7987,9 +8023,6 @@ msgstr "Режим ожидания - напряжение вентилятор�
 
 msgid "Standby in "
 msgstr "Режим ожидания через "
-
-msgid "StandbyLED"
-msgstr "LED в режиме ожидания/выключения"
 
 msgid "Start from the beginning"
 msgstr "Начать с самого начала"
@@ -8315,9 +8348,12 @@ msgstr "Система"
 msgid "System & Modulation"
 msgstr "Система & Модуляция"
 
+msgid "T2MI RAW Mode"
+msgstr "T2MI RAW режим"
+
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
-msgstr "Дмитрий - 05.09.2018"
+msgstr "Дмитрий - 05.02.2019"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS файл слишком большой для ISO9660 level 1!"
@@ -9054,6 +9090,9 @@ msgstr "Turkmenistan"
 msgid "Turks and Caicos Islands"
 msgstr "Turks and Caicos Islands"
 
+msgid "Turn on the power LED during deep standby."
+msgstr "Включить питание на кнопке LED в режиме глубокого ожидания."
+
 msgid "Turn on the power LED during standby."
 msgstr "Включить питание на кнопке LED, на передней панели в режиме ожидания / режиме глубокого ожидания."
 
@@ -9336,6 +9375,9 @@ msgstr "Использовать тип сканирования сервиса"
 
 msgid "User - bouquets"
 msgstr "Пользователь - букеты"
+
+msgid "User ID"
+msgstr "Пользовательский ID"
 
 msgid "User Mode"
 msgstr "Пользовательский режим"
@@ -9699,6 +9741,9 @@ msgstr "Если включено, то при выборе нового кан�
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr "Если включено, то вы можете регулировать управление громкостью на кнопках (лево/право, вверх/вниз) около кнопки OK, вместо списка выбора каналов."
 
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Если включено, то Вы можете настроить параметры OpenWebIf из резервного ресивера"
+
 msgid "When enabled you can specify a timeframe to ignore the shutdown timer when the receiver is in standby mode"
 msgstr "Если включено, то установите период времени игнорирования действия выключения ресивера в режиме ожидания."
 
@@ -9899,6 +9944,9 @@ msgstr "Настройка беспроводной сети."
 
 msgid "Wireless network state"
 msgstr "Статистика беспроводной сети"
+
+msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
+msgstr "Если T2MI RAW режим отключен (дефолт) Вы можете использовать одиночную T2MI PLP де-инкапсуляцию. Если T2MI RAW режим включен Вы можете использовать astra-sm для анализа T2MI"
 
 msgid "With errors:"
 msgstr "С ошибками:"
@@ -11421,3 +11469,12 @@ msgstr "переключено"
 
 msgid "®"
 msgstr "®"
+
+msgid "<Default Skin>"
+msgstr "<Дефолтный скин>"
+
+msgid "Power LED"
+msgstr "LED питания"
+
+msgid "Turn on the power LED."
+msgstr "Включить питание на кнопке LED"

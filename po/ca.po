@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-27 17:56+0100\n"
+"POT-Creation-Date: 2019-02-05 11:25+0330\n"
 "PO-Revision-Date: 2007-08-14 10:23+0200\n"
 "Last-Translator: Oriol Pellicer <oriol@elsud.org>\n"
 "Language-Team: \n"
@@ -215,9 +215,6 @@ msgstr ""
 msgid "%H:%M"
 msgstr "%H:%M"
 
-msgid "%Y-%m-%d %H:%M"
-msgstr ""
-
 #
 #. TRANSLATORS: full date representations short dayname daynum monthname long year in strftime() format! See 'man strftime'
 #, fuzzy
@@ -369,6 +366,14 @@ msgstr ""
 msgid "%k:%M %e/%m"
 msgstr ""
 
+#
+#, fuzzy, python-format
+msgid ""
+"%s\n"
+"Do you still want to flash image\n"
+"%s?"
+msgstr "Vols fer una recerca de canals?"
+
 #, python-format
 msgid ""
 "%s\n"
@@ -400,6 +405,11 @@ msgid "%s updated package available"
 msgid_plural "%s updated packages available"
 msgstr[0] ""
 msgstr[1] ""
+
+#
+#, fuzzy, python-format
+msgid "%s%% Autoinstalling %s"
+msgstr "Instal·lant"
 
 #, python-format
 msgid "%s%d min"
@@ -628,6 +638,11 @@ msgstr ""
 #
 msgid "<Current movielist location>"
 msgstr ""
+
+#
+#, fuzzy
+msgid "<Default Skin>"
+msgstr "Config OSD"
 
 #
 msgid "<Default movie location>"
@@ -1043,6 +1058,9 @@ msgstr ""
 msgid "Alternative"
 msgstr "afegir alternatives"
 
+msgid "Alternative URL for images listed on FlashImage"
+msgstr ""
+
 #
 #, fuzzy
 msgid "Alternative numbering mode"
@@ -1314,11 +1332,6 @@ msgstr ""
 #
 msgid "Auto scart switching"
 msgstr ""
-
-#
-#, fuzzy, python-format
-msgid "Autoinstalling %s"
-msgstr "Instal·lant"
 
 msgid "Autoinstalling Completed"
 msgstr ""
@@ -1685,6 +1698,11 @@ msgstr ""
 msgid "Cancelled upon user request"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Cannot delete downloaded image"
+msgstr "Vols esborrar les programacions ja finalitzades?"
+
 msgid "Cannot determine"
 msgstr ""
 
@@ -1918,6 +1936,9 @@ msgstr "Esborrar log"
 #, fuzzy
 msgid "Clear playlist"
 msgstr "netejar la llista"
+
+msgid "Client is streaming from this box!"
+msgstr ""
 
 msgid "Clone TV screen to LCD"
 msgstr ""
@@ -2460,6 +2481,9 @@ msgstr ""
 msgid "Could not record due to invalid service %s"
 msgstr ""
 
+msgid "Could not some setup the required directories on the media (e.g. USB stick) - Please verify media and try again!"
+msgstr ""
+
 msgid "Country"
 msgstr ""
 
@@ -2551,6 +2575,9 @@ msgstr ""
 #
 msgid "Customize"
 msgstr "Personalitzar"
+
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr ""
 
 msgid "Customize channel list cursor behavior"
 msgstr ""
@@ -2689,6 +2716,11 @@ msgstr "Entrada Hora/Data"
 #, fuzzy
 msgid "Debug to file"
 msgstr "Ha fallat l'eliminació!"
+
+#
+#, fuzzy
+msgid "Deep Standby LED"
+msgstr "Apagat complet"
 
 #
 #, fuzzy
@@ -2961,6 +2993,17 @@ msgstr ""
 #
 msgid "Display >16:9 content as"
 msgstr ""
+
+msgid "Display EPG as MultiEPG"
+msgstr ""
+
+msgid "Display EPG info for current event"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Display EPG list for current channel"
+msgstr "Mostrar la barra en canviar el programa"
 
 msgid "Display and userinterface"
 msgstr ""
@@ -3476,6 +3519,9 @@ msgstr ""
 msgid "Enter URL"
 msgstr ""
 
+msgid "Enter an URL where alternative images could be listed for FlashImage"
+msgstr ""
+
 msgid "Enter if you are in the east or west hemisphere."
 msgstr ""
 
@@ -3975,23 +4021,17 @@ msgstr ""
 msgid "Flashing Image"
 msgstr "Descarregant"
 
-msgid "Flashing image succesfull"
+msgid "Flashing image successful"
 msgstr ""
 
 #, python-format
 msgid ""
-"Flashing image was not succesfull\n"
+"Flashing image was not successful\n"
 "%s"
 msgstr ""
 
 #
 msgid "Following tasks will be done after you press OK!"
-msgstr ""
-
-msgid "Force LNB Power"
-msgstr ""
-
-msgid "Force ToneBurst"
 msgstr ""
 
 msgid "Force legacy signal stats"
@@ -4374,6 +4414,9 @@ msgid "Harddisk"
 msgstr "Disc dur"
 
 msgid "Harddisk Setup"
+msgstr ""
+
+msgid "Harddisk is not in sleepmode it could be in use!"
 msgstr ""
 
 msgid "Hardware: "
@@ -6016,9 +6059,6 @@ msgstr ""
 msgid "Not tested:"
 msgstr ""
 
-msgid "Not yet implemented!"
-msgstr ""
-
 msgid "Note: when enabled, and you do want standby mode after wake up, set option 'Startup to Standby' as 'No, except Wakeup timer'."
 msgstr ""
 
@@ -6292,6 +6332,9 @@ msgstr "Editor dels canals del control parental"
 #
 msgid "Parental control setup"
 msgstr "Configuració control parental"
+
+msgid "Password"
+msgstr ""
 
 #
 #, fuzzy
@@ -6701,6 +6744,11 @@ msgid "Polish"
 msgstr ""
 
 #
+#, fuzzy
+msgid "Port"
+msgstr "Port A"
+
+#
 msgid "Port A"
 msgstr "Port A"
 
@@ -6749,6 +6797,9 @@ msgid "Positioner setup"
 msgstr "Configuració del motor"
 
 msgid "Positioner setup log"
+msgstr ""
+
+msgid "Power LED"
 msgstr ""
 
 msgid "Power management. Consult your receiver's manual for more information."
@@ -7133,13 +7184,6 @@ msgstr ""
 
 #
 msgid "Recording(s) are in progress or coming up in few seconds!"
-msgstr ""
-
-#, python-format
-msgid ""
-"Recording(s) are in progress or coming up in few seconds!\n"
-"Do you still want to flash image\n"
-"%s?"
 msgstr ""
 
 #
@@ -8381,6 +8425,15 @@ msgstr ""
 msgid "Set startup service"
 msgstr ""
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr ""
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr ""
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr ""
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr ""
 
@@ -9064,6 +9117,11 @@ msgstr "Repòs"
 msgid "Standby / restart"
 msgstr "Repòs / Reiniciar"
 
+#
+#, fuzzy
+msgid "Standby LED"
+msgstr "Repòs"
+
 msgid "Standby after current event"
 msgstr ""
 
@@ -9076,9 +9134,6 @@ msgid "Standby fan %d voltage"
 msgstr ""
 
 msgid "Standby in "
-msgstr ""
-
-msgid "StandbyLED"
 msgstr ""
 
 #
@@ -9467,6 +9522,9 @@ msgid "System"
 msgstr "Sistema"
 
 msgid "System & Modulation"
+msgstr ""
+
+msgid "T2MI RAW Mode"
 msgstr ""
 
 #
@@ -10251,7 +10309,13 @@ msgstr "Turc"
 msgid "Turks and Caicos Islands"
 msgstr ""
 
+msgid "Turn on the power LED during deep standby."
+msgstr ""
+
 msgid "Turn on the power LED during standby."
+msgstr ""
+
+msgid "Turn on the power LED."
 msgstr ""
 
 msgid "Turning step size"
@@ -10570,6 +10634,11 @@ msgstr "Tipus d'escaneig de canals usat"
 
 msgid "User - bouquets"
 msgstr ""
+
+#
+#, fuzzy
+msgid "User ID"
+msgstr "Definit per l'usuari"
 
 #
 #, fuzzy
@@ -10967,6 +11036,9 @@ msgstr ""
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr ""
 
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr ""
+
 msgid "When enabled you can specify a timeframe to ignore the shutdown timer when the receiver is in standby mode"
 msgstr ""
 
@@ -11170,6 +11242,9 @@ msgid "Wireless network connection setup."
 msgstr ""
 
 msgid "Wireless network state"
+msgstr ""
+
+msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
 msgstr ""
 
 msgid "With errors:"

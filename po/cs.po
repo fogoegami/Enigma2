@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-27 17:56+0100\n"
+"POT-Creation-Date: 2019-02-05 11:25+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: ims <ims21@users.sourceforge.net>\n"
 "Language-Team: PLi <ims@openpli.org>\n"
@@ -147,7 +147,7 @@ msgstr " (Kanál %s)"
 
 #, python-format
 msgid " (Partition %d)"
-msgstr ""
+msgstr " (Oddíl %d)"
 
 msgid " (PiP)"
 msgstr ""
@@ -233,22 +233,19 @@ msgstr ""
 
 #. TRANSLATORS: long date representations dayname daynum monthname in strftime() format! See 'man strftime'
 msgid "%A %e %B"
-msgstr "%A, %e. %B"
+msgstr "%A %e. %B"
 
 #. TRANSLATORS: full date representation dayname daynum monthname year in strftime() format! See 'man strftime'
 msgid "%A %e %B %Y"
-msgstr "%A, %e. %B %Y"
+msgstr "%A %e. %B %Y"
 
 #
 msgid "%H:%M"
 msgstr "%H:%M"
 
-msgid "%Y-%m-%d %H:%M"
-msgstr ""
-
 #. TRANSLATORS: full date representations short dayname daynum monthname long year in strftime() format! See 'man strftime'
 msgid "%a %e %B %Y"
-msgstr ""
+msgstr "%a %e. %B %Y"
 
 #. TRANSLATORS: short date representation short dayname daynum short monthname in strftime() format! See 'man strftime'
 msgid "%a %e/%m"
@@ -410,6 +407,16 @@ msgstr ""
 #, python-format
 msgid ""
 "%s\n"
+"Do you still want to flash image\n"
+"%s?"
+msgstr ""
+"%s\n"
+"Chcete stále nahrát image\n"
+"%s?"
+
+#, python-format
+msgid ""
+"%s\n"
 "Press ok for multiboot selection\n"
 "Press exit to close"
 msgstr ""
@@ -443,6 +450,11 @@ msgid_plural "%s updated packages available"
 msgstr[0] " %s dostupná aktualizace"
 msgstr[1] " %s dostupné aktualizace"
 msgstr[2] " %s dostupných aktualizací"
+
+#
+#, python-format
+msgid "%s%% Autoinstalling %s"
+msgstr "%s%% - Automatická instalace - %s"
 
 #, python-format
 msgid "%s%d min"
@@ -669,6 +681,11 @@ msgid "<Current movielist location>"
 msgstr "<současný seznam souborů>"
 
 #
+#, fuzzy
+msgid "<Default Skin>"
+msgstr "Standardní nastavení"
+
+#
 msgid "<Default movie location>"
 msgstr "<standardní umístění>"
 
@@ -725,7 +742,7 @@ msgstr ""
 
 #
 msgid "A graphical EPG for all services of a specific bouquet"
-msgstr "Grafická EPG pro všechny programy ve specifickém přehledu"
+msgstr "Grafická EPG pro všechny programy v přehledu"
 
 #
 #, python-format
@@ -1096,6 +1113,9 @@ msgstr "Také při standby"
 msgid "Alternative"
 msgstr "alternativní"
 
+msgid "Alternative URL for images listed on FlashImage"
+msgstr "Alternativní URL obrazů pro FlashImage"
+
 #
 msgid "Alternative numbering mode"
 msgstr "Alternativní číslování"
@@ -1389,11 +1409,6 @@ msgstr "Automaticky přehrávat blue-ray soubor"
 #
 msgid "Auto scart switching"
 msgstr "Automatické přepínání scart"
-
-#
-#, python-format
-msgid "Autoinstalling %s"
-msgstr "Automatická instalace - %s"
 
 msgid "Autoinstalling Completed"
 msgstr "Automatická Instalace dokončena"
@@ -1757,6 +1772,10 @@ msgstr "Zrušit všechny změny a zavřít"
 msgid "Cancelled upon user request"
 msgstr "Zrušeno na žádost uživatele"
 
+#
+msgid "Cannot delete downloaded image"
+msgstr "Nelze odstranit stažené image"
+
 msgid "Cannot determine"
 msgstr "Nelze určit"
 
@@ -1986,6 +2005,9 @@ msgstr "Smazat log"
 #
 msgid "Clear playlist"
 msgstr "Vymazat playlist"
+
+msgid "Client is streaming from this box!"
+msgstr "Klient streamuje z tohoto přijímače!"
 
 msgid "Clone TV screen to LCD"
 msgstr "Klonovat TV obrazovku na LCD"
@@ -2475,7 +2497,7 @@ msgid "Console"
 msgstr ""
 
 msgid "Constellation & FFT mode"
-msgstr ""
+msgstr "Konstelace & FFT mód"
 
 msgid "Consult your SCR device spec sheet for this information."
 msgstr "Pro tyto informace se podívejte do specifikace SRC zařízení."
@@ -2539,6 +2561,9 @@ msgstr "Nelze nahrávat z důvodu konfliktu časovače %s"
 #, python-format
 msgid "Could not record due to invalid service %s"
 msgstr "Nelze nahrávat z důvodu neplatného programu %s"
+
+msgid "Could not some setup the required directories on the media (e.g. USB stick) - Please verify media and try again!"
+msgstr "Nelze nastavit požadované adresáře na médiu (např. na USB) - Ověřte médium a zkuste to znovu!"
 
 msgid "Country"
 msgstr "Země"
@@ -2637,6 +2662,9 @@ msgstr "Vlastní časový posun pro tlačítka '7'/'9'"
 #
 msgid "Customize"
 msgstr "Přizpůsobení"
+
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Úprava nastavení OpenWebIf pro záložní přijímač"
 
 #
 msgid "Customize channel list cursor behavior"
@@ -2769,6 +2797,10 @@ msgstr "Nastavení data/času"
 
 msgid "Debug to file"
 msgstr "Debug do souboru"
+
+#
+msgid "Deep Standby LED"
+msgstr "LED v hlubokém spánku"
 
 #
 msgid "Deep standby"
@@ -3053,6 +3085,16 @@ msgstr "Zobrazovat obraz 4:3 jako"
 msgid "Display >16:9 content as"
 msgstr "Zobrazovat >16:9 obsah jako"
 
+msgid "Display EPG as MultiEPG"
+msgstr "Zobrazení EPG jako MultiEPG"
+
+msgid "Display EPG info for current event"
+msgstr "EPG informace aktuálního pořadu"
+
+#
+msgid "Display EPG list for current channel"
+msgstr "Zobrazení EPG aktuálního kanálu"
+
 #
 msgid "Display and userinterface"
 msgstr "Displej a uživatelské rozhraní"
@@ -3163,9 +3205,9 @@ msgid "Do you really want to remove your bookmark of %s?"
 msgstr "Chcete opravdu smazat Vaši záložku z %s?"
 
 #
-#, fuzzy, python-format
+#, python-format
 msgid "Do you really want to stop current event and delete timer %s?"
-msgstr "Opravdu chcete smazat \"%s\"?"
+msgstr "Opravdu chcete zastavit aktuální událost a smazat časovač \"%s\"?"
 
 msgid "Do you want this?"
 msgstr "Chcete to?"
@@ -3409,9 +3451,8 @@ msgstr "Salvador"
 msgid "Electronic Program Guide"
 msgstr "EPG"
 
-#, fuzzy
 msgid "Embedded"
-msgstr "vložený"
+msgstr "Vestavěný"
 
 msgid "Empty slot"
 msgstr "volný slot"
@@ -3574,6 +3615,9 @@ msgstr "Zadejte PIN"
 
 msgid "Enter URL"
 msgstr "Zadejte URL"
+
+msgid "Enter an URL where alternative images could be listed for FlashImage"
+msgstr "Zadejte URL, kde by mohly být alternativní obrazy pro FlashImage"
 
 msgid "Enter if you are in the east or west hemisphere."
 msgstr "Zadejte, zda jste na východní nebo západní polokouli."
@@ -4090,12 +4134,12 @@ msgstr "Nahrát image"
 msgid "Flashing Image"
 msgstr "Nahrávání image"
 
-msgid "Flashing image succesfull"
+msgid "Flashing image successful"
 msgstr "Image bylo úspěšně nahráno"
 
 #, python-format
 msgid ""
-"Flashing image was not succesfull\n"
+"Flashing image was not successful\n"
 "%s"
 msgstr ""
 "Nahrání image nebylo úspěšné\n"
@@ -4104,13 +4148,6 @@ msgstr ""
 #
 msgid "Following tasks will be done after you press OK!"
 msgstr "Následující úlohy budou provedeny po stisknutí OK!"
-
-msgid "Force LNB Power"
-msgstr "Vynutit napájení LNB"
-
-#
-msgid "Force ToneBurst"
-msgstr "Vynutit Toneburst"
 
 msgid "Force legacy signal stats"
 msgstr "Vynutit starší signálové statistiky"
@@ -4483,6 +4520,9 @@ msgstr "Pevný disk"
 
 msgid "Harddisk Setup"
 msgstr "Nastavení pevného disku"
+
+msgid "Harddisk is not in sleepmode it could be in use!"
+msgstr "Pevný disk není ve standby a může být používán!"
 
 msgid "Hardware: "
 msgstr "Hardware: "
@@ -5908,7 +5948,7 @@ msgid "No Connection"
 msgstr "Žádné připojení"
 
 msgid "No ECMPids available (FTA Service)"
-msgstr ""
+msgstr "Žádné dostupné ECMPids (FTA program)"
 
 #
 msgid "No HDD found or HDD not initialized!"
@@ -6125,9 +6165,6 @@ msgstr "Nedostatek místa na disku. Uvolněte prostor na disku a zkuste znovu. (
 
 msgid "Not tested:"
 msgstr "Netestováno:"
-
-msgid "Not yet implemented!"
-msgstr "Zatím neimplementováno!"
 
 msgid "Note: when enabled, and you do want standby mode after wake up, set option 'Startup to Standby' as 'No, except Wakeup timer'."
 msgstr "Poznámka: jestliže je povoleno a chcete přejít do Standby po probuzení přijímače, nastavte 'Po startu přepnout do Standby' na 'Ne, kromě časovače probuzení'."
@@ -6397,6 +6434,9 @@ msgstr "Nastavení rodičovského zámku"
 #
 msgid "Parental control setup"
 msgstr "Nastavení rodičovského zámku"
+
+msgid "Password"
+msgstr "Heslo"
 
 #
 msgid "Pause"
@@ -6809,6 +6849,10 @@ msgid "Polish"
 msgstr "Polsky"
 
 #
+msgid "Port"
+msgstr "Port"
+
+#
 msgid "Port A"
 msgstr "Port A"
 
@@ -6860,6 +6904,9 @@ msgstr "Nastavení pozicioneru"
 #
 msgid "Positioner setup log"
 msgstr "Log nastavení pozicioneru"
+
+msgid "Power LED"
+msgstr ""
 
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr "Řízení spotřeby. Další informace získáte v návodu k přijímači."
@@ -7260,16 +7307,6 @@ msgstr "Typ nahrávání"
 #
 msgid "Recording(s) are in progress or coming up in few seconds!"
 msgstr "Probíhá nahrávání nebo začne za několik sekund!"
-
-#, python-format
-msgid ""
-"Recording(s) are in progress or coming up in few seconds!\n"
-"Do you still want to flash image\n"
-"%s?"
-msgstr ""
-"Probíhá nahrávání nebo během několika vteřin začne nahrávání!\n"
-"Chcete stále nahrát image do přijímače\n"
-"%s?"
 
 #
 msgid "Recordings"
@@ -8479,6 +8516,15 @@ msgstr "Nastavte opakování sekvence, pokud to vyžaduje Váš anténní systé
 msgid "Set startup service"
 msgstr "Nastavit kanál po spuštění"
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Nastavte uživatelské jméno pro OpenWebIf z Vašeho záložního přijímače"
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Nastavte heslo pro OpenWebIf z Vašeho záložního přijímače"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Nastavte port pro OpenWebIf z Vašeho záložního přijímače"
+
 #
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Nastavuje typ průběhů pořadů ve výběru programů."
@@ -9173,6 +9219,10 @@ msgstr "Pohotovostní režim"
 msgid "Standby / restart"
 msgstr "Standby / restart"
 
+#
+msgid "Standby LED"
+msgstr "LED v pohotovostním režimu"
+
 msgid "Standby after current event"
 msgstr "Standby po této události"
 
@@ -9188,9 +9238,6 @@ msgstr "Napětí ventilátoru %d ve standby"
 
 msgid "Standby in "
 msgstr "Standby za "
-
-msgid "StandbyLED"
-msgstr ""
 
 #
 msgid "Start from the beginning"
@@ -9570,6 +9617,9 @@ msgstr "Systém"
 msgid "System & Modulation"
 msgstr "Systém & Modulace"
 
+msgid "T2MI RAW Mode"
+msgstr "T2MI RAW mód"
+
 #
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
@@ -9577,7 +9627,7 @@ msgstr ""
 "Pro případné korekce můžete kontaktovat autora\n"
 "na výše uvedené adrese.\n"
 "\n"
-"®18.12.2018"
+"®25.1.2019"
 
 #
 msgid "TS file is too large for ISO9660 level 1!"
@@ -10403,7 +10453,14 @@ msgstr "Turkmenistán"
 msgid "Turks and Caicos Islands"
 msgstr "Turks a Caicos"
 
+msgid "Turn on the power LED during deep standby."
+msgstr "Zapne LED napájení při hlubokém spánku."
+
 msgid "Turn on the power LED during standby."
+msgstr "Zapne LED napájení při standby."
+
+#, fuzzy
+msgid "Turn on the power LED."
 msgstr "Zapne LED napájení při standby."
 
 msgid "Turning step size"
@@ -10723,6 +10780,10 @@ msgstr "Použítý typ vyhledávání programu"
 #
 msgid "User - bouquets"
 msgstr "Oblíbené"
+
+#
+msgid "User ID"
+msgstr "Uživatel"
 
 #
 msgid "User Mode"
@@ -11139,6 +11200,9 @@ msgstr "Pokud je povoleno a vyberete nový kanál ve výběru kanálů, pak výb
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr "Pokud je povoleno, pak můžete ovládat pomocí tlačítek se šipkami hlasitost namísto přístupu do seznamu kanálů"
 
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Jestliže je povoleno, můžete přizpůsobit nastavení OpenWebIf pro záložní přijímač"
+
 #
 msgid "When enabled you can specify a timeframe to ignore the shutdown timer when the receiver is in standby mode"
 msgstr "Při povolení můžete určit začátek ignorování časovače vypnutí, jestliže je přijímač v pohotovostním režimu"
@@ -11347,6 +11411,9 @@ msgstr "Nastavení připojení bezdrátové sítě."
 
 msgid "Wireless network state"
 msgstr "Stav bezdrátové sítě"
+
+msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
+msgstr "Při vypnutém T2MI RAW (výchozí) můžeme použít single T2MI PLP de-encapsulation. S povoleným T2MI RAW můžeme použít astra-sm k analýze T2MI"
 
 msgid "With errors:"
 msgstr "S chybami:"
@@ -12066,7 +12133,7 @@ msgid "education/science/factual topics (general)"
 msgstr "vzdělávání/věda/věcná témata (obecně)"
 
 msgid "embedded"
-msgstr "vložený"
+msgstr "vestavěný"
 
 #
 msgid "empty"

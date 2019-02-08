@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-27 17:56+0100\n"
+"POT-Creation-Date: 2019-02-05 11:25+0330\n"
 "PO-Revision-Date: 2017-03-05 13:24+0100\n"
 "Last-Translator: Magnus Nilsson <mag_nilsson@hotmail.com>\n"
 "Language-Team: \n"
@@ -241,9 +241,6 @@ msgstr "%A %e %B %Y"
 msgid "%H:%M"
 msgstr "%H:%M"
 
-msgid "%Y-%m-%d %H:%M"
-msgstr ""
-
 #. TRANSLATORS: full date representations short dayname daynum monthname long year in strftime() format! See 'man strftime'
 #, fuzzy
 msgid "%a %e %B %Y"
@@ -390,6 +387,13 @@ msgstr "%2d:%02d"
 msgid "%k:%M %e/%m"
 msgstr "%k:%M %e/%m"
 
+#, fuzzy, python-format
+msgid ""
+"%s\n"
+"Do you still want to flash image\n"
+"%s?"
+msgstr "Vill du ladda ner image till %s ?"
+
 #, python-format
 msgid ""
 "%s\n"
@@ -420,6 +424,11 @@ msgid "%s updated package available"
 msgid_plural "%s updated packages available"
 msgstr[0] "%s uppdatering tillgänglig."
 msgstr[1] "%s uppdateringar tillgängliga."
+
+#
+#, fuzzy, python-format
+msgid "%s%% Autoinstalling %s"
+msgstr "Installerar"
 
 #, python-format
 msgid "%s%d min"
@@ -642,6 +651,11 @@ msgstr ": 0000 - standard (avstängd)"
 #
 msgid "<Current movielist location>"
 msgstr "<Filmlistans aktuella plats>"
+
+#
+#, fuzzy
+msgid "<Default Skin>"
+msgstr "Grundinställningar"
 
 #
 msgid "<Default movie location>"
@@ -1067,6 +1081,9 @@ msgstr "Också vid viloläge"
 msgid "Alternative"
 msgstr "Lägg till alternativ"
 
+msgid "Alternative URL for images listed on FlashImage"
+msgstr ""
+
 #
 msgid "Alternative numbering mode"
 msgstr "Alternativt numreringsläge"
@@ -1355,11 +1372,6 @@ msgstr "Auto uppspelning av blu-ray fil"
 #
 msgid "Auto scart switching"
 msgstr "Auto scart växling"
-
-#
-#, fuzzy, python-format
-msgid "Autoinstalling %s"
-msgstr "Installerar"
 
 #, fuzzy
 msgid "Autoinstalling Completed"
@@ -1728,6 +1740,11 @@ msgstr ""
 msgid "Cancelled upon user request"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Cannot delete downloaded image"
+msgstr "Verkligen ta bort färdiga timerinspelningar?"
+
 msgid "Cannot determine"
 msgstr "Kan inte avgöra"
 
@@ -1957,6 +1974,9 @@ msgstr "Rensa logg"
 #
 msgid "Clear playlist"
 msgstr "Rensa spellista"
+
+msgid "Client is streaming from this box!"
+msgstr ""
 
 msgid "Clone TV screen to LCD"
 msgstr "Klona TV skärm till LCD"
@@ -2507,6 +2527,9 @@ msgstr "Kunde inte spela in på grund av timerkonflikt med %s"
 msgid "Could not record due to invalid service %s"
 msgstr "Kunde inte spela in på grund av ogiltig kanal %s"
 
+msgid "Could not some setup the required directories on the media (e.g. USB stick) - Please verify media and try again!"
+msgstr ""
+
 #, fuzzy
 msgid "Country"
 msgstr "Montera"
@@ -2604,6 +2627,9 @@ msgstr "Valfri hopptid för '7'/'9' knapparna"
 #
 msgid "Customize"
 msgstr "Anpassningar"
+
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr ""
 
 msgid "Customize channel list cursor behavior"
 msgstr "Anpassa kanallistans markörbeteende"
@@ -2735,6 +2761,11 @@ msgstr "Tid / Datum inmatning"
 #, fuzzy
 msgid "Debug to file"
 msgstr "Ta bort fil"
+
+#
+#, fuzzy
+msgid "Deep Standby LED"
+msgstr "Stäng av"
 
 #
 msgid "Deep standby"
@@ -3004,6 +3035,18 @@ msgstr "Visa 4:3 sändning som"
 #
 msgid "Display >16:9 content as"
 msgstr "Visa 16:9 sändning som"
+
+msgid "Display EPG as MultiEPG"
+msgstr ""
+
+#, fuzzy
+msgid "Display EPG info for current event"
+msgstr "Spara endast timeshift för aktuellt program"
+
+#
+#, fuzzy
+msgid "Display EPG list for current channel"
+msgstr "Visa EPG för aktuell kanal ..."
 
 #
 msgid "Display and userinterface"
@@ -3522,6 +3565,9 @@ msgstr "Ange PIN"
 msgid "Enter URL"
 msgstr "Ange PIN"
 
+msgid "Enter an URL where alternative images could be listed for FlashImage"
+msgstr ""
+
 msgid "Enter if you are in the east or west hemisphere."
 msgstr ""
 
@@ -4026,24 +4072,18 @@ msgstr "Flash"
 msgid "Flashing Image"
 msgstr "Flash"
 
-msgid "Flashing image succesfull"
+msgid "Flashing image successful"
 msgstr ""
 
 #, python-format
 msgid ""
-"Flashing image was not succesfull\n"
+"Flashing image was not successful\n"
 "%s"
 msgstr ""
 
 #
 msgid "Following tasks will be done after you press OK!"
 msgstr "Följande saker kommer utföras efter du tryckt på OK!"
-
-msgid "Force LNB Power"
-msgstr "Tvinga LNB power"
-
-msgid "Force ToneBurst"
-msgstr "Tvinga Toneburst"
 
 msgid "Force legacy signal stats"
 msgstr ""
@@ -4421,6 +4461,9 @@ msgstr "Hårddisk"
 
 msgid "Harddisk Setup"
 msgstr "Hårddiskinställningar"
+
+msgid "Harddisk is not in sleepmode it could be in use!"
+msgstr ""
 
 msgid "Hardware: "
 msgstr "Hårdvara :"
@@ -6046,9 +6089,6 @@ msgstr "Inte tillräckligt med diskutrymme. Vänligen frigör diskutrymme och f�
 msgid "Not tested:"
 msgstr "Inte testad :"
 
-msgid "Not yet implemented!"
-msgstr ""
-
 msgid "Note: when enabled, and you do want standby mode after wake up, set option 'Startup to Standby' as 'No, except Wakeup timer'."
 msgstr "Obs : Vid aktiverad, om du vill ha viloläge efter uppstart, ställ in alternativet 'Uppstart till viloläge' som 'Nej, förutom uppstartstimer'."
 
@@ -6313,6 +6353,9 @@ msgstr "Kanaleditor för föräldrakontroll"
 #
 msgid "Parental control setup"
 msgstr "Inställningar för föräldrakontroll"
+
+msgid "Password"
+msgstr ""
 
 #
 msgid "Pause"
@@ -6722,6 +6765,11 @@ msgid "Polish"
 msgstr "Polska"
 
 #
+#, fuzzy
+msgid "Port"
+msgstr "Port A"
+
+#
 msgid "Port A"
 msgstr "Port A"
 
@@ -6772,6 +6820,9 @@ msgstr "Motorinstallation"
 
 msgid "Positioner setup log"
 msgstr "Motorinstallationslogg"
+
+msgid "Power LED"
+msgstr ""
 
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr ""
@@ -7154,13 +7205,6 @@ msgid "Recording type"
 msgstr "Inpelningstyp"
 
 msgid "Recording(s) are in progress or coming up in few seconds!"
-msgstr "Inspelning(ar) pågår eller ska påbörjas inom några sekunder!"
-
-#, fuzzy, python-format
-msgid ""
-"Recording(s) are in progress or coming up in few seconds!\n"
-"Do you still want to flash image\n"
-"%s?"
 msgstr "Inspelning(ar) pågår eller ska påbörjas inom några sekunder!"
 
 #
@@ -8378,6 +8422,15 @@ msgstr ""
 msgid "Set startup service"
 msgstr "Ställ in uppstartskanal"
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr ""
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr ""
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr ""
+
 #
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Ange vilken typ av förloppsindikator som ska användas i kanallistan."
@@ -9068,6 +9121,10 @@ msgstr "Viloläge"
 msgid "Standby / restart"
 msgstr "Viloläge / Omstart"
 
+#, fuzzy
+msgid "Standby LED"
+msgstr "Viloläges LED"
+
 msgid "Standby after current event"
 msgstr "Viloläge efter aktuellt program"
 
@@ -9083,9 +9140,6 @@ msgstr "Standby fläkt %d Volt"
 
 msgid "Standby in "
 msgstr "Viloläge om"
-
-msgid "StandbyLED"
-msgstr "Viloläges LED"
 
 #
 msgid "Start from the beginning"
@@ -9456,6 +9510,9 @@ msgstr "System"
 
 msgid "System & Modulation"
 msgstr "System & Modulation"
+
+msgid "T2MI RAW Mode"
+msgstr ""
 
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
@@ -10317,7 +10374,15 @@ msgstr "Turkiska"
 msgid "Turks and Caicos Islands"
 msgstr ""
 
+#, fuzzy
+msgid "Turn on the power LED during deep standby."
+msgstr "Slå på powerlampan i viloläge."
+
 msgid "Turn on the power LED during standby."
+msgstr "Slå på powerlampan i viloläge."
+
+#, fuzzy
+msgid "Turn on the power LED."
 msgstr "Slå på powerlampan i viloläge."
 
 msgid "Turning step size"
@@ -10635,6 +10700,11 @@ msgstr "Använd kanalsökningstyp"
 
 msgid "User - bouquets"
 msgstr "Användare - favoritlistor"
+
+#
+#, fuzzy
+msgid "User ID"
+msgstr "Användardefinierat"
 
 #
 #, fuzzy
@@ -11055,6 +11125,9 @@ msgstr "Vid aktiverad så när du väljer en ny kanal i kanallistan kommer kanal
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr "Vid aktiverad kan du kontrollera volymen med pilknapparna istället för att få fram kanallistan."
 
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr ""
+
 msgid "When enabled you can specify a timeframe to ignore the shutdown timer when the receiver is in standby mode"
 msgstr "Vid aktiverad kan du specificera en tidsperiod för att ignorera avstängningstimer när mottagaren är i viloläge."
 
@@ -11264,6 +11337,9 @@ msgstr "Trådlös nätverksinställning."
 
 msgid "Wireless network state"
 msgstr "Trådlöst nätverkstillstånd"
+
+msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
+msgstr ""
 
 msgid "With errors:"
 msgstr "Med fel :"

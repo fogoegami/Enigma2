@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-27 17:56+0100\n"
+"POT-Creation-Date: 2019-02-05 11:25+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Frenske <voorzitter@openpli.org>\n"
 "Language-Team: PLiteam <translators@openpli.org>\n"
@@ -228,9 +228,6 @@ msgstr "%A %e %B %Y"
 msgid "%H:%M"
 msgstr "%H:%M"
 
-msgid "%Y-%m-%d %H:%M"
-msgstr "%Y-%m-%d %H:%M"
-
 #. TRANSLATORS: full date representations short dayname daynum monthname long year in strftime() format! See 'man strftime'
 msgid "%a %e %B %Y"
 msgstr "%a %e %B %Y"
@@ -374,6 +371,15 @@ msgstr "%d:%02d"
 msgid "%k:%M %e/%m"
 msgstr "%k:%M %e/%m"
 
+#, fuzzy, python-format
+msgid ""
+"%s\n"
+"Do you still want to flash image\n"
+"%s?"
+msgstr ""
+"Wilt u een image flashen?\n"
+"%s"
+
 #, python-format
 msgid ""
 "%s\n"
@@ -406,6 +412,10 @@ msgid "%s updated package available"
 msgid_plural "%s updated packages available"
 msgstr[0] "%s nieuw pakket beschikbaar"
 msgstr[1] "%s nieuwe pakketten beschikbaar"
+
+#, fuzzy, python-format
+msgid "%s%% Autoinstalling %s"
+msgstr "(Auto)Installeert %s"
 
 #, python-format
 msgid "%s%d min"
@@ -598,6 +608,10 @@ msgstr ":0000 - standaard (uitgeschakeld)"
 
 msgid "<Current movielist location>"
 msgstr "<Huidige opnamelijstlocatie>"
+
+#, fuzzy
+msgid "<Default Skin>"
+msgstr "Standaard instellingen"
 
 msgid "<Default movie location>"
 msgstr "<Standaard opnamelocatie>"
@@ -963,6 +977,9 @@ msgstr "Tevens bij standby"
 msgid "Alternative"
 msgstr "Alternatieven"
 
+msgid "Alternative URL for images listed on FlashImage"
+msgstr ""
+
 msgid "Alternative numbering mode"
 msgstr "Alternatieve telmodus"
 
@@ -1217,10 +1234,6 @@ msgstr "Speel blu-ray bestand automatisch af"
 
 msgid "Auto scart switching"
 msgstr "Automatisch scart schakelen"
-
-#, python-format
-msgid "Autoinstalling %s"
-msgstr "(Auto)Installeert %s"
 
 msgid "Autoinstalling Completed"
 msgstr "(Auto)installatie afgerond "
@@ -1547,6 +1560,10 @@ msgstr "Annuleer alle wijzigingen en stop"
 msgid "Cancelled upon user request"
 msgstr "Geannuleerd a.g.v. een verzoek van de gebruiker"
 
+#, fuzzy
+msgid "Cannot delete downloaded image"
+msgstr "Wilt u de gebruikte timers echt wissen?"
+
 msgid "Cannot determine"
 msgstr "Kan niet vaststellen"
 
@@ -1747,6 +1764,9 @@ msgstr "Log wissen"
 
 msgid "Clear playlist"
 msgstr "Afspeellijst leeg maken"
+
+msgid "Client is streaming from this box!"
+msgstr ""
 
 msgid "Clone TV screen to LCD"
 msgstr "TV beeld op het LCD display weergeven."
@@ -2407,6 +2427,9 @@ msgstr "Kon niet opnemen vanwege conflicterende timer %s"
 msgid "Could not record due to invalid service %s"
 msgstr "Kon niet opnemen vanwege een ongeldige service %s"
 
+msgid "Could not some setup the required directories on the media (e.g. USB stick) - Please verify media and try again!"
+msgstr ""
+
 msgid "Country"
 msgstr "Land"
 
@@ -2490,6 +2513,9 @@ msgstr "Aangepaste skiptijd voor de '7'/'9'-toetsen"
 
 msgid "Customize"
 msgstr "Diverse instellingen"
+
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr ""
 
 msgid "Customize channel list cursor behavior"
 msgstr "Pas het gedrag van de cursor aan"
@@ -2601,6 +2627,10 @@ msgstr "Tijd/Datum invoer"
 
 msgid "Debug to file"
 msgstr "Debug naar bestand"
+
+#, fuzzy
+msgid "Deep Standby LED"
+msgstr "Volledig uitschakelen"
 
 msgid "Deep standby"
 msgstr "Volledig uitschakelen"
@@ -2838,6 +2868,17 @@ msgstr "Toon 4:3 materiaal als"
 
 msgid "Display >16:9 content as"
 msgstr "Toon >16:9 materiaal als"
+
+msgid "Display EPG as MultiEPG"
+msgstr ""
+
+#, fuzzy
+msgid "Display EPG info for current event"
+msgstr "Sla de timeshift enkel op voor het lopende programma"
+
+#, fuzzy
+msgid "Display EPG list for current channel"
+msgstr "Toon de EPG van de huidige zender"
 
 msgid "Display and userinterface"
 msgstr "Display en gebruikersinterface"
@@ -3288,6 +3329,9 @@ msgstr "Voer PIN in"
 
 msgid "Enter URL"
 msgstr "Voer een URL in"
+
+msgid "Enter an URL where alternative images could be listed for FlashImage"
+msgstr ""
 
 msgid "Enter if you are in the east or west hemisphere."
 msgstr "Geef aan of je je in het oostelijk of westelijk halfrond bevindt."
@@ -3749,12 +3793,12 @@ msgstr "Image flashen"
 msgid "Flashing Image"
 msgstr "De image wordt geflasht"
 
-msgid "Flashing image succesfull"
+msgid "Flashing image successful"
 msgstr "Het flashen van de image is gelukt."
 
 #, python-format
 msgid ""
-"Flashing image was not succesfull\n"
+"Flashing image was not successful\n"
 "%s"
 msgstr ""
 "Het flashen van de image is mislukt\n"
@@ -3762,12 +3806,6 @@ msgstr ""
 
 msgid "Following tasks will be done after you press OK!"
 msgstr "Nadat u op Ok drukt worden de volgende taken uitgevoerd!"
-
-msgid "Force LNB Power"
-msgstr "Forceer de LNB spanning"
-
-msgid "Force ToneBurst"
-msgstr "Forceer ToneBurst"
 
 msgid "Force legacy signal stats"
 msgstr "Force Legacy Signal Stats"
@@ -4102,6 +4140,9 @@ msgstr "Harde schijf"
 
 msgid "Harddisk Setup"
 msgstr "Instellen harde schijf"
+
+msgid "Harddisk is not in sleepmode it could be in use!"
+msgstr ""
 
 msgid "Hardware: "
 msgstr "Hardware: "
@@ -5525,9 +5566,6 @@ msgstr "Onvoldoende schijfruimte. Maak ruimte vrij en probeer het opnieuw (%d MB
 msgid "Not tested:"
 msgstr "Niet getest:"
 
-msgid "Not yet implemented!"
-msgstr "Nog niet geimplementeerd"
-
 msgid "Note: when enabled, and you do want standby mode after wake up, set option 'Startup to Standby' as 'No, except Wakeup timer'."
 msgstr "Nota: indien ingeschakeld en u wilt vanuit 'wake up'naar standby, stelt u dan de optie 'opstarten naar standby' in op 'nee, uitgezonderd wakeup timer'."
 
@@ -5769,6 +5807,9 @@ msgstr "Kinderslot zendereditor"
 
 msgid "Parental control setup"
 msgstr "Kinderslotinstellingen"
+
+msgid "Password"
+msgstr ""
 
 msgid "Pause"
 msgstr "Pauze"
@@ -6106,6 +6147,10 @@ msgstr "Polarisatie"
 msgid "Polish"
 msgstr "Pools"
 
+#, fuzzy
+msgid "Port"
+msgstr "Poort A"
+
 msgid "Port A"
 msgstr "Poort A"
 
@@ -6147,6 +6192,9 @@ msgstr "Rotorinstellingen"
 
 msgid "Positioner setup log"
 msgstr "Positioner instellingen log"
+
+msgid "Power LED"
+msgstr ""
 
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr "Power management. Raadpleeg de handleiding van uw ontvanger voor meer details."
@@ -6482,16 +6530,6 @@ msgstr "Opnamesoort"
 
 msgid "Recording(s) are in progress or coming up in few seconds!"
 msgstr "Een opname is bezig of kan elk moment aanvangen!"
-
-#, python-format
-msgid ""
-"Recording(s) are in progress or coming up in few seconds!\n"
-"Do you still want to flash image\n"
-"%s?"
-msgstr ""
-"Een opname is bezig of kan elk moment aanvangen!\n"
-"Wilt u toch beginnen met het flashen van een image\n"
-"%s?"
 
 msgid "Recordings"
 msgstr "Opnames"
@@ -7543,6 +7581,18 @@ msgstr "Deze volgorde wordt herhaald als uw ontvangstinrichting dit vereist. Nor
 msgid "Set startup service"
 msgstr "Kies als opstartzender"
 
+#, fuzzy
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Activeer de import van timers van de Fallback tuner"
+
+#, fuzzy
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Activeer de import van timers van de Fallback tuner"
+
+#, fuzzy
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Activeer de import van timers van de Fallback tuner"
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr ""
 "Met deze optie stelt u de weergave in van de programmavoortgangindicatie in de geopende zenderlijst in.\n"
@@ -8152,6 +8202,10 @@ msgstr "Standby"
 msgid "Standby / restart"
 msgstr "Standby / herstart"
 
+#, fuzzy
+msgid "Standby LED"
+msgstr "Standby-led"
+
 msgid "Standby after current event"
 msgstr "Standby na de huidige actie"
 
@@ -8165,9 +8219,6 @@ msgstr "Standby ventilator %d spanning"
 
 msgid "Standby in "
 msgstr "Standby na "
-
-msgid "StandbyLED"
-msgstr "Standby-led"
 
 msgid "Start from the beginning"
 msgstr "Start vanaf het begin"
@@ -8495,6 +8546,9 @@ msgstr "Systeem"
 
 msgid "System & Modulation"
 msgstr "Systeem & Modulatie"
+
+msgid "T2MI RAW Mode"
+msgstr ""
 
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
@@ -9260,7 +9314,15 @@ msgstr "Turksmenistan"
 msgid "Turks and Caicos Islands"
 msgstr "Turks- en Caicoseilanden"
 
+#, fuzzy
+msgid "Turn on the power LED during deep standby."
+msgstr "Met deze optie bepaalt u of de power led brandt als de ontvanger standby staat."
+
 msgid "Turn on the power LED during standby."
+msgstr "Met deze optie bepaalt u of de power led brandt als de ontvanger standby staat."
+
+#, fuzzy
+msgid "Turn on the power LED."
 msgstr "Met deze optie bepaalt u of de power led brandt als de ontvanger standby staat."
 
 msgid "Turning step size"
@@ -9544,6 +9606,10 @@ msgstr "Gebruikte zoekmethode"
 
 msgid "User - bouquets"
 msgstr "Gebruiker - bouquets"
+
+#, fuzzy
+msgid "User ID"
+msgstr "Gebruikersinstellingen"
 
 msgid "User Mode"
 msgstr "Gebruikersinstellingen"
@@ -9909,6 +9975,10 @@ msgstr "Indien geactiveerd, dan zal, indien u een keuze gemaakt heeft, het selec
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr "Indien geactiveerd, dan kunt u het volume bedienen met de pijltjestoetsen, i.p.v. dat u hiermee de zenderlijst opent."
 
+#, fuzzy
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Indien geactiveerd, dan wordt de timer van de Fallback tuner geimporteerd"
+
 msgid "When enabled you can specify a timeframe to ignore the shutdown timer when the receiver is in standby mode"
 msgstr "Indien geactiveerd dan kan een tijdsruimte worden gespecificeerd waarbinnen de uitschakel timer wordt genegeerd wanneer de tuner al in standby is."
 
@@ -10133,6 +10203,9 @@ msgstr "Installatie van het draadloos netwerk."
 
 msgid "Wireless network state"
 msgstr "Status draadloos netwerk"
+
+msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
+msgstr ""
 
 msgid "With errors:"
 msgstr "Met fouten:"

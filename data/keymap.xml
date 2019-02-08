@@ -77,12 +77,12 @@
 		<key id="KEY_EXIT" mapto="cancel" flags="m" />
 		<key id="KEY_OK" mapto="select" flags="m" />
 		<key id="KEY_UP" mapto="up" flags="mr" />
-		<key id="KEY_PREVIOUS" mapto="first" flags="m" />
-		<key id="KEY_REWIND" mapto="prev" flags="mr" />
+		<key id="KEY_PREVIOUS" mapto="backspace" flags="mr" />
+		<key id="KEY_REWIND" mapto="first" flags="mr" />
 		<key id="KEY_LEFT" mapto="left" flags="mr" />
 		<key id="KEY_RIGHT" mapto="right" flags="mr" />
-		<key id="KEY_FASTFORWARD" mapto="next" flags="mr" />
-		<key id="KEY_NEXT" mapto="last" flags="m" />
+		<key id="KEY_FASTFORWARD" mapto="last" flags="mr" />
+		<key id="KEY_NEXT" mapto="delete" flags="mr" />
 		<key id="KEY_DOWN" mapto="down" flags="mr" />
 		<key id="KEY_LAST" mapto="backspace" flags="mr" />
 		<key id="KEY_STOP" mapto="backspace" flags="mr" />
@@ -126,6 +126,8 @@
 		<key id="KEY_KP7" mapto="7" flags="m" />
 		<key id="KEY_KP8" mapto="8" flags="m" />
 		<key id="KEY_KP9" mapto="9" flags="m" />
+		<key id="KEY_CHANNELUP" mapto="next" flags="mr"/>
+		<key id="KEY_CHANNELDOWN" mapto="prev" flags="mr"/>
 	</map>
 
 	<map context="InputActions">
@@ -942,5 +944,11 @@
 		<key id="KEY_PVR" mapto="list_long" flags="l"/>
 		<key id="KEY_TOUCHPAD_TOGGLE" mapto="mouse" flags="b"/>
 		<key id="KEY_TOUCHPAD_TOGGLE" mapto="mouse_long" flags="l"/>
+		<key id="KEY_SAT" mapto="sat" flags="b"/>
+		<key id="KEY_SAT" mapto="sat_long" flags="l"/>
+		<key id="KEY_HOMEPAGE" mapto="homepage" flags="b"/>
+		<key id="KEY_HOMEPAGE" mapto="homepage_long" flags="l"/>
+		<key id="KEY_EJECTCD" mapto="ejectcd" flags="b"/>
+		<key id="KEY_EJECTCD" mapto="ejectcd_long" flags="l"/>
 	</map>
 </keymap>

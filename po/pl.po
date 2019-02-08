@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-27 17:56+0100\n"
+"POT-Creation-Date: 2019-02-05 11:25+0330\n"
 "PO-Revision-Date: 2018-11-12 17:39+0100\n"
 "Last-Translator: blzr <blzr@o2.pl>\n"
 "Language-Team: \n"
@@ -228,9 +228,6 @@ msgstr ""
 msgid "%H:%M"
 msgstr "%H:%M"
 
-msgid "%Y-%m-%d %H:%M"
-msgstr ""
-
 #. TRANSLATORS: full date representations short dayname daynum monthname long year in strftime() format! See 'man strftime'
 msgid "%a %e %B %Y"
 msgstr ""
@@ -384,6 +381,15 @@ msgstr ""
 msgid "%k:%M %e/%m"
 msgstr ""
 
+#, fuzzy, python-format
+msgid ""
+"%s\n"
+"Do you still want to flash image\n"
+"%s?"
+msgstr ""
+"Czy chcesz zainstalować image\n"
+"%s"
+
 #, python-format
 msgid ""
 "%s\n"
@@ -417,6 +423,10 @@ msgid_plural "%s updated packages available"
 msgstr[0] " %s zaktualizowany pakiet dostępny"
 msgstr[1] " %s zaktualizowane pakiety dostępne"
 msgstr[2] " %s zaktualizowanych pakietów dostępnych"
+
+#, fuzzy, python-format
+msgid "%s%% Autoinstalling %s"
+msgstr "Automatyczna instalacja %s"
 
 #, python-format
 msgid "%s%d min"
@@ -609,6 +619,10 @@ msgstr ": 0000 - domyślny (wyłączono)"
 
 msgid "<Current movielist location>"
 msgstr "<Bieżąca lokalizacja nagrań>"
+
+#, fuzzy
+msgid "<Default Skin>"
+msgstr "Ustawienia domyślne"
 
 msgid "<Default movie location>"
 msgstr "<Domyślna lokalizacja nagrań>"
@@ -975,6 +989,9 @@ msgstr "Także przy wyjściu ze standby"
 msgid "Alternative"
 msgstr "Alternatywne"
 
+msgid "Alternative URL for images listed on FlashImage"
+msgstr ""
+
 msgid "Alternative numbering mode"
 msgstr "Alternatywny tryb numerowania"
 
@@ -1230,10 +1247,6 @@ msgstr "Automatycznie odtwarzaj plik blu-ray"
 
 msgid "Auto scart switching"
 msgstr "Automatyczne przełączanie scart"
-
-#, python-format
-msgid "Autoinstalling %s"
-msgstr "Automatyczna instalacja %s"
 
 msgid "Autoinstalling Completed"
 msgstr "Automatyczna instalacja zakończona"
@@ -1554,6 +1567,10 @@ msgstr "Cofnij wszystkie zmiany tekstu i wyjdź"
 msgid "Cancelled upon user request"
 msgstr "Anulowano na żądanie użytkownika"
 
+#, fuzzy
+msgid "Cannot delete downloaded image"
+msgstr "Usunąć wykonane timery?"
+
 msgid "Cannot determine"
 msgstr "Nie można określić"
 
@@ -1754,6 +1771,9 @@ msgstr "Wyczyść log"
 
 msgid "Clear playlist"
 msgstr "Wyczyść playlistę"
+
+msgid "Client is streaming from this box!"
+msgstr ""
 
 msgid "Clone TV screen to LCD"
 msgstr "Klonuj obraz z tv na LCD"
@@ -2254,6 +2274,9 @@ msgstr "Nie można nagrać z powodu konfliktu timera %s"
 msgid "Could not record due to invalid service %s"
 msgstr "Nie można nagrywać z powodu nieprawidłowego %s kanału"
 
+msgid "Could not some setup the required directories on the media (e.g. USB stick) - Please verify media and try again!"
+msgstr ""
+
 msgid "Country"
 msgstr "Kraj"
 
@@ -2337,6 +2360,9 @@ msgstr "Czas przeskoku dla klawiszy '7'/'9'"
 
 msgid "Customize"
 msgstr "Konfiguracja"
+
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr ""
 
 msgid "Customize channel list cursor behavior"
 msgstr "Zachowanie kursora w liście kanałów"
@@ -2448,6 +2474,10 @@ msgstr "Czas / Data"
 
 msgid "Debug to file"
 msgstr "Debug do pliku"
+
+#, fuzzy
+msgid "Deep Standby LED"
+msgstr "Głębokie czuwanie"
 
 msgid "Deep standby"
 msgstr "Głębokie czuwanie"
@@ -2685,6 +2715,17 @@ msgstr "Wyświetlaj zawartość 4:3 jako"
 
 msgid "Display >16:9 content as"
 msgstr "Wyświetlaj zawartość >16:9 jako"
+
+msgid "Display EPG as MultiEPG"
+msgstr ""
+
+#, fuzzy
+msgid "Display EPG info for current event"
+msgstr "Zapisz timeshift tylko dla bieżącego wydarzenia"
+
+#, fuzzy
+msgid "Display EPG list for current channel"
+msgstr "Pokaż EPG dla aktualnego kanału..."
 
 msgid "Display and userinterface"
 msgstr "Wyświetlacz i interfejs użytkownika"
@@ -3132,6 +3173,9 @@ msgstr "Wprowadź PIN"
 
 msgid "Enter URL"
 msgstr "Wprowadź adres"
+
+msgid "Enter an URL where alternative images could be listed for FlashImage"
+msgstr ""
 
 msgid "Enter if you are in the east or west hemisphere."
 msgstr "Wprowadź czy jesteś na wschodniej czy zachodniej półkuli."
@@ -3594,12 +3638,12 @@ msgstr "Zainstaluj image"
 msgid "Flashing Image"
 msgstr "Instalowanie image"
 
-msgid "Flashing image succesfull"
+msgid "Flashing image successful"
 msgstr "Image zainstalowane pomyślnie"
 
 #, python-format
 msgid ""
-"Flashing image was not succesfull\n"
+"Flashing image was not successful\n"
 "%s"
 msgstr ""
 "Wgrywanie image nie powiodło się\n"
@@ -3607,12 +3651,6 @@ msgstr ""
 
 msgid "Following tasks will be done after you press OK!"
 msgstr "Poniższe zadania będą wykonane po wciśnięciu OK!"
-
-msgid "Force LNB Power"
-msgstr "Wymuś zasilanie LNB"
-
-msgid "Force ToneBurst"
-msgstr "Wymuś ToneBurst"
 
 msgid "Force legacy signal stats"
 msgstr "Wymuś starszy typ statystyk sygnału"
@@ -3947,6 +3985,9 @@ msgstr "Dysk twardy"
 
 msgid "Harddisk Setup"
 msgstr "Ustawienia dysku HDD"
+
+msgid "Harddisk is not in sleepmode it could be in use!"
+msgstr ""
 
 msgid "Hardware: "
 msgstr "Sprzęt: "
@@ -5363,9 +5404,6 @@ msgstr "Nie wystarczająca ilość przestrzeni dyskowej. Zwolnij miejsce na dysk
 msgid "Not tested:"
 msgstr "Nieprzetestowane:"
 
-msgid "Not yet implemented!"
-msgstr "Jeszcze nie zaimplementowane!"
-
 msgid "Note: when enabled, and you do want standby mode after wake up, set option 'Startup to Standby' as 'No, except Wakeup timer'."
 msgstr "Uwaga: gdy właczone, a chcesz przejść do standby po wybudzeniu, ustaw opcje 'Startup to Standby' na 'Nie, z wyjątkiem timera wybudzania'"
 
@@ -5605,6 +5643,9 @@ msgstr "Edytor kanałów objętych kontrolę rodzicielską"
 
 msgid "Parental control setup"
 msgstr "Ustawienia kontroli rodzicielskiej"
+
+msgid "Password"
+msgstr ""
 
 msgid "Pause"
 msgstr "Pauza"
@@ -5942,6 +5983,10 @@ msgstr "Polaryzacja"
 msgid "Polish"
 msgstr "Polski"
 
+#, fuzzy
+msgid "Port"
+msgstr "Port A"
+
 msgid "Port A"
 msgstr "Port A"
 
@@ -5983,6 +6028,9 @@ msgstr "Ustawienia pozycjonera"
 
 msgid "Positioner setup log"
 msgstr "Log ustawień pozycjonera"
+
+msgid "Power LED"
+msgstr ""
 
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr "Zarządzanie zasilaniem. Więcej informacji znajdziesz w instrukcji obsługi odbiornika."
@@ -6318,16 +6366,6 @@ msgstr "Typ nagrania"
 
 msgid "Recording(s) are in progress or coming up in few seconds!"
 msgstr "Nagrywanie(a) jest w toku lub rozpocznie się za kilka sekund!"
-
-#, python-format
-msgid ""
-"Recording(s) are in progress or coming up in few seconds!\n"
-"Do you still want to flash image\n"
-"%s?"
-msgstr ""
-"Nagrywanie(a) jest w toku lub rozpocznie się za kilka sekund!\n"
-"Czy na pewno chcesz rozpocząć wgrywanie image\n"
-"%s?"
 
 msgid "Recordings"
 msgstr "Nagrania"
@@ -7386,6 +7424,18 @@ msgstr "Ustaw powtarzanie sekwencji jeśli twój system antenowy tego wymaga. St
 msgid "Set startup service"
 msgstr "Ustaw kanał startowy"
 
+#, fuzzy
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Włącz import timerów z tunera rezerwowego"
+
+#, fuzzy
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Włącz import timerów z tunera rezerwowego"
+
+#, fuzzy
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Włącz import timerów z tunera rezerwowego"
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Ustaw typ paska postępu wydarzenia w liście wyboru kanałów."
 
@@ -7993,6 +8043,10 @@ msgstr "Czuwanie"
 msgid "Standby / restart"
 msgstr "Czuwanie / Restart"
 
+#, fuzzy
+msgid "Standby LED"
+msgstr "Dioda w trybie czuwania"
+
 msgid "Standby after current event"
 msgstr "Przejdź w tryb czuwania po bieżącym wydarzeniu"
 
@@ -8006,9 +8060,6 @@ msgstr "Wiatrak w standby %d napięcie"
 
 msgid "Standby in "
 msgstr "Tryb czuwania za"
-
-msgid "StandbyLED"
-msgstr "Dioda w trybie czuwania"
 
 msgid "Start from the beginning"
 msgstr "Rozpocznij od początku"
@@ -8333,6 +8384,9 @@ msgstr ""
 
 msgid "System & Modulation"
 msgstr "System i modulacja"
+
+msgid "T2MI RAW Mode"
+msgstr ""
 
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
@@ -9084,7 +9138,15 @@ msgstr ""
 msgid "Turks and Caicos Islands"
 msgstr "Wyspy Turks i Caicos"
 
+#, fuzzy
+msgid "Turn on the power LED during deep standby."
+msgstr "Włączaj diodę zasilania w trybie czuwania"
+
 msgid "Turn on the power LED during standby."
+msgstr "Włączaj diodę zasilania w trybie czuwania"
+
+#, fuzzy
+msgid "Turn on the power LED."
 msgstr "Włączaj diodę zasilania w trybie czuwania"
 
 msgid "Turning step size"
@@ -9366,6 +9428,10 @@ msgstr "Używany typ skanowania kanałów"
 
 msgid "User - bouquets"
 msgstr "Bukiety"
+
+#, fuzzy
+msgid "User ID"
+msgstr "Tryb użytkownika"
 
 msgid "User Mode"
 msgstr "Tryb użytkownika"
@@ -9730,6 +9796,10 @@ msgstr "Gdy włączone, jeśli wybierzesz nowy kanał w liście wyboru kanałów
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr "Gdy włączone, strzałki prawa/lewa regulują głośność, a nie otwierają listy wyboru kanałów."
 
+#, fuzzy
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Gdy włączone, timer ze zdalnego odbiornika jest importowany"
+
 msgid "When enabled you can specify a timeframe to ignore the shutdown timer when the receiver is in standby mode"
 msgstr "Gdy włączone, można określić przedział czasowy, w którym 'timer wyłączania' ma być ignorowany, gdy odbiornik jest w trybie czuwania."
 
@@ -9931,6 +10001,9 @@ msgstr "Konfiguracja sieci bezprzewodowej."
 
 msgid "Wireless network state"
 msgstr "Status sieci bezprzewodowej"
+
+msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
+msgstr ""
 
 msgid "With errors:"
 msgstr "Z błędami:"

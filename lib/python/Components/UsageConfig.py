@@ -1,5 +1,5 @@
 from Components.Harddisk import harddiskmanager
-from config import ConfigSubsection, ConfigYesNo, config, ConfigSelection, ConfigText, ConfigNumber, ConfigSet, ConfigLocations, ConfigSelectionNumber, ConfigClock, ConfigSlider, ConfigEnableDisable, ConfigSubDict, ConfigDictionarySet
+from config import ConfigSubsection, ConfigYesNo, config, ConfigSelection, ConfigText, ConfigNumber, ConfigSet, ConfigLocations, ConfigSelectionNumber, ConfigClock, ConfigSlider, ConfigEnableDisable, ConfigSubDict, ConfigDictionarySet, ConfigInteger, ConfigPassword
 from Tools.Directories import defaultRecordingLocation
 from enigma import setTunerTypePriorityOrder, setPreferredTuner, setSpinnerOnOff, setEnableTtCachingOnOff, eEnv, eDVBDB, Misc_Options, eBackgroundFileEraser, eServiceEvent
 from Components.NimManager import nimmanager
@@ -42,7 +42,7 @@ def InitUsageConfig():
 
 	config.usage.service_icon_enable = ConfigYesNo(default = False)
 	config.usage.service_icon_enable.addNotifier(refreshServiceList)
-	config.usage.servicelist_cursor_behavior = ConfigSelection(default = "standard", choices = [
+	config.usage.servicelist_cursor_behavior = ConfigSelection(default = "keep", choices = [
 		("standard", _("Standard")),
 		("keep", _("Keep service")),
 		("reverseB", _("Reverse bouquet buttons")),
@@ -240,6 +240,10 @@ def InitUsageConfig():
 	config.usage.remote_fallback_nok = ConfigYesNo(default = False)
 	config.usage.remote_fallback_extension_menu = ConfigYesNo(default = False)
 	config.usage.remote_fallback_external_timer = ConfigYesNo(default = False)
+	config.usage.remote_fallback_openwebif_customize = ConfigYesNo(default = False)
+	config.usage.remote_fallback_openwebif_userid = ConfigText(default = "root")
+	config.usage.remote_fallback_openwebif_password = ConfigPassword(default = "default")
+	config.usage.remote_fallback_openwebif_port = ConfigInteger(default=80, limits=(0,65535))
 
 	config.usage.show_timer_conflict_warning = ConfigYesNo(default = True)
 
@@ -347,11 +351,23 @@ def InitUsageConfig():
 		config.usage.fanspeed = ConfigSlider(default=127, increment=8, limits=(0, 255))
 		config.usage.fanspeed.addNotifier(fanSpeedChanged)
 
+	if SystemInfo["PowerLED"]:
+		def powerLEDChanged(configElement):
+			open(SystemInfo["PowerLED"], "w").write(configElement.value and "on" or "off")
+		config.usage.powerLED = ConfigYesNo(default = True)
+		config.usage.powerLED.addNotifier(powerLEDChanged)
+
 	if SystemInfo["StandbyLED"]:
 		def standbyLEDChanged(configElement):
 			open(SystemInfo["StandbyLED"], "w").write(configElement.value and "on" or "off")
 		config.usage.standbyLED = ConfigYesNo(default = True)
 		config.usage.standbyLED.addNotifier(standbyLEDChanged)
+
+	if SystemInfo["SuspendLED"]:
+		def suspendLEDChanged(configElement):
+			open(SystemInfo["SuspendLED"], "w").write(configElement.value and "on" or "off")
+		config.usage.suspendLED = ConfigYesNo(default = True)
+		config.usage.suspendLED.addNotifier(suspendLEDChanged)
 
 	if SystemInfo["PowerOffDisplay"]:
 		def powerOffDisplayChanged(configElement):
@@ -443,6 +459,7 @@ def InitUsageConfig():
 
 	config.usage.keymap = ConfigText(default = eEnv.resolve("${datadir}/enigma2/keymap.xml"))
 	config.usage.keytrans = ConfigText(default = eEnv.resolve("${datadir}/enigma2/keytranslation.xml"))
+	config.usage.alternative_imagefeed = ConfigText(default="", fixed_size=False)
 
 	config.seek = ConfigSubsection()
 	config.seek.selfdefined_13 = ConfigNumber(default=15)
@@ -535,18 +552,6 @@ def InitUsageConfig():
 			choicelist.append((str(i)))
 		config.usage.vfd_final_scroll_delay = ConfigSelection(default = "1000", choices = choicelist)
 		config.usage.vfd_final_scroll_delay.addNotifier(final_scroll_delay, immediate_feedback = False)
-
-	if SystemInfo["HasForceLNBOn"]:
-		def forceLNBPowerChanged(configElement):
-			open(SystemInfo["HasForceLNBOn"], "w").write(configElement.value)
-		config.misc.forceLnbPower = ConfigSelection(default = "on", choices = [ ("on", _("yes")), ("off", _("no"))] )
-		config.misc.forceLnbPower.addNotifier(forceLNBPowerChanged)
-
-	if SystemInfo["HasForceToneburst"]:
-		def forceToneBurstChanged(configElement):
-			open(SystemInfo["HasForceToneburst"], "w").write(configElement.value)
-		config.misc.forceToneBurst = ConfigSelection(default = "enable", choices = [ ("enable", _("yes")), ("disable", _("no"))] )
-		config.misc.forceToneBurst.addNotifier(forceToneBurstChanged)
 
 	if SystemInfo["HasBypassEdidChecking"]:
 		def setHasBypassEdidChecking(configElement):

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-27 17:56+0100\n"
+"POT-Creation-Date: 2019-02-05 11:25+0330\n"
 "PO-Revision-Date: 2013-10-15 19:32+0200\n"
 "Last-Translator: BoxFreak\n"
 "Language-Team: none\n"
@@ -233,9 +233,6 @@ msgstr "%A %e. %Bta %Y"
 msgid "%H:%M"
 msgstr "%H:%M"
 
-msgid "%Y-%m-%d %H:%M"
-msgstr ""
-
 #. TRANSLATORS: full date representations short dayname daynum monthname long year in strftime() format! See 'man strftime'
 #, fuzzy
 msgid "%a %e %B %Y"
@@ -387,6 +384,13 @@ msgstr "%2d:%02d"
 msgid "%k:%M %e/%m"
 msgstr "%k:%M %e.%-m"
 
+#, fuzzy, python-format
+msgid ""
+"%s\n"
+"Do you still want to flash image\n"
+"%s?"
+msgstr "Haluatko ladata ohjelmistopäivityksen %s :lle ?"
+
 #, python-format
 msgid ""
 "%s\n"
@@ -417,6 +421,11 @@ msgid "%s updated package available"
 msgid_plural "%s updated packages available"
 msgstr[0] "%s päivitetty paketti saatavilla."
 msgstr[1] " %s päivitettyä pakettia saatavilla."
+
+#
+#, fuzzy, python-format
+msgid "%s%% Autoinstalling %s"
+msgstr "Asennetaan"
 
 #
 #, python-format
@@ -629,6 +638,11 @@ msgstr ""
 
 msgid "<Current movielist location>"
 msgstr "<Nykyinen tallennushakemisto>"
+
+#
+#, fuzzy
+msgid "<Default Skin>"
+msgstr "Oletusasetukset"
 
 msgid "<Default movie location>"
 msgstr "<Oletushakemisto>"
@@ -1054,6 +1068,9 @@ msgstr ""
 msgid "Alternative"
 msgstr "Vaihtoehtoisten kanavien lisäys ja poisto"
 
+msgid "Alternative URL for images listed on FlashImage"
+msgstr ""
+
 #
 msgid "Alternative numbering mode"
 msgstr "TV-tyylinen radiokanavien numerointi"
@@ -1338,11 +1355,6 @@ msgstr ""
 #
 msgid "Auto scart switching"
 msgstr "Autom. SCARTin kytkentä"
-
-#
-#, fuzzy, python-format
-msgid "Autoinstalling %s"
-msgstr "Asennetaan"
 
 #, fuzzy
 msgid "Autoinstalling Completed"
@@ -1709,6 +1721,11 @@ msgstr ""
 msgid "Cancelled upon user request"
 msgstr ""
 
+#
+#, fuzzy
+msgid "Cannot delete downloaded image"
+msgstr "Poistetaanko tallennetut ajastukset?"
+
 msgid "Cannot determine"
 msgstr "Ei varmaa"
 
@@ -1943,6 +1960,9 @@ msgstr "Tyhjennä loki"
 #
 msgid "Clear playlist"
 msgstr "Tyhjennä soittolista"
+
+msgid "Client is streaming from this box!"
+msgstr ""
 
 msgid "Clone TV screen to LCD"
 msgstr ""
@@ -2489,6 +2509,9 @@ msgstr "Ajastusristiriidan takia ei voitu tallentaa %s"
 msgid "Could not record due to invalid service %s"
 msgstr "Ei voitu tallentaa virheellisen kanavan takia %s"
 
+msgid "Could not some setup the required directories on the media (e.g. USB stick) - Please verify media and try again!"
+msgstr ""
+
 #, fuzzy
 msgid "Country"
 msgstr "Liitä"
@@ -2583,6 +2606,9 @@ msgstr "'7'/'9'-näppäimien hypyn pituus"
 #
 msgid "Customize"
 msgstr "Toimintojen mukautus"
+
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr ""
 
 msgid "Customize channel list cursor behavior"
 msgstr ""
@@ -2713,6 +2739,11 @@ msgstr "Ajan/Päivän syöttö"
 #, fuzzy
 msgid "Debug to file"
 msgstr "Poista tiedosto"
+
+#
+#, fuzzy
+msgid "Deep Standby LED"
+msgstr "Virransäästötila"
 
 #
 msgid "Deep standby"
@@ -2983,6 +3014,19 @@ msgstr "Näytä 4:3 sisältö"
 #
 msgid "Display >16:9 content as"
 msgstr "Näytä >16:9 sisältö"
+
+msgid "Display EPG as MultiEPG"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Display EPG info for current event"
+msgstr "Aseta valmiustilaan menossa olevan ohjelman jälkeen"
+
+#
+#, fuzzy
+msgid "Display EPG list for current channel"
+msgstr "Näytä tietopalkki ohjelman vaihtuessa"
 
 #
 msgid "Display and userinterface"
@@ -3504,6 +3548,9 @@ msgstr ""
 msgid "Enter URL"
 msgstr ""
 
+msgid "Enter an URL where alternative images could be listed for FlashImage"
+msgstr ""
+
 msgid "Enter if you are in the east or west hemisphere."
 msgstr ""
 
@@ -3988,23 +4035,17 @@ msgstr "Päivitä"
 msgid "Flashing Image"
 msgstr "Päivitä"
 
-msgid "Flashing image succesfull"
+msgid "Flashing image successful"
 msgstr ""
 
 #, python-format
 msgid ""
-"Flashing image was not succesfull\n"
+"Flashing image was not successful\n"
 "%s"
 msgstr ""
 
 msgid "Following tasks will be done after you press OK!"
 msgstr "Seuraavat tehtävät suoritetaan kun painat OK!"
-
-msgid "Force LNB Power"
-msgstr ""
-
-msgid "Force ToneBurst"
-msgstr ""
 
 msgid "Force legacy signal stats"
 msgstr ""
@@ -4376,6 +4417,9 @@ msgid "Harddisk"
 msgstr "Kiintolevy"
 
 msgid "Harddisk Setup"
+msgstr ""
+
+msgid "Harddisk is not in sleepmode it could be in use!"
 msgstr ""
 
 msgid "Hardware: "
@@ -6002,9 +6046,6 @@ msgstr "Ei riittävästi levytilaa. Vapauta levytilaa ja yritä uudelleen. (%d M
 msgid "Not tested:"
 msgstr ""
 
-msgid "Not yet implemented!"
-msgstr ""
-
 msgid "Note: when enabled, and you do want standby mode after wake up, set option 'Startup to Standby' as 'No, except Wakeup timer'."
 msgstr ""
 
@@ -6272,6 +6313,9 @@ msgstr "Lapsilukon kanavaeditori"
 #
 msgid "Parental control setup"
 msgstr "Lapsilukon asetukset"
+
+msgid "Password"
+msgstr ""
 
 #
 msgid "Pause"
@@ -6687,6 +6731,11 @@ msgid "Polish"
 msgstr "Puola"
 
 #
+#, fuzzy
+msgid "Port"
+msgstr "Portti A"
+
+#
 msgid "Port A"
 msgstr "Portti A"
 
@@ -6735,6 +6784,9 @@ msgid "Positioner setup"
 msgstr "Kääntömoottorin asetukset"
 
 msgid "Positioner setup log"
+msgstr ""
+
+msgid "Power LED"
 msgstr ""
 
 msgid "Power management. Consult your receiver's manual for more information."
@@ -7114,14 +7166,6 @@ msgstr "Tallennuksen tyyppi"
 
 #
 msgid "Recording(s) are in progress or coming up in few seconds!"
-msgstr "Tallennuksia on käynnissä tai käynnistymässä!"
-
-#
-#, fuzzy, python-format
-msgid ""
-"Recording(s) are in progress or coming up in few seconds!\n"
-"Do you still want to flash image\n"
-"%s?"
 msgstr "Tallennuksia on käynnissä tai käynnistymässä!"
 
 #
@@ -8344,6 +8388,15 @@ msgstr ""
 msgid "Set startup service"
 msgstr ""
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr ""
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr ""
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr ""
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Määritä ohjelman pituuden osoittamisen tyyppi kanavien valintalistassa."
 
@@ -9035,6 +9088,11 @@ msgid "Standby / restart"
 msgstr "Sammutusvalikko"
 
 #
+#, fuzzy
+msgid "Standby LED"
+msgstr "Valmiustila"
+
+#
 msgid "Standby after current event"
 msgstr "Aseta valmiustilaan menossa olevan ohjelman jälkeen"
 
@@ -9049,9 +9107,6 @@ msgstr "Valmiustilan tuuletin %d jännite"
 #
 msgid "Standby in "
 msgstr "Valmiustilaan kun kulunut "
-
-msgid "StandbyLED"
-msgstr ""
 
 #
 msgid "Start from the beginning"
@@ -9421,6 +9476,9 @@ msgid "System"
 msgstr "Järjestelmä"
 
 msgid "System & Modulation"
+msgstr ""
+
+msgid "T2MI RAW Mode"
 msgstr ""
 
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
@@ -10235,7 +10293,13 @@ msgstr "Turkki"
 msgid "Turks and Caicos Islands"
 msgstr ""
 
+msgid "Turn on the power LED during deep standby."
+msgstr ""
+
 msgid "Turn on the power LED during standby."
+msgstr ""
+
+msgid "Turn on the power LED."
 msgstr ""
 
 msgid "Turning step size"
@@ -10558,6 +10622,11 @@ msgstr "Käytetty kanavahakutyyppi"
 
 msgid "User - bouquets"
 msgstr "Käyttäjä - suosikit"
+
+#
+#, fuzzy
+msgid "User ID"
+msgstr "Käyttäjän määrittelemä"
 
 #
 #, fuzzy
@@ -10972,6 +11041,9 @@ msgstr ""
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr ""
 
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr ""
+
 msgid "When enabled you can specify a timeframe to ignore the shutdown timer when the receiver is in standby mode"
 msgstr ""
 
@@ -11182,6 +11254,9 @@ msgstr "WLAN-verkon asetukset."
 
 msgid "Wireless network state"
 msgstr "WLAN-verkon tila"
+
+msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
+msgstr ""
 
 msgid "With errors:"
 msgstr ""

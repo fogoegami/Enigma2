@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1-En-Th\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-27 17:56+0100\n"
+"POT-Creation-Date: 2019-02-05 11:25+0330\n"
 "PO-Revision-Date: 2010-04-08 18:13+0700\n"
 "Last-Translator: Tony - Thaidreambox\n"
 "Language-Team: Tony @ Thai Dreambox <tonyboyth@gmail.com>\n"
@@ -217,9 +217,6 @@ msgstr ""
 msgid "%H:%M"
 msgstr "%H:%M"
 
-msgid "%Y-%m-%d %H:%M"
-msgstr ""
-
 #. TRANSLATORS: full date representations short dayname daynum monthname long year in strftime() format! See 'man strftime'
 #, fuzzy
 msgid "%a %e %B %Y"
@@ -364,6 +361,13 @@ msgstr ""
 msgid "%k:%M %e/%m"
 msgstr ""
 
+#, fuzzy, python-format
+msgid ""
+"%s\n"
+"Do you still want to flash image\n"
+"%s?"
+msgstr "ท่านต้องการที่จะติดตั้งส่วนประกอบนี้:\n"
+
 #, python-format
 msgid ""
 "%s\n"
@@ -393,6 +397,10 @@ msgid "%s updated package available"
 msgid_plural "%s updated packages available"
 msgstr[0] " มีรายการปรับปรุง"
 msgstr[1] " มีรายการปรับปรุง"
+
+#, fuzzy, python-format
+msgid "%s%% Autoinstalling %s"
+msgstr "กำลังติดตั้ง"
 
 #, python-format
 msgid "%s%d min"
@@ -586,6 +594,10 @@ msgstr ""
 
 msgid "<Current movielist location>"
 msgstr ""
+
+#, fuzzy
+msgid "<Default Skin>"
+msgstr "ตั้งค่าเริ่มต้น"
 
 msgid "<Default movie location>"
 msgstr ""
@@ -962,6 +974,9 @@ msgstr ""
 msgid "Alternative"
 msgstr "เพิ่มทางเลือกอื่น"
 
+msgid "Alternative URL for images listed on FlashImage"
+msgstr ""
+
 #, fuzzy
 msgid "Alternative numbering mode"
 msgstr "โหมดวิทยุแบบทางเลือก"
@@ -1225,10 +1240,6 @@ msgstr ""
 
 msgid "Auto scart switching"
 msgstr "เปลี่ยน scart อัตโนมัติ"
-
-#, fuzzy, python-format
-msgid "Autoinstalling %s"
-msgstr "กำลังติดตั้ง"
 
 #, fuzzy
 msgid "Autoinstalling Completed"
@@ -1561,6 +1572,10 @@ msgstr ""
 msgid "Cancelled upon user request"
 msgstr ""
 
+#, fuzzy
+msgid "Cannot delete downloaded image"
+msgstr "ต้องการลบตารางเวลาที่เสร็จแล้วหรือไม่?"
+
 msgid "Cannot determine"
 msgstr ""
 
@@ -1769,6 +1784,9 @@ msgstr "Clear log"
 #, fuzzy
 msgid "Clear playlist"
 msgstr "ล้างสารบัญรายการ"
+
+msgid "Client is streaming from this box!"
+msgstr ""
 
 msgid "Clone TV screen to LCD"
 msgstr ""
@@ -2292,6 +2310,9 @@ msgstr "ไม่สามารถบันทึกได้ เนื่อ�
 msgid "Could not record due to invalid service %s"
 msgstr "ไม่สามารถบันทึกได้ เนื่องจากเวลาซ้อนกับรายการ %s"
 
+msgid "Could not some setup the required directories on the media (e.g. USB stick) - Please verify media and try again!"
+msgstr ""
+
 msgid "Country"
 msgstr ""
 
@@ -2379,6 +2400,9 @@ msgstr "ตั้งเวลาข้ามสำหรับปุ่ม '7'/'
 
 msgid "Customize"
 msgstr "ปรับแต่ง"
+
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr ""
 
 msgid "Customize channel list cursor behavior"
 msgstr ""
@@ -2498,6 +2522,10 @@ msgstr "ป้อนวัน/เวลา"
 #, fuzzy
 msgid "Debug to file"
 msgstr "ลบไฟล์"
+
+#, fuzzy
+msgid "Deep Standby LED"
+msgstr "Deep Standby"
 
 #, fuzzy
 msgid "Deep standby"
@@ -2742,6 +2770,16 @@ msgstr "แสดงรายการ 4:3 แบบ"
 
 msgid "Display >16:9 content as"
 msgstr "แสดงรายการ >16:9 แบบ"
+
+msgid "Display EPG as MultiEPG"
+msgstr ""
+
+msgid "Display EPG info for current event"
+msgstr ""
+
+#, fuzzy
+msgid "Display EPG list for current channel"
+msgstr "แสดงแถบรายการเมื่อมีการเปลี่ยนรายการ"
 
 #, fuzzy
 msgid "Display and userinterface"
@@ -3207,6 +3245,9 @@ msgstr ""
 msgid "Enter URL"
 msgstr ""
 
+msgid "Enter an URL where alternative images could be listed for FlashImage"
+msgstr ""
+
 msgid "Enter if you are in the east or west hemisphere."
 msgstr ""
 
@@ -3664,22 +3705,16 @@ msgstr "แฟรช"
 msgid "Flashing Image"
 msgstr "แฟรช"
 
-msgid "Flashing image succesfull"
+msgid "Flashing image successful"
 msgstr ""
 
 #, python-format
 msgid ""
-"Flashing image was not succesfull\n"
+"Flashing image was not successful\n"
 "%s"
 msgstr ""
 
 msgid "Following tasks will be done after you press OK!"
-msgstr ""
-
-msgid "Force LNB Power"
-msgstr ""
-
-msgid "Force ToneBurst"
 msgstr ""
 
 msgid "Force legacy signal stats"
@@ -4031,6 +4066,9 @@ msgid "Harddisk"
 msgstr "ฮาร์ดดิสก์"
 
 msgid "Harddisk Setup"
+msgstr ""
+
+msgid "Harddisk is not in sleepmode it could be in use!"
 msgstr ""
 
 msgid "Hardware: "
@@ -5518,9 +5556,6 @@ msgstr "เนื้อที่ไม่เพียงพอ ลบไฟล�
 msgid "Not tested:"
 msgstr ""
 
-msgid "Not yet implemented!"
-msgstr ""
-
 msgid "Note: when enabled, and you do want standby mode after wake up, set option 'Startup to Standby' as 'No, except Wakeup timer'."
 msgstr ""
 
@@ -5771,6 +5806,9 @@ msgstr "แก้ไขบริการที่ต้องควบคุม
 
 msgid "Parental control setup"
 msgstr "ตั้งค่าการควบคุมอายุ"
+
+msgid "Password"
+msgstr ""
 
 #, fuzzy
 msgid "Pause"
@@ -6129,6 +6167,10 @@ msgstr "ค่าทิศทาง"
 msgid "Polish"
 msgstr "ภาษาโปแลนด์"
 
+#, fuzzy
+msgid "Port"
+msgstr "พอร์ต A"
+
 msgid "Port A"
 msgstr "พอร์ต A"
 
@@ -6170,6 +6212,9 @@ msgid "Positioner setup"
 msgstr "ตั้งค่าตัวขับจาน"
 
 msgid "Positioner setup log"
+msgstr ""
+
+msgid "Power LED"
 msgstr ""
 
 msgid "Power management. Consult your receiver's manual for more information."
@@ -6511,13 +6556,6 @@ msgid "Recording type"
 msgstr ""
 
 msgid "Recording(s) are in progress or coming up in few seconds!"
-msgstr "กำลังบันทึกรายการ (หรือจะบันทึกใน 2-3 วินาทีนี้)"
-
-#, fuzzy, python-format
-msgid ""
-"Recording(s) are in progress or coming up in few seconds!\n"
-"Do you still want to flash image\n"
-"%s?"
 msgstr "กำลังบันทึกรายการ (หรือจะบันทึกใน 2-3 วินาทีนี้)"
 
 msgid "Recordings"
@@ -7624,6 +7662,15 @@ msgstr ""
 msgid "Set startup service"
 msgstr ""
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr ""
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr ""
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr ""
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr ""
 
@@ -8269,6 +8316,10 @@ msgstr "Standby"
 msgid "Standby / restart"
 msgstr "ปิดเครื่อง"
 
+#, fuzzy
+msgid "Standby LED"
+msgstr "Standby"
+
 msgid "Standby after current event"
 msgstr ""
 
@@ -8281,9 +8332,6 @@ msgid "Standby fan %d voltage"
 msgstr ""
 
 msgid "Standby in "
-msgstr ""
-
-msgid "StandbyLED"
 msgstr ""
 
 msgid "Start from the beginning"
@@ -8630,6 +8678,9 @@ msgid "System"
 msgstr "ระบบ"
 
 msgid "System & Modulation"
+msgstr ""
+
+msgid "T2MI RAW Mode"
 msgstr ""
 
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
@@ -9369,7 +9420,13 @@ msgstr "ภาษาตูรกี"
 msgid "Turks and Caicos Islands"
 msgstr ""
 
+msgid "Turn on the power LED during deep standby."
+msgstr ""
+
 msgid "Turn on the power LED during standby."
+msgstr ""
+
+msgid "Turn on the power LED."
 msgstr ""
 
 msgid "Turning step size"
@@ -9660,6 +9717,10 @@ msgstr "ประเภทของการค้นหา"
 
 msgid "User - bouquets"
 msgstr ""
+
+#, fuzzy
+msgid "User ID"
+msgstr "ผู้ใช้กำหนด"
 
 #, fuzzy
 msgid "User Mode"
@@ -10028,6 +10089,9 @@ msgstr ""
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr ""
 
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr ""
+
 msgid "When enabled you can specify a timeframe to ignore the shutdown timer when the receiver is in standby mode"
 msgstr ""
 
@@ -10231,6 +10295,9 @@ msgid "Wireless network connection setup."
 msgstr ""
 
 msgid "Wireless network state"
+msgstr ""
+
+msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
 msgstr ""
 
 msgid "With errors:"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-27 17:56+0100\n"
+"POT-Creation-Date: 2019-02-05 11:25+0330\n"
 "PO-Revision-Date: 2018-12-17 02:51+0200\n"
 "Last-Translator: Hazem <moustafagamal@hotmail.com>\n"
 "Language-Team: Arabic <moustafagamal@hotmail.com>\n"
@@ -238,9 +238,6 @@ msgstr ""
 msgid "%H:%M"
 msgstr "%H:%M"
 
-msgid "%Y-%m-%d %H:%M"
-msgstr ""
-
 #. TRANSLATORS: full date representations short dayname daynum monthname long year in strftime() format! See 'man strftime'
 msgid "%a %e %B %Y"
 msgstr "%a %e %B %Y"
@@ -428,6 +425,15 @@ msgstr ""
 msgid "%k:%M %e/%m"
 msgstr ""
 
+#, fuzzy, python-format
+msgid ""
+"%s\n"
+"Do you still want to flash image\n"
+"%s?"
+msgstr ""
+"هل تريد تثبيت الصورة :\n"
+"%s"
+
 #, python-format
 msgid ""
 "%s\n"
@@ -463,6 +469,10 @@ msgstr[2] "التحديثات المتاحه"
 msgstr[3] "التحديثات المتاحه"
 msgstr[4] "التحديثات المتاحه"
 msgstr[5] "التحديثات المتاحه"
+
+#, fuzzy, python-format
+msgid "%s%% Autoinstalling %s"
+msgstr "جارى التثبيت التلقائي %s"
 
 #, python-format
 msgid "%s%d min"
@@ -664,6 +674,10 @@ msgstr ""
 #
 msgid "<Current movielist location>"
 msgstr "<موقع قائمة الأفلام الحالية>"
+
+#, fuzzy
+msgid "<Default Skin>"
+msgstr "الاعدادات الافتراضية"
 
 #
 msgid "<Default movie location>"
@@ -1051,6 +1065,9 @@ msgstr ""
 msgid "Alternative"
 msgstr "بديل"
 
+msgid "Alternative URL for images listed on FlashImage"
+msgstr ""
+
 #
 msgid "Alternative numbering mode"
 msgstr "نظام ترقيم بديل"
@@ -1315,10 +1332,6 @@ msgstr ""
 
 msgid "Auto scart switching"
 msgstr "التحول الآلى الى السكارت"
-
-#, python-format
-msgid "Autoinstalling %s"
-msgstr "جارى التثبيت التلقائي %s"
 
 msgid "Autoinstalling Completed"
 msgstr "اكتمل التثبيت التلقائي"
@@ -1664,6 +1677,10 @@ msgstr ""
 msgid "Cancelled upon user request"
 msgstr ""
 
+#, fuzzy
+msgid "Cannot delete downloaded image"
+msgstr "هل تريد فعلا حذف المؤقتات المنتهية ؟"
+
 msgid "Cannot determine"
 msgstr ""
 
@@ -1875,6 +1892,9 @@ msgstr "مسح السجل"
 #, fuzzy
 msgid "Clear playlist"
 msgstr "مسح قائمة العرض"
+
+msgid "Client is streaming from this box!"
+msgstr ""
 
 msgid "Clone TV screen to LCD"
 msgstr ""
@@ -2383,6 +2403,9 @@ msgstr "تعذر التسجيل بسبب مؤقت متعارض %s"
 msgid "Could not record due to invalid service %s"
 msgstr "تعذر التسجيل بسبب مؤقت متعارض %s"
 
+msgid "Could not some setup the required directories on the media (e.g. USB stick) - Please verify media and try again!"
+msgstr ""
+
 msgid "Country"
 msgstr "الدولة"
 
@@ -2467,6 +2490,9 @@ msgstr ""
 
 msgid "Customize"
 msgstr "تخصيص"
+
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr ""
 
 msgid "Customize channel list cursor behavior"
 msgstr ""
@@ -2581,6 +2607,10 @@ msgstr ""
 #, fuzzy
 msgid "Debug to file"
 msgstr "حذف الملف"
+
+#, fuzzy
+msgid "Deep Standby LED"
+msgstr "وضع الاستعداد العميق"
 
 msgid "Deep standby"
 msgstr "وضع الاستعداد العميق"
@@ -2831,6 +2861,16 @@ msgstr "عرض محتويات 4:3 كـ"
 #
 msgid "Display >16:9 content as"
 msgstr ""
+
+msgid "Display EPG as MultiEPG"
+msgstr ""
+
+msgid "Display EPG info for current event"
+msgstr ""
+
+#, fuzzy
+msgid "Display EPG list for current channel"
+msgstr "عرض دليل البرامج للقناة الحالية..."
 
 msgid "Display and userinterface"
 msgstr "عرض و واجهة المستخدم"
@@ -3311,6 +3351,9 @@ msgstr "ادخل رمز Pin"
 msgid "Enter URL"
 msgstr "ادخل الرابط"
 
+msgid "Enter an URL where alternative images could be listed for FlashImage"
+msgstr ""
+
 msgid "Enter if you are in the east or west hemisphere."
 msgstr "أدخل إذا كنت في نصف الكرة الغربي أو الغرب."
 
@@ -3778,23 +3821,17 @@ msgstr "تنصيب صورة"
 msgid "Flashing Image"
 msgstr "جاري تثبيت الصورة"
 
-msgid "Flashing image succesfull"
+msgid "Flashing image successful"
 msgstr "نجح تثبيت الصورة"
 
 #, python-format
 msgid ""
-"Flashing image was not succesfull\n"
+"Flashing image was not successful\n"
 "%s"
 msgstr ""
 
 msgid "Following tasks will be done after you press OK!"
 msgstr "سيتم تنفيذ المهام الأتية بعد أن تضغط موافق !"
-
-msgid "Force LNB Power"
-msgstr ""
-
-msgid "Force ToneBurst"
-msgstr ""
 
 msgid "Force legacy signal stats"
 msgstr ""
@@ -4158,6 +4195,9 @@ msgstr "قرص صلب"
 
 msgid "Harddisk Setup"
 msgstr "إعدادات القرص الصلب"
+
+msgid "Harddisk is not in sleepmode it could be in use!"
+msgstr ""
 
 msgid "Hardware: "
 msgstr "هاردوير: "
@@ -5724,9 +5764,6 @@ msgstr "لا يوجد مساحه كافيه على القرص، من فضلك ح
 msgid "Not tested:"
 msgstr "لم يتم اختباره:"
 
-msgid "Not yet implemented!"
-msgstr ""
-
 msgid "Note: when enabled, and you do want standby mode after wake up, set option 'Startup to Standby' as 'No, except Wakeup timer'."
 msgstr ""
 
@@ -5981,6 +6018,9 @@ msgstr "محرر قنوات الحماية الأبوية"
 #
 msgid "Parental control setup"
 msgstr "اعداد التحكم الابوى"
+
+msgid "Password"
+msgstr ""
 
 #, fuzzy
 msgid "Pause"
@@ -6349,6 +6389,11 @@ msgid "Polish"
 msgstr "بولندى"
 
 #
+#, fuzzy
+msgid "Port"
+msgstr "مدخلِ A"
+
+#
 msgid "Port A"
 msgstr "مدخلِ A"
 
@@ -6395,6 +6440,9 @@ msgid "Positioner setup"
 msgstr "ضبط الموتور"
 
 msgid "Positioner setup log"
+msgstr ""
+
+msgid "Power LED"
 msgstr ""
 
 msgid "Power management. Consult your receiver's manual for more information."
@@ -6745,16 +6793,6 @@ msgstr ""
 
 msgid "Recording(s) are in progress or coming up in few seconds!"
 msgstr "التسجيل قيد التنفيذ أو سيبدأ فى ثوان قليلة"
-
-#, python-format
-msgid ""
-"Recording(s) are in progress or coming up in few seconds!\n"
-"Do you still want to flash image\n"
-"%s?"
-msgstr ""
-"التسجيل قيد التنفيذ أو سيبدأ فى ثوان قليلة!\n"
-"هل لازلت تريد تثبيت الصورة\n"
-"%s?"
 
 msgid "Recordings"
 msgstr "تسجيلات"
@@ -7898,6 +7936,15 @@ msgstr ""
 msgid "Set startup service"
 msgstr ""
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr ""
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr ""
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr ""
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr ""
 
@@ -8560,6 +8607,10 @@ msgstr "وضع الاستعداد"
 msgid "Standby / restart"
 msgstr "وضع الاستعداد/إعادة تشغيل"
 
+#, fuzzy
+msgid "Standby LED"
+msgstr "وضع الاستعداد"
+
 msgid "Standby after current event"
 msgstr ""
 
@@ -8573,9 +8624,6 @@ msgid "Standby fan %d voltage"
 msgstr "مروحه %d فولتيه"
 
 msgid "Standby in "
-msgstr ""
-
-msgid "StandbyLED"
 msgstr ""
 
 #
@@ -8944,6 +8992,9 @@ msgid "System"
 msgstr "النـظام"
 
 msgid "System & Modulation"
+msgstr ""
+
+msgid "T2MI RAW Mode"
 msgstr ""
 
 #
@@ -9743,7 +9794,13 @@ msgstr "تركى"
 msgid "Turks and Caicos Islands"
 msgstr ""
 
+msgid "Turn on the power LED during deep standby."
+msgstr ""
+
 msgid "Turn on the power LED during standby."
+msgstr ""
+
+msgid "Turn on the power LED."
 msgstr ""
 
 msgid "Turning step size"
@@ -10048,6 +10105,11 @@ msgstr "نوع البحث عن القنوات المستخدم"
 
 msgid "User - bouquets"
 msgstr ""
+
+#
+#, fuzzy
+msgid "User ID"
+msgstr "مستوى المستخدم"
 
 #
 msgid "User Mode"
@@ -10429,6 +10491,9 @@ msgstr ""
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr ""
 
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr ""
+
 msgid "When enabled you can specify a timeframe to ignore the shutdown timer when the receiver is in standby mode"
 msgstr ""
 
@@ -10631,6 +10696,9 @@ msgid "Wireless network connection setup."
 msgstr ""
 
 msgid "Wireless network state"
+msgstr ""
+
+msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
 msgstr ""
 
 msgid "With errors:"

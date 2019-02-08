@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-27 17:56+0100\n"
+"POT-Creation-Date: 2019-02-05 11:25+0330\n"
 "PO-Revision-Date: 2018-10-22T21:44:30+02:00\n"
 "Last-Translator: daddelfalk <OpenPLi>\n"
 "Language-Team: Sfteam  angelo2807@hotmail.com\n"
@@ -70,11 +70,12 @@ msgstr ""
 "\n"
 "Drücken Sie OK, um fortzufahren."
 
-#, fuzzy
 msgid ""
 "\n"
 "Press OK or Exit to abort!"
-msgstr "Zum Starten der Suche OK drücken."
+msgstr ""
+"\n"
+"Drücken Sie OK oder Exit um abzubrechen"
 
 msgid ""
 "\n"
@@ -170,7 +171,7 @@ msgid " packages selected."
 msgstr " Pakete ausgewählt."
 
 msgid " updates available."
-msgstr "Aktualisierungen verfügbar. "
+msgstr " Aktualisierungen verfügbar."
 
 #, python-format
 msgid "%.0f GB"
@@ -227,9 +228,6 @@ msgstr "%A %e %B %Y"
 
 msgid "%H:%M"
 msgstr "%H:%M"
-
-msgid "%Y-%m-%d %H:%M"
-msgstr "%Y-%m-%d %H:%M"
 
 #. TRANSLATORS: full date representations short dayname daynum monthname long year in strftime() format! See 'man strftime'
 msgid "%a %e %B %Y"
@@ -374,6 +372,15 @@ msgstr "%d:%02d"
 msgid "%k:%M %e/%m"
 msgstr "%k:%M %e/%m"
 
+#, fuzzy, python-format
+msgid ""
+"%s\n"
+"Do you still want to flash image\n"
+"%s?"
+msgstr ""
+"Wollen Sie das Image flashen?\n"
+"% s"
+
 #, python-format
 msgid ""
 "%s\n"
@@ -406,6 +413,10 @@ msgid "%s updated package available"
 msgid_plural "%s updated packages available"
 msgstr[0] "%s Aktualisierung verfügbar"
 msgstr[1] "%s Aktualisierungen verfügbar"
+
+#, python-format
+msgid "%s%% Autoinstalling %s"
+msgstr "%s%% Automatische Installation %s"
 
 #, python-format
 msgid "%s%d min"
@@ -599,6 +610,10 @@ msgstr ": 0000 - Standard (deaktiviert)"
 msgid "<Current movielist location>"
 msgstr "<Aktuelles Filmlisten-Verzeichnis>"
 
+#, fuzzy
+msgid "<Default Skin>"
+msgstr "Voreinstellungen"
+
 msgid "<Default movie location>"
 msgstr "<Standard Filmlisten-Verzeichnis>"
 
@@ -729,7 +744,6 @@ msgstr "ACQUIRING TSID/ONID"
 msgid "AGC:"
 msgstr "AGC:"
 
-#, fuzzy
 msgid "ASS File"
 msgstr "ASS-Datei"
 
@@ -964,6 +978,9 @@ msgstr "Auch in Standby"
 msgid "Alternative"
 msgstr "Alternativen hinzufügen"
 
+msgid "Alternative URL for images listed on FlashImage"
+msgstr ""
+
 msgid "Alternative numbering mode"
 msgstr "Alternativer Nummerierungs-Modus"
 
@@ -1136,10 +1153,10 @@ msgstr "Audio PID"
 
 #, python-format
 msgid "Audio PID%s, codec & lang"
-msgstr ""
+msgstr "Audio PID%s, Codec & Sprache"
 
 msgid "Audio PID, codec & lang"
-msgstr ""
+msgstr "Audio PID, Codec & Sprache"
 
 msgid "Audio auto volume level"
 msgstr "Audio-Auto-Lautstärkepegel"
@@ -1219,11 +1236,6 @@ msgstr "Autoplay Bluray Datei"
 msgid "Auto scart switching"
 msgstr "Automatische Scart-Umschaltung"
 
-#, fuzzy, python-format
-msgid "Autoinstalling %s"
-msgstr "Automatische Installation: %s"
-
-#, fuzzy
 msgid "Autoinstalling Completed"
 msgstr "Automatische Installation abgeschlossen"
 
@@ -1328,7 +1340,7 @@ msgid "Barbados"
 msgstr "Barbados"
 
 msgid "Basic PID info"
-msgstr ""
+msgstr "Basis PID Info"
 
 msgid "Basque"
 msgstr "Baskisch"
@@ -1543,6 +1555,9 @@ msgstr "Brechen Sie alle Textänderungen ab und beenden Sie sie"
 msgid "Cancelled upon user request"
 msgstr "Auf Benutzeranfrage abgebrochen"
 
+msgid "Cannot delete downloaded image"
+msgstr "Das heruntergeladene Image kann nicht gelöscht werden"
+
 msgid "Cannot determine"
 msgstr "Konnte nicht feststellen: "
 
@@ -1744,6 +1759,9 @@ msgstr "Log löschen"
 msgid "Clear playlist"
 msgstr "Wiedergabeliste leeren"
 
+msgid "Client is streaming from this box!"
+msgstr ""
+
 msgid "Clone TV screen to LCD"
 msgstr "Klone TV Bild zum LCD"
 
@@ -1778,7 +1796,7 @@ msgid "Collection settings"
 msgstr "Zusammenstellungs-Einstellungen"
 
 msgid "Colombia"
-msgstr "Colombia"
+msgstr "Kolumbien"
 
 msgid "Color format"
 msgstr "Farbformat"
@@ -1820,7 +1838,7 @@ msgid "Composition of the recording filenames"
 msgstr "Zusammensetzung des Aufnahme-Dateinamens"
 
 msgid "Compress"
-msgstr "Kompresse"
+msgstr "Komprimieren"
 
 msgid "Config Scan Details"
 msgstr "Konfiguriere Suchdetails"
@@ -1829,7 +1847,7 @@ msgid "Config resolution of pictures"
 msgstr "Auflösung von Bildern konfigurieren"
 
 msgid "Configuration mode"
-msgstr "Konfiguration"
+msgstr "Konfigurationsmodus"
 
 #, python-format
 msgid "Configuration mode: %s"
@@ -2157,7 +2175,7 @@ msgid "Conflict not resolved!"
 msgstr "Konflikt nicht behoben!"
 
 msgid "Congo"
-msgstr "Congo"
+msgstr "Kongo"
 
 msgid "Congo (Democratic Republic of the)"
 msgstr "Kongo (Demokratische Republik)"
@@ -2169,7 +2187,7 @@ msgid "Connect to a wireless network"
 msgstr "Mit Funk-Netzwerk verbinden"
 
 msgid "Connected"
-msgstr "In Verbindung gebracht"
+msgstr "Verbunden"
 
 msgid "Connected satellites"
 msgstr "Angeschlossene Satelliten"
@@ -2186,7 +2204,6 @@ msgstr "Konsole"
 msgid "Constellation & FFT mode"
 msgstr "Konstellation und FFT-Modus"
 
-#, fuzzy
 msgid "Consult your SCR device spec sheet for this information."
 msgstr "Weitere Informationen finden Sie in Ihrem Unicable/SCR-Gerätespezifikationsblatt."
 
@@ -2243,6 +2260,9 @@ msgstr "Aufnahme wegen in Konflikt stehendem Timer %s fehlgeschlagen"
 msgid "Could not record due to invalid service %s"
 msgstr "Aufnahme wegen ungültigem Kanal %s fehlgeschlagen"
 
+msgid "Could not some setup the required directories on the media (e.g. USB stick) - Please verify media and try again!"
+msgstr "Es konnten nicht die benötigten Verzeichnisse auf dem Medium erstellt werden - Bitte überprüfen sie das Medium und versuchen sie es nochmal!"
+
 msgid "Country"
 msgstr "Land"
 
@@ -2275,7 +2295,7 @@ msgid "Croatian"
 msgstr "Kroatisch"
 
 msgid "Cuba"
-msgstr "Cuba"
+msgstr "Kuba"
 
 msgid "Curacao"
 msgstr "Curacao"
@@ -2327,6 +2347,9 @@ msgstr "Gewünschte Sprungzeit für '7'/'9'-Tasten"
 msgid "Customize"
 msgstr "Anpassen"
 
+msgid "Customize OpenWebIF settings for fallback tuner"
+msgstr "Fallback Tuner in den OpenWebIF Einstellungen anpassen"
+
 msgid "Customize channel list cursor behavior"
 msgstr "Cursor-Verhalten in Kanalauswahlliste einstellen"
 
@@ -2373,7 +2396,7 @@ msgid "DVB CI Delay"
 msgstr "DVB CI-Verzögerung"
 
 msgid "DVB Subtitles PID & lang"
-msgstr ""
+msgstr "DVB Untertitel PID & Sprache"
 
 msgid "DVB driver version: "
 msgstr "DVB-Treiberversion:"
@@ -2437,6 +2460,10 @@ msgstr "Zeit/Datum-Eingabe"
 
 msgid "Debug to file"
 msgstr "Debuggen zur Datei"
+
+#, fuzzy
+msgid "Deep Standby LED"
+msgstr "Tiefschlaf / Ausschalten"
 
 msgid "Deep standby"
 msgstr "Tiefschlaf / Ausschalten"
@@ -2532,7 +2559,7 @@ msgid "Delete file"
 msgstr "Datei löschen"
 
 msgid "Delete image"
-msgstr "Lösche Bild"
+msgstr "Lösche Image"
 
 msgid "Delete playlist entry"
 msgstr "Wiedergabelisteneintrag löschen"
@@ -2675,6 +2702,17 @@ msgstr "4:3-Inhalt anzeigen als"
 msgid "Display >16:9 content as"
 msgstr "Inhalt mit einem Bildformate grösser als 16:9 anzeigen als"
 
+msgid "Display EPG as MultiEPG"
+msgstr ""
+
+#, fuzzy
+msgid "Display EPG info for current event"
+msgstr "Timeshift nur für aktuelle Sendung speichern"
+
+#, fuzzy
+msgid "Display EPG list for current channel"
+msgstr "EPG für aktuellen Kanal anzeigen…"
+
 msgid "Display and userinterface"
 msgstr "Display und Benutzeroberfläche"
 
@@ -2761,9 +2799,9 @@ msgstr "Wollen Sie das Verzeichnis %s wirklich von der Festplatte löschen?"
 msgid "Do you really want to remove your bookmark of %s?"
 msgstr "Wollen Sie das Lesezeichen %s wirklich löschen?"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Do you really want to stop current event and delete timer %s?"
-msgstr "%s wirklich löschen?"
+msgstr "Soll die aktuelle Aufnahme gestoppt und der Timer gelöscht werden %s?"
 
 msgid "Do you want this?"
 msgstr "Wollen Sie dieses wirklich?"
@@ -2835,7 +2873,7 @@ msgid "Dominica"
 msgstr "Dominica"
 
 msgid "Dominican Republic"
-msgstr "Dominican Republic"
+msgstr "Dominikanische Republik"
 
 msgid "Don't save and stop timeshift"
 msgstr "Nicht speichern und Timeshift beenden"
@@ -2960,7 +2998,7 @@ msgid "Education/Science/..."
 msgstr "Bildung/Wissenschaft/…"
 
 msgid "Egypt"
-msgstr "Egypt"
+msgstr "Ägypten"
 
 msgid "El Salvador"
 msgstr "El Salvador"
@@ -2968,9 +3006,8 @@ msgstr "El Salvador"
 msgid "Electronic Program Guide"
 msgstr "Elektronischer Programmführer"
 
-#, fuzzy
 msgid "Embedded"
-msgstr "integriert"
+msgstr "Integriert"
 
 msgid "Empty slot"
 msgstr "Leerer Slot"
@@ -2990,7 +3027,6 @@ msgstr "5V für aktive Antenne"
 msgid "Enable EIT EPG"
 msgstr "Aktiviere EIT EPG"
 
-#, fuzzy
 msgid "Enable HDMI-CEC"
 msgstr "Aktiviere HDMI-CEC"
 
@@ -3104,9 +3140,8 @@ msgstr "Enigma-version:"
 msgid "Enigma2 skin selector"
 msgstr "Enigma2 Skin-Auswahl"
 
-#, fuzzy
 msgid "Enter"
-msgstr "Zentriert"
+msgstr "Enter"
 
 msgid "Enter IP address"
 msgstr "Geben Sie die IP-Adresse ein"
@@ -3116,6 +3151,9 @@ msgstr "PIN eingeben"
 
 msgid "Enter URL"
 msgstr "URL eingeben"
+
+msgid "Enter an URL where alternative images could be listed for FlashImage"
+msgstr ""
 
 msgid "Enter if you are in the east or west hemisphere."
 msgstr "Geben Sie ein, wenn Sie sich in der östlichen oder westlichen Hemisphäre befinden."
@@ -3132,9 +3170,8 @@ msgstr "Dauerhaften PIN-Code eingeben"
 msgid "Enter pin code"
 msgstr "PIN-Code eingeben"
 
-#, fuzzy
 msgid "Enter text and exit"
-msgstr "Brechen Sie alle Textänderungen ab und beenden Sie sie"
+msgstr "Text eingeben und danach beenden"
 
 msgid "Enter the frequency at which you LNB switches between low band and high band. For more information consult the spec sheet of your LNB."
 msgstr "Geben Sie die Frequenz ein, mit der Ihr LNB zwischen Low- und High-Band wechselt. Weitere Informationen finden Sie im Datenblatt Ihres LNB."
@@ -3193,7 +3230,7 @@ msgid ""
 "%s\n"
 "%s"
 msgstr ""
-"Fehler beim Herunterladen des Bildes\n"
+"Fehler beim Herunterladen des Images\n"
 "% s\n"
 "% s"
 
@@ -3202,7 +3239,7 @@ msgid ""
 "Error during unzipping image\n"
 "%s"
 msgstr ""
-"Fehler beim Entpacken des Bildes\n"
+"Fehler beim Entpacken des Images\n"
 "% s"
 
 msgid "Error executing plugin"
@@ -3341,9 +3378,8 @@ msgstr "Sleeptimer 15 min verlängern"
 msgid "Extended"
 msgstr "Erweitert"
 
-#, fuzzy
 msgid "Extended PID info"
-msgstr "Erweitert"
+msgstr "Erweiterte PID info"
 
 msgid "Extended Software"
 msgstr "Fortgeschrittene Software"
@@ -3570,21 +3606,20 @@ msgid "Fixed"
 msgstr "Fixiert"
 
 msgid "Flash Image"
-msgstr "Flash Bild"
+msgstr "Flashe Image"
 
 msgid "Flash image"
-msgstr "Flash Bild"
+msgstr "Flashe Image"
 
-#, fuzzy
 msgid "Flashing Image"
-msgstr "Flash Image"
+msgstr "Flashe Image"
 
-msgid "Flashing image succesfull"
+msgid "Flashing image successful"
 msgstr "Image Flash erfolgreich"
 
 #, python-format
 msgid ""
-"Flashing image was not succesfull\n"
+"Flashing image was not successful\n"
 "%s"
 msgstr ""
 "Image Flash war nicht erfolgreich\n"
@@ -3592,12 +3627,6 @@ msgstr ""
 
 msgid "Following tasks will be done after you press OK!"
 msgstr "Folgendes wird ausgeführt, nachdem Sie OK gedrückt haben!"
-
-msgid "Force LNB Power"
-msgstr "Force LNB Power"
-
-msgid "Force ToneBurst"
-msgstr "Force ToneBurst"
 
 msgid "Force legacy signal stats"
 msgstr "Erzwinge Legacy-Signal-Statistiken"
@@ -3897,9 +3926,8 @@ msgstr "HDR10"
 msgid "HDR10 support"
 msgstr "HDR10 Unterstützung"
 
-#, fuzzy
 msgid "HDx1/HD1xxx/HD5x0C/VS1x00/et7x00/et8500/et7000mini"
-msgstr "HD11/HD51/HD1100/HD1200/HD1265/HD1500/HD500C/HD530C/VS1000/VS1500/et7x00/et8500/et7000mini"
+msgstr "HDx1/HD1xxx/HD5x0C/VS1x00/et7x00/et8500/et7000mini"
 
 msgid "HELP"
 msgstr "HILFE"
@@ -3934,6 +3962,9 @@ msgstr "Festplatte"
 msgid "Harddisk Setup"
 msgstr "Festplatten Einstellungen"
 
+msgid "Harddisk is not in sleepmode it could be in use!"
+msgstr ""
+
 msgid "Hardware: "
 msgstr "Hardware: "
 
@@ -3950,7 +3981,7 @@ msgid "Hidden network"
 msgstr "Verstecktes Netzwerk"
 
 msgid "Hide"
-msgstr ""
+msgstr "Verstecken"
 
 msgid "Hide channel list in radio mode"
 msgstr "Senderliste im Radio-Modus verbergen"
@@ -4134,7 +4165,7 @@ msgid ""
 "Image to install is invalid\n"
 "%s"
 msgstr ""
-"Das zu installierende Bild ist ungültig\n"
+"Das zu installierende Image ist ungültig\n"
 "% s"
 
 msgid "Image: "
@@ -5301,7 +5332,7 @@ msgid "No, but restart from begin"
 msgstr "Nein, aber von Anfang an neu beginnen"
 
 msgid "No, do not flash image"
-msgstr "Nein, Bild nicht blinken"
+msgstr "Nein, Image nicht flashen"
 
 msgid "No, except Wakeup timer"
 msgstr "Nein, außer Aufwach-Timer"
@@ -5349,9 +5380,6 @@ msgstr "Nicht genügend freier Speicherplatz. Bitte löschen Sie nicht mehr ben�
 
 msgid "Not tested:"
 msgstr "Nicht getestet:"
-
-msgid "Not yet implemented!"
-msgstr "Noch nicht implementiert!"
 
 msgid "Note: when enabled, and you do want standby mode after wake up, set option 'Startup to Standby' as 'No, except Wakeup timer'."
 msgstr "Hinweis: Wenn diese Option aktiviert ist und Sie nach dem Aufwachen in den Standby-Modus wechseln wollen, setzen Sie die Option “Startup to Standby” auf “No, außer Wakeup Timer”."
@@ -5436,7 +5464,6 @@ msgstr "Ignoriere bei gültigen ONIDs den Frequenzunternetzwerkteil"
 msgid "One"
 msgstr "Eins"
 
-#, fuzzy
 msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
 msgstr "Ändern Sie diese Einstellung nur, wenn Sie ein Unicable/SCR-Gerät verwenden, das mit einem benutzerdefinierten Programmiergerät neu programmiert wurde. Weitere Informationen erhalten Sie von der Person, die das Gerät neu programmiert hat."
 
@@ -5488,9 +5515,8 @@ msgstr "Original"
 msgid "Other"
 msgstr "Andere"
 
-#, fuzzy
 msgid "Other Subtitles & lang"
-msgstr "Untertitel Einstellungen"
+msgstr "Andere Untertitel & Sprachen"
 
 msgid "Output"
 msgstr "Ausgabe"
@@ -5519,7 +5545,6 @@ msgstr "PCR PID"
 msgid "PDC"
 msgstr "PDC "
 
-#, fuzzy
 msgid "PGS File"
 msgstr "PGS Datei"
 
@@ -5592,6 +5617,9 @@ msgstr "Jugendschutz-Kanaleditor"
 
 msgid "Parental control setup"
 msgstr "Jugendschutz-Einstellungen"
+
+msgid "Password"
+msgstr ""
 
 msgid "Pause"
 msgstr "Pause"
@@ -5706,9 +5734,8 @@ msgstr ""
 "Konfigurieren Sie Ihre DNS-Server durch Ausfüllen der entsprechenden Werte.\n"
 "Drücken Sie OK zum Fortfahren"
 
-#, fuzzy
 msgid "Please configure the fallback tuner setup?"
-msgstr "Fallback-Tuner-Setup"
+msgstr "Das Fallback-Tuner-Setup konfigurieren?"
 
 msgid ""
 "Please configure your internet connection by filling out the required values.\n"
@@ -5931,6 +5958,9 @@ msgstr "Polarisation"
 msgid "Polish"
 msgstr "Polnisch"
 
+msgid "Port"
+msgstr "Port"
+
 msgid "Port A"
 msgstr "Port A"
 
@@ -5972,6 +6002,9 @@ msgstr "Rotor-Einstellungen"
 
 msgid "Positioner setup log"
 msgstr "Positioner-Setup-Protokoll"
+
+msgid "Power LED"
+msgstr ""
 
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr "Energieverwaltung. Weitere Informationen finden Sie in der Bedienungsanleitung Ihres Receivers."
@@ -6307,16 +6340,6 @@ msgstr "Aufnahmetyp"
 
 msgid "Recording(s) are in progress or coming up in few seconds!"
 msgstr "Zurzeit sind Aufnahmen aktiv oder starten gleich!"
-
-#, python-format
-msgid ""
-"Recording(s) are in progress or coming up in few seconds!\n"
-"Do you still want to flash image\n"
-"%s?"
-msgstr ""
-"Die Aufnahme läuft oder läuft in wenigen Sekunden!\n"
-"Wollen Sie das Image immer noch flashen?\n"
-"% s?"
 
 msgid "Recordings"
 msgstr "Aufnahmen"
@@ -6670,14 +6693,12 @@ msgstr "SNR:"
 msgid "SPDIF"
 msgstr "SPDIF"
 
-#, fuzzy
 msgid "SRT File"
 msgstr "SRT Datei"
 
 msgid "SRT file"
 msgstr "SRT Datei"
 
-#, fuzzy
 msgid "SSA File"
 msgstr "SSA Datei"
 
@@ -6927,7 +6948,6 @@ msgstr "Wählen Sie “1.0” für Standard-Commit-Switches, “1.1” für nich
 msgid "Select 'A' or 'B' if your aerial system requires this, otherwise select 'none'. If you are unsure select 'none'."
 msgstr "Wählen Sie “A” oder “B”, wenn Ihr Antennensystem dies erfordert, andernfalls wählen Sie “none”. Wenn Sie unsicher sind, wählen Sie “keine”."
 
-#, fuzzy
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr "Wählen Sie “FBC SCR”, wenn dieser Tuner ein Unicable/SCR-Gerät verwendet. Für alle anderen Setups wählen Sie “FBC automatisch”."
 
@@ -6943,7 +6963,6 @@ msgstr "Wählen Sie “Polarisation”, wenn Sie ein “universelles” LNB verw
 msgid "Select 'provider' to scan from the predefined list of cable multiplexes. Select 'bands' to only scan certain parts of the spectrum. Select 'steps' to scan in steps of a particular frequency bandwidth."
 msgstr "Wählen Sie “Provider”, um aus der vordefinierten Liste von Kabelmultiplexen zu scannen. Wählen Sie “Bänder”, um nur bestimmte Teile des Spektrums zu scannen. Wählen Sie “Schritte”, um in Schritten einer bestimmten Frequenzbandbreite zu scannen."
 
-#, fuzzy
 msgid "Select 'yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'no'."
 msgstr "Wählen Sie “Ja”, wenn dieser Tuner über einen anderen Tuner mit dem Unicable/SCR-Gerät verbunden ist, andernfalls wählen Sie “Nein”."
 
@@ -6981,7 +7000,7 @@ msgid "Select HDD"
 msgstr "Festplattenauswahl"
 
 msgid "Select Image"
-msgstr "Bild auswählen"
+msgstr "Image auswählen"
 
 msgid "Select Multiboot"
 msgstr "Wählen Sie Multiboot"
@@ -7116,18 +7135,15 @@ msgstr ""
 msgid "Select the character or action under the virtual keyboard cursor"
 msgstr "Wählen Sie das Zeichen oder die Aktion für den Cursor aus"
 
-#, fuzzy
 msgid "Select the manufacturer of your SCR device. If the manufacturer is not listed, set 'SCR' to 'user defined' and enter the device parameters manually according to its spec sheet."
 msgstr "Wählen Sie den Hersteller Ihres Unicable/SCR-Geräts aus. Wenn der Hersteller nicht aufgeführt ist, setzen Sie “SCR” auf “Benutzerdefiniert” und geben Sie die Geräteparameter gemäß dem zugehörigen Datenblatt manuell ein."
 
-#, fuzzy
 msgid "Select the model number of your SCR device. If the model number is not listed, set 'SCR' to 'user defined' and enter the device parameters manually according to its spec sheet."
 msgstr "Wählen Sie die Modellnummer Ihres Unicable/SCR-Geräts. Wenn die Modellnummer nicht aufgeführt ist, setzen Sie “SCR” auf “benutzerdefiniert” und geben Sie die Geräteparameter gemäß ihrem Datenblatt manuell ein."
 
 msgid "Select the movie path"
 msgstr "Den Filmpfad auswählen"
 
-#, fuzzy
 msgid "Select the protocol used by your SCR device. Choices are 'SCR Unicable' (Unicable), or 'SCR JESS' (JESS, also known as Unicable II)."
 msgstr "Wählen Sie das Format Ihres Unicable/SCR-Geräts. Zur Auswahl stehen “SCR Unicable” (Unicable I-Format) oder “SCR JESS” (Unicable II-Format)."
 
@@ -7155,14 +7171,12 @@ msgstr "Wählen Sie den Tuner, der die motorisierte Schüssel steuert."
 msgid "Select the tuner that this loopthrough depends on."
 msgstr "Wählen Sie den Tuner, von dem diese Durchschleifung abhängt."
 
-#, fuzzy
 msgid "Select the tuner to which the signal cable of the SCR device is connected."
 msgstr "Wählen Sie den Tuner, an den das Signalkabel des Unicable/SCR-Geräts angeschlossen ist."
 
 msgid "Select the type of LNB/device being used (normally 'Universal'). If your LNB type is not available select 'user defined'."
 msgstr "Wählen Sie den Typ des verwendeten LNB / Geräts (normalerweise ‘Universal’). Wenn Ihr LNB-Typ nicht verfügbar ist, wählen Sie ‘benutzerdefiniert’."
 
-#, fuzzy
 msgid "Select the type of Single Cable Reception device you are using."
 msgstr "Wählen Sie den Typ des Unicable/SCR-Geräts aus, das Sie verwenden."
 
@@ -7265,13 +7279,11 @@ msgstr "Kanal-Infos"
 msgid "Service info - ECM Info"
 msgstr "Serviceinfo - ECM Info"
 
-#, fuzzy
 msgid "Service info - service & Basic PID Info"
-msgstr "Service Info - Service & PIDs"
+msgstr "Service Info - Service & Basis PID Info"
 
-#, fuzzy
 msgid "Service info - service & Extended PID Info"
-msgstr "Service Info - Service & PIDs"
+msgstr "Service Info - Service & Erweiterte PID Info"
 
 msgid "Service info - service & PIDs"
 msgstr "Service Info - Service & PIDs"
@@ -7375,6 +7387,15 @@ msgstr "Die Sequenzeinstellung wird wiederholt, wenn Ihr Antennensystem dies erf
 msgid "Set startup service"
 msgstr "Als Startsender benutzen"
 
+msgid "Set the User ID of the OpenWebif from your fallback tuner"
+msgstr "Fügen Sie die User ID des OpenWebIf des Fallback-Tuners ein"
+
+msgid "Set the password of the OpenWebif from your fallback tuner"
+msgstr "Fügen Sie das Passwort des OpenWebIf des Fallback-Tuners ein"
+
+msgid "Set the port of the OpenWebif from your fallback tuner"
+msgstr "Fügen Sie den Port des OpenWebIf des Fallback-Tuners ein"
+
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Sendungs-Fortschritt in der Kanalauswahlliste anzeigen"
 
@@ -7435,7 +7456,6 @@ msgstr "Shell-Skript"
 msgid "Short filenames"
 msgstr "Kurze Dateinamen"
 
-#, fuzzy
 msgid "Show"
 msgstr "Anzeigen"
 
@@ -7556,9 +7576,8 @@ msgstr "Letzte Änderungen anzeigen"
 msgid "Show latest upgrade log"
 msgstr "Protokoll der letzten Aktualisierung anzeigen"
 
-#, fuzzy
 msgid "Show menu or plugin numbers"
-msgstr "Menü-Nummern anzeigen"
+msgstr "Menü oder Plugin Nummern anzeigen"
 
 msgid "Show menu paths"
 msgstr "Menü-Pfade anzeigen"
@@ -7983,6 +8002,10 @@ msgstr "Standby"
 msgid "Standby / restart"
 msgstr "Standby / Neustart"
 
+#, fuzzy
+msgid "Standby LED"
+msgstr "LED im Standby-Modus"
+
 msgid "Standby after current event"
 msgstr "Standby nach aktueller Sendung"
 
@@ -7996,9 +8019,6 @@ msgstr "Standby Lüfter %d Spannung"
 
 msgid "Standby in "
 msgstr "Standby in"
-
-msgid "StandbyLED"
-msgstr "LED im Standby-Modus"
 
 msgid "Start from the beginning"
 msgstr "Am Anfang starten"
@@ -8324,6 +8344,9 @@ msgstr "System"
 msgid "System & Modulation"
 msgstr "System & Modulation"
 
+msgid "T2MI RAW Mode"
+msgstr ""
+
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
 msgstr "ÜBERSETZER INFO"
@@ -8346,9 +8369,8 @@ msgstr "TV physikalischer Adressenverkündung"
 msgid "TXT PID"
 msgstr "TXT PID"
 
-#, fuzzy
 msgid "TXT Subtitles page & lang"
-msgstr "Untertitel Einstellungen"
+msgstr "Textuntertitel Seite & Sprachen"
 
 msgid "Table of contents for collection"
 msgstr "Inhalt der Zusammenstellung"
@@ -8434,7 +8456,7 @@ msgid ""
 "The current image might not be stable.\n"
 "For more information see %s."
 msgstr ""
-"Das aktuelle Bild ist möglicherweise nicht stabil.\n"
+"Das aktuelle Image ist möglicherweise nicht stabil.\n"
 "Weitere Informationen finden Sie unter% s."
 
 #, python-format
@@ -8524,7 +8546,7 @@ msgstr ""
 
 #, python-format
 msgid "The status of the current image could not be checked because %s can not be reached."
-msgstr "Der Status des aktuellen Bildes konnte nicht überprüft werden, da% s nicht erreicht werden kann."
+msgstr "Der Status des aktuellen Images konnte nicht überprüft werden, da% s nicht erreicht werden kann."
 
 msgid "The timer file (timers.xml) is corrupt and could not be loaded."
 msgstr "Die Timer-Datei (timers.xml) ist defekt und konnte nicht geladen werden."
@@ -8569,11 +8591,9 @@ msgstr "Es sind mindestens %s Aktualisierungen verfügbar."
 msgid "There are currently no outstanding actions."
 msgstr "Es sind keine Aktivitäten geplant."
 
-#, fuzzy
 msgid "There are no saved playlists to delete!"
 msgstr "Es gibt keine zu löschenden Wiedergabelisten"
 
-#, fuzzy
 msgid "There are no saved playlists to load!"
 msgstr "Es gibt keine zu ladenden Wiedergabelisten"
 
@@ -8685,9 +8705,8 @@ msgstr "Mit dieser Option können Sie das Display ausschalten."
 msgid "This option allows you to show all symbols on the display."
 msgstr "Mit dieser Option können Sie alle Symbole auf dem Display anzeigen."
 
-#, fuzzy
 msgid "This option allows you to show menu and/or plugin number quick links."
-msgstr "Mit dieser Option können Sie Menüeinträge mit den Zifferntasten auswählen."
+msgstr "Mit dieser Option können Sie Menü und/oder Plugineinträge mit den Zifferntasten auswählen."
 
 msgid "This option allows you to show menu paths."
 msgstr "Diese Option erlaubt das Anzeigen von Menü-Pfaden."
@@ -9071,7 +9090,15 @@ msgstr "Turkmenistan"
 msgid "Turks and Caicos Islands"
 msgstr "Turks- und Caicosinseln"
 
+#, fuzzy
+msgid "Turn on the power LED during deep standby."
+msgstr "Die LED im Standy-Modus ausschalten."
+
 msgid "Turn on the power LED during standby."
+msgstr "Die LED im Standy-Modus ausschalten."
+
+#, fuzzy
+msgid "Turn on the power LED."
 msgstr "Die LED im Standy-Modus ausschalten."
 
 msgid "Turning step size"
@@ -9158,17 +9185,14 @@ msgstr "UnhandledKey"
 msgid "Unhide parental control services"
 msgstr "Jugendschutz gesperrte Kanäle sichtbar machen"
 
-#, fuzzy
 msgid "Unicable delay after change voltage before switch command"
-msgstr "Pause nach Spannungsänderung vor Switch-Kommando"
+msgstr "Unicable Pause nach Spannungsänderung vor Switch-Kommando"
 
-#, fuzzy
 msgid "Unicable delay after enable voltage before switch command"
-msgstr "Pause nachdem Spannung anliegt bevor Switch-Kommando"
+msgstr "Unicable Pause nachdem Spannung anliegt bevor Switch-Kommando"
 
-#, fuzzy
 msgid "Unicable delay after last diseqc command"
-msgstr "Pause nach letztem Diseqc Kommando"
+msgstr "Unicable Pause nach letztem Diseqc Kommando"
 
 msgid "Uninstall"
 msgstr "Deinstallieren"
@@ -9203,9 +9227,8 @@ msgstr "Aushängen"
 msgid "Unsupported"
 msgstr "Nicht unterstützt"
 
-#, fuzzy
 msgid "Unzipping Image"
-msgstr "Bild herunterladen"
+msgstr "Image entpacken"
 
 msgid "Update"
 msgstr "Aktualisieren"
@@ -9357,6 +9380,9 @@ msgstr "Typ der Kanalsuche"
 msgid "User - bouquets"
 msgstr "Benutzer - Bouquets"
 
+msgid "User ID"
+msgstr "Benutzer ID"
+
 msgid "User Mode"
 msgstr "Benutzermodus"
 
@@ -9395,7 +9421,6 @@ msgstr "VLAN-Verbindung"
 msgid "VMGM (intro trailer)"
 msgstr "VMGM (Intro-Trailer)"
 
-#, fuzzy
 msgid "VOB File"
 msgstr "VOB Datei"
 
@@ -9720,6 +9745,9 @@ msgstr "Falls aktiviert, dann wird bei Auswahl eines Senders in der Kanalauswahl
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr "Falls aktiviert, dann lässt sich die Lautstärke über die Pfeiltasten regeln, anstatt die Kanalauswahlliste aufzurufen."
 
+msgid "When enabled you can customize the OpenWebIf settings for the fallback tuner"
+msgstr "Wenn aktiviert, kann der Fallback Tuner im OpenWebIf konfiguriert werden"
+
 msgid "When enabled you can specify a timeframe to ignore the shutdown timer when the receiver is in standby mode"
 msgstr "Falls aktiviert, kann ein Zeitfenster angegeben werden, indem der Ausschalt-Timer nicht beachtet wird, auch wenn sich der Receiver im Standby-Modus befindet."
 
@@ -9744,7 +9772,6 @@ msgstr "Wenn aktiviert, werden ECM Daten in HTTP-Streams eingefügt. Dies ermög
 msgid "When enabled, EIT data will be included in http streams. This allows a client receiver to show EPG."
 msgstr "Wenn aktiviert, werden EIT Daten in HTTP-Streams eingefügt. Dies ermöglicht Client-Receivern ein EPG anzuzeigen."
 
-#, fuzzy
 msgid "When enabled, HDMI-CEC is enabled with standard configuration"
 msgstr "Bei Einstellung 'Ja' wird HDMI-CEC mit Standardeinstellungen aktiviert."
 
@@ -9922,6 +9949,9 @@ msgstr "Funk-Netzwerk Konfiguration."
 msgid "Wireless network state"
 msgstr "Funk-Netzwerk Status"
 
+msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
+msgstr ""
+
 msgid "With errors:"
 msgstr "Mit Fehlern:"
 
@@ -9931,9 +9961,8 @@ msgstr "mit Popup"
 msgid "Without popup"
 msgstr "ohne Popup"
 
-#, fuzzy
 msgid "Wizard setup"
-msgstr "Video-Konfiguration"
+msgstr "Einrichtungsassistent"
 
 msgid "Wizard to arrange the overscan"
 msgstr "Assistent zur Overscan-Einrichtung"
@@ -10732,17 +10761,14 @@ msgstr "Hilfe…"
 msgid "horizontal"
 msgstr "Horizontal"
 
-#, fuzzy
 msgid "in menu and plugins"
-msgstr "Plugins herunterladen"
+msgstr "im Menü und den Plugins"
 
-#, fuzzy
 msgid "in menu only"
-msgstr "Hauptmenü"
+msgstr "nur im Menü"
 
-#, fuzzy
 msgid "in plugins only"
-msgstr "Keine neuen Plugins gefunden"
+msgstr "nur bei den Plugins"
 
 msgid "information/education/school program"
 msgstr "Information/Bildung/Schulprogramm"
@@ -11196,11 +11222,11 @@ msgstr "Vorwärts spulen"
 
 #, python-format
 msgid "slot%s - %s (current image) with, backup"
-msgstr "Slot% s -% s (aktuelles Bild) mit, Backup"
+msgstr "Slot% s -% s (aktuelles Image) mit, Backup"
 
 #, python-format
 msgid "slot%s - %s (current image), without backup"
-msgstr "Slot% s -% s (aktuelles Bild), ohne Sicherung"
+msgstr "Slot% s -% s (aktuelles Image), ohne Sicherung"
 
 #, python-format
 msgid "slot%s - %s mode 1"
@@ -11208,7 +11234,7 @@ msgstr "Steckplatz% s -% s Modus 1"
 
 #, python-format
 msgid "slot%s - %s mode 1 (current image)"
-msgstr "Slot% s -% s Modus 1 (aktuelles Bild)"
+msgstr "Slot% s -% s Modus 1 (aktuelles Image)"
 
 #, python-format
 msgid "slot%s - %s mode 12"
@@ -11216,7 +11242,7 @@ msgstr "Steckplatz% s -% s Modus 12"
 
 #, python-format
 msgid "slot%s - %s mode 12 (current image)"
-msgstr "Steckplatz% s -% s Modus 12 (aktuelles Bild)"
+msgstr "Steckplatz% s -% s Modus 12 (aktuelles Image)"
 
 #, python-format
 msgid "slot%s - %s, with backup"
