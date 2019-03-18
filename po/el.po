@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLI Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-05 11:25+0330\n"
+"POT-Creation-Date: 2019-03-16 11:34+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: MCelliotG <mcelliotg@gmail.com>\n"
 "Language-Team: MCelliotG <mcelliotg@gmail.com>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.2.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -372,14 +372,15 @@ msgstr "%d:%02d"
 msgid "%k:%M %e/%m"
 msgstr "%k:%M %e/%m"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "%s\n"
 "Do you still want to flash image\n"
 "%s?"
 msgstr ""
+"%s\n"
 "Θέλετε να γίνει φλασάρισμα του image\n"
-"%s"
+"%s;"
 
 #, python-format
 msgid ""
@@ -610,9 +611,8 @@ msgstr ": 0000 - προεπιλογή (ανενεργό)"
 msgid "<Current movielist location>"
 msgstr "<Τρέχουσα τοποθεσία καταλόγου ταινιών>"
 
-#, fuzzy
 msgid "<Default Skin>"
-msgstr "Προεπιλεγμένες ρυθμίσεις"
+msgstr "<Προεπιλεγμένο θέμα>"
 
 msgid "<Default movie location>"
 msgstr "<Προεπιλεγμένη τοποθεσία ταινιών>"
@@ -979,7 +979,7 @@ msgid "Alternative"
 msgstr "Προσθήκη εναλλακτικών"
 
 msgid "Alternative URL for images listed on FlashImage"
-msgstr ""
+msgstr "Εναλλακτική URL για images προς φλασάρισμα"
 
 msgid "Alternative numbering mode"
 msgstr "Εναλλακτική λειτουργία αρίθμησης"
@@ -1537,7 +1537,7 @@ msgid "Can be used for different fps between external subtitles and video."
 msgstr "Μπορεί να χρησιμοποιηθεί όταν οι υπότιτλοι έχουν διαφορετικό fps από το βίντεο."
 
 msgid "Can only find a network drive to store the backup this means after the flash the autorestore will not work. Alternativaly you can mount the network drive after the flash and perform a manufacurer reset to autorestore"
-msgstr "Η εφεδρεία δεν θα λειτουργήσει μετά το φλασάρισμα αν υπάρχει μόνο δίσκος δικτύου για την αποθήκευση του αντιγράφου ασφαλείας. Εναλλακτικά μπορείτε να μοντάρετε το δίσκο δικτύου μετά το φλασάρισμα και να κάνετε εργοστασιακή αναφορά για να γίνει η αυτόματη εφεδρεία"
+msgstr "Η εφεδρεία δεν θα λειτουργήσει μετά το φλασάρισμα αν υπάρχει μόνο δίσκος δικτύου για την αποθήκευση του αντιγράφου ασφαλείας. Εναλλακτικά μπορείτε να μοντάρετε το δίσκο δικτύου μετά το φλασάρισμα και να κάνετε εργοστασιακή επαναφορά για να γίνει η αυτόματη εφεδρεία"
 
 msgid "Canada"
 msgstr "Καναδάς"
@@ -1756,7 +1756,7 @@ msgid "Clear playlist"
 msgstr "Εκκαθάριση λίστας αναπαραγωγής"
 
 msgid "Client is streaming from this box!"
-msgstr ""
+msgstr "Υπάρχει πελάτης ροής από αυτό το δέκτη!"
 
 msgid "Clone TV screen to LCD"
 msgstr "Κλωνοποίηση TV στο LCD"
@@ -1851,6 +1851,18 @@ msgstr "Τύπος ρύθμισης: %s"
 
 msgid "Configuration..."
 msgstr "Παραμετροποίηση..."
+
+msgid "Configure ATSC"
+msgstr "Ρύθμιση για το ATSC"
+
+msgid "Configure DVB-C"
+msgstr "Ρύθμιση για το DVB-C"
+
+msgid "Configure DVB-S"
+msgstr "Ρύθμιση για το DVB-S"
+
+msgid "Configure DVB-T"
+msgstr "Ρύθμιση για το DVB-T"
 
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr "Ρύθμιση πρόσθετης καθυστέρησης για βελτίωση του συγχρονισμού των εξωτερικών υποτίτλων."
@@ -2457,9 +2469,8 @@ msgstr "Εισαγωγή ημερομηνίας/ώρας"
 msgid "Debug to file"
 msgstr "Εκσφαλμάτωση σε αρχείο"
 
-#, fuzzy
 msgid "Deep Standby LED"
-msgstr "Βαθιά αναμονή"
+msgstr "LED Βαθιάς Αναμονής"
 
 msgid "Deep standby"
 msgstr "Βαθιά αναμονή"
@@ -2699,15 +2710,13 @@ msgid "Display >16:9 content as"
 msgstr "Εμφάνιση περιεχομένου >16:9 ως"
 
 msgid "Display EPG as MultiEPG"
-msgstr ""
+msgstr "Εμφάνιση EPG ως Πολλαπλός EPG"
 
-#, fuzzy
 msgid "Display EPG info for current event"
-msgstr "Αποθήκευση χρονομετατόπισης μόνο για το τρέχον πρόγραμμα"
+msgstr "Εμφάνιση πληροφοριών EPG για το τρέχον πρόγραμμα"
 
-#, fuzzy
 msgid "Display EPG list for current channel"
-msgstr "Εμφάνιση EPG για το τρέχον κανάλι..."
+msgstr "Εμφάνιση λίστας EPG για το τρέχον κανάλι"
 
 msgid "Display and userinterface"
 msgstr "Οθόνη και επιφάνεια χρήστη"
@@ -3134,6 +3143,10 @@ msgstr "Αγγλικά"
 msgid "Enigma (re)starts: %d\n"
 msgstr "(Επαν)εκκινήσεις Enigma: %d\n"
 
+#, python-format
+msgid "Enigma debug level: %d\n"
+msgstr "Επίπεδο αποσφαλμάτωσης Enigma: %d\n"
+
 msgid "Enigma version: "
 msgstr "Έκδοση enigma: "
 
@@ -3153,7 +3166,7 @@ msgid "Enter URL"
 msgstr "Εισαγωγή URL"
 
 msgid "Enter an URL where alternative images could be listed for FlashImage"
-msgstr ""
+msgstr "Εισάγετε μία URL στην οποία βρίσκονται τα εναλλακτικά images για φλασάρισμα"
 
 msgid "Enter if you are in the east or west hemisphere."
 msgstr "Εισάγετε εάν βρίσκεστε στο ανατολικό ή στο δυτικό ημισφαίριο."
@@ -3963,7 +3976,7 @@ msgid "Harddisk Setup"
 msgstr "Ρύθμιση Σκληρού Δίσκου"
 
 msgid "Harddisk is not in sleepmode it could be in use!"
-msgstr ""
+msgstr "Ο σκληρός δίσκος δεν βρίσκεται σε αναμονή μπορεί να χρησιμοποιείται!"
 
 msgid "Hardware: "
 msgstr "Υλικό: "
@@ -4051,6 +4064,12 @@ msgstr "Ρυθμίσεις Hotkey"
 
 msgid "Hotkey zap"
 msgstr "Ζάπινγκ Hotkey"
+
+msgid "Hotswitchable"
+msgstr "Αυτόματης εναλλαγής"
+
+msgid "Hotswitchable tuner"
+msgstr "Αυτ. εναλλάξιμο tuner"
 
 msgid "How many minutes do you want add to the recording?"
 msgstr "Πόσα λεπτά θέλετε να προστεθούν στην εγγραφή;"
@@ -6001,7 +6020,7 @@ msgid "Positioner setup log"
 msgstr "Καταγραφή ρυθμίσεων tuner"
 
 msgid "Power LED"
-msgstr ""
+msgstr "LED Ισχύος"
 
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr "Διαχείριση ισχύος. Συμβουλευτείτε το εγχειρίδιο χρήσης του δέκτη σας για περισσότερες πληροφορίες."
@@ -6075,6 +6094,19 @@ msgstr "Παρακαλώ περιμένετε, προετοιμασία…"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Πιέστε '0' για εναλλαγή λειτουργίας PiP"
 
+#, fuzzy
+msgid "Press 'OK' for attach function."
+msgstr "Πιέστε ΟΚ για εναλλαγή της επιλογής."
+
+msgid "Press 'OK' for attach next function or 'CH+/-' for edit attached."
+msgstr ""
+
+msgid "Press 'OK' for remove item or 'CH+/-' for toggle to list of features."
+msgstr ""
+
+msgid "Press 'OK' for remove item or < > for change order or 'CH+/-' for toggle to list of features."
+msgstr ""
+
 msgid "Press INFO on your remote control for additional information."
 msgstr "Πιέστε INFO στο τηλεχειριστήριο για πρόσθετες πληροφορίες."
 
@@ -6123,6 +6155,12 @@ msgstr "Πιέστε ΟΚ για εναλλαγή της επιλογής."
 
 msgid "Press OK, save and exit..."
 msgstr "Πιέστε ΟΚ, αποθήκευση και έξοδος..."
+
+msgid "Press or select button and then press 'OK' for attach function."
+msgstr ""
+
+msgid "Press or select button and then press 'OK' for attach next function or edit attached."
+msgstr ""
 
 msgid "Press yellow to set this interface as default interface."
 msgstr "Πιέστε το ΚΙΤΡΙΝΟ για να τεθεί ως προεπιλεγμένη διεπαφή."
@@ -6368,9 +6406,6 @@ msgstr "Συχνότητα ανανέωσης"
 msgid "Refresh rate selection."
 msgstr "Επιλογή συχνότητας ανανέωσης."
 
-msgid "Refreshing image list - Please wait..."
-msgstr "Ανανέωση λίστας image - Παρακαλώ περιμένετε..."
-
 msgid "Refusing to move to the same directory"
 msgstr "Άρνηση μετακίνησης στον ίδιο φάκελο"
 
@@ -6546,6 +6581,9 @@ msgstr "Επανεκκίνηση enigma"
 
 msgid "Restart enigma in debug mode"
 msgstr "Επανεκκίνηση enigma σε αποσφαλμάτωση"
+
+msgid "Restart enigma in standard mode"
+msgstr "Επανεκκίνηση enigma σε κανονική λειτουργία"
 
 msgid "Restart network"
 msgstr "Eπανεκκίνηση δικτύου"
@@ -6944,6 +6982,18 @@ msgstr "Επιλέξτε 'A' ή 'B' αν το απαιτεί το κεραιοσ
 
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr "Επιλέξτε 'FBC SCR' αν αυτό το tuner θα χρησιμοποιήσει μία συσκευή SCR (Unicable/JESS). Για όλες τις άλλες ρυθμίσεις επιλέξτε 'FBC αυτόματο'."
+
+msgid "Select 'Yes' when you want to configure this tuner for ATSC"
+msgstr "Επιλέξτε 'Ναι' όταν θέλετε να ρυθμίσετε αυτό το tuner για το ATSC"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr "Επιλέξτε 'Ναι' όταν θέλετε να ρυθμίσετε αυτό το tuner για το DVB-C"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr "Επιλέξτε 'Ναι' όταν θέλετε να ρυθμίσετε αυτό το tuner για το DVB-S"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr "Επιλέξτε 'Ναι' όταν θέλετε να ρυθμίσετε αυτό το tuner για το DVB-T"
 
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr "Επιλέξτε 'μπάντα' αν χρησιμοποιείτε ένα 'universal' LNB, αλλιώς ανατρέξτε στον πίνακα χαρακτηριστικών του LNB σας."
@@ -7996,7 +8046,6 @@ msgstr "Αναμονή"
 msgid "Standby / restart"
 msgstr "Αναμονή / επανεκκίνηση"
 
-#, fuzzy
 msgid "Standby LED"
 msgstr "LED Αναμονής"
 
@@ -8311,8 +8360,8 @@ msgstr "Μετάβαση στην προηγούμενη υπό-υπηρεσία
 msgid "Switch to radio mode"
 msgstr "Αλλαγή σε λειτουργία ραδιοφώνου"
 
-msgid "Switchable tuner types:"
-msgstr "Εναλλάξιμοι τύποι tuner: "
+msgid "Switchable tuner types"
+msgstr "Εναλλάξιμοι τύποι tuner"
 
 msgid "Switzerland"
 msgstr "Ελβετία"
@@ -8621,8 +8670,8 @@ msgstr ""
 "Δεν αφορά κοινούς χρήστες.\n"
 "Παρακαλούμε μη πανικοβάλλεστε όταν βλέπετε να απεικονίζονται τιμές που σας φαίνονται ύποπτες!"
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
-msgstr "Αυτό είναι ένα tuner πολλαπλών τύπων. Οι διαθέσιμες επιλογές εξαρτώνται από το υλικό. Ο καλωδιακός και ο επίγειος τύπος δεν μπορούν να ρυθμιστούν ταυτόχρονα. Αν θέλετε να χρησιμοποιήσετε το δέκτη σας ως καλωδιακό + δορυφορικό ή επίγειο + δορυφορικό, ρυθμίστε τον καλωδιακό/επίγειο τύπο πρώτα και αποθηκεύστε. Ανοίξτε ξανά και ρυθμίστε ως δορυφορικό."
+msgid "This is a multitype tuner. Available options depend on the hardware."
+msgstr "Αυτό είναι ένα tuner πολλαπλών τύπων. Οι διαθέσιμες επιλογές εξαρτώνται από το υλικό."
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Αυτή είναι η σειρά με την οποία αποστέλλονται οι εντολές DiSEqC στο κεραιοσύστημα. Η σειρά πρέπει να αντιστοιχεί ακριβώς στη σειρά με την οποία έχουν παραταχθεί οι φυσικές συσκευές στο καλώδιο σήματος (ξεκινώντας από τον τελευταίο δέκτη)."
@@ -9084,16 +9133,14 @@ msgstr "Τουρκμενιστάν"
 msgid "Turks and Caicos Islands"
 msgstr "Νήσοι Τερκς και Κέικος"
 
-#, fuzzy
 msgid "Turn on the power LED during deep standby."
-msgstr "Ενεργοποίηση LED κατά την αναμονή."
+msgstr "Ενεργοποίηση LED κατά τη βαθιά αναμονή."
 
 msgid "Turn on the power LED during standby."
 msgstr "Ενεργοποίηση LED κατά την αναμονή."
 
-#, fuzzy
 msgid "Turn on the power LED."
-msgstr "Ενεργοποίηση LED κατά την αναμονή."
+msgstr "Ενεργοποίηση LED κατά την εκκίνηση."
 
 msgid "Turning step size"
 msgstr "Μέγεθος βήματος περιστροφής"
@@ -9944,7 +9991,7 @@ msgid "Wireless network state"
 msgstr "Κατάσταση ασύρματου δικτύου"
 
 msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
-msgstr "Με τη λειτουργία T2MI RAW ανενεργή (προεπιλογή) μπορείτε να χρησιμοποιήσετε τον απευθείας απεγκλεισμό ενός μονού T2MI PLP. Με τη λειτουργία ενεργή μπορείτε να χρησιμοποιήσετε το astra-sm για ανάλυση του T2MI."
+msgstr "Με τη λειτουργία T2MI RAW ανενεργή (προεπιλογή) μπορείτε να χρησιμοποιήσετε τον απευθείας απεγκλεισμό ενός μονού T2MI PLP. Με τη λειτουργία ενεργή μπορείτε να χρησιμοποιήσετε το astra-sm για ανάλυση του T2MI"
 
 msgid "With errors:"
 msgstr "Με σφάλματα:"
@@ -10618,9 +10665,6 @@ msgstr "ψυχαγωγία (6-14 ετών)"
 msgid "epg cache backup"
 msgstr "αντίγραφο ασφαλείας του cache του epg"
 
-msgid "equal to"
-msgstr "ίσο με"
-
 msgid "equestrian"
 msgstr "ιπποδρομίες"
 
@@ -10833,9 +10877,6 @@ msgstr "κλειδωμένο"
 
 msgid "long"
 msgstr "παρατεταμένο"
-
-msgid "loopthrough to"
-msgstr "loopthrough σε"
 
 msgid "magazines/reports/documentary"
 msgstr "περιοδικά/εκθέσεις/ντοκιμαντέρ"
@@ -11139,9 +11180,6 @@ msgstr "κατάσταση ανίχνευσης"
 
 msgid "science fiction/fantasy/horror"
 msgstr "επιστημονικής φαντασίας/φαντασίας/τρόμου"
-
-msgid "second cable of motorized LNB"
-msgstr "δεύτερο καλώδιο σε κινούμενο LNB"
 
 msgid "seconds"
 msgstr "δευτερόλεπτα"

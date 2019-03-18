@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-05 11:25+0330\n"
+"POT-Creation-Date: 2019-03-16 11:34+0330\n"
 "PO-Revision-Date: 2018-05-22 13:54+0200\n"
 "Last-Translator: Gringo <openpli@tiscali.it>\n"
 "Language-Team: www.linsat.net <spaeleus@croci.org>\n"
@@ -1865,6 +1865,22 @@ msgstr "Modalità configurazione: %s"
 msgid "Configuration..."
 msgstr "Impostazioni..."
 
+#, fuzzy
+msgid "Configure ATSC"
+msgstr "Impostazione in corso..."
+
+#, fuzzy
+msgid "Configure DVB-C"
+msgstr "Impostazione in corso..."
+
+#, fuzzy
+msgid "Configure DVB-S"
+msgstr "Impostazione in corso..."
+
+#, fuzzy
+msgid "Configure DVB-T"
+msgstr "Impostazione in corso..."
+
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr "Impostare un ritardo aggiuntivo per migliorare la sincronizzazione dei sottotitoli esterni."
 
@@ -3152,6 +3168,10 @@ msgstr "Inglese"
 msgid "Enigma (re)starts: %d\n"
 msgstr "(Ri)avvii di Enigma: %d\n"
 
+#, python-format
+msgid "Enigma debug level: %d\n"
+msgstr ""
+
 msgid "Enigma version: "
 msgstr "Versione Enigma: "
 
@@ -4074,6 +4094,14 @@ msgstr "Configurazione dei tasti"
 
 msgid "Hotkey zap"
 msgstr "Tasto per cambio canale"
+
+#, fuzzy
+msgid "Hotswitchable"
+msgstr "Non verificabile"
+
+#, fuzzy
+msgid "Hotswitchable tuner"
+msgstr "Tipi di sintonizzatori commutabili:"
 
 msgid "How many minutes do you want add to the recording?"
 msgstr "Quanti minuti devono essere aggiunti alla registrazione?"
@@ -6108,6 +6136,19 @@ msgstr "In preparazione. Attendere..."
 msgid "Press '0' to toggle PiP mode"
 msgstr "Premere '0' per attivare la modalità PIP"
 
+#, fuzzy
+msgid "Press 'OK' for attach function."
+msgstr "Premere OK per selezionare/deselezionare."
+
+msgid "Press 'OK' for attach next function or 'CH+/-' for edit attached."
+msgstr ""
+
+msgid "Press 'OK' for remove item or 'CH+/-' for toggle to list of features."
+msgstr ""
+
+msgid "Press 'OK' for remove item or < > for change order or 'CH+/-' for toggle to list of features."
+msgstr ""
+
 msgid "Press INFO on your remote control for additional information."
 msgstr "Premere INFO sul telecomando per informazioni aggiuntive."
 
@@ -6157,6 +6198,12 @@ msgstr "Premere OK per selezionare/deselezionare."
 
 msgid "Press OK, save and exit..."
 msgstr "Premere OK, salvare e uscire..."
+
+msgid "Press or select button and then press 'OK' for attach function."
+msgstr ""
+
+msgid "Press or select button and then press 'OK' for attach next function or edit attached."
+msgstr ""
 
 msgid "Press yellow to set this interface as default interface."
 msgstr "Premere il tasto Giallo per impostare questa interfaccia come predefinita."
@@ -6403,9 +6450,6 @@ msgstr "Frequenza di aggiornamento"
 msgid "Refresh rate selection."
 msgstr "Selezione della frequenza di aggiornamento."
 
-msgid "Refreshing image list - Please wait..."
-msgstr "Aggiornamento dell'elenco delle immagini. Attendere..."
-
 msgid "Refusing to move to the same directory"
 msgstr "Impossibile spostare dentro la stessa cartella"
 
@@ -6581,6 +6625,10 @@ msgstr "Riavvio di Enigma2"
 
 #, fuzzy
 msgid "Restart enigma in debug mode"
+msgstr "Riavvio di Enigma2"
+
+#, fuzzy
+msgid "Restart enigma in standard mode"
 msgstr "Riavvio di Enigma2"
 
 msgid "Restart network"
@@ -6983,6 +7031,18 @@ msgstr "Selezionare \"A\" o \"B\" se l'impianto lo richiede, altrimenti selezion
 #, fuzzy
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr "Selezionare \"Unicable\" se questo sintonizzatore utilizza un dispositivo Unicable. Per tutte le altre configurazioni selezionare \"FBC automatico\"."
+
+msgid "Select 'Yes' when you want to configure this tuner for ATSC"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr ""
 
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr "Selezionare \"banda\" se si utilizza un LNB universale, altrimenti consultare le specifiche dell'LNB."
@@ -8366,7 +8426,8 @@ msgstr "Passare al sottocanale precedente"
 msgid "Switch to radio mode"
 msgstr "Passare alla modalità radio"
 
-msgid "Switchable tuner types:"
+#, fuzzy
+msgid "Switchable tuner types"
 msgstr "Tipi di sintonizzatori commutabili:"
 
 msgid "Switzerland"
@@ -8692,8 +8753,8 @@ msgstr ""
 "Per un utente normale non è significativa.\n"
 "Non preoccuparsi quando qui verranno visualizzate delle informazioni sospette!"
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
-msgstr "Questo è un sintonizzatore multitipo. Le opzioni disponibili dipendono dall'hardware. Le modalità via cavo e terrestre non possono essere attive contemporaneamente. Se si desidera utilizzarlo come cavo+satellite oppure terrestre+satellite, configurarlo prima per il cavo/terrestre e quindi salvare. Quindi rientrare dentro le sue impostazioni e configurarlo anche per il satellite."
+msgid "This is a multitype tuner. Available options depend on the hardware."
+msgstr ""
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Questo è l'ordine secondo il quale i comandi DiSEqC vengono inviati nell'impianto. L'ordine deve corrispondere esattamente all'ordine in cui i dispositivi fisici sono installati lungo il cavo di segnale (a partire dal lato ricevitore)."
@@ -10714,9 +10775,6 @@ msgstr "Intrattenimento (6-14 anni)"
 msgid "epg cache backup"
 msgstr "Backup della cache EPG"
 
-msgid "equal to"
-msgstr "Uguale a"
-
 msgid "equestrian"
 msgstr "Ippica"
 
@@ -10934,9 +10992,6 @@ msgstr "Presente"
 
 msgid "long"
 msgstr "Lungo"
-
-msgid "loopthrough to"
-msgstr "In cascata a"
 
 msgid "magazines/reports/documentary"
 msgstr "Riviste/Report/Documentari"
@@ -11240,9 +11295,6 @@ msgstr "Stato della ricerca"
 
 msgid "science fiction/fantasy/horror"
 msgstr "Fantascienza/Fantasy/Horror"
-
-msgid "second cable of motorized LNB"
-msgstr "Secondo cavo dell'LNB motorizzato"
 
 msgid "seconds"
 msgstr "secondi"

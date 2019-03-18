@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-05 11:25+0330\n"
-"PO-Revision-Date: 2019-01-05 21:03+0100\n"
+"POT-Creation-Date: 2019-03-16 11:34+0330\n"
+"PO-Revision-Date: 2019-02-06 13:41+0100\n"
 "Last-Translator: Andrej Tobola <andrej.tobola@gmail.com>\n"
 "Language-Team: \n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 msgid ""
@@ -382,13 +382,14 @@ msgstr "%d:%02d"
 msgid "%k:%M %e/%m"
 msgstr "%k:%M %e/%m"
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "%s\n"
 "Do you still want to flash image\n"
 "%s?"
 msgstr ""
-"Chcete nahrať image\n"
+"%s\n"
+"Chcete skutočne aktualizovať softvér\n"
 "%s ?"
 
 #, python-format
@@ -621,9 +622,8 @@ msgstr ": 0000 - predvolené (vypnuté)"
 msgid "<Current movielist location>"
 msgstr "<Aktuálne umiestnenie zoznamu filmov>"
 
-#, fuzzy
 msgid "<Default Skin>"
-msgstr "Predvolené nastavenia"
+msgstr "<Predvolený vzhľad>"
 
 msgid "<Default movie location>"
 msgstr "<Predvolené umiestnenie filmov>"
@@ -989,7 +989,7 @@ msgid "Alternative"
 msgstr "Alternatívne"
 
 msgid "Alternative URL for images listed on FlashImage"
-msgstr ""
+msgstr "Alternatívna adresa URL pre image uvedené vo FlashImage"
 
 msgid "Alternative numbering mode"
 msgstr "Režim alternatívneho číslovania"
@@ -1771,7 +1771,7 @@ msgid "Clear playlist"
 msgstr "Vymazať zoznam prehrávania"
 
 msgid "Client is streaming from this box!"
-msgstr ""
+msgstr "Z tohoto prijímača streamuje klient!"
 
 msgid "Clone TV screen to LCD"
 msgstr "Duplikovať obrazovku TV na LCD"
@@ -1866,6 +1866,22 @@ msgstr "Možnosti nastavenia: %s"
 
 msgid "Configuration..."
 msgstr "Konfigurácia..."
+
+#, fuzzy
+msgid "Configure ATSC"
+msgstr "Konfigurujem"
+
+#, fuzzy
+msgid "Configure DVB-C"
+msgstr "Konfigurujem"
+
+#, fuzzy
+msgid "Configure DVB-S"
+msgstr "Konfigurujem"
+
+#, fuzzy
+msgid "Configure DVB-T"
+msgstr "Konfigurujem"
 
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr "Nakonfigurovať ďalšie oneskorenie na zlepšenie synchronizácie externých titulkov."
@@ -2271,7 +2287,6 @@ msgstr "Nedalo sa nahrávať - prekrýva sa časovanie %s"
 msgid "Could not record due to invalid service %s"
 msgstr "Nedalo sa nahrať pre neplatnú stanicu %s"
 
-#, fuzzy
 msgid "Could not some setup the required directories on the media (e.g. USB stick) - Please verify media and try again!"
 msgstr "Nebolo možné vytvoriť požadované zložky na disku (napr. USB kľúč) - skontrolujte prosím disk a skúste to znovu!"
 
@@ -2473,9 +2488,8 @@ msgstr "Nastavenie dátumu/času"
 msgid "Debug to file"
 msgstr "Ladiť do súboru"
 
-#, fuzzy
 msgid "Deep Standby LED"
-msgstr "Vypnúť prijímač (hlboký spánok)"
+msgstr "LED pri vypnutom prijímači"
 
 msgid "Deep standby"
 msgstr "Vypnúť prijímač (hlboký spánok)"
@@ -2715,15 +2729,13 @@ msgid "Display >16:9 content as"
 msgstr "Obraz >16:9 zobraziť ako"
 
 msgid "Display EPG as MultiEPG"
-msgstr ""
+msgstr "Zobraziť EPG ako MultiEPG"
 
-#, fuzzy
 msgid "Display EPG info for current event"
-msgstr "Uložiť súbor časového posunu iba pre aktuálnu reláciu"
+msgstr "Zobraziť EPG informáciu pre aktuálny program"
 
-#, fuzzy
 msgid "Display EPG list for current channel"
-msgstr "Zobrazovať EPG pre aktuálnú stanicu..."
+msgstr "Zobraziť EPG zoznam pre aktuálnú stanicu"
 
 msgid "Display and userinterface"
 msgstr "Displej a užívateľské rozhranie"
@@ -2833,7 +2845,7 @@ msgid ""
 "Do you want to flash image\n"
 "%s"
 msgstr ""
-"Chcete nahrať image\n"
+"Chcete aktualizovať softvér\n"
 "%s ?"
 
 msgid "Do you want to install Plugins?"
@@ -3151,6 +3163,10 @@ msgstr "Angličtina"
 msgid "Enigma (re)starts: %d\n"
 msgstr "Počet (re)štartov Enigmy: %d\n"
 
+#, python-format
+msgid "Enigma debug level: %d\n"
+msgstr ""
+
 msgid "Enigma version: "
 msgstr "Verzia Enigmy: "
 
@@ -3170,7 +3186,7 @@ msgid "Enter URL"
 msgstr "Vložte URL"
 
 msgid "Enter an URL where alternative images could be listed for FlashImage"
-msgstr ""
+msgstr "Vložte adresu URL, kde sú zobrazené alternatívne image pre FlashImage"
 
 msgid "Enter if you are in the east or west hemisphere."
 msgstr "Vojdite, ak sa nachádzate vo východnej alebo západnej hemisfére."
@@ -3980,7 +3996,7 @@ msgid "Harddisk Setup"
 msgstr "Nastavenie pevného disku"
 
 msgid "Harddisk is not in sleepmode it could be in use!"
-msgstr ""
+msgstr "Pevný disk nie je v režime spánku, môže sa používať!"
 
 msgid "Hardware: "
 msgstr "Hardvér: "
@@ -4068,6 +4084,14 @@ msgstr "Nastavenie klávesových skratiek"
 
 msgid "Hotkey zap"
 msgstr "Prepnutie klávesovou skratkou"
+
+#, fuzzy
+msgid "Hotswitchable"
+msgstr "neskúšateľné"
+
+#, fuzzy
+msgid "Hotswitchable tuner"
+msgstr "Prepínateľné typy tunerov:"
 
 msgid "How many minutes do you want add to the recording?"
 msgstr "Koľko minút chcete pridať k nahrávke?"
@@ -6019,7 +6043,7 @@ msgid "Positioner setup log"
 msgstr "Záznam nastavení pozicionéra"
 
 msgid "Power LED"
-msgstr ""
+msgstr "LED napájania"
 
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr "Správa napájania. Pre viac informácií si preštudujte návod k prijímaču."
@@ -6093,6 +6117,19 @@ msgstr "Pripravujem... Čakajte"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Stlačením '0' prepnete režim PiP"
 
+#, fuzzy
+msgid "Press 'OK' for attach function."
+msgstr "Stlačte OK pre prepnutie výberu."
+
+msgid "Press 'OK' for attach next function or 'CH+/-' for edit attached."
+msgstr ""
+
+msgid "Press 'OK' for remove item or 'CH+/-' for toggle to list of features."
+msgstr ""
+
+msgid "Press 'OK' for remove item or < > for change order or 'CH+/-' for toggle to list of features."
+msgstr ""
+
 msgid "Press INFO on your remote control for additional information."
 msgstr "Stlačením INFO na DO si zobrazíte ďalšie informácie."
 
@@ -6141,6 +6178,12 @@ msgstr "Stlačte OK pre prepnutie výberu."
 
 msgid "Press OK, save and exit..."
 msgstr "Stlačte OK, uložiť a ukončiť ..."
+
+msgid "Press or select button and then press 'OK' for attach function."
+msgstr ""
+
+msgid "Press or select button and then press 'OK' for attach next function or edit attached."
+msgstr ""
 
 msgid "Press yellow to set this interface as default interface."
 msgstr "Stlačením žltého tlačidla nastavíte toto rozhranie ako predvolené."
@@ -6386,9 +6429,6 @@ msgstr "Obnovovacia frekvencia"
 msgid "Refresh rate selection."
 msgstr "Voľba obnovovacej frekvencie."
 
-msgid "Refreshing image list - Please wait..."
-msgstr "Obnovujem zoznam imagov - Prosím čakajte..."
-
 msgid "Refusing to move to the same directory"
 msgstr "Nie je možné presunúť do rovnakej zložky"
 
@@ -6561,6 +6601,10 @@ msgid "Restart enigma"
 msgstr "Reštartovať Enigmu"
 
 msgid "Restart enigma in debug mode"
+msgstr "Reštartovať Enigmu v debug móde"
+
+#, fuzzy
+msgid "Restart enigma in standard mode"
 msgstr "Reštartovať Enigmu v debug móde"
 
 msgid "Restart network"
@@ -6963,6 +7007,18 @@ msgstr "Vyberte 'A' alebo 'B' ak to váš anténny systém vyžaduje, inak zvolt
 
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr "Vyberte 'FBC SCR' ak sa tento tuner pripojí na SCR (Unicable/JESS) zariadenie. Pre všetky ostatné nastavenia vyberte 'Automatický FBC'."
+
+msgid "Select 'Yes' when you want to configure this tuner for ATSC"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr ""
 
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr "Vyberte 'Pásmo' ak sa používa 'Univerzálne LNB', v opačnom prípade si preštudujte špecifikáciu LNB."
@@ -7400,20 +7456,18 @@ msgstr "Nastavte opakovanie sekvencie pokiaľ to vyžaduje anténny systém. Pok
 msgid "Set startup service"
 msgstr "Nastaviť stanicu po spustení"
 
-#, fuzzy
 msgid "Set the User ID of the OpenWebif from your fallback tuner"
-msgstr "Nastaviť User ID rozhrania OpenWeb záložného tuneru."
+msgstr "Nastaviť User ID rozhrania OpenWeb záložného tuneru"
 
 #, fuzzy
 msgid "Set the password of the OpenWebif from your fallback tuner"
-msgstr "Nastaviť heslo rozhrania OpenWeb záložného tuneru."
+msgstr "Nastaviť port rozhrania OpenWeb záložného tuneru"
 
-#, fuzzy
 msgid "Set the port of the OpenWebif from your fallback tuner"
-msgstr "Nastaviť port rozhrania OpenWeb záložného tuneru."
+msgstr "Nastaviť port rozhrania OpenWeb záložného tuneru"
 
 msgid "Set the type of the progress indication in the channel selection screen."
-msgstr "Zvoliť typ zobrazenia priebehu programu v zozname staníc."
+msgstr "Zvoliť typ zobrazenia priebehu programu v zozname staníc"
 
 msgid "Set time window to 1 hour"
 msgstr "Nastaviť časové okno na 1 hodinu"
@@ -8018,7 +8072,6 @@ msgstr "Pohotovostný režim"
 msgid "Standby / restart"
 msgstr "Pohotovostný režim / Reštart"
 
-#, fuzzy
 msgid "Standby LED"
 msgstr "LED v pohotovostnom režime"
 
@@ -8333,7 +8386,8 @@ msgstr "Prepnúť na predchádzajúci podkanál"
 msgid "Switch to radio mode"
 msgstr "Prepnúť na mód rádia"
 
-msgid "Switchable tuner types:"
+#, fuzzy
+msgid "Switchable tuner types"
 msgstr "Prepínateľné typy tunerov:"
 
 msgid "Switzerland"
@@ -8644,8 +8698,8 @@ msgstr ""
 "Pre bežných užívateľov nie je dôležitá.\n"
 "Neprepadajte panike prosím ak sa Vám zdá, že zobrazované hodnoty vyzerajú podozrivo!"
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
-msgstr "Toto je viactypový tuner. Dostupné možnosti závisia na hardvéri. Káblový a terestriálny nemôžu byť konfigurované v rovnakom čase. Ak ho chcete použiť ako káblový + satelitný, alebo terestriálny + satelitný, najprv nakonfigurujte káblový/terestriálny a uložte. Znovuotvorte a nakonfigurujte opäť ako satelitný."
+msgid "This is a multitype tuner. Available options depend on the hardware."
+msgstr ""
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Toto je poradie, v ktorom sú DiSEqC príkazy posielané do anténneho systému. Poradie musí presne korešpondovať s poradím, v akom sú fyzické zariadenia zoskupené so signálnym káblom (začínajúcim od koncu prijímača)."
@@ -9107,16 +9161,14 @@ msgstr "Turkenistan"
 msgid "Turks and Caicos Islands"
 msgstr "Turecké a Caicos ostrovy"
 
-#, fuzzy
 msgid "Turn on the power LED during deep standby."
-msgstr "Zapnúť LED napájania počas pohotovostného režimu."
+msgstr "Zapnúť LED napájania pri vypnutom prijímači."
 
 msgid "Turn on the power LED during standby."
-msgstr "Zapnúť LED napájania počas pohotovostného režimu."
+msgstr "Zapnúť LED napájania pohotovostnom režime."
 
-#, fuzzy
 msgid "Turn on the power LED."
-msgstr "Zapnúť LED napájania počas pohotovostného režimu."
+msgstr "Zapnúť LED napájania."
 
 msgid "Turning step size"
 msgstr "Zmeniť veľkosť kroku pri ladení"
@@ -10642,9 +10694,6 @@ msgstr "zábavný (6 až 14 rokov)"
 msgid "epg cache backup"
 msgstr "záloha pamäte epg"
 
-msgid "equal to"
-msgstr "rovná sa"
-
 msgid "equestrian"
 msgstr "jazdectvo"
 
@@ -10857,9 +10906,6 @@ msgstr "zachytený"
 
 msgid "long"
 msgstr "dlhý"
-
-msgid "loopthrough to"
-msgstr "prepojiť s"
 
 msgid "magazines/reports/documentary"
 msgstr "časopisy/správy/dokumentárne"
@@ -11163,9 +11209,6 @@ msgstr "stav vyhľadávania"
 
 msgid "science fiction/fantasy/horror"
 msgstr "sci-fi/fantasy/horor"
-
-msgid "second cable of motorized LNB"
-msgstr "druhý kábel motorizovaného LNB"
 
 msgid "seconds"
 msgstr "sekúnd"

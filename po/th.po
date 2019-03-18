@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1-En-Th\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-05 11:25+0330\n"
+"POT-Creation-Date: 2019-03-16 11:34+0330\n"
 "PO-Revision-Date: 2010-04-08 18:13+0700\n"
 "Last-Translator: Tony - Thaidreambox\n"
 "Language-Team: Tony @ Thai Dreambox <tonyboyth@gmail.com>\n"
@@ -1889,6 +1889,22 @@ msgstr "โหมดการตั้งค่า"
 msgid "Configuration..."
 msgstr "ตั้งค่าเครือข่าย..."
 
+#, fuzzy
+msgid "Configure ATSC"
+msgstr "กำลังตั้งค่า"
+
+#, fuzzy
+msgid "Configure DVB-C"
+msgstr "กำลังตั้งค่า"
+
+#, fuzzy
+msgid "Configure DVB-S"
+msgstr "กำลังตั้งค่า"
+
+#, fuzzy
+msgid "Configure DVB-T"
+msgstr "กำลังตั้งค่า"
+
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr ""
 
@@ -3224,6 +3240,10 @@ msgstr "ภาษาอังกฤษ"
 msgid "Enigma (re)starts: %d\n"
 msgstr ""
 
+#, python-format
+msgid "Enigma debug level: %d\n"
+msgstr ""
+
 #, fuzzy
 msgid "Enigma version: "
 msgstr "เวอร์ชั่นใหม่:"
@@ -4157,6 +4177,12 @@ msgid "Hotkey Setup"
 msgstr ""
 
 msgid "Hotkey zap"
+msgstr ""
+
+msgid "Hotswitchable"
+msgstr ""
+
+msgid "Hotswitchable tuner"
 msgstr ""
 
 #, fuzzy
@@ -6289,6 +6315,19 @@ msgstr "กำลังเตรียมงาน... รอสักครู�
 msgid "Press '0' to toggle PiP mode"
 msgstr ""
 
+#, fuzzy
+msgid "Press 'OK' for attach function."
+msgstr "กดปุ่ม OK เพื่อเปลี่ยน"
+
+msgid "Press 'OK' for attach next function or 'CH+/-' for edit attached."
+msgstr ""
+
+msgid "Press 'OK' for remove item or 'CH+/-' for toggle to list of features."
+msgstr ""
+
+msgid "Press 'OK' for remove item or < > for change order or 'CH+/-' for toggle to list of features."
+msgstr ""
+
 msgid "Press INFO on your remote control for additional information."
 msgstr ""
 
@@ -6338,6 +6377,12 @@ msgid "Press OK to toggle the selection."
 msgstr "กดปุ่ม OK เพื่อเปลี่ยน"
 
 msgid "Press OK, save and exit..."
+msgstr ""
+
+msgid "Press or select button and then press 'OK' for attach function."
+msgstr ""
+
+msgid "Press or select button and then press 'OK' for attach next function or edit attached."
 msgstr ""
 
 msgid "Press yellow to set this interface as default interface."
@@ -6590,10 +6635,6 @@ msgid "Refresh rate selection."
 msgstr "เลือกความถี่หน้าจอ"
 
 #, fuzzy
-msgid "Refreshing image list - Please wait..."
-msgstr "กำลังดาวน์โหลดข้อมูลติดตั้งใหม่ กรุณารอสักครู่..."
-
-#, fuzzy
 msgid "Refusing to move to the same directory"
 msgstr "กรุณาป้อนชื่อโฟล์เดอร์ใหม่"
 
@@ -6775,6 +6816,9 @@ msgid "Restart enigma"
 msgstr ""
 
 msgid "Restart enigma in debug mode"
+msgstr ""
+
+msgid "Restart enigma in standard mode"
 msgstr ""
 
 msgid "Restart network"
@@ -7191,6 +7235,18 @@ msgid "Select 'A' or 'B' if your aerial system requires this, otherwise select '
 msgstr ""
 
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for ATSC"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
 msgstr ""
 
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
@@ -8653,7 +8709,7 @@ msgstr "ไปบริการย่อยก่อนหน้า"
 msgid "Switch to radio mode"
 msgstr ""
 
-msgid "Switchable tuner types:"
+msgid "Switchable tuner types"
 msgstr ""
 
 msgid "Switzerland"
@@ -8941,7 +8997,7 @@ msgid ""
 "Don't panic please when you see values being displayed that you think look suspicious!"
 msgstr ""
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
+msgid "This is a multitype tuner. Available options depend on the hardware."
 msgstr ""
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
@@ -10953,9 +11009,6 @@ msgstr ""
 msgid "epg cache backup"
 msgstr ""
 
-msgid "equal to"
-msgstr "เท่ากับ"
-
 msgid "equestrian"
 msgstr ""
 
@@ -11175,9 +11228,6 @@ msgstr "ล๊อคแล้ว"
 
 msgid "long"
 msgstr ""
-
-msgid "loopthrough to"
-msgstr "ปล่อยผ่านไปที่"
 
 msgid "magazines/reports/documentary"
 msgstr ""
@@ -11482,9 +11532,6 @@ msgstr "สถานะการค้นหา"
 
 msgid "science fiction/fantasy/horror"
 msgstr ""
-
-msgid "second cable of motorized LNB"
-msgstr "เลือกสายบังคับ LNB"
 
 msgid "seconds"
 msgstr "วินาที"

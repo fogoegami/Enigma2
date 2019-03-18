@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-05 11:25+0330\n"
-"PO-Revision-Date: 2019-01-25 20:38+0100\n"
+"POT-Creation-Date: 2019-03-16 11:34+0330\n"
+"PO-Revision-Date: 2019-03-06 19:25+0100\n"
 "Last-Translator: Pr2\n"
 "Language-Team: french\n"
 "Language: fr\n"
@@ -610,9 +610,8 @@ msgstr ": 0000 - par défaut (désactivé)"
 msgid "<Current movielist location>"
 msgstr "<Emplacement actuel de la liste des films>"
 
-#, fuzzy
 msgid "<Default Skin>"
-msgstr "Paramètres par défaut"
+msgstr "<Thème par défaut>"
 
 msgid "<Default movie location>"
 msgstr "<Emplacement par défaut des films>"
@@ -1856,6 +1855,18 @@ msgstr "Mode de configuration: %s"
 
 msgid "Configuration..."
 msgstr "Configuration..."
+
+msgid "Configure ATSC"
+msgstr "Configurer ATSC"
+
+msgid "Configure DVB-C"
+msgstr "Configurer DVB-C"
+
+msgid "Configure DVB-S"
+msgstr "Configurer DVB-S"
+
+msgid "Configure DVB-T"
+msgstr "Configurer DVB-T"
 
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr "Configure un retard supplémentaire pour améliorer la synchronisation des sous-titres externes."
@@ -3136,6 +3147,10 @@ msgstr "Anglais"
 msgid "Enigma (re)starts: %d\n"
 msgstr "Redémarrage(s) Enigma: %d\n"
 
+#, python-format
+msgid "Enigma debug level: %d\n"
+msgstr "Niveau de déboggage Enigma: %d\n"
+
 msgid "Enigma version: "
 msgstr "Version Enigma: "
 
@@ -4054,6 +4069,12 @@ msgstr "Configurer Hotkey"
 
 msgid "Hotkey zap"
 msgstr "Hotkey zap"
+
+msgid "Hotswitchable"
+msgstr "Permutable à chaud"
+
+msgid "Hotswitchable tuner"
+msgstr "Types de tuner permutable à chaud"
 
 msgid "How many minutes do you want add to the recording?"
 msgstr "Combien de minutes voulez-vous ajouter à l'enregistrement?"
@@ -6001,7 +6022,7 @@ msgid "Positioner setup log"
 msgstr "Log de la configuration du positionneur"
 
 msgid "Power LED"
-msgstr ""
+msgstr "LED d'alimentation"
 
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr "Gestion de l’alimentation. Consultez le manuel de votre récepteur pour plus d’information."
@@ -6075,6 +6096,19 @@ msgstr "En préparation... Veuillez patienter"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Appuyez sur '0' pour basculer le mode PiP"
 
+#, fuzzy
+msgid "Press 'OK' for attach function."
+msgstr "Appuyez sur OK pour basculer le choix."
+
+msgid "Press 'OK' for attach next function or 'CH+/-' for edit attached."
+msgstr ""
+
+msgid "Press 'OK' for remove item or 'CH+/-' for toggle to list of features."
+msgstr ""
+
+msgid "Press 'OK' for remove item or < > for change order or 'CH+/-' for toggle to list of features."
+msgstr ""
+
 msgid "Press INFO on your remote control for additional information."
 msgstr "Appuyez sur INFO de votre télécommande pour plus d'informations."
 
@@ -6123,6 +6157,12 @@ msgstr "Appuyez sur OK pour basculer le choix."
 
 msgid "Press OK, save and exit..."
 msgstr "Appuyer sur OK, sauvegarder et quitter…"
+
+msgid "Press or select button and then press 'OK' for attach function."
+msgstr ""
+
+msgid "Press or select button and then press 'OK' for attach next function or edit attached."
+msgstr ""
 
 msgid "Press yellow to set this interface as default interface."
 msgstr "Appuyez sur le bouton jaune pour choisir cette interface comme interface par défaut."
@@ -6368,9 +6408,6 @@ msgstr "Vitesse de rafraîchissement"
 msgid "Refresh rate selection."
 msgstr "Sélection de vitesse de rafraîchissement"
 
-msgid "Refreshing image list - Please wait..."
-msgstr "Mise-à-jour de la liste des images - Veuillez patienter ..."
-
 msgid "Refusing to move to the same directory"
 msgstr "Refus de déplacer vers le même répertoire"
 
@@ -6546,6 +6583,9 @@ msgstr "Redémarrer OpenPLi"
 
 msgid "Restart enigma in debug mode"
 msgstr "Redémarrer OpenPLi en mode déboggage"
+
+msgid "Restart enigma in standard mode"
+msgstr "Redémarrer OpenPLi en mode standard"
 
 msgid "Restart network"
 msgstr "Relancer le réseau"
@@ -6944,6 +6984,18 @@ msgstr "Sélectionnez ‘A’ ou ‘B’ si votre système aérien nécessite ce
 
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr "Sélectionnez ‘FBC SCR’ si le tuner va être connecté à un périphérique SCR (Unicable/JESS). Pour toutes les autres configurations choisir ‘FBC automatique’."
+
+msgid "Select 'Yes' when you want to configure this tuner for ATSC"
+msgstr "Sélectionnez «Oui» lorsque vous souhaitez configurer ce tuner pour ATSC"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr "Sélectionnez «Oui» lorsque vous souhaitez configurer ce tuner pour DVB-C"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr "Sélectionnez «Oui» lorsque vous souhaitez configurer ce tuner pour DVB-S"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr "Sélectionnez «Oui» lorsque vous souhaitez configurer ce tuner pour DVB-T"
 
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr "Sélectionnez ‘bande’ si vous utilisez un LNB ‘universel’, sinon consultez la fiche technique de votre LNB."
@@ -8310,8 +8362,8 @@ msgstr "Basculer vers sous-service précédent"
 msgid "Switch to radio mode"
 msgstr "Basculer en mode radio"
 
-msgid "Switchable tuner types:"
-msgstr "Types de tuner permutables:"
+msgid "Switchable tuner types"
+msgstr "Types de tuner permutables"
 
 msgid "Switzerland"
 msgstr "Suisse"
@@ -8351,7 +8403,7 @@ msgstr ""
 "\n"
 "Traducteur: Pr2\n"
 "Support: www.openpli.org\n"
-"Dernière MAJ: 25-01-2019"
+"Dernière MAJ: 06-03-2019"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "Fichier TS trop grand pour le niveau 1 ISO9660!"
@@ -8627,8 +8679,8 @@ msgstr ""
 "Pour les utilisateurs finaux ceci n'est pas important.\n"
 "SVP, ne paniquez pas si vous voyez des valeurs que vous pensez étranges!"
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
-msgstr "Ceci est un tuner de type multiple. Les options disponibles dépendent du matériel. Câble et terrestre ne peuvent pas être configuré en même temps. Si vous voulez utilisez câble + satelltie ou terreste + satellite, configurez d’abord câble/terreste et puis sauvegardez le. Ré-ouvrez et configurez à nouveau en tant que satellite."
+msgid "This is a multitype tuner. Available options depend on the hardware."
+msgstr "Ceci est un tuner multi type. Les options disponibles diffèrent en fonction du matériel."
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Ceci est l’ordre dans laquelle les commandes DiSEqC sont envoyées vers un système aérien. L’ordre doit correspondre exactement avec l’ordre des périphériques physiques le long du câble (en démarrant du récepteur vers la fin)."
@@ -9091,14 +9143,13 @@ msgid "Turks and Caicos Islands"
 msgstr "Îles Turques et Caïques"
 
 msgid "Turn on the power LED during deep standby."
-msgstr "Allumez la LED « power » pendant la veille profonde."
+msgstr "Allumer la LED d’alimentation pendant la veille profonde."
 
 msgid "Turn on the power LED during standby."
-msgstr "Allumer la LED power pendant le standby."
+msgstr "Allumer la LED d’alimentation pendant la veille."
 
-#, fuzzy
 msgid "Turn on the power LED."
-msgstr "Allumer la LED power pendant le standby."
+msgstr "Allumez la LED d'alimentation."
 
 msgid "Turning step size"
 msgstr "Taille du pas de rotation"
@@ -10629,9 +10680,6 @@ msgstr "Divertissement (6-14 ans)"
 msgid "epg cache backup"
 msgstr "sauvegarde du cache de l'epg"
 
-msgid "equal to"
-msgstr "Égale au"
-
 msgid "equestrian"
 msgstr "Équestre"
 
@@ -10844,9 +10892,6 @@ msgstr "Verrouillé"
 
 msgid "long"
 msgstr "long"
-
-msgid "loopthrough to"
-msgstr "Rebouclé par"
 
 msgid "magazines/reports/documentary"
 msgstr "Magazines/Rapports/Documentaires"
@@ -11150,9 +11195,6 @@ msgstr "Etat de la recherche"
 
 msgid "science fiction/fantasy/horror"
 msgstr "Science-fiction/Fantastique/Horreur"
-
-msgid "second cable of motorized LNB"
-msgstr "Deuxième câble du LNB motorisé"
 
 msgid "seconds"
 msgstr "Secondes"

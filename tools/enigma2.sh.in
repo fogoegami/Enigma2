@@ -4,21 +4,6 @@ prefix=@prefix@
 exec_prefix=@exec_prefix@
 datarootdir=@datarootdir@
 
-if [ -x @bindir@/showiframe ]; then
-	if [ -f @sysconfdir@/enigma2/backdrop.mvi ]; then
-		@bindir@/showiframe @sysconfdir@/enigma2/backdrop.mvi
-	elif [ -f @sysconfdir@/enigma2/bootlogo.mvi ]; then
-		@bindir@/showiframe @sysconfdir@/enigma2/bootlogo.mvi
-	elif [ -f @datadir@/bootlogo.mvi ]; then
-		@bindir@/showiframe @datadir@/bootlogo.mvi
-	fi
-fi
-
-# hook to execute scripts always before enigma2 start
-if [ -x @bindir@/enigma2_pre_start.sh ]; then
-	@bindir@/enigma2_pre_start.sh
-fi
-
 if [ -d /home/root ]; then
 	export HOME=/home/root
 	cd
@@ -35,13 +20,33 @@ LIBS=@libdir@/libopen.so.0.0.0
 
 # enigma main loop
 while : ; do
+	# show bootlogo on enigma2 start
+	if [ -x @bindir@/showiframe ]; then
+		if [ -f @sysconfdir@/enigma2/backdrop.mvi ]; then
+			@bindir@/showiframe @sysconfdir@/enigma2/backdrop.mvi
+		elif [ -f @sysconfdir@/enigma2/bootlogo.mvi ]; then
+			@bindir@/showiframe @sysconfdir@/enigma2/bootlogo.mvi
+		elif [ -f @datadir@/bootlogo.mvi ]; then
+			@bindir@/showiframe @datadir@/bootlogo.mvi
+		fi
+	fi
+
+	# hook to execute scripts always before enigma2 start
+	if [ -x @bindir@/enigma2_pre_start.sh ]; then
+		@bindir@/enigma2_pre_start.sh
+	fi
 
 	# start enigma
 	sync
-	if [ $ENIGMA_DEBUG_LVL -lt 4 ]; then
+	if [ $DEBUG_LVL -lt 4 ]; then
 		LD_PRELOAD=$LIBS ENIGMA_DEBUG_LVL=$DEBUG_LVL @bindir@/enigma2
 	else
-		LD_PRELOAD=$LIBS ENIGMA_DEBUG_LVL=$DEBUG_LVL @bindir@/enigma2 > /home/root/enigma.log 2&>1
+		# remove old logfiles
+		keep=5;
+		for file in `ls -t /home/root/enigma.*.debuglog`; do let "keep--"; if [ "$keep" -lt "0" ]; then rm $file; fi; done
+		# todays log file
+		file="/home/root/enigma.$(date +%Y%m%d).debuglog"
+		LD_PRELOAD=$LIBS ENIGMA_DEBUG_LVL=$DEBUG_LVL @bindir@/enigma2 >> $file 2>&1
 	fi
 
 
@@ -112,7 +117,7 @@ while : ; do
 			/etc/init.d/dbus-1 reload
 			/etc/init.d/networking start
 			/etc/init.d/avahi-daemon start
-			touch /etc/.doAutoinstall
+			[ ! -f /home/root/autoinstall.log ] && touch /etc/.doAutoinstall
 			break
 			;;
 		*)

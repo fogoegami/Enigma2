@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-05 11:25+0330\n"
+"POT-Creation-Date: 2019-03-16 11:34+0330\n"
 "PO-Revision-Date: 2018-12-17 02:51+0200\n"
 "Last-Translator: Hazem <moustafagamal@hotmail.com>\n"
 "Language-Team: Arabic <moustafagamal@hotmail.com>\n"
@@ -1991,6 +1991,22 @@ msgstr "وضع الإعداد %s"
 msgid "Configuration..."
 msgstr "الإعداد..."
 
+#, fuzzy
+msgid "Configure ATSC"
+msgstr "جاري الإعداد"
+
+#, fuzzy
+msgid "Configure DVB-C"
+msgstr "جاري الإعداد"
+
+#, fuzzy
+msgid "Configure DVB-S"
+msgstr "جاري الإعداد"
+
+#, fuzzy
+msgid "Configure DVB-T"
+msgstr "جاري الإعداد"
+
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr ""
 
@@ -3330,6 +3346,10 @@ msgstr "إنجليزي"
 msgid "Enigma (re)starts: %d\n"
 msgstr ""
 
+#, python-format
+msgid "Enigma debug level: %d\n"
+msgstr ""
+
 #
 msgid "Enigma version: "
 msgstr "إصدار الانيجما: "
@@ -4284,6 +4304,12 @@ msgid "Hotkey Setup"
 msgstr "إعدادات وظائف الأزرار"
 
 msgid "Hotkey zap"
+msgstr ""
+
+msgid "Hotswitchable"
+msgstr ""
+
+msgid "Hotswitchable tuner"
 msgstr ""
 
 msgid "How many minutes do you want add to the recording?"
@@ -6520,6 +6546,19 @@ msgstr "جارى التجهيز ... رجاء الانتظار"
 msgid "Press '0' to toggle PiP mode"
 msgstr ""
 
+#, fuzzy
+msgid "Press 'OK' for attach function."
+msgstr "أضغط موافق لتبدل الأختيار"
+
+msgid "Press 'OK' for attach next function or 'CH+/-' for edit attached."
+msgstr ""
+
+msgid "Press 'OK' for remove item or 'CH+/-' for toggle to list of features."
+msgstr ""
+
+msgid "Press 'OK' for remove item or < > for change order or 'CH+/-' for toggle to list of features."
+msgstr ""
+
 msgid "Press INFO on your remote control for additional information."
 msgstr ""
 
@@ -6570,6 +6609,12 @@ msgid "Press OK to toggle the selection."
 msgstr "أضغط موافق لتبدل الأختيار"
 
 msgid "Press OK, save and exit..."
+msgstr ""
+
+msgid "Press or select button and then press 'OK' for attach function."
+msgstr ""
+
+msgid "Press or select button and then press 'OK' for attach next function or edit attached."
 msgstr ""
 
 msgid "Press yellow to set this interface as default interface."
@@ -6824,9 +6869,6 @@ msgstr "معدل التحديث"
 msgid "Refresh rate selection."
 msgstr "اختيار معدل التحديث."
 
-msgid "Refreshing image list - Please wait..."
-msgstr "جاري تحديث قائمة الصور- رجاء الإنتظار..."
-
 #, fuzzy
 msgid "Refusing to move to the same directory"
 msgstr "من فضلك أدخل أسم الدليل الجديد"
@@ -7011,6 +7053,10 @@ msgid "Restart enigma"
 msgstr "اعادة تشغيل انيجما"
 
 msgid "Restart enigma in debug mode"
+msgstr "اعادة تشغيل انيجما في وضع debug"
+
+#, fuzzy
+msgid "Restart enigma in standard mode"
 msgstr "اعادة تشغيل انيجما في وضع debug"
 
 msgid "Restart network"
@@ -7456,6 +7502,18 @@ msgid "Select 'A' or 'B' if your aerial system requires this, otherwise select '
 msgstr ""
 
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for ATSC"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
 msgstr ""
 
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
@@ -8965,8 +9023,7 @@ msgstr "الانتقال الى الفرعيه السابقه"
 msgid "Switch to radio mode"
 msgstr "انتقال إلى وضع الراديو"
 
-#
-msgid "Switchable tuner types:"
+msgid "Switchable tuner types"
 msgstr ""
 
 msgid "Switzerland"
@@ -9285,7 +9342,7 @@ msgid ""
 "Don't panic please when you see values being displayed that you think look suspicious!"
 msgstr ""
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
+msgid "This is a multitype tuner. Available options depend on the hardware."
 msgstr ""
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
@@ -11390,9 +11447,6 @@ msgstr ""
 msgid "epg cache backup"
 msgstr ""
 
-msgid "equal to"
-msgstr "مساوى لـــ"
-
 msgid "equestrian"
 msgstr ""
 
@@ -11620,10 +11674,6 @@ msgstr "مقفل"
 
 msgid "long"
 msgstr "مطول"
-
-#
-msgid "loopthrough to"
-msgstr ""
 
 msgid "magazines/reports/documentary"
 msgstr ""
@@ -11942,10 +11992,6 @@ msgid "scan state"
 msgstr "حاله البحث"
 
 msgid "science fiction/fantasy/horror"
-msgstr ""
-
-#
-msgid "second cable of motorized LNB"
 msgstr ""
 
 msgid "seconds"

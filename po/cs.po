@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-05 11:25+0330\n"
+"POT-Creation-Date: 2019-03-16 11:34+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: ims <ims21@users.sourceforge.net>\n"
 "Language-Team: PLi <ims@openpli.org>\n"
@@ -11,8 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #
 msgid ""
@@ -681,9 +681,8 @@ msgid "<Current movielist location>"
 msgstr "<současný seznam souborů>"
 
 #
-#, fuzzy
 msgid "<Default Skin>"
-msgstr "Standardní nastavení"
+msgstr "<Defaultní Skin>"
 
 #
 msgid "<Default movie location>"
@@ -2118,6 +2117,21 @@ msgstr "Konfigurační mód:  %s"
 #
 msgid "Configuration..."
 msgstr "Nastavení..."
+
+msgid "Configure ATSC"
+msgstr "Konfigurovat ATSC"
+
+#
+msgid "Configure DVB-C"
+msgstr "Konfigurovat DVB-C"
+
+#
+msgid "Configure DVB-S"
+msgstr "Konfigurovat DVB-S"
+
+#
+msgid "Configure DVB-T"
+msgstr "Konfigurovat DVB-T"
 
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr "Nastavení zpoždění pro lepší synchronizaci externích titulků."
@@ -3597,6 +3611,10 @@ msgstr "Anglicky"
 msgid "Enigma (re)starts: %d\n"
 msgstr "Enigma (re)startována: %d\n"
 
+#, python-format
+msgid "Enigma debug level: %d\n"
+msgstr ""
+
 msgid "Enigma version: "
 msgstr "Enigma verze: "
 
@@ -4615,6 +4633,14 @@ msgid "Hotkey Setup"
 msgstr "Nastavení Hotkey"
 
 msgid "Hotkey zap"
+msgstr ""
+
+#
+msgid "Hotswitchable"
+msgstr ""
+
+#
+msgid "Hotswitchable tuner"
 msgstr ""
 
 msgid "How many minutes do you want add to the recording?"
@@ -6992,6 +7018,18 @@ msgstr "Připravuji... Prosím čekejte"
 msgid "Press '0' to toggle PiP mode"
 msgstr "K přepnutí PiP módu stiskněte '0'"
 
+msgid "Press 'OK' for attach function."
+msgstr "Stiskněte OK pro připojení funkce."
+
+msgid "Press 'OK' for attach next function or 'CH+/-' for edit attached."
+msgstr "Stiskněte OK pro připojení další funkce nebo CH+/- pro úpravu připojených."
+
+msgid "Press 'OK' for remove item or 'CH+/-' for toggle to list of features."
+msgstr "Stiskněte OK pro odstranění položky nebo CH+/- k přepnutí do seznamu funkcí."
+
+msgid "Press 'OK' for remove item or < > for change order or 'CH+/-' for toggle to list of features."
+msgstr "OK pro odstranění nebo < > pro změnu pořadí nebo CH+/- pro přepnutí do seznamu funkcí."
+
 msgid "Press INFO on your remote control for additional information."
 msgstr "Stiskněte INFO na dálkovém ovladači pro další informace."
 
@@ -7053,6 +7091,12 @@ msgstr "Stiskněte OK pro změnu označení."
 
 msgid "Press OK, save and exit..."
 msgstr "Stisknout OK, uložit a zavřít..."
+
+msgid "Press or select button and then press 'OK' for attach function."
+msgstr "Stiskněte nebo zvolte tlačítko a stiskněte OK pro připojení funkce."
+
+msgid "Press or select button and then press 'OK' for attach next function or edit attached."
+msgstr "Stiskněte nebo zvolte tlačítko a stiskněte OK pro připojení další funkce."
 
 #
 msgid "Press yellow to set this interface as default interface."
@@ -7342,9 +7386,6 @@ msgstr "Obnovovací frekvence"
 msgid "Refresh rate selection."
 msgstr "Volba obnovovací rychlosti."
 
-msgid "Refreshing image list - Please wait..."
-msgstr "Obnovení seznamu image - čekejte, prosím ..."
-
 #
 msgid "Refusing to move to the same directory"
 msgstr "Odmítnutí přesunu do stejného adresáře"
@@ -7553,6 +7594,10 @@ msgid "Restart enigma in debug mode"
 msgstr "Restart enigma v debug módu"
 
 #
+msgid "Restart enigma in standard mode"
+msgstr "Restart enigma ve standardním módu"
+
+#
 msgid "Restart network"
 msgstr "Restartovat síť"
 
@@ -7689,7 +7734,7 @@ msgid "S-Video"
 msgstr "S-Video"
 
 msgid "SCPC optimized search range"
-msgstr ""
+msgstr "SCPC optimalizovaný rozsah vyhledávání"
 
 msgid "SCR (Unicable/JESS)"
 msgstr ""
@@ -8016,6 +8061,18 @@ msgstr "Zvolte 'A' nebo 'B', pokud to Váš anténní systém vyžaduje, jinak z
 
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr "Jestliže tuner bude připojen k SRC zařízení (Unicable/JESS), nastavte 'FCB SRC'. Pro všechna ostatní nastavení zvolte 'FBC automatic'."
+
+msgid "Select 'Yes' when you want to configure this tuner for ATSC"
+msgstr "Chcete-li konfigurovat tento tuner pro ATSC, zvolte 'Ano'"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr "Chcete-li konfigurovat tento tuner pro DVB-C, zvolte 'Ano'"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr "Chcete-li konfigurovat tento tuner pro DVB-S, zvolte 'Ano'"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr "Chcete-li konfigurovat tento tuner pro DVB-T, zvolte 'Ano'"
 
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr "Zvolte 'Pásmo', pokud používáte 'Univerzální LNB', jinak se podívejte do specifikace LNB."
@@ -9589,8 +9646,8 @@ msgid "Switch to radio mode"
 msgstr "Přepnout do Radio módu"
 
 #
-msgid "Switchable tuner types:"
-msgstr "Přepínatelné typy tunerů:"
+msgid "Switchable tuner types"
+msgstr "Přepínatelný typ tuneru"
 
 msgid "Switzerland"
 msgstr "Švýcarsko"
@@ -9627,7 +9684,7 @@ msgstr ""
 "Pro případné korekce můžete kontaktovat autora\n"
 "na výše uvedené adrese.\n"
 "\n"
-"®25.1.2019"
+"®11.3.2019"
 
 #
 msgid "TS file is too large for ISO9660 level 1!"
@@ -9926,8 +9983,8 @@ msgstr ""
 "Pro běžné uživatele nejsou důležité.\n"
 "Nepanikařte, jestliže uvidíte nějaké podezřelé údaje!"
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
-msgstr "Jedná se o multi-typ tuner. Dostupné možnosti závisí na hardwaru. Kabelové a pozemní signály nelze konfigurovat současně. Chcete-li použít jako kabel + satelit nebo pozemní + satelit, nejprve nakonfigurujte kabel/terestriální a poté uložte. Znovu otevřete a nastavte znovu jako satelit."
+msgid "This is a multitype tuner. Available options depend on the hardware."
+msgstr "Jde o multitype tuner. Dostupné možnosti závisí na hardwaru."
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Jde o pořadí ve kterém jsou příkazy DiSEqC odeslány do anténního systému. Pořadí musí přesně odpovídat pořadí fyzických zařízení na signálovém kabelu (začínající od konce přijímače)."
@@ -10459,9 +10516,8 @@ msgstr "Zapne LED napájení při hlubokém spánku."
 msgid "Turn on the power LED during standby."
 msgstr "Zapne LED napájení při standby."
 
-#, fuzzy
 msgid "Turn on the power LED."
-msgstr "Zapne LED napájení při standby."
+msgstr "Zapne LED napájení."
 
 msgid "Turning step size"
 msgstr "Velikost kroku  ladění"
@@ -12187,10 +12243,6 @@ msgstr "zábavný (6-14 let)"
 msgid "epg cache backup"
 msgstr "Zálohovat EPG cache"
 
-#
-msgid "equal to"
-msgstr "stejné s"
-
 msgid "equestrian"
 msgstr "jezdectví"
 
@@ -12437,10 +12489,6 @@ msgstr "zamknuto"
 
 msgid "long"
 msgstr ""
-
-#
-msgid "loopthrough to"
-msgstr "propojeno s"
 
 msgid "magazines/reports/documentary"
 msgstr "magazíny/reportáže/dokumentární"
@@ -12802,10 +12850,6 @@ msgstr "stav prohledávání"
 
 msgid "science fiction/fantasy/horror"
 msgstr "scifi/fantastický/horor"
-
-#
-msgid "second cable of motorized LNB"
-msgstr "druhý kabel z natáčeného LNB"
 
 #
 msgid "seconds"

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-05 11:25+0330\n"
-"PO-Revision-Date: 2019-01-26 20:42+0100\n"
+"POT-Creation-Date: 2019-03-16 11:34+0330\n"
+"PO-Revision-Date: 2019-02-27 13:02+0100\n"
 "Last-Translator: mcfly82\n"
 "Language-Team: mcfly82 & wysless\n"
 "Language: hu_HU\n"
@@ -609,9 +609,8 @@ msgstr ": 0000 - alapértelmezett (kikapcsolva)"
 msgid "<Current movielist location>"
 msgstr "<Filmlista aktuális tárhelye>"
 
-#, fuzzy
 msgid "<Default Skin>"
-msgstr "Alapértelmezett beállítások"
+msgstr "<Alapértelmezett Kinézet>"
 
 msgid "<Default movie location>"
 msgstr "<Felvételek tárhelye>"
@@ -1855,6 +1854,19 @@ msgstr "Konfigurációs mód: %s"
 
 msgid "Configuration..."
 msgstr "Beállítások..."
+
+#, fuzzy
+msgid "Configure ATSC"
+msgstr "DVB-ATSC konfigurálása"
+
+msgid "Configure DVB-C"
+msgstr "DVB-C konfigurálása"
+
+msgid "Configure DVB-S"
+msgstr "DVB-S konfigurálása"
+
+msgid "Configure DVB-T"
+msgstr "DVB-T konfigurálása"
 
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr "Extra késleltetés beállítása külső feliratfájl esetén, szinkronizáció hibák korrigálásához."
@@ -3133,6 +3145,10 @@ msgstr "Angol"
 msgid "Enigma (re)starts: %d\n"
 msgstr "Kezelőfelület (újra)indítás: %d\n"
 
+#, python-format
+msgid "Enigma debug level: %d\n"
+msgstr ""
+
 msgid "Enigma version: "
 msgstr "Kezelőfelület verzió: "
 
@@ -4046,6 +4062,12 @@ msgstr "Hotkey beállítás"
 
 msgid "Hotkey zap"
 msgstr "Hotkey csatornaváltás"
+
+msgid "Hotswitchable"
+msgstr "Működés közben cserélhető"
+
+msgid "Hotswitchable tuner"
+msgstr "Működés közben cserélhető tuner"
 
 msgid "How many minutes do you want add to the recording?"
 msgstr "Hány percet szeretne felvenni?"
@@ -6001,7 +6023,7 @@ msgid "Positioner setup log"
 msgstr "Forgatómotor beállítás naplózás"
 
 msgid "Power LED"
-msgstr ""
+msgstr "LED jelző fény"
 
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr "Energiagazdálkodás. További információkért olvassa el készüléke használati útmutatóját."
@@ -6075,6 +6097,19 @@ msgstr "Előkészítés... Kérem, várjon"
 msgid "Press '0' to toggle PiP mode"
 msgstr "Nyomja meg a '0'-t a Kép-a-Képben mód bekapcsolásához"
 
+#, fuzzy
+msgid "Press 'OK' for attach function."
+msgstr "Nyomja le az OK gombot a kijelölés változtatásához."
+
+msgid "Press 'OK' for attach next function or 'CH+/-' for edit attached."
+msgstr ""
+
+msgid "Press 'OK' for remove item or 'CH+/-' for toggle to list of features."
+msgstr ""
+
+msgid "Press 'OK' for remove item or < > for change order or 'CH+/-' for toggle to list of features."
+msgstr ""
+
 msgid "Press INFO on your remote control for additional information."
 msgstr "Nyomja le az INFO gombot a távírányítón a részletekért."
 
@@ -6123,6 +6158,12 @@ msgstr "Nyomja le az OK gombot a kijelölés változtatásához."
 
 msgid "Press OK, save and exit..."
 msgstr "Nyomja le az OK gombot a mentéshez és kilépéshez..."
+
+msgid "Press or select button and then press 'OK' for attach function."
+msgstr ""
+
+msgid "Press or select button and then press 'OK' for attach next function or edit attached."
+msgstr ""
 
 msgid "Press yellow to set this interface as default interface."
 msgstr "Nyomja le a sárga gombot, hogy ezt az interfészt jelölje alapértelmezettnek."
@@ -6368,9 +6409,6 @@ msgstr "Képernyőfrissítés"
 msgid "Refresh rate selection."
 msgstr "Frissítés kiválasztása."
 
-msgid "Refreshing image list - Please wait..."
-msgstr "Image lista frissítése - Kérem várjon..."
-
 msgid "Refusing to move to the same directory"
 msgstr "Ugyanabba a mappába való áthelyezés elutasítása"
 
@@ -6543,6 +6581,10 @@ msgid "Restart enigma"
 msgstr "Kezelőfelület újraindítása"
 
 msgid "Restart enigma in debug mode"
+msgstr "Kezelőfelület újraindítása hibakeresési módban"
+
+#, fuzzy
+msgid "Restart enigma in standard mode"
 msgstr "Kezelőfelület újraindítása hibakeresési módban"
 
 msgid "Restart network"
@@ -6942,6 +6984,19 @@ msgstr "Válassza az 'A'-t vagy 'B'-t, amennyiben a földfelszíni rendszere meg
 
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr "Válassza az 'Unicable'-t, ha az ön tunere Unicable eszközhöz csatlakozik. Minden egyéb összeállítás esetén válassza az 'FCB automata'-t."
+
+#, fuzzy
+msgid "Select 'Yes' when you want to configure this tuner for ATSC"
+msgstr "Válassza az 'Igen'-t, amennyiben ezt a tunert DVB-ATSC vételhez szeretné használni."
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr "Válassza az 'Igen'-t, amennyiben ezt a tunert DVB-C vételhez szeretné használni."
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr "Válassza az 'Igen'-t, amennyiben ezt a tunert DVB-S vételhez szeretné használni."
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr "Válassza az 'Igen'-t, amennyiben ezt a tunert DVB-T vételhez szeretné használni."
 
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr "Válassza a 'sáv'-ot, amennyiben univerzális fejet használ, egyéb esetekben nézze meg a fej technikai adatlapját."
@@ -8310,8 +8365,8 @@ msgstr "Ugrás az előző alcsatornára"
 msgid "Switch to radio mode"
 msgstr "Váltás rádió módba"
 
-msgid "Switchable tuner types:"
-msgstr "Cserélhető tuner típusok:"
+msgid "Switchable tuner types"
+msgstr "Cserélhető tuner típusok"
 
 msgid "Switzerland"
 msgstr "Svájc"
@@ -8345,7 +8400,7 @@ msgid "TRANSLATOR_INFO"
 msgstr ""
 "A fordítást készítette:\n"
 "mcfly82 & wysless\n"
-"Utolsó fordítás időpontja: 2019.01.26.\n"
+"Utolsó fordítás időpontja: 2019.02.27.\n"
 "Eredeti fordítás: MediaVox-Team, Robertut\n"
 "A magyar fordítás az OpenPLi projekthez készült.\n"
 "További információ: http://openpli.org"
@@ -8624,8 +8679,8 @@ msgstr ""
 "Átlagos felhasználóknak ez nem lényeges.\n"
 "Ne aggódjon, ha valamilyen érték ön szerint nem megfelelő!"
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
-msgstr "Ez egy vegyes (kombinált) tuner. A beállítási lehetőségek hardverfüggőek. A kábeles és a földfelszíni vétel nem lehetséges egyszerre. Amennyiben kábeles + műholdasként, vagy földfelszíni + műholdasként szeretné használni, előbb állítsa be a kábel/földfelszíni vételt, és mentse, majd újra belépve állítsa be a műholdas vételt."
+msgid "This is a multitype tuner. Available options depend on the hardware."
+msgstr "Ez egy multi-típusú tuner. Az elérhető opciók a hardvertől függenek."
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Ez a földfelszíni rendszerre küldött DiSEqC parancsok sorrendje. A sorrendnek teljesen meg kell egyeznie a jelkábelen található fizikai eszközök sorrendjével (a vevőkészüléktől indulva)."
@@ -9093,7 +9148,6 @@ msgstr "A LED jelző fény bekapcsolása készenléti módban."
 msgid "Turn on the power LED during standby."
 msgstr "A LED jelző fény bekapcsolása készenléti módban."
 
-#, fuzzy
 msgid "Turn on the power LED."
 msgstr "A LED jelző fény bekapcsolása készenléti módban."
 
@@ -10621,9 +10675,6 @@ msgstr "szórakoztató (6-14 éves korosztály"
 msgid "epg cache backup"
 msgstr "EPG cache biztonsági mentése"
 
-msgid "equal to"
-msgstr "egyenlő"
-
 msgid "equestrian"
 msgstr "lovaglás"
 
@@ -10836,9 +10887,6 @@ msgstr "hangolva"
 
 msgid "long"
 msgstr "hosszú"
-
-msgid "loopthrough to"
-msgstr "átfűzés ide"
 
 msgid "magazines/reports/documentary"
 msgstr "magazin/riport/dokumentum"
@@ -11142,9 +11190,6 @@ msgstr "keresési állapot"
 
 msgid "science fiction/fantasy/horror"
 msgstr "sci-fi/fantasy/horror"
-
-msgid "second cable of motorized LNB"
-msgstr "forgatómotoros fej második kábele"
 
 msgid "seconds"
 msgstr "másodperc"

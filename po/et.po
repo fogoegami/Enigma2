@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Openpli\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-05 11:25+0330\n"
+"POT-Creation-Date: 2019-03-16 11:34+0330\n"
 "PO-Revision-Date: 2018-09-05 01:25+0300\n"
 "Last-Translator: \n"
 "Language-Team: Raivo, Henkka, eesatfan, rimas, zeros\\n faas, sateks, valgekotkas, tigekala, rootsikunn\\n kain, i70, mustkass, pelmeen, Scott\\n <digi-tv.ee>\n"
@@ -1858,6 +1858,22 @@ msgstr "Häälestamine: %s"
 msgid "Configuration..."
 msgstr "Seadistamine..."
 
+#, fuzzy
+msgid "Configure ATSC"
+msgstr "Seadistatakse"
+
+#, fuzzy
+msgid "Configure DVB-C"
+msgstr "Seadistatakse"
+
+#, fuzzy
+msgid "Configure DVB-S"
+msgstr "Seadistatakse"
+
+#, fuzzy
+msgid "Configure DVB-T"
+msgstr "Seadistatakse"
+
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr "Määra lisaviide väliste subtiitrite ajastamise parendamiseks. "
 
@@ -3146,6 +3162,10 @@ msgstr "Inglise"
 msgid "Enigma (re)starts: %d\n"
 msgstr "Enigma (taas)käivitamisi: %d\n"
 
+#, python-format
+msgid "Enigma debug level: %d\n"
+msgstr ""
+
 msgid "Enigma version: "
 msgstr "Enigma versioon: "
 
@@ -4063,6 +4083,14 @@ msgstr "Puldi nuppude seadistus"
 
 msgid "Hotkey zap"
 msgstr "Kiirnupu vahetus"
+
+#, fuzzy
+msgid "Hotswitchable"
+msgstr "ebastabiilne"
+
+#, fuzzy
+msgid "Hotswitchable tuner"
+msgstr "Vahetatavate tuunerite tüübid:"
 
 msgid "How many minutes do you want add to the recording?"
 msgstr "Mitu minutit soovid salvestusele lisada?"
@@ -6091,6 +6119,19 @@ msgstr "Ettevalmistus...Oota"
 msgid "Press '0' to toggle PiP mode"
 msgstr "PiP-režiimi vahetamiseks vajuta '0'."
 
+#, fuzzy
+msgid "Press 'OK' for attach function."
+msgstr "Valiku muutmiseks vajuta OK."
+
+msgid "Press 'OK' for attach next function or 'CH+/-' for edit attached."
+msgstr ""
+
+msgid "Press 'OK' for remove item or 'CH+/-' for toggle to list of features."
+msgstr ""
+
+msgid "Press 'OK' for remove item or < > for change order or 'CH+/-' for toggle to list of features."
+msgstr ""
+
 msgid "Press INFO on your remote control for additional information."
 msgstr "Vajuta INFO nuppu puldil lisainfo saamiseks."
 
@@ -6140,6 +6181,12 @@ msgstr "Valiku muutmiseks vajuta OK."
 
 msgid "Press OK, save and exit..."
 msgstr "Vajuta OK, salvesta ning välju..."
+
+msgid "Press or select button and then press 'OK' for attach function."
+msgstr ""
+
+msgid "Press or select button and then press 'OK' for attach next function or edit attached."
+msgstr ""
 
 msgid "Press yellow to set this interface as default interface."
 msgstr "Vajutage kollast nuppu, valimaks see liides vaikimisi liideseks."
@@ -6386,9 +6433,6 @@ msgstr "Värskendussagedus"
 msgid "Refresh rate selection."
 msgstr "Värskendussageduse valik."
 
-msgid "Refreshing image list - Please wait..."
-msgstr "Värskendan image nimekirja - palun oota..."
-
 msgid "Refusing to move to the same directory"
 msgstr "Keeldub liigutamast samasse kausta"
 
@@ -6564,6 +6608,10 @@ msgstr "Taaskäivita enigma2"
 
 #, fuzzy
 msgid "Restart enigma in debug mode"
+msgstr "Taaskäivita enigma2"
+
+#, fuzzy
+msgid "Restart enigma in standard mode"
 msgstr "Taaskäivita enigma2"
 
 msgid "Restart network"
@@ -6966,6 +7014,18 @@ msgstr "Vali 'A' või 'B', kui antennisüsteem seda nõuab, muudel juhtudel vali
 #, fuzzy
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr "Vali 'Unicable', kui see tuuner kasutab unicable seadet. Kõigil ülejäänud juhtudel vali 'FBC automaatne'."
+
+msgid "Select 'Yes' when you want to configure this tuner for ATSC"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr ""
 
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr "Universaalse LNB puhul vali 'sagedusala', muudel juhtudel vaata LNB käsiraamatust."
@@ -8345,7 +8405,8 @@ msgstr "Eelmine alamkanal"
 msgid "Switch to radio mode"
 msgstr "Lülita raadio peale"
 
-msgid "Switchable tuner types:"
+#, fuzzy
+msgid "Switchable tuner types"
 msgstr "Vahetatavate tuunerite tüübid:"
 
 msgid "Switzerland"
@@ -8661,8 +8722,8 @@ msgstr ""
 "Tavakasutajatele pole see oluline.\n"
 "Ära muretse kui näed väärtusi, mis tunduvad imelikena!"
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
-msgstr "See on mitmetüübiline tuuner. Võimalikud valikud sõltuvad vastuvõtjast. Kaabel ja maapealne ei saa olla kasutuses korraga. Kui tahad vastuvõtjat kasutada 'kaabel + satelliit' või 'maapealne + satelliit', seadista esmalt kaabel/maapealne ja salvesta. Ava uuesti ja seadista satelliit."
+msgid "This is a multitype tuner. Available options depend on the hardware."
+msgstr ""
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Selles järjekorras saadetakse DiSEqC käsud antennisüsteemile. See järjekord peab vastama täpselt järjekorrale, millega füüsilised seadmed on antennikaabli abil ühendatud (alates vastuvõtjast)."
@@ -10685,9 +10746,6 @@ msgstr "meelelahutus (6-14 aastastele)"
 msgid "epg cache backup"
 msgstr "epg vahemälu varukoopia"
 
-msgid "equal to"
-msgstr "on võrdne"
-
 msgid "equestrian"
 msgstr "ratsutamine"
 
@@ -10903,9 +10961,6 @@ msgstr "lukustatud"
 
 msgid "long"
 msgstr "pikalt"
-
-msgid "loopthrough to"
-msgstr "läbiviik kuni"
 
 msgid "magazines/reports/documentary"
 msgstr "ajakirjad/raportid/dokumentaalid"
@@ -11209,9 +11264,6 @@ msgstr "otsingu seis"
 
 msgid "science fiction/fantasy/horror"
 msgstr "ulme/fantaasia/õudus"
-
-msgid "second cable of motorized LNB"
-msgstr "Mootoriga antenni LNB teine kaabel"
 
 msgid "seconds"
 msgstr "sekundit"
