@@ -3694,7 +3694,7 @@ msgid "Last upgrade: "
 msgstr "Última actualización: "
 
 msgid "Latest Commits"
-msgstr "Equipo OpenBOX"
+msgstr "Alvaro"
 
 msgid "Latest upgrade log"
 msgstr "Último registro de actualización"
