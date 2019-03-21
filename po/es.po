@@ -6873,8 +6873,8 @@ msgstr "Cambiar al subservicio previo"
 msgid "Switch to radio mode"
 msgstr "Cambiar a modo radio"
 
-msgid "Switchable tuner types:"
-msgstr "Tipos de sintonizadores conmutables:"
+msgid "Switchable tuner types"
+msgstr "Tipos de sintonizadores conmutables"
 
 msgid "Switzerland"
 msgstr "Suiza"
@@ -7145,8 +7145,8 @@ msgstr ""
 "Para usuarios normales, no es relevante.\n"
 "¡No se preocupe si ve valores que se le parezcan sospechosos!"
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
-msgstr "Este es un sintonizador multitipo. Las opciones disponibles dependen del hardware. El cable y el terrestre no se pueden configurar al mismo tiempo. Si desea utilizar como cable + satélite o terrestre + satélite, configure primero el cable/terrestre y luego guárdelo. Vuelva a abrir y configurar de nuevo como satélite."
+msgid "This is a multitype tuner. Available options depend on the hardware."
+msgstr "Este es un sintonizador multitipo. Las opciones disponibles dependen del hardware."
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Este es el orden en que los comandos DiSEqC se envían al sistema aéreo. El orden debe corresponderse exactamente con el orden en que los dispositivos físicos están dispuestos a lo largo del cable de señal (comenzando desde el extremo del receptor)."
@@ -8686,9 +8686,6 @@ msgstr "entretenimiento (4-14 años)"
 msgid "epg cache backup"
 msgstr "copia de seguridad del caché EPG"
 
-msgid "equal to"
-msgstr "igual a"
-
 msgid "equestrian"
 msgstr "ecuestre"
 
@@ -8889,9 +8886,6 @@ msgstr "bloqueado"
 
 msgid "long"
 msgstr "largo"
-
-msgid "loopthrough to"
-msgstr "en bucle a"
 
 msgid "magazines/reports/documentary"
 msgstr "revista/informe/documental"
@@ -9195,9 +9189,6 @@ msgstr "estado del escaneo"
 
 msgid "science fiction/fantasy/horror"
 msgstr "ciencia ficción/fantasía/horror"
-
-msgid "second cable of motorized LNB"
-msgstr "segundo cable de LNB motorizado"
 
 msgid "seconds"
 msgstr "segundos"
@@ -14522,3 +14513,24 @@ msgstr "solo en complementos"
 
 msgid "Do you really want to stop current event and delete timer %s?"
 msgstr "¿Realmente quieres detener el evento actual y borrar el temporizador %s?"
+
+msgid "Hotswitchable"
+msgstr "Conmutable"
+
+msgid "Hotswitchable tuner"
+msgstr "Sintonizador Conmutable"
+
+msgid "Invalid reason"
+msgstr "Razón inválida"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-ATSC"
+msgstr "Seleccione 'Sí' cuando desee configurar este sintonizador para DVB-ATSC"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr "Seleccione 'Sí' cuando desee configurar este sintonizador para DVB-C"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr "Seleccione 'Sí' cuando desee configurar este sintonizador para DVB-S"
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr "Seleccione 'Sí' cuando desee configurar este sintonizador para DVB-T"
