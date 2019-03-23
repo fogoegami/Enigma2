@@ -5382,7 +5382,7 @@ msgid "Resolution"
 msgstr "Resolución"
 
 msgid "Restart"
-msgstr "Reinicio"
+msgstr "Reiniciar"
 
 msgid "Restart GUI now?"
 msgstr "¿Reiniciar GUI?"
