@@ -14537,3 +14537,15 @@ msgstr "Seleccione 'Sí' cuando desee configurar este sintonizador para DVB-T"
 
 msgid "A file from media is in use!"
 msgstr "Un archivo desde los medios está en uso!"
+
+msgid "Activated mode"
+msgstr "Modo activado"
+
+msgid "Activated modes"
+msgstr "Modos activados"
+
+msgid "MultiType"
+msgstr "MultiTipo"
+
+msgid "Combined"
+msgstr "Combinado"
