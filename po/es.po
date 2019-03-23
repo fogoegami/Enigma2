@@ -8809,8 +8809,8 @@ msgstr "anchura"
 msgid "help..."
 msgstr "ayuda…"
 
-msgid "hide"
-msgstr "ocultar"
+msgid "Hide"
+msgstr "Ocultar"
 
 msgid "horizontal"
 msgstr "horizontal"
@@ -9217,8 +9217,8 @@ msgstr "servicio sin emisión"
 msgid "set as startup service"
 msgstr "establecer como servicio de inicio"
 
-msgid "show"
-msgstr "mostrar"
+msgid "Show"
+msgstr "Mostrar"
 
 msgid "show DVD main menu"
 msgstr "mostrar menú principal del DVD"
