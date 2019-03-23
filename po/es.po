@@ -4328,7 +4328,7 @@ msgid "No standby"
 msgstr "Sin espera"
 
 msgid "No stream clients"
-msgstr "Sin clientes de stream"
+msgstr "No hay clientes en streaming"
 
 msgid "No suitable sat tuner found!"
 msgstr "No se encuentra un sintonizador sat adecuado!"
@@ -5397,7 +5397,7 @@ msgid "Restart enigma"
 msgstr "Reiniciar Enigma2"
 
 msgid "Restart enigma in debug mode"
-msgstr "Reiniciar Enigma2 en modo debug"
+msgstr "Reiniciar Enigma2 Modo debug"
 
 msgid "Restart network"
 msgstr "Reiniciar red"
