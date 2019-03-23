@@ -5169,7 +5169,7 @@ msgid "Really upgrade your settop box and reboot now?"
 msgstr "¿Actualizar tu aparato y reiniciar ahora?"
 
 msgid "Reboot"
-msgstr "Reinicio"
+msgstr "Reiniciar"
 
 msgid "Recall to previous service"
 msgstr "Volver al canal anterior"
