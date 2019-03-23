@@ -5175,7 +5175,7 @@ msgid "Recall to previous service"
 msgstr "Volver al canal anterior"
 
 msgid "Record"
-msgstr "Grabación"
+msgstr "Grabación & Reproducción"
 
 msgid "Record time limited due to conflicting timer %s"
 msgstr "Tiempo de grabación limitado por conflicto de tmporizador %s"
@@ -5394,10 +5394,10 @@ msgid "Restart cardserver"
 msgstr "Reiniciar servidor de tarjetas"
 
 msgid "Restart enigma"
-msgstr "Reiniciar enigma"
+msgstr "Reiniciar Enigma2"
 
 msgid "Restart enigma in debug mode"
-msgstr "Reiniciar enigma2 en modo debug"
+msgstr "Reiniciar Enigma2 en modo debug"
 
 msgid "Restart network"
 msgstr "Reiniciar red"
@@ -9514,13 +9514,13 @@ msgid "zapped"
 msgstr "zapeado"
 
 msgid "Audio / Video"
-msgstr "Audio / Video"
+msgstr "Audio & Video"
 
 msgid "Automatic scan"
 msgstr "Escaneo Automático"
 
 msgid "Expert settings"
-msgstr "Configuración experta"
+msgstr "Configuración Experto"
 
 msgid "Factory reset"
 msgstr "Reset de fábrica"
@@ -9535,7 +9535,7 @@ msgid "Flash image"
 msgstr "Flashear imagen"
 
 msgid "GUI Settings"
-msgstr "Ajustes del GUI"
+msgstr "Ajustes interfaz usuario & EPG"
 
 msgid "Harddisk"
 msgstr "Disco Duro"
@@ -9556,13 +9556,13 @@ msgid "Multiboot"
 msgstr "Multiboot"
 
 msgid "Plugins"
-msgstr "Plugins"
+msgstr "Complementos"
 
 msgid "Service"
-msgstr "Servicio"
+msgstr "Canal"
 
 msgid "Service searching"
-msgstr "Búsqueda de servicios"
+msgstr "Búsqueda de canales"
 
 msgid "Shutdown"
 msgstr "Apagar"
@@ -9571,10 +9571,10 @@ msgid "Sleep timer"
 msgstr "Temporizador de descanso"
 
 msgid "SoftCam / CI"
-msgstr "SoftCam / CI"
+msgstr "SoftCam & CI"
 
 msgid "Standby / restart"
-msgstr "Reposo / reinicio"
+msgstr "Reposo & Reinicios"
 
 msgid "Tuner configuration"
 msgstr "Configuración del sintonizador"
