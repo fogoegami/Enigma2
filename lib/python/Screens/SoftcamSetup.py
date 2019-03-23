@@ -32,13 +32,12 @@ class SoftcamSetup(Screen, ConfigListScreen):
 		self.setTitle(self.setup_title)
 
 		self["actions"] = ActionMap(["OkCancelActions", "ColorActions", "CiSelectionActions"],
-                                    {
-                "cancel": self.cancel,
-                "green": self.save,
-                "red": self.cancel,
-                "blue": self.ppanelShortcut,
-                "yellow": self.cccamimport,
-                },-1)
+			{
+				"cancel": self.cancel,
+				"green": self.save,
+				"red": self.cancel,
+				"blue": self.ppanelShortcut,
+			},-1)
 
 		self.list = [ ]
 		ConfigListScreen.__init__(self, self.list, session = session, on_change = self.changedEntry)
@@ -70,10 +69,9 @@ class SoftcamSetup(Screen, ConfigListScreen):
 		if cardservers:
 			self.list.append(getConfigListEntry(_("Restart cardserver"), ConfigAction(self.restart, "c")))
 			self.list.append(getConfigListEntry(_("Restart both"), ConfigAction(self.restart, "sc")))
-			
+
 		self["key_red"] = StaticText(_("Cancel"))
 		self["key_green"] = StaticText(_("OK"))
-		self["key_yellow"] = StaticText(_("Import CCcam.cfg"))		
 		self["key_blue"] = StaticText()
 		self.onShown.append(self.blueButton)
 
@@ -91,18 +89,6 @@ class SoftcamSetup(Screen, ConfigListScreen):
 		(newEcmFound, ecmInfo) = self.ecminfo.getEcm()
 		if newEcmFound:
 			self["info"].setText("".join(ecmInfo))
-
-	def cccamimport(self):
-		if os.path.exists("/media/hdd/CCcam.cfg"):
-			os.system("cp -r /media/hdd/CCcam.cfg /etc/CCcam.cfg")
-			self.session.open(MessageBox, _('Importado archivo CCcam.cfg desde HDD'), MessageBox.TYPE_INFO)
-		elif os.path.exists("/media/usb/CCcam.cfg"):
-			os.system("cp -r /media/usb/CCcam.cfg /etc/CCcam.cfg")
-			self.session.open(MessageBox, _('Importado archivo CCcam.cfg desde USB'), MessageBox.TYPE_INFO)
-		else:
-			self.session.open(MessageBox, _('No se ha encontrado CCcam.cfg en unidades Montadas'), MessageBox.TYPE_INFO)  
-
-
 
 	def ppanelShortcut(self):
 		ppanelFileName = '/etc/ppanels/' + self.softcams.value + '.xml'
