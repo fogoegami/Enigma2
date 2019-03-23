@@ -1124,7 +1124,7 @@ msgid "Automatic"
 msgstr "Automático"
 
 msgid "Automatic Scan"
-msgstr "Escaneo automático"
+msgstr "Búsqueda Automática"
 
 msgid "Automatic bookmarks"
 msgstr "Marcadores automáticos"
@@ -3899,7 +3899,7 @@ msgid "Manual"
 msgstr "Manual"
 
 msgid "Manual Scan"
-msgstr "Escaneo manual"
+msgstr "Búsqueda Manual"
 
 msgid "Manual transponder"
 msgstr "Transpondedor manual"
@@ -6258,7 +6258,7 @@ msgid "Show info line"
 msgstr "Mostrar línea de info"
 
 msgid "Show latest commits"
-msgstr "Mostrar últimos compromisos"
+msgstr "Mostrar info desarrollador"
 
 msgid "Show latest upgrade log"
 msgstr "Mostrar registro de última actualización"
@@ -14549,3 +14549,6 @@ msgstr "MultiTipo"
 
 msgid "Combined"
 msgstr "Combinado"
+
+msgid "Retrieving image list - Please wait..."
+msgstr "Recuperando lista de imágenes - Por favor espere..."
