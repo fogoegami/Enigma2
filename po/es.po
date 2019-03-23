@@ -6171,7 +6171,7 @@ msgid "Setup"
 msgstr "Configuración"
 
 msgid "Setup hard disk"
-msgstr "Configuración de disco duro"
+msgstr "Configuración Disco Duro"
 
 msgid "Setup menu"
 msgstr "Menú de configuración"
@@ -14534,3 +14534,6 @@ msgstr "Seleccione 'Sí' cuando desee configurar este sintonizador para DVB-S"
 
 msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
 msgstr "Seleccione 'Sí' cuando desee configurar este sintonizador para DVB-T"
+
+msgid "A file from media is in use!"
+msgstr "Un archivo desde los medios está en uso!"
