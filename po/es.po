@@ -14552,3 +14552,25 @@ msgstr "Combinado"
 
 msgid "Retrieving image list - Please wait..."
 msgstr "Recuperando lista de imágenes - Por favor espere..."
+
+msgid "Select the manufacturer of your SCR device. If the manufacturer is not listed, set 'SCR' to 'user defined' and enter the device parameters manually according to its spec sheet."
+msgstr "Seleccione el fabricante de su dispositivo SCR. Si el fabricante no está en la lista, configure 'SCR' en 'definido por el usuario' e ingrese los parámetros del dispositivo manualmente de acuerdo con su hoja de especificaciones."
+
+msgid "Select the model number of your SCR device. If the model number is not listed, set 'SCR' to 'user defined' and enter the device parameters manually according to its spec sheet."
+msgstr "Seleccione el número de modelo de su dispositivo SCR. Si el número de modelo no está en la lista, configure 'SCR' en 'definido por el usuario' e ingrese los parámetros del dispositivo manualmente de acuerdo con su hoja de especificaciones."
+
+msgid "Only change this setting if you are using a SCR device that has been reprogrammed with a custom programmer. For further information check with the person that reprogrammed the device."
+msgstr "Solo cambie esta configuración si está utilizando un dispositivo SCR que ha sido reprogramado con un programador personalizado. Para más información, consulte con la persona que reprogramó el dispositivo."
+
+msgid "Select the User Band channel to be assigned to this tuner. This is an index into the table of frequencies the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
+msgstr "Seleccione el canal de la banda de usuario que se asignará a este sintonizador. Este es un índice en la tabla de frecuencias que usa el interruptor SCR o SCR LNB para pasar el transpondedor solicitado al sintonizador."
+
+msgid "Select the User Band to be assigned to this tuner. This is an index into the table of frequencies the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
+msgstr "Seleccione la banda de usuario que se asignará a este sintonizador. Este es un índice en la tabla de frecuencias que usa el interruptor SCR o SCR LNB para pasar el transpondedor solicitado al sintonizador."
+
+msgid "Select 'yes' if this tuner is connected to the SCR device through another tuner, otherwise select 'no'."
+msgstr "Seleccione 'sí' si este sintonizador está conectado al dispositivo SCR a través de otro sintonizador, de lo contrario, seleccione 'no'."
+
+msgid "Select the type of Single Cable Reception device you are using."
+msgstr "Seleccione el tipo de dispositivo de recepción de cable único que está utilizando."
+
