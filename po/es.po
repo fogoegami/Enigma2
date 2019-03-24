@@ -107,7 +107,7 @@ msgid ""
 "Scan for local extensions and install them."
 msgstr ""
 "\n"
-"Escanear extensiones locales e instalarlas."
+"Búsqueda extensiones locales e instalarlas."
 
 msgid ""
 "\n"
@@ -5651,23 +5651,23 @@ msgid "Scaling mode"
 msgstr "Modo de escalado"
 
 msgid "Scan"
-msgstr "Escanear"
+msgstr "Búsqueda"
 
 msgid "Scan "
-msgstr "Escanear "
+msgstr "Búsqueda "
 
 #. TRANSLATORS: option name, indicating which type of (DVB-C) modulation should be scanned. The modulation type is printed in '%s'. E.g.: 'Scan QAM16'
 #, python-format
 msgid "Scan %s"
-msgstr "Escanear %s"
+msgstr "Búsqueda %s"
 
 #. TRANSLATORS: option name, indicating which type of (DVB-C) band should be scanned. The name of the band is printed in '%s'. E.g.: 'Scan EU MID band'
 #, python-format
 msgid "Scan %s band"
-msgstr "Escanear banda %s"
+msgstr "Búsqueda banda %s"
 
 msgid "Scan additional SR"
-msgstr "Escanear SR adicional"
+msgstr "Búsqueda SR adicional"
 
 #, python-format
 msgid "Scan completed, %d channel found."
@@ -5679,7 +5679,7 @@ msgid "Scan failed!"
 msgstr "Busqueda fallida!"
 
 msgid "Scan files..."
-msgstr "Escanear ficheros…"
+msgstr "Búsqueda ficheros…"
 
 msgid "Scan options"
 msgstr "Opciones de Escaneo"
@@ -13985,10 +13985,10 @@ msgid "Enter IP to scan..."
 msgstr "Ingrese la IP a escanear..."
 
 msgid "Scan NFS share"
-msgstr "Escanear Contenido NFS"
+msgstr "Búsqueda Contenido NFS"
 
 msgid "Scan range"
-msgstr "Escanear Rango"
+msgstr "Búsqueda Rango"
 
 msgid "IP Address"
 msgstr "Dirección IP"
