@@ -37,7 +37,7 @@ msgid ""
 "Backup your receiver settings."
 msgstr ""
 "\n"
-"Guarda los ajustes de tu receptor."
+"Guarda los ajustes de su receptor."
 
 msgid ""
 "\n"
@@ -58,7 +58,7 @@ msgid ""
 "Manage extensions or plugins for your receiver"
 msgstr ""
 "\n"
-"Maneja extensiones o plugins para tu receptor"
+"Maneja extensiones o plugins para su receptor"
 
 msgid ""
 "\n"
@@ -72,7 +72,7 @@ msgid ""
 "Press OK on your remote control to continue."
 msgstr ""
 "\n"
-"Pulsa OK en tu mando para continuar."
+"Pulsa OK en su mando para continuar."
 
 msgid ""
 "\n"
@@ -86,7 +86,7 @@ msgid ""
 "Restore your backups by date."
 msgstr ""
 "\n"
-"Recuperar tu backup por fecha."
+"Recuperar su backup por fecha."
 
 msgid ""
 "\n"
@@ -599,7 +599,7 @@ msgid ""
 "Do you want to keep your version?"
 msgstr ""
 "Un fichero de configuración (%s) fue modificado desde la instalación.\n"
-"Quieres mantener tu versión?"
+"Quieres mantener su versión?"
 
 msgid ""
 "A finished record timer wants to set your\n"
@@ -797,10 +797,10 @@ msgid "Add/remove change timer for current event"
 msgstr "Añadir/eliminar el temporizador de cambio para el evento actual"
 
 msgid "Additional motor options allow you to enter details from your motor's spec sheet so enigma can work out how long it will take to move the dish from one satellite to another satellite."
-msgstr "Las opciones de motor adicional te permiten introducir detalles de especificaciones de tu motor para que enigma pueda trabajar mientras se mueve tu antena de un satélite a otro."
+msgstr "Las opciones de motor adicional te permiten introducir detalles de especificaciones de su motor para que enigma pueda trabajar mientras se mueve su antena de un satélite a otro."
 
 msgid "Additional motor options allow you to enter details from your motor's spec sheet so enigma can work out how long it will take to move to another satellite."
-msgstr "Las opciones de motor adicional te permiten introducir detalles de especificaciones de tu motor para que enigma pueda trabajar mientras se mueve tu antena a otro satélite."
+msgstr "Las opciones de motor adicional te permiten introducir detalles de especificaciones de su motor para que enigma pueda trabajar mientras se mueve su antena a otro satélite."
 
 msgid "Adjust 3D settings"
 msgstr "Ajustes 3D"
@@ -1693,13 +1693,13 @@ msgid "Configure which color format should be used on the SCART output."
 msgstr "Configure qué formato de color se debe usar en la salida SCART."
 
 msgid "Configure your internal LAN"
-msgstr "Configura tu red interna"
+msgstr "Configura su red interna"
 
 msgid "Configure your network settings and press OK to scan"
 msgstr "Configura tus ajustes de red y pulsa OK para escanear"
 
 msgid "Configure your wireless LAN again"
-msgstr "Configura tu red inalámbrica otra vez"
+msgstr "Configura su red inalámbrica otra vez"
 
 msgid "Configures which video output connector will be used."
 msgstr "Configura que conectar de salida de video se usará."
@@ -2250,7 +2250,7 @@ msgstr "Realmente quiere borrar el directorio %s del disco?"
 
 #, python-format
 msgid "Do you really want to remove your bookmark of %s?"
-msgstr "Realmente quiere borrar tu marcador de %s?"
+msgstr "Realmente quiere borrar su marcador de %s?"
 
 msgid "Do you want this?"
 msgstr "Quiere esto?"
@@ -2282,7 +2282,7 @@ msgid "Do you want to quit the overscan wizard?"
 msgstr "¿Quieres salir del asistentes de overscan?"
 
 msgid "Do you want to reboot your receiver?"
-msgstr "¿Quieres reiniciar tu receptor?"
+msgstr "¿Quieres reiniciar su receptor?"
 
 msgid "Do you want to remove all the crahs logfiles"
 msgstr "Quieres borrar los ficheros de logs"
@@ -2301,10 +2301,10 @@ msgstr "¿Quieres seleccionar una piel diferente?"
 
 #, python-format
 msgid "Do you want to update your receiver to %s?"
-msgstr "¿Quieres actualizar tu receptor a %s?"
+msgstr "¿Quieres actualizar su receptor a %s?"
 
 msgid "Do you want to update your receiver?"
-msgstr "¿Quieres actualizar tu receptor?"
+msgstr "¿Quieres actualizar su receptor?"
 
 msgid "Do you want to upgrade the package:\n"
 msgstr "¿Quieres actualizar el paquete?:\n"
@@ -2405,10 +2405,10 @@ msgid "Edit settings"
 msgstr "Editar ajustes"
 
 msgid "Edit the nameserver configuration of your receiver.\n"
-msgstr "Editar configuración del servidor de nombres de tu receptor.\n"
+msgstr "Editar configuración del servidor de nombres de su receptor.\n"
 
 msgid "Edit the network configuration of your receiver.\n"
-msgstr "Editar la configuración de red de tu receptor.\n"
+msgstr "Editar la configuración de red de su receptor.\n"
 
 msgid "Edit timer"
 msgstr "Editar temporizador"
@@ -2461,7 +2461,7 @@ msgstr ""
 "Habilite el receptor remoto enigma2 para sintonizar servicios que no se pueden sintonizar localmente (ej: el sintonizador está ocupado o el tipo de servicio no está disponible en el sintonizador local. Especifique la URL completa incluyendo http:// y el número de puerto (normalmente …: 8001 ), ej: http://segundo_receptor:8001."
 
 msgid "Enable this setting if your aerial system needs power"
-msgstr "Activa este ajuste si tu antena necesita alimentación eléctrica"
+msgstr "Activa este ajuste si su antena necesita alimentación eléctrica"
 
 msgid "Enable timer conflict detection"
 msgstr "Activa temporizador de detección de conflictos"
@@ -2540,7 +2540,7 @@ msgid "Enter the frequency step size for the tuner to use when searching for cab
 msgstr "Ingrese el tamaño del paso de frecuencia para que el sintonizador lo use cuando busque múltiplex por cable. Para obtener más información, consulte la documentación de su proveedor de cable."
 
 msgid "Enter the number stored in the positioner that corresponds to this satellite."
-msgstr "Ingrese el número almacenado en el posicionador que corresponde a este satélite."
+msgstr "Ingrese el número almacenado en el motor que corresponde a este satélite."
 
 msgid "Enter the service pin"
 msgstr "Introduzca el pin del servicio"
@@ -3929,7 +3929,7 @@ msgid "Max. bitrate: "
 msgstr "Max. bitrate: "
 
 msgid "Maybe the reason that recording is currently running. Please stop the recording before trying to configure the positioner."
-msgstr "Tal vez la razón por la que la grabación se está ejecutando actualmente. Por favor, detenga la grabación antes de intentar configurar el posicionador."
+msgstr "Tal vez la razón por la que la grabación se está ejecutando actualmente. Por favor, detenga la grabación antes de intentar configurar el motor."
 
 msgid "Mayotte"
 msgstr "Mayotte"
@@ -4035,7 +4035,7 @@ msgid "Motor command retries"
 msgstr "Reintentos de comandos de motor"
 
 msgid "Motor running timeout"
-msgstr "Tiiempo de espera del motor"
+msgstr "Tiempo de espera del motor"
 
 msgid "Mount"
 msgstr "Montar"
@@ -4346,7 +4346,7 @@ msgid "No transparency"
 msgstr "Sin transparencia"
 
 msgid "No tuner is configured for use with a diseqc positioner!"
-msgstr "Ningún sintonizador está configurado para usarse con un posicionador de diseqc!"
+msgstr "Ningún sintonizador está configurado para usarse con un motor de diseqc!"
 
 msgid ""
 "No tuner is enabled!\n"
@@ -4461,7 +4461,7 @@ msgstr ""
 "Configure sus ajustes de sintonizador antes de comenzar un escaneo de servicio."
 
 msgid "Nothing to scan! Setup your tuner and try again."
-msgstr "Nada para escanear! Configura tu sintonizador y vuelve a intentarlo."
+msgstr "Nada para escanear! Configura su sintonizador y vuelve a intentarlo."
 
 msgid "Now"
 msgstr "Ahora"
@@ -4926,16 +4926,16 @@ msgid "Position stored at index"
 msgstr "Posición guardada en el índice"
 
 msgid "Positioner"
-msgstr "Posicionador"
+msgstr "Motor"
 
 msgid "Positioner (selecting satellites)"
-msgstr "Posicionador (seleccionando satélites)"
+msgstr "Motor (seleccionando satélites)"
 
 msgid "Positioner setup"
-msgstr "Configuración del posicionador"
+msgstr "Configuración del Motor"
 
 msgid "Positioner setup log"
-msgstr "Registro de configuración del posicionador"
+msgstr "Registro de configuración del Motor"
 
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr "Administración de energía. Consulte el manual de su receptor para más información."
@@ -5166,7 +5166,7 @@ msgid "Really upgrade the frontprocessor and reboot now?"
 msgstr "¿Actualizar el procesador y reiniciar ahora?"
 
 msgid "Really upgrade your settop box and reboot now?"
-msgstr "¿Actualizar tu aparato y reiniciar ahora?"
+msgstr "¿Actualizar su aparato y reiniciar ahora?"
 
 msgid "Reboot"
 msgstr "Reiniciar"
@@ -5717,7 +5717,7 @@ msgid "Scanning..."
 msgstr "Escaneado…"
 
 msgid "Scans default lamedbs sorted by satellite with a connected dish positioner"
-msgstr "Escanea lamedbs por defecto ordenados por satélite con un posicionador de plato conectado"
+msgstr "Escanea lamedbs por defecto ordenados por satélite con un motor de plato conectado"
 
 msgid "Search east"
 msgstr "Búsqueda este"
@@ -5765,7 +5765,7 @@ msgid "Select"
 msgstr "Seleccionar"
 
 msgid "Select '1.0' for standard committed switches, '1.1' for uncommitted switches, and '1.2' for systems using a positioner."
-msgstr "Seleccione ‘1.0’ para interruptores comprometidos estándar, ‘1.1’ para interruptores no comprometidos y ‘1.2’ para sistemas que usan un posicionador."
+msgstr "Seleccione ‘1.0’ para interruptores comprometidos estándar, ‘1.1’ para interruptores no comprometidos y ‘1.2’ para sistemas que usan un motor."
 
 msgid "Select 'A' or 'B' if your aerial system requires this, otherwise select 'none'. If you are unsure select 'none'."
 msgstr "Seleccione ‘A’ o ‘B’ si su sistema aéreo lo requiere, de lo contrario seleccione ‘ninguno’. Si no está seguro, seleccione ‘ninguno’."
@@ -5886,7 +5886,7 @@ msgid "Select how quickly the dish should move between satellites."
 msgstr "Seleccione qué tan rápido debe moverse el plato entre los satélites."
 
 msgid "Select how the satellite dish is set up. i.e. fixed dish, single LNB, DiSEqC switch, positioner, etc."
-msgstr "Seleccione cómo se configura la antena parabólica. es decir, plato fijo, LNB único, interruptor DiSEqC, posicionador, etc."
+msgstr "Seleccione cómo se configura la antena parabólica. es decir, plato fijo, LNB único, interruptor DiSEqC, motor, etc."
 
 msgid "Select input device"
 msgstr "Seleccionar dispositivo de entrada"
@@ -5955,7 +5955,7 @@ msgid "Select the satellite you want to configure. Once that satellite is config
 msgstr "Seleccione el satélite que desea configurar. Una vez que el satélite está configurado, puede seleccionar y configurar otros satélites a los que se accederá usando este mismo sintonizador."
 
 msgid "Select the satellite your dish receives from. If you are unsure select 'automatic' and the receiver will attempt to determine this for you."
-msgstr "Selecciona el satélite que recibe tu plato. Si no está seguro, seleccione ‘automático’ y el receptor intentará determinarlo por usted."
+msgstr "Selecciona el satélite que recibe su plato. Si no está seguro, seleccione ‘automático’ y el receptor intentará determinarlo por usted."
 
 msgid "Select the tuner that controls the motorised dish."
 msgstr "Seleccione el sintonizador que controla la antena motorizada."
@@ -6177,10 +6177,10 @@ msgid "Setup menu"
 msgstr "Menú de configuración"
 
 msgid "Setup your positioner"
-msgstr "Configure tu posicionador"
+msgstr "Configure su motor"
 
 msgid "Setup your satellite equipment"
-msgstr "Configuración tu equipo de satélite"
+msgstr "Configuración su equipo de satélite"
 
 msgid "Seychelles"
 msgstr "Seychelles"
@@ -6503,7 +6503,7 @@ msgid ""
 "Sorry, your backup destination is not writeable.\n"
 "Please select a different one."
 msgstr ""
-"Lo siento, el destino de tu copia no permite escritura.\n"
+"Lo siento, el destino de su copia no permite escritura.\n"
 "Por favor, selecciona otro destino."
 
 msgid "Sort"
@@ -6950,7 +6950,7 @@ msgid "Testscreens"
 msgstr "Brillo / Contraste / Color"
 
 msgid "Testscreens that are helpfull to fine-tune your display"
-msgstr "Pantallas de test son útiles para calibrar tu pantalla"
+msgstr "Pantallas de test son útiles para calibrar su pantalla"
 
 msgid "Text color"
 msgstr "Color del texto"
@@ -7039,7 +7039,7 @@ msgstr ""
 "\n"
 "En otras palabras, si el cuadro amarillo toca los cuatro lados de la pantalla, tiene al menos un 5% de overscan en todos los lados.\n"
 "\n"
-"Si ves las puntas de las ocho puntas de flecha, entonces tu TV tiene el overscan deshabilitado.\n"
+"Si ves las puntas de las ocho puntas de flecha, entonces su TV tiene el overscan deshabilitado.\n"
 "\n"
 "Test Pattern por TigerDave - www.tigerdave.com/ht_menu.htm"
 
@@ -7081,13 +7081,13 @@ msgid "The user interface of the receiver will now restart to select the selecte
 msgstr "La interfaz de usuario del receptor ahora se reiniciará para mostrar la piel seleccionada"
 
 msgid "The user interface of your receiver is restarting"
-msgstr "La interfaz de usuario de tu receptor se está reiniciando"
+msgstr "La interfaz de usuario de su receptor se está reiniciando"
 
 msgid ""
 "The user interface of your receiver is restarting\n"
 "due to an error in mytest.py"
 msgstr ""
-"La interfaz de usuario de tu receptor se está reiniciando\n"
+"La interfaz de usuario de su receptor se está reiniciando\n"
 "debido a un error en mytest.py"
 
 msgid "The user interface of your receiver is restarting in debug mode"
@@ -7681,10 +7681,10 @@ msgstr[0] "Actualización completa, paquete %d se instaló."
 msgstr[1] "Actualización completa, paquetes %d se instalaron."
 
 msgid "Update completed. Do you want to reboot your receiver?"
-msgstr "Actualización completa. ¿Quieres reiniciar tu receptor?"
+msgstr "Actualización completa. ¿Quieres reiniciar su receptor?"
 
 msgid "Update failed. Your receiver does not have a working internet connection."
-msgstr "Actualización fallida. Tu receptor no tiene conexión a Internet."
+msgstr "Actualización fallida. su receptor no tiene conexión a Internet."
 
 msgid "Update has completed."
 msgstr "La actualización se ha completado."
@@ -7753,7 +7753,7 @@ msgid "Use the network wizard to configure selected network adapter"
 msgstr "Usar el asistente de red para configurar el adaptador de red seleccionado"
 
 msgid "Use the network wizard to configure your network\n"
-msgstr "Usar el asistente de configuración de red para configurar tu red\n"
+msgstr "Usar el asistente de configuración de red para configurar su red\n"
 
 msgid "Use these input device settings?"
 msgstr "¿Usar esos ajustes de dispositivo de entrada?"
@@ -8327,7 +8327,7 @@ msgid "Zap back to previously tuned service?"
 msgstr "Volver al servicio previamente sintonizado?"
 
 msgid "Zap back to service before positioner setup?"
-msgstr "Volver al servicio antes de la configuración del posicionador?"
+msgstr "Volver al servicio antes de la configuración del motor?"
 
 msgid "Zap bouquets blindly on zap buttons"
 msgstr "Zapear bouques a ciegas en botones de zapeo"
@@ -10321,10 +10321,10 @@ msgid "Show picons in display"
 msgstr "Mostrar picons en pantalla"
 
 msgid "Show positioner movement"
-msgstr "Mostrar movimiento del posicionador"
+msgstr "Mostrar movimiento del motor"
 
 msgid "Show positioner position"
-msgstr "Mostrar posición del posicionador"
+msgstr "Mostrar posición del motor"
 
 msgid "Show record indicator"
 msgstr "Mostrar indicador de grabación"
@@ -10893,7 +10893,7 @@ msgid "Exit the wizard"
 msgstr "Salir del asistente"
 
 msgid "Please connect your receiver to the internet"
-msgstr "Por favor, conecta tu receptor a Internet"
+msgstr "Por favor, conecta su receptor a Internet"
 
 msgid "Please set up tuner A"
 msgstr "Configure el sintonizador A"
@@ -10964,7 +10964,7 @@ msgid "Configure interface"
 msgstr "Configure interfaz"
 
 msgid "Configure your network again"
-msgstr "Configure tu red de nuevo"
+msgstr "Configure su red de nuevo"
 
 msgid "List available networks"
 msgstr "Lista de redes disponibles"
@@ -11026,9 +11026,9 @@ msgid ""
 msgstr ""
 "Bienvenido.\n"
 "\n"
-"Si quieres conectar tu receptor a Internet, este asistente te guiará por el ajuste básico de red de tu receptor.\n"
+"Si quieres conectar su receptor a Internet, este asistente te guiará por el ajuste básico de red de su receptor.\n"
 "\n"
-"Pulsa OK para configurar tu red"
+"Pulsa OK para configurar su red"
 
 msgid "Wireless network connection setup"
 msgstr "Configure conexión de red inalámbrica"
@@ -11062,8 +11062,8 @@ msgid ""
 "\n"
 "Please choose what you want to do next."
 msgstr ""
-"No se pudo iniciar la conexión a Internet con tu red inalámbrica!\n"
-"Has insertado tu adaptador WLAN USB?\n"
+"No se pudo iniciar la conexión a Internet con su red inalámbrica!\n"
+"Has insertado su adaptador WLAN USB?\n"
 "\n"
 "Por favor, elige qué quieres hacer."
 
@@ -11110,7 +11110,7 @@ msgid "Yes, restore the settings now"
 msgstr "Sí, recupera ajustes"
 
 msgid "You have chosen to backup your settings. Please press OK to start the backup now."
-msgstr "Has elegido hacer una copia de seguridad de tu configuración. Presione OK para comenzar la copia de seguridad ahora."
+msgstr "Has elegido hacer una copia de seguridad de su configuración. Presione OK para comenzar la copia de seguridad ahora."
 
 msgid "You have chosen to restore your settings. Enigma2 will restart after restore. Please press OK to start the restore now."
 msgstr "Haa elegido restaurar su configuración. Enigma2 se reiniciará después de la restauración. Pulse OK para comenzar la restauración ahora."
@@ -11148,7 +11148,7 @@ msgid ""
 "The next input port will be automatically probed in 20 seconds."
 msgstr ""
 "Selección de entrada de video\n"
-"Por favor, pulsa OK si puedes ver esta imagen en tu TV    (o selecciona otra entrada).\n"
+"Por favor, pulsa OK si puedes ver esta imagen en su TV    (o selecciona otra entrada).\n"
 "La siguiente entrada se probará en 20 segundos."
 
 msgid "Video mode selection."
@@ -13134,7 +13134,7 @@ msgid ""
 msgstr ""
 "Pregunta: Encontré un problema con el Temporizador Automático, ¿puedes arreglarlo? \n"
 "Respuesta: Primero pruebe la versión del Temporizador Automático en una imagen reciente (experimental) para ver si el problema fue resuelto. Luego lea de nuevo la Ayuda y las próximas preguntas frecuentes para asegurarse de que esto sea realmente un problema y no un comportamiento esperado. \n"
-"Si todavía crees que hay algún problema con el Temporizador Automático, visita http://www.dream-multimedia-tv.de/board y publica tu problema allí.\n"
+"Si todavía crees que hay algún problema con el Temporizador Automático, visita http://www.dream-multimedia-tv.de/board y publica su problema allí.\n"
 "\n"
 "Q: El plugin solo agrega temporizadores al salir de la configuración, no automáticamente. ¿Que puedo hacer?\n"
 "A: Desde la Vista general, presione MENÚ e ingrese la \"Configuración\". En esta pantalla, habilite \"Encuesta automáticamente\" y debería estar listo para continuar."
