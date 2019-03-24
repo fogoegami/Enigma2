@@ -1344,7 +1344,7 @@ msgid "Cable"
 msgstr "Cable"
 
 msgid "Cable Scan"
-msgstr "Escaneo de cable"
+msgstr "Búsqueda de cable"
 
 msgid "Cabo Verde"
 msgstr "Cabo Verde"
@@ -1623,7 +1623,7 @@ msgid "Compress"
 msgstr "Comprimir"
 
 msgid "Config Scan Details"
-msgstr "Detalle de la configuración de escaneo"
+msgstr "Detalle de la configuración de búsqueda"
 
 msgid "Configuration mode"
 msgstr "Modo de configuración"
@@ -1794,7 +1794,7 @@ msgstr "No se pudo grabar por conflicto en temporizador %s"
 
 #, python-format
 msgid "Could not record due to invalid service %s"
-msgstr "No se pudo grabar por servicio inválido %s"
+msgstr "No se pudo grabar por canal inválido %s"
 
 msgid "Country"
 msgstr "País"
@@ -2178,16 +2178,16 @@ msgid "Djibouti"
 msgstr "Djibouti"
 
 msgid "Do a cable service scan now"
-msgstr "Escaneo servicios de cable"
+msgstr "Búsqueda canales de cable"
 
 msgid "Do a fast service scan now"
-msgstr "Escaneo rápido de servicios"
+msgstr "Búsqueda rápida de canales"
 
 msgid "Do a manual service scan now"
-msgstr "Escaneo manual de servicios"
+msgstr "Búsqueda manual de canales"
 
 msgid "Do an automatic service scan now"
-msgstr "Escaneo automático de servicios"
+msgstr "Búsqueda automática de canales"
 
 msgid "Do center DVB subs on this service"
 msgstr "Centrar subtítulos DVB en este servicio"
@@ -2374,7 +2374,7 @@ msgstr "Solo EPG"
 
 #, python-format
 msgid "ERROR - failed to scan (%s)!"
-msgstr "ERROR - falló el escaneo (%s)!"
+msgstr "ERROR - falló el búsqueda (%s)!"
 
 #, python-format
 msgid "ERROR downloading file %s"
@@ -2441,14 +2441,14 @@ msgid "Enable 5V for active antenna"
 msgstr "Activar 5V para antena activa"
 
 msgid "Enable auto cable scan"
-msgstr "Activar escaneo automático de cable"
+msgstr "Activar búsqueda automática de cable"
 
 msgid "Enable auto fast scan"
-msgstr "Activar escaneo automático rápido"
+msgstr "Activar búsqueda automática rápida"
 
 #, python-format
 msgid "Enable auto fast scan for %s"
-msgstr "Activar escaneo automático rápido para %s"
+msgstr "Activar búsqueda automática rápida para %s"
 
 msgid "Enable fallback remote receiver"
 msgstr "Habilitar el receptor remoto de respaldo"
@@ -2458,7 +2458,7 @@ msgstr "Activar protección parental"
 
 msgid "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
 msgstr ""
-"Habilite el receptor remoto enigma2 para sintonizar servicios que no se pueden sintonizar localmente (ej: el sintonizador está ocupado o el tipo de servicio no está disponible en el sintonizador local. Especifique la URL completa incluyendo http:// y el número de puerto (normalmente …: 8001 ), ej: http://segundo_receptor:8001."
+"Habilite el receptor remoto enigma2 para sintonizar servicios que no se pueden sintonizar localmente (ej: el sintonizador está ocupado o el tipo de canal no está disponible en el sintonizador local. Especifique la URL completa incluyendo http:// y el número de puerto (normalmente …: 8001 ), ej: http://segundo_receptor:8001."
 
 msgid "Enable this setting if your aerial system needs power"
 msgstr "Activa este ajuste si su antena necesita alimentación eléctrica"
@@ -2854,7 +2854,7 @@ msgid "Fast DiSEqC"
 msgstr "DiSEqC rápido"
 
 msgid "Fast Scan"
-msgstr "Escaneo rápido"
+msgstr "Búsqueda rápida"
 
 msgid "Fast epoch"
 msgstr "Parte temporal rápida"
@@ -3313,7 +3313,7 @@ msgid "Hungary"
 msgstr "Hungría"
 
 msgid "I do not want to perform any service scans"
-msgstr "No quiero realizar ningún escaneo de servicio"
+msgstr "No quiero realizar ningún búsqueda de canal"
 
 msgid "IDLE"
 msgstr "IDLE"
@@ -3414,7 +3414,7 @@ msgid "Import remote receiver URL"
 msgstr "Importar URL del receptor remoto"
 
 msgid "In order to record a timer, the TV was switched to the recording service!\n"
-msgstr "Para grabar un temporizador, el televisor se cambió al servicio de grabación!\n"
+msgstr "Para grabar un temporizador, el televisor se cambió al canal de grabación!\n"
 
 msgid "In progress"
 msgstr "En progreso"
@@ -3908,7 +3908,7 @@ msgid "Manufacturer"
 msgstr "Fabricante"
 
 msgid "Mark service as dedicated 3D service"
-msgstr "Marcar el servicio como dedicado 3D"
+msgstr "Marcar el canal como dedicado 3D"
 
 msgid "Marshall Islands"
 msgstr "Islas Marshall"
@@ -4113,7 +4113,7 @@ msgid "Multimedia"
 msgstr "Multimedia"
 
 msgid "Multiple service support"
-msgstr "Soporte de servicio múltiple"
+msgstr "Soporte de canal múltiple"
 
 msgid "Multisat"
 msgstr "Multisat"
@@ -4196,7 +4196,7 @@ msgid "Network name (SSID)"
 msgstr "Nombre de red (SSID)"
 
 msgid "Network scan"
-msgstr "Escaneo de redes"
+msgstr "Búsqueda de redes"
 
 msgid "Network setup"
 msgstr "Configuración de red"
@@ -4353,7 +4353,7 @@ msgid ""
 "Please setup your tuner settings before you start a service scan."
 msgstr ""
 "Ningún sintonizador está habilitado!\n"
-"Configure sus ajustes de sintonizador antes de comenzar un escaneo de servicio."
+"Configure sus ajustes de sintonizador antes de comenzar un búsqueda de canal."
 
 msgid "No updates available"
 msgstr "No hay actualizaciones disponibles"
@@ -4458,7 +4458,7 @@ msgid ""
 "Please setup your tuner settings before you start a service scan."
 msgstr ""
 "Nada para escanear!\n"
-"Configure sus ajustes de sintonizador antes de comenzar un escaneo de servicio."
+"Configure sus ajustes de sintonizador antes de comenzar un búsqueda de canal."
 
 msgid "Nothing to scan! Setup your tuner and try again."
 msgstr "Nada para escanear! Configura su sintonizador y vuelve a intentarlo."
@@ -4516,7 +4516,7 @@ msgid "Only extensions."
 msgstr "Solo extensiones."
 
 msgid "Only free scan"
-msgstr "Solo escaneo gratuito"
+msgstr "Solo búsqueda canales gratuitos"
 
 msgid "Only move the dish quickly after this hour."
 msgstr "Solo mueva el plato rápidamente después de esta hora."
@@ -4734,7 +4734,7 @@ msgid "Play next (return to movie list)"
 msgstr "Reproducir siguiente (volver a lista de películas)"
 
 msgid "Play next (return to previous service)"
-msgstr "Reproducir siguiente (volver a servicio previo)"
+msgstr "Reproducir siguiente (volver a canal previo)"
 
 msgid "Play previous"
 msgstr "Reproduce anterior"
@@ -4845,7 +4845,7 @@ msgid "Please wait for activation of your network configuration..."
 msgstr "Espere la activación de la configuración de red…"
 
 msgid "Please wait while scanning is in progress..."
-msgstr "Espere mientras se realiza el escaneo…"
+msgstr "Espere mientras se realiza el búsqueda…"
 
 msgid "Please wait while we configure your network..."
 msgstr "Espere mientras configuramos su red…"
@@ -5450,7 +5450,7 @@ msgid "Return to movie list"
 msgstr "Volver a lista de películas"
 
 msgid "Return to previous service"
-msgstr "Regresar al servicio anterior"
+msgstr "Regresar al canal anterior"
 
 msgid "Reunion"
 msgstr "Reunión"
@@ -5707,8 +5707,8 @@ msgstr[1] "Escaneando - %d%% completados"
 #, python-format
 msgid "Scanning completed, %d channel found"
 msgid_plural "Scanning completed, %d channels found"
-msgstr[0] "Escaneo completado, %d canal encontrado"
-msgstr[1] "Escaneo completado, %d canales encontrados"
+msgstr[0] "Búsqueda completada, %d canal encontrado"
+msgstr[1] "Búsqueda completada, %d canales encontrados"
 
 msgid "Scanning failed!"
 msgstr "¡Escaneado fallido!"
@@ -5913,7 +5913,7 @@ msgid "Select satellites"
 msgstr "Seleccionar satélites"
 
 msgid "Select service to add..."
-msgstr "Seleccionar servicio a añadir…"
+msgstr "Seleccionar canal a añadir…"
 
 msgid "Select slot"
 msgstr "Seleccionar slot"
@@ -5988,10 +5988,10 @@ msgid "Select your country. If not available select 'all'."
 msgstr "Seleccione su país. Si no está disponible seleccione “todo”."
 
 msgid "Select your provider and region. If not present in this list you will need to select one of the other 'service scan types'."
-msgstr "Seleccione su proveedor y región. Si no está presente en esta lista, deberá seleccionar uno de los otros ‘tipos de búsqueda de servicio’."
+msgstr "Seleccione su proveedor y región. Si no está presente en esta lista, deberá seleccionar uno de los otros ‘tipos de búsqueda de canal’."
 
 msgid "Select your provider, and press OK to start the scan"
-msgstr "Seleccione su proveedor y presione OK para comenzar el escaneo"
+msgstr "Seleccione su proveedor y presione OK para comenzar la búsqueda"
 
 msgid "Select your region. If not available change 'Country' to 'all' and select one of the default alternatives."
 msgstr "Seleccione su región. Si no está disponible, cambie “País” a “todos” y seleccione una de las alternativas predeterminadas."
@@ -6036,10 +6036,10 @@ msgid "Service ID"
 msgstr "ID del servicio"
 
 msgid "Service has been added to the favourites."
-msgstr "El servicio ha sido añadido a los favoritos."
+msgstr "El canal ha sido añadido a los favoritos."
 
 msgid "Service has been added to the selected bouquet."
-msgstr "El servicio ha sido añadido al bouquet seleccionado."
+msgstr "El canal ha sido añadido al bouquet seleccionado."
 
 msgid "Service info"
 msgstr "Info del Servicio"
@@ -6048,7 +6048,7 @@ msgid "Service info - ECM Info"
 msgstr "Info del Servicio - ECM info"
 
 msgid "Service info - service & PIDs"
-msgstr "Info del Servicio - servicio & PIDs"
+msgstr "Info del Servicio - canal & PIDs"
 
 msgid "Service info - tuner live values"
 msgstr "Info del Servicio - valores del sintonizador"
@@ -6077,7 +6077,7 @@ msgid "Service reference"
 msgstr "Referencia de servicio"
 
 msgid "Service scan"
-msgstr "Escaneo de servicio"
+msgstr "Búsqueda de canal"
 
 msgid "Service title mode"
 msgstr "Modo de título de servicio"
@@ -6138,7 +6138,7 @@ msgid "Set sequence repeats if your aerial system requires this. Normally if the
 msgstr "Establezca la secuencia repetida si su sistema aéreo lo requiere. Normalmente, si el sistema aéreo se ha configurado correctamente, no será necesario repetir la secuencia. Si la suya lo hace, vuelva a verificar que tienes establecidas correctamente las ordenes de comando."
 
 msgid "Set startup service"
-msgstr "Establecer servicio de inicio"
+msgstr "Establecer canal de inicio"
 
 msgid "Set time window to 1 hour"
 msgstr "Establecer la ventana de tiempo en 1 hora"
@@ -6718,7 +6718,7 @@ msgid "Stop recordings:"
 msgstr "Detener grabaciones:"
 
 msgid "Stop service on return to movie list"
-msgstr "Detener el servicio al regresar a la lista de películas"
+msgstr "Detener el canal al regresar a la lista de películas"
 
 msgid "Stop test"
 msgstr "Detener prueba"
@@ -7567,7 +7567,7 @@ msgid "Type of LNB/device"
 msgstr "Tipo de dispositivo LNB"
 
 msgid "Type of scan"
-msgstr "Tipo de escaneo"
+msgstr "Tipo de búsqueda"
 
 msgid "UNKNOWN"
 msgstr "DESCONOCIDO"
@@ -7651,7 +7651,7 @@ msgid "Unknown"
 msgstr "Desconocido"
 
 msgid "Unmark service as dedicated 3D service"
-msgstr "Desmarque el servicio como servicio 3D dedicado"
+msgstr "Desmarque el canal como canal 3D dedicado"
 
 msgid "Unmount"
 msgstr "Desmontar"
@@ -7729,10 +7729,10 @@ msgid "Use circular LNB"
 msgstr "Usar un LNB circular"
 
 msgid "Use fastscan channel names"
-msgstr "Utilice los nombres de los canales de escaneo rápido"
+msgstr "Utilice los nombres de los canales de búsqueda rápida"
 
 msgid "Use fastscan channel numbering"
-msgstr "Use la numeración de canales de escaneo rápido"
+msgstr "Use la numeración de canales de búsqueda rápida"
 
 msgid "Use frequency or channel"
 msgstr "Usar frecuencia o canal"
@@ -7765,7 +7765,7 @@ msgid "Use this video enhancement settings?"
 msgstr "¿Usar esta configuración de mejora de video??"
 
 msgid "Used service scan type"
-msgstr "Tipo de exploración de servicio usado"
+msgstr "Tipo de exploración de canal usado"
 
 msgid "User - bouquets"
 msgstr "Usuario - Favoritos"
@@ -8255,7 +8255,7 @@ msgstr "Tiene que esperar %s!"
 
 #, python-format
 msgid "You must switch to the service %s (%s - '%s')!\n"
-msgstr "Debe cambiar al servicio %s (%s - ‘%s’)!\n"
+msgstr "Debe cambiar al canal %s (%s - ‘%s’)!\n"
 
 msgid "Your collection exceeds the size of a single layer medium, you will need a blank dual layer DVD!"
 msgstr "Su colección excede el tamaño de un medio de una capa, ¡necesitará un DVD de doble capa en blanco!"
@@ -8324,10 +8324,10 @@ msgid "Zap"
 msgstr "Zapear"
 
 msgid "Zap back to previously tuned service?"
-msgstr "Volver al servicio previamente sintonizado?"
+msgstr "Volver al canal previamente sintonizado?"
 
 msgid "Zap back to service before positioner setup?"
-msgstr "Volver al servicio antes de la configuración del motor?"
+msgstr "Volver al canal antes de la configuración del motor?"
 
 msgid "Zap bouquets blindly on zap buttons"
 msgstr "Zapear bouques a ciegas en botones de zapeo"
@@ -8355,11 +8355,11 @@ msgstr "Zapea arriba"
 
 #, python-format
 msgid "Zapped to timer service %s as PiP!"
-msgstr "Zapeo al servicio de temporizador %s como PiP!"
+msgstr "Zapeo al canal de temporizador %s como PiP!"
 
 #, python-format
 msgid "Zapped to timer service %s!"
-msgstr "Zapeo al servicio de temporizador %s!"
+msgstr "Zapeo al canal de temporizador %s!"
 
 msgid "Zgemma H.S/H.2S/H.2H/H5/H7"
 msgstr "Zgemma H.S/H.2S/H.2H/H5/H7"
@@ -8425,10 +8425,10 @@ msgid "add marker"
 msgstr "añadir marcador"
 
 msgid "add service to bouquet"
-msgstr "añadir servicio al bouquet"
+msgstr "añadir canal al bouquet"
 
 msgid "add service to favourites"
-msgstr "añadir el servicio a favoritos"
+msgstr "añadir el canal a favoritos"
 
 msgid "add to parental protection"
 msgstr "añadir a control parental"
@@ -8747,7 +8747,7 @@ msgid "film/cinema"
 msgstr "película/cine"
 
 msgid "find currently played service"
-msgstr "encontrar servicio en reproducción"
+msgstr "encontrar canal en reproducción"
 
 msgid "fine arts"
 msgstr "bellas artes"
@@ -9185,7 +9185,7 @@ msgid "save playlist on exit"
 msgstr "guardar lista de reproducción al salir"
 
 msgid "scan state"
-msgstr "estado del escaneo"
+msgstr "estado del búsqueda"
 
 msgid "science fiction/fantasy/horror"
 msgstr "ciencia ficción/fantasía/horror"
@@ -9209,13 +9209,13 @@ msgid "serious/classical/religious/historical movie/drama"
 msgstr "drama/clásico/religioso/histórico/serio"
 
 msgid "service is in bouquet parental protection"
-msgstr "el servicio está en bouquet con protección parental"
+msgstr "el canal está en bouquet con protección parental"
 
 msgid "service off-air"
 msgstr "servicio sin emisión"
 
 msgid "set as startup service"
-msgstr "establecer como servicio de inicio"
+msgstr "establecer como canal de inicio"
 
 msgid "Show"
 msgstr "Mostrar"
@@ -9337,7 +9337,7 @@ msgid "stereo"
 msgstr "estéreo"
 
 msgid "stop using as startup service"
-msgstr "dejar de usar como servicio de inicio"
+msgstr "dejar de usar como canal de inicio"
 
 msgid "successful"
 msgstr "exitoso"
@@ -9379,7 +9379,7 @@ msgid "this recording"
 msgstr "esta grabación"
 
 msgid "this service is protected by a parental control pin"
-msgstr "este servicio está protegido por un PIN de control parental"
+msgstr "este canal está protegido por un PIN de control parental"
 
 msgid "toggle time, chapter, audio, subtitle info"
 msgstr "alternar el tiempo, el capítulo, el audio, la información de los subtítulos"
@@ -9517,7 +9517,7 @@ msgid "Audio / Video"
 msgstr "Audio & Video"
 
 msgid "Automatic scan"
-msgstr "Escaneo Automático"
+msgstr "Búsqueda Automática"
 
 msgid "Expert settings"
 msgstr "Configuración Experto"
@@ -9550,7 +9550,7 @@ msgid "Keyboard"
 msgstr "Teclado"
 
 msgid "Manual scan"
-msgstr "Escaneo manual"
+msgstr "Búsqueda manual"
 
 msgid "Multiboot"
 msgstr "Multiboot"
@@ -9706,10 +9706,10 @@ msgid "Configure if and how crypto icons will be shown in the channel selection 
 msgstr "Configure si y cómo se mostrarán los iconos de cifrado en la lista de selección de canales."
 
 msgid "Configure if and how long the latest service in the PiP will be remembered."
-msgstr "Configure si y durante cuánto tiempo se recordará el último servicio en el PiP."
+msgstr "Configure si y durante cuánto tiempo se recordará el último canal en el PiP."
 
 msgid "Configure if and how service type icons will be shown in the channel selection list."
-msgstr "Configure si y cómo se mostrarán los iconos de tipo de servicio en la lista de selección de canales."
+msgstr "Configure si y cómo se mostrarán los iconos de tipo de canal en la lista de selección de canales."
 
 msgid "Configure if and how the record indicator will be shown in the channel selection list."
 msgstr "Configure si y cómo se mostrará el indicador de grabación en la lista de selección de canales."
@@ -9721,10 +9721,10 @@ msgid "Configure if behind the subtitles a background is shown."
 msgstr "Configure si detrás de los subtítulos se muestra un fondo."
 
 msgid "Configure if service picons will be shown in display (when supported by the skin)."
-msgstr "Configure si los picons de servicio se mostrarán en la pantalla (cuando lo admita la piel)."
+msgstr "Configure si los picons de canal se mostrarán en la pantalla (cuando lo admita la piel)."
 
 msgid "Configure if service picons will be shown in the channel selection list."
-msgstr "Configure si los picons de servicio se mostrarán en la lista de selección de canales."
+msgstr "Configure si los picons de canal se mostrarán en la lista de selección de canales."
 
 msgid "Configure if the subtitle should switch between normal, italic, bold and bolditalic"
 msgstr "Configure si los subtítulos deben cambiar entre normal, cursiva, negrita y negrita cursiva"
@@ -9769,7 +9769,7 @@ msgid "Configure the contrast level of the front panel display."
 msgstr "Configure el nivel de contraste de la pantalla del panel frontal."
 
 msgid "Configure the cursor behaviour in the channel selection list. When opening the channel selection list you can keep on the current service or already select up/down and you are able to revert the B+/B- buttons."
-msgstr "Configure el comportamiento del cursor en la lista de selección de canales. Al abrir la lista de selección de canales puede continuar con el servicio actual o seleccionar arriba/abajo y puede revertir los botones B+/B-."
+msgstr "Configure el comportamiento del cursor en la lista de selección de canales. Al abrir la lista de selección de canales puede continuar con el canal actual o seleccionar arriba/abajo y puede revertir los botones B+/B-."
 
 msgid "Configure the duration in minutes for the screensaver."
 msgstr "Configure la duración en minutos para el protector de pantalla."
@@ -9913,7 +9913,7 @@ msgid "Configure which tuner for recordings will be preferred, when more than on
 msgstr "Configure qué sintonizador preferido para las grabaciones, cuando haya más de un sintonizador disponible."
 
 msgid "Configure which tuner type will be preferred when the same service is available on different types of tuners. Choose 'no priority' to try each alternative one by one regardless of the tuner type."
-msgstr "Configure qué tipo de sintonizador será preferido cuando el mismo servicio esté disponible en diferentes tipos de sintonizadores. Elija “sin prioridad” para probar cada alternativa una por una, independientemente del tipo de sintonizador."
+msgstr "Configure qué tipo de sintonizador será preferido cuando el mismo canal esté disponible en diferentes tipos de sintonizadores. Elija “sin prioridad” para probar cada alternativa una por una, independientemente del tipo de sintonizador."
 
 msgid "Configure which tuner will be preferred, when more than one tuner is available. If set to 'auto' the system will give priority to the tuner having the lowest number of channels/satellites."
 msgstr "Configure qué sintonizador será preferido, cuando haya más de un sintonizador disponible. Si se establece en ‘auto’, el sistema dará prioridad al sintonizador que tenga la menor cantidad de canales/satélites."
@@ -10213,7 +10213,7 @@ msgid "Recordings always have priority"
 msgstr "Las grabaciones siempre tienen prioridad"
 
 msgid "Remember last service in PiP"
-msgstr "Recordar último servicio en PiP"
+msgstr "Recordar último canal en PiP"
 
 msgid "Remove completed timers after (days)"
 msgstr "Eliminar temporizadores completados después de (días)"
@@ -10503,7 +10503,7 @@ msgid "When enabled the set top box is able to wakeup on LAN"
 msgstr "Cuando está habilitado, el decodificador se puede activar desde su LAN"
 
 msgid "When enabled then when you select a new channel in the channel selection the channel selection will not close. It will only close when you select the current playing service. This is a kind of preview mode"
-msgstr "Cuando está habilitado, cuando selecciona un nuevo canal en la selección de canales, la selección del canal no se cierra. Solo se cerrará cuando seleccione el servicio de reproducción actual. Este es un tipo de modo de vista previa"
+msgstr "Cuando está habilitado, cuando selecciona un nuevo canal en la selección de canales, la selección del canal no se cierra. Solo se cerrará cuando seleccione el canal de reproducción actual. Este es un tipo de modo de vista previa"
 
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr "Cuando está habilitado, puede controlar el volumen con los botones de flecha en lugar de obtener la lista de selección de canales"
@@ -10958,7 +10958,7 @@ msgstr ""
 "Presione el botón OK en su control remoto para avanzar al siguiente paso."
 
 msgid "What type of service scan do you want?"
-msgstr "¿Qué tipo de escaneo de servicio quieres?"
+msgstr "¿Qué tipo de búsqueda de canal quieres?"
 
 msgid "Configure interface"
 msgstr "Configure interfaz"
@@ -11464,7 +11464,7 @@ msgid "Don't wait for the receiver to go into standby when starting a refresh cy
 msgstr "No espere a que el receptor entre en modo de espera al iniciar un ciclo de actualización."
 
 msgid "Duration to show each service (in seconds) for 'AutoZap'"
-msgstr "Duración para mostrar cada servicio (en segundos) para 'AutoZapeo'"
+msgstr "Duración para mostrar cada canal (en segundos) para 'AutoZapeo'"
 
 msgid "EPG Cache Check"
 msgstr "Comprobar EPG cache"
@@ -11548,7 +11548,7 @@ msgid "Following Services have to be scanned:"
 msgstr "Los siguientes servicios deben escanearse:"
 
 msgid "Force scan even if receiver is in use"
-msgstr "Forzar escaneo incluso si el receptor está en uso"
+msgstr "Forzar búsqueda incluso si el receptor está en uso"
 
 msgid "Foreground also"
 msgstr "En primer plano también"
@@ -11838,7 +11838,7 @@ msgstr ""
 "\n"
 "\n"
 "Utilizando el botón AMARILLO, puede iniciar una actualización manualmente y el botón INFO muestra la fecha en que se realizó con éxito la última actualización.\n"
-"La tecla AZUL abre el editor de servicio (página siguiente).\n"
+"La tecla AZUL abre el editor de canal (página siguiente).\n"
 "\n"
 "\n"
 
@@ -12737,7 +12737,7 @@ msgid "Set this NO to disable this AutoTimer."
 msgstr "Establezca este NO para deshabilitar este Temporizador Automático."
 
 msgid "Set timer type: zap, simple record, zap+record (always zap to service before start record)."
-msgstr "Establezca el tipo de temporizador: zap, registro simple, zap + registro (siempre vuelva al servicio antes de comenzar el registro)"
+msgstr "Establezca el tipo de temporizador: zap, registro simple, zap + registro (siempre vuelva al canal antes de comenzar el registro)"
 
 msgid "Set wakeup receiver type. This works only for zap timers."
 msgstr "Establecer el tipo de receptor de despertador. Esto funciona solo para temporizadores zap."
@@ -12803,7 +12803,7 @@ msgid "Style auto timers list"
 msgstr "Lista de temporizadores automáticos de estilo"
 
 msgid "Support \"Fast Scan\"?"
-msgstr "Soporte 'Escaneo rápido'?"
+msgstr "Soporte 'Búsqueda rápida'?"
 
 msgid "Tags the Timer/Recording will have."
 msgstr "Etiquetas que tendrá el temporizador/grabación."
@@ -12925,7 +12925,7 @@ msgid "When this option is enabled the AutoTimer won't match events where anothe
 msgstr "Cuando esta opción está activada, el AutoTimer no coincidirá con los eventos en los que ya existe otro temporizador con la misma descripción en la lista de temporizadores."
 
 msgid "With this option enabled the channel to record on can be changed to a alternative service it is restricted to."
-msgstr "Con esta opción habilitada, el canal para grabar puede cambiarse a un servicio alternativo al que está restringido."
+msgstr "Con esta opción habilitada, el canal para grabar puede cambiarse a un canal alternativo al que está restringido."
 
 msgid "With this option you can restrict the AutoTimer to a certain amount of scheduled recordings. Set this to 0 to disable this functionality."
 msgstr "Con esta opción, puede restringir el AutoTimer a una cierta cantidad de grabaciones programadas. Establezca esto en 0 para deshabilitar esta funcionalidad."
@@ -14476,10 +14476,10 @@ msgid "SSA File"
 msgstr "Archivo SSA"
 
 msgid "Service info - service & Basic PID Info"
-msgstr "Info Servicio - servicio & info PID básico"
+msgstr "Info Servicio - canal & info PID básico"
 
 msgid "Service info - service & Extended PID Info"
-msgstr "Info Servicio - servicio & Info PID extendido"
+msgstr "Info Servicio - canal & Info PID extendido"
 
 msgid "TXT Subtitles page & lang"
 msgstr "Página Subtítulos TXT & lang"
