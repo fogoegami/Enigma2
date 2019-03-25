@@ -1470,10 +1470,10 @@ msgid "Channelnumber and picon"
 msgstr "Número de canal y picon"
 
 msgid "Channelnumber and servicename"
-msgstr "Número de canal y nombre de servicio"
+msgstr "Número de canal y nombre de canal"
 
 msgid "Channelnumber, picon and servicename"
-msgstr "Número de canal, picon y nombre de servicio"
+msgstr "Número de canal, picon y nombre de canal"
 
 msgid "Channels and EPG"
 msgstr "Canales y EPG"
@@ -3250,7 +3250,7 @@ msgid "Hide player"
 msgstr "Ocultar reproductor"
 
 msgid "Hierarchy info"
-msgstr "Hierarchy info"
+msgstr "Info Jerarquía"
 
 msgid "High bitrate support"
 msgstr "Soporte de alta tasa de bits"
@@ -3721,7 +3721,7 @@ msgid "Left"
 msgstr "Izquierda"
 
 msgid "Left from servicename"
-msgstr "A la izquierda del nombre de servicio"
+msgstr "A la izquierda del nombre del canal"
 
 msgid "Leisure hobbies"
 msgstr "Pasatiempos de ocio"
@@ -4685,7 +4685,7 @@ msgid "Picon"
 msgstr "Picon"
 
 msgid "Picon and servicename"
-msgstr "Picon y nombre de servicio"
+msgstr "Picon y nombre de canal"
 
 msgid "Picture player"
 msgstr "Reproductor de imágenes"
@@ -5465,7 +5465,7 @@ msgid "Right"
 msgstr "Derecha"
 
 msgid "Right from servicename"
-msgstr "Derecha del nombre de servicio"
+msgstr "Derecha del nombre de canal"
 
 msgid "Roll-off"
 msgstr "Roll-off"
@@ -6064,7 +6064,7 @@ msgstr ""
 "(Tiempo de espera agotado para leer PMT)"
 
 msgid "Service name"
-msgstr "Nombre de servicio"
+msgstr "nombre de canal"
 
 msgid ""
 "Service not found!\n"
@@ -6090,7 +6090,7 @@ msgstr ""
 "Revise configuración del sintonizador!"
 
 msgid "Servicename"
-msgstr "Nombre de servicio"
+msgstr "nombre de canal"
 
 msgid "Services"
 msgstr "Servicios"
@@ -14045,7 +14045,7 @@ msgid "clear history list"
 msgstr "limpiar lista historia"
 
 msgid "default (only service name)"
-msgstr "predeterminado (solo nombre de servicio)"
+msgstr "predeterminado (solo nombre de canal)"
 
 msgid "delete selected entry"
 msgstr "eliminar la entrada seleccionada"
