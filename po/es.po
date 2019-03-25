@@ -3773,7 +3773,7 @@ msgid "Linked titles with a DVD menu"
 msgstr "Títulos vinculados con un menú de DVD"
 
 msgid "List mode"
-msgstr "Modo lista"
+msgstr "Modo Pip"
 
 msgid "List of storage devices"
 msgstr "Lista de dispositivos de almacenamiento"
