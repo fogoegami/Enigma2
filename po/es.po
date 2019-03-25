@@ -7392,10 +7392,10 @@ msgid "Titleset mode"
 msgstr "Modo Titleset"
 
 msgid "To audio selection"
-msgstr "A selección de audio"
+msgstr "Ir a Selección de Audio"
 
 msgid "To subtitle selection"
-msgstr "A selección de subtítulos"
+msgstr "Ir a Selección de Subtítulos"
 
 msgid "Today"
 msgstr "Hoy"
