@@ -6664,10 +6664,10 @@ msgid "Stepped west"
 msgstr "Caminado hacia el oeste"
 
 msgid "Stop"
-msgstr "Stop"
+msgstr "Detener"
 
 msgid "Stop PiP"
-msgstr "Stop PiP"
+msgstr "Detener PiP"
 
 msgid "Stop all current recordings"
 msgstr "Detener grabaciones actuales"
