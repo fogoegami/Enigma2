@@ -31,7 +31,7 @@ def novedadesopenbox(url):
         text = link.encode("utf-8")
 
     except:
-        print"ERROR novedades openbox %s" %(url)
+        print"ERROR novedades alvaro %s" %(url)
 
     return text
 
@@ -194,7 +194,7 @@ class CommitInfo(Screen):
         Screen.__init__(self, session)
         self.session = session
         self.skinName = "CommitInfo"
-        self.setup_title = _("Novedades Team OpenBox")
+        self.setup_title = _("Novedades Alvaro")
         self.setTitle(self.setup_title)
         self["novedades"] = ScrollLabel()
         self["Actions"] = ActionMap(['OkCancelActions', 'ShortcutActions',"ColorActions","DirectionActions"],

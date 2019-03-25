@@ -13487,9 +13487,6 @@ msgstr "Comprobar que epg.dat existe"
 msgid "Download EPG"
 msgstr "Descargar EPG"
 
-msgid "EPG from openbox.boxtvmania.com"
-msgstr "EPG desde openbox.boxtvmania.com"
-
 msgid "Download epg.dat successful"
 msgstr "Descarga epg.dat con éxito"
 
