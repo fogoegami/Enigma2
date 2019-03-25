@@ -10942,7 +10942,7 @@ msgstr ""
 "Presione OK para comenzar a usar su receptor."
 
 msgid "Use the up/down keys on your remote control to select an option. After that, press OK."
-msgstr "Usar las teclas arriba / abajo en su control remoto para seleccionar una opción. Después de eso, presione OK."
+msgstr "Usar las teclas arriba / abajo en su mando a distancia para seleccionar una opción. Después de eso, presione OK."
 
 msgid "Use the wizard to set up basic features"
 msgstr "Usar el asistente para funciones básicas"
@@ -10955,7 +10955,7 @@ msgid ""
 msgstr ""
 "Bienvenido.\n"
 "Este asistente de inicio lo guiará a través de la configuración básica de su receptor.\n"
-"Presione el botón OK en su control remoto para avanzar al siguiente paso."
+"Presione el botón OK en su mando a distancia para avanzar al siguiente paso."
 
 msgid "What type of service scan do you want?"
 msgstr "¿Qué tipo de búsqueda de canal quieres?"
@@ -14558,3 +14558,6 @@ msgstr "Cuando está habilitado se importa el temporizador desde el sintonizador
 
 msgid "Select the tuner to which the signal cable of the SCR device is connected."
 msgstr "Seleccione el sintonizador al que está conectado el cable de señal del dispositivo SCR."
+
+msgid "Please setup the following basic configs!"
+msgstr "Por favor, configure las siguientes configuraciones básicas!"

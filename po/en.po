@@ -2853,7 +2853,7 @@ msgid "Do you want this?"
 msgstr ""
 
 msgid "Do you want to autorestore settings?"
-msgstr ""
+msgstr "Desea restaurar su configuración?"
 
 msgid "Do you want to burn this collection to DVD medium?"
 msgstr "Do you want to burn this collection to DVD medium?"
@@ -5969,7 +5969,7 @@ msgstr ""
 "Press OK to go back to the TV mode or EXIT to cancel the moving."
 
 msgid "Please use the UP and DOWN keys to select your language. Afterwards press the OK button."
-msgstr "Please use the UP and DOWN keys to select your language. Afterwards press the OK button."
+msgstr "Utilice las teclas ARRIBA y ABAJO para seleccionar su idioma. Luego presione el botón OK."
 
 msgid "Please wait"
 msgstr ""
@@ -6344,7 +6344,7 @@ msgid "Qatar"
 msgstr ""
 
 msgid "Question"
-msgstr ""
+msgstr "Pregunta"
 
 msgid "Quick"
 msgstr "Quick"
@@ -11614,7 +11614,7 @@ msgid "yellow"
 msgstr "yellow"
 
 msgid "yes"
-msgstr "yes"
+msgstr "si"
 
 msgid "yes (keep feeds)"
 msgstr "yes (keep feeds)"
