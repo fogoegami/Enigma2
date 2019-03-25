@@ -47,7 +47,7 @@ class Timezones:
 
 	def getDefaultTimezone(self):
 		# TODO return something more useful - depending on country-settings?
-		t = "(GMT+01:00) Brussels, Copenhagen, Madrid, Paris"
+		t = "(GMT+01:00) Bruselas, Copenhague, Madrid, Paris"
 		for (a,b) in self.timezones:
 			if a == t:
 				return a
