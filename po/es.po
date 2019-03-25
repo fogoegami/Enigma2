@@ -6527,7 +6527,7 @@ msgstr "¿Ordenar los plugins por defecto?"
 
 #. TRANSLATORS: This must fit into the header button in the EPG-List
 msgid "Sort time"
-msgstr "Orden por tiempo"
+msgstr "Ordenar por fecha"
 
 msgid "Source request"
 msgstr "Solicitud de origen"
