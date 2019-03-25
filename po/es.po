@@ -6090,7 +6090,7 @@ msgstr ""
 "Revise configuración del sintonizador!"
 
 msgid "Servicename"
-msgstr "nombre de canal"
+msgstr "Nombre de canal"
 
 msgid "Services"
 msgstr "Servicios"
