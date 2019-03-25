@@ -14577,3 +14577,8 @@ msgstr "Seleccione el tipo de dispositivo de recepción de cable único que est�
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr "Seleccione 'FBC SCR' si este sintonizador se conectará a un dispositivo SCR (Unicable/JESS). Para todas las demás configuraciones, seleccione 'FBC automático'."
 
+msgid "Create separate radio userbouquet"
+msgstr "Crear radio separado userbouquet"
+
+msgid "Drop unconfigured satellites"
+msgstr "Soltar satélites no configurados"
