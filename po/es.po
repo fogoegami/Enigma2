@@ -14292,7 +14292,7 @@ msgid "Please wait while updating your network mount..."
 msgstr "Por favor espere mientras se actualiza su montaje de red..."
 
 msgid "Select locale"
-msgstr "Seleccionar local"
+msgstr "Seleccionar Teclado"
 
 msgid "Upper case"
 msgstr "Mayúscula"
@@ -14561,3 +14561,6 @@ msgstr "Seleccione el sintonizador al que está conectado el cable de señal del
 
 msgid "Please setup the following basic configs!"
 msgstr "Por favor, configure las siguientes configuraciones básicas!"
+
+msgid "Enter"
+msgstr "Entrar"
