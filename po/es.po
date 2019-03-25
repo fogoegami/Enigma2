@@ -6649,7 +6649,7 @@ msgid "Start with list screen"
 msgstr "Iniciar con pantalla de lista"
 
 msgid "Starting on"
-msgstr "A partir de la"
+msgstr "A partir de"
 
 msgid "Step east"
 msgstr "Paso este"
