@@ -14588,3 +14588,6 @@ msgstr "Habilitar el temporizador de importación desde el sintonizador de reser
 
 msgid "When enabled the timer from the fallback tuner is imported"
 msgstr "Cuando está habilitado se importa el temporizador desde el sintonizador de reserva"
+
+msgid "Select the tuner to which the signal cable of the SCR device is connected."
+msgstr "Seleccione el sintonizador al que está conectado el cable de señal del dispositivo SCR."
