@@ -33,7 +33,7 @@
 	<zone name="(GMT) Greenwich Mean Time : Dublin, Lisbon, London" zone="Europe/Dublin" />
 	<zone name="(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Vienna" zone="CET" />
 	<zone name="(GMT+01:00) Belgrade, Bratislava, Budapest, Prague" zone="CET" />
-	<zone name="(GMT+01:00) Brussels, Copenhagen, Madrid, Paris" zone="CET" />
+	<zone name="(GMT+01:00) Bruselas, Copenhague, Madrid, Paris" zone="CET" />
 	<zone name="(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb" zone="CET" />
 	<zone name="(GMT+01:00) West Central Africa" zone="Africa/Kinshasa" />
 	<zone name="(GMT+01:00) Algiers, Tunis" zone="Africa/Kinshasa" />
