@@ -14582,3 +14582,9 @@ msgstr "Crear radio separado userbouquet"
 
 msgid "Drop unconfigured satellites"
 msgstr "Soltar satélites no configurados"
+
+msgid "Enable import timer from fallback tuner"
+msgstr "Habilitar el temporizador de importación desde el sintonizador de reserva"
+
+msgid "When enabled the timer from the fallback tuner is imported"
+msgstr "Cuando está habilitado se importa el temporizador desde el sintonizador de reserva"
