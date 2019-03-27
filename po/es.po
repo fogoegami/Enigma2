@@ -14503,3 +14503,10 @@ msgstr "Entrar"
 
 msgid "Please wait while DreamSet is writting your settings ..."
 msgstr "Espera mientras DreamSet escribe su lista de canales ..."
+
+msgid ""
+"\n"
+"Press OK or Exit to abort!"
+msgstr ""
+"\n"
+"Presiona OK o Salir para abortar!"
