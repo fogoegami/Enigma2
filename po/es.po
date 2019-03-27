@@ -9703,19 +9703,19 @@ msgid "Configure how the fan should operate"
 msgstr "Configure cómo debería funcionar el ventilador"
 
 msgid "Configure if and how crypto icons will be shown in the channel selection list."
-msgstr "Configure si y cómo se mostrarán los iconos de cifrado en la lista de selección de canales."
+msgstr "Configure si y cómo se mostrarán los iconos de cifrado en la lista de canales."
 
 msgid "Configure if and how long the latest service in the PiP will be remembered."
 msgstr "Configure si y durante cuánto tiempo se recordará el último canal en el PiP."
 
 msgid "Configure if and how service type icons will be shown in the channel selection list."
-msgstr "Configure si y cómo se mostrarán los iconos de tipo de canal en la lista de selección de canales."
+msgstr "Configure si y cómo se mostrarán los iconos de tipo de canal en la lista de canales."
 
 msgid "Configure if and how the record indicator will be shown in the channel selection list."
-msgstr "Configure si y cómo se mostrará el indicador de grabación en la lista de selección de canales."
+msgstr "Configure si y cómo se mostrará el indicador de grabación en la lista de canales."
 
 msgid "Configure if and how wide columns will be shown in the channel selection list."
-msgstr "Configure si y cómo se mostrará el ancho de las columnas en la lista de selección de canales."
+msgstr "Configure si y cómo se mostrará el ancho de las columnas en la lista de canales."
 
 msgid "Configure if behind the subtitles a background is shown."
 msgstr "Configure si detrás de los subtítulos se muestra un fondo."
@@ -9724,7 +9724,7 @@ msgid "Configure if service picons will be shown in display (when supported by t
 msgstr "Configure si los picons de canal se mostrarán en la pantalla (cuando lo admita la piel)."
 
 msgid "Configure if service picons will be shown in the channel selection list."
-msgstr "Configure si los picons de canal se mostrarán en la lista de selección de canales."
+msgstr "Configure si los picons de canal se mostrarán en la lista de canales."
 
 msgid "Configure if the subtitle should switch between normal, italic, bold and bolditalic"
 msgstr "Configure si los subtítulos deben cambiar entre normal, cursiva, negrita y negrita cursiva"
@@ -9769,7 +9769,7 @@ msgid "Configure the contrast level of the front panel display."
 msgstr "Configure el nivel de contraste de la pantalla del panel frontal."
 
 msgid "Configure the cursor behaviour in the channel selection list. When opening the channel selection list you can keep on the current service or already select up/down and you are able to revert the B+/B- buttons."
-msgstr "Configure el comportamiento del cursor en la lista de selección de canales. Al abrir la lista de selección de canales puede continuar con el canal actual o seleccionar arriba/abajo y puede revertir los botones B+/B-."
+msgstr "Configure el comportamiento del cursor en la lista de canales. Al abrir la lista de selección de canales puede continuar con el canal actual o seleccionar arriba/abajo y puede revertir los botones B+/B-."
 
 msgid "Configure the duration in minutes for the screensaver."
 msgstr "Configure la duración en minutos para el protector de pantalla."
