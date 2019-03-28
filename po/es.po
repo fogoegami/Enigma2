@@ -7672,7 +7672,7 @@ msgid "Update and reboot (recommended)"
 msgstr "Actualizar y reiniciar (recomendado)"
 
 msgid "Update channel list only"
-msgstr "Usar solo lista de canales"
+msgstr "Actualizar solo la lista de canales"
 
 #, python-format
 msgid "Update completed, %d package was installed."
