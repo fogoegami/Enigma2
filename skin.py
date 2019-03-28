@@ -76,11 +76,11 @@ def skin_user_skinname():
 
 # example: loadSkin("nemesis_greenline/skin.xml")
 config.skin = ConfigSubsection()
-DEFAULT_SKIN = SystemInfo["HasFullHDSkinSupport"] and "btvadriatico/skin.xml" or "openplusHD/skin.xml"
+DEFAULT_SKIN = SystemInfo["HasFullHDSkinSupport"] and "Adriatic-HD/skin.xml" or "openplusHD/skin.xml"
 # on SD hardware, PLi-HD will not be available
 if not fileExists(resolveFilename(SCOPE_SKIN, DEFAULT_SKIN)):
 	# in that case, fallback to Magic (which is an SD skin)
-	DEFAULT_SKIN = "btvadriatico/skin.xml"
+	DEFAULT_SKIN = "Adriatic-HD/skin.xml"
 	if not fileExists(resolveFilename(SCOPE_SKIN, DEFAULT_SKIN)):
 		DEFAULT_SKIN = "skin.xml"
 config.skin.primary_skin = ConfigText(default=DEFAULT_SKIN)
