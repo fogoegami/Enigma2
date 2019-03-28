@@ -14513,3 +14513,15 @@ msgstr ""
 
 msgid "update bookmarks"
 msgstr "actualizar marcadores"
+
+msgid "Press or select button and then press 'OK' for attach function."
+msgstr "Presione o seleccione el botón y luego presione 'OK' para adjuntar la función."
+
+msgid "Press or select button and then press 'OK' for attach next function or edit attached."
+msgstr "Presione o seleccione el botón y luego presione 'OK' para adjuntar la siguiente función o la edición adjunta."
+
+msgid "Local mountpoint"
+msgstr "Local punto de montaje"
+
+msgid "Host name"
+msgstr "Nombre del dispositivo montado"
