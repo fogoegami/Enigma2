@@ -14502,9 +14502,6 @@ msgstr "Por favor, configure las siguientes configuraciones básicas!"
 msgid "Enter"
 msgstr "Entrar"
 
-msgid "Operation completed"
-msgstr "Operación completada"
-
 msgid ""
 "\n"
 "Press OK or Exit to abort!"
