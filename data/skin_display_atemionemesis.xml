@@ -27,49 +27,49 @@
 	    <widget source="session.RecordState" render="FixedLabel" text="REC" font="FdLcD;15" position="65,15" size="35,15">
 		     <convert type="ConditionalShowHide">Blink</convert>
 	    </widget>			
-	    <widget source="session.CurrentService" render="Pixmap" pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/dolby.png" position="125,18" size="16,12">
+	    <widget source="session.CurrentService" render="Pixmap" pixmap="/usr/share/enigma2/Adriatic-HD/skin_default/display-oled/dolby.png" position="125,18" size="16,12">
 		     <convert type="ServiceInfo">IsMultichannel</convert>
 		     <convert type="ConditionalShowHide"/>
 	    </widget>
 	</screen>
 	
 	<screen name="SummaryTunerStatusPanel">
-	    <widget source="session.TunerInfo" render="Pixmap" pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/tuner-a.png" position="144,15" size="9,15">
+	    <widget source="session.TunerInfo" render="Pixmap" pixmap="/usr/share/enigma2/Adriatic-HD/skin_default/display-oled/tuner-a.png" position="144,15" size="9,15">
 		     <convert type="TunerInfo">TunerUseMask</convert>
 		     <convert type="ValueBitTest">1</convert>
 		     <convert type="ConditionalShowHide"/>
 	    </widget>
-		<widget source="session.TunerInfo" render="Pixmap" pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/tuner-b.png" position="153,15" size="9,15">
+		<widget source="session.TunerInfo" render="Pixmap" pixmap="/usr/share/enigma2/Adriatic-HD/skin_default/display-oled/tuner-b.png" position="153,15" size="9,15">
 		     <convert type="TunerInfo">TunerUseMask</convert>
 		     <convert type="ValueBitTest">2</convert>
 		     <convert type="ConditionalShowHide"/>
 	    </widget>
-		<widget source="session.TunerInfo" render="Pixmap" pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/tuner-c.png" position="162,15" size="9,15">
+		<widget source="session.TunerInfo" render="Pixmap" pixmap="/usr/share/enigma2/Adriatic-HD/skin_default/display-oled/tuner-c.png" position="162,15" size="9,15">
 		     <convert type="TunerInfo">TunerUseMask</convert>
 		     <convert type="ValueBitTest">4</convert>
 		     <convert type="ConditionalShowHide"/>
 	    </widget>
-		<widget source="session.TunerInfo" render="Pixmap" pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/tuner-d.png" position="171,15" size="9,15">
+		<widget source="session.TunerInfo" render="Pixmap" pixmap="/usr/share/enigma2/Adriatic-HD/skin_default/display-oled/tuner-d.png" position="171,15" size="9,15">
 		     <convert type="TunerInfo">TunerUseMask</convert>
 		     <convert type="ValueBitTest">8</convert>
 		     <convert type="ConditionalShowHide"/>
 	    </widget>
-		<widget source="session.FrontendInfo" render="Pixmap" pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/tuner-a-act.png" position="144,15" size="9,15">
+		<widget source="session.FrontendInfo" render="Pixmap" pixmap="/usr/share/enigma2/Adriatic-HD/skin_default/display-oled/tuner-a-act.png" position="144,15" size="9,15">
 		     <convert type="FrontendInfo">NUMBER</convert>
 		     <convert type="ValueRange">0,0</convert>
 		     <convert type="ConditionalShowHide"/>
 	    </widget>
-		<widget source="session.FrontendInfo" render="Pixmap" pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/tuner-b-act.png" position="153,15" size="9,15">
+		<widget source="session.FrontendInfo" render="Pixmap" pixmap="/usr/share/enigma2/Adriatic-HD/skin_default/display-oled/tuner-b-act.png" position="153,15" size="9,15">
 		     <convert type="FrontendInfo">NUMBER</convert>
 		     <convert type="ValueRange">1,1</convert>
 		     <convert type="ConditionalShowHide"/>
 	    </widget>
-		<widget source="session.FrontendInfo" render="Pixmap" pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/tuner-c-act.png" position="162,15" size="9,15">
+		<widget source="session.FrontendInfo" render="Pixmap" pixmap="/usr/share/enigma2/Adriatic-HD/skin_default/display-oled/tuner-c-act.png" position="162,15" size="9,15">
 		     <convert type="FrontendInfo">NUMBER</convert>
 		     <convert type="ValueRange">2,2</convert>
 		     <convert type="ConditionalShowHide"/>
 	    </widget>
-		<widget source="session.FrontendInfo" render="Pixmap" pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/tuner-d-act.png" position="171,15" size="9,15">
+		<widget source="session.FrontendInfo" render="Pixmap" pixmap="/usr/share/enigma2/Adriatic-HD/skin_default/display-oled/tuner-d-act.png" position="171,15" size="9,15">
 		     <convert type="FrontendInfo">NUMBER</convert>
 		     <convert type="ValueRange">3,3</convert>
 		     <convert type="ConditionalShowHide"/>
@@ -99,7 +99,7 @@
 	    <widget source="session.Event_Now" render="Progress" position="0,33" size="256,6" borderWidth="1">
 		     <convert type="EventTime">Progress</convert>
         </widget>
-        <widget source="session.CurrentService" render="Pixmap" pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/hd.png" position="102,18" size="22,15">
+        <widget source="session.CurrentService" render="Pixmap" pixmap="/usr/share/enigma2/Adriatic-HD/skin_default/display-oled/hd.png" position="102,18" size="22,15">
 		     <convert type="ServiceInfo">IsHD</convert>
 		     <convert type="ConditionalShowHide"/>
 	    </widget>
@@ -178,7 +178,7 @@
     </screen>
     <!-- LCD screen InfoBarMoviePlayer E2 -->	
     <screen name="InfoBarMoviePlayerSummary" position="0,0" size="256,64">
-	    <ePixmap pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/play.png" position="140,10" size="23,20"/>	
+	    <ePixmap pixmap="/usr/share/enigma2/Adriatic-HD/skin_default/display-oled/play.png" position="140,10" size="23,20"/>	
 	    <widget source="global.CurrentTime" render="Label" position="0,0" size="255,35" font="FdLcD;35" halign="right" valign="center" noWrap="1">
 		     <convert type="ClockToText">Format:%H:%M</convert>
 	    </widget>
@@ -197,7 +197,7 @@
     </screen>
     <!-- FdLcD screen EMCMoviePlayerSummary -->
     <screen name="EMCMoviePlayerSummary" position="0,0" size="256,64">
-	    <ePixmap pixmap="/usr/share/enigma2/btvadriatico/skin_default/display-oled/play.png" position="140,10" size="23,20"/>
+	    <ePixmap pixmap="/usr/share/enigma2/Adriatic-HD/skin_default/display-oled/play.png" position="140,10" size="23,20"/>
 	    <widget source="global.CurrentTime" render="Label" position="0,0" size="255,35" font="FdLcD;35" halign="right" valign="center" noWrap="1">
 		     <convert type="ClockToText">Format:%H:%M</convert>
 	    </widget>
