@@ -13823,7 +13823,7 @@ msgid "CIFS share"
 msgstr "Compartir CIFS"
 
 msgid "Server IP"
-msgstr "IP del Servidor"
+msgstr "IP del Servidor que vamos a montar"
 
 msgid "Server share"
 msgstr "Compartir del Servidor"
@@ -14519,7 +14519,7 @@ msgid "Press or select button and then press 'OK' for attach next function or ed
 msgstr "Presione o seleccione el botón y luego presione 'OK' para adjuntar la siguiente función o la edición adjunta."
 
 msgid "Local mountpoint"
-msgstr "Local punto de montaje"
+msgstr "Punto de montaje Local"
 
 msgid "Host name"
 msgstr "Nombre del dispositivo montado"
