@@ -14501,8 +14501,8 @@ msgstr "Por favor, configure las siguientes configuraciones básicas!"
 msgid "Enter"
 msgstr "Entrar"
 
-msgid "Please wait while DreamSet is writting your settings ..."
-msgstr "Espera mientras DreamSet escribe su lista de canales ..."
+msgid "Operation completed"
+msgstr "Operación completada"
 
 msgid ""
 "\n"
