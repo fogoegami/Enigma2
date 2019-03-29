@@ -7672,7 +7672,7 @@ msgid "Update and reboot (recommended)"
 msgstr "Actualizar y reiniciar (recomendado)"
 
 msgid "Update channel list only"
-msgstr "Actualizar solo la lista de canales"
+msgstr "Actualizar solo lista de canales"
 
 #, python-format
 msgid "Update completed, %d package was installed."
@@ -14513,10 +14513,10 @@ msgid "update bookmarks"
 msgstr "actualizar marcadores"
 
 msgid "Press or select button and then press 'OK' for attach function."
-msgstr "Presione directamente el botón del mando que quiera asignar o seleccione el botón con teclas arriba/abajo y luego pulse 'OK' para añadir la nueva función."
+msgstr "Presione el botón del mando que quiera asignar o seleccione con botón 'arriba abajo' luego pulse 'OK' para asignar la función."
 
 msgid "Press or select button and then press 'OK' for attach next function or edit attached."
-msgstr "Presione directamente el botón o seleccione el botón con tecla arriba/abajo y luego presione 'OK' para añadir una nueva función a la que está en uso"
+msgstr "Presione el botón directo o seleccione con botón 'arriba abajo' luego presione 'OK' para asignar una nueva función a la que hay en uso"
 
 msgid "Local mountpoint"
 msgstr "Punto de montaje Local"
