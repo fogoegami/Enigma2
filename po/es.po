@@ -13826,7 +13826,7 @@ msgid "Server IP"
 msgstr "IP del Servidor que vamos a montar"
 
 msgid "Server share"
-msgstr "Compartir del Servidor"
+msgstr "Directorio a compartir del Servidor"
 
 msgid "use as HDD replacement"
 msgstr "usar como reemplazo de HDD"
