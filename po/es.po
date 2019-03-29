@@ -14513,7 +14513,7 @@ msgid "update bookmarks"
 msgstr "actualizar marcadores"
 
 msgid "Press or select button and then press 'OK' for attach function."
-msgstr "Presione o seleccione el botón y luego presione 'OK' para adjuntar la función."
+msgstr "Presione directamente el botón del mando que quiera asignar o seleccione el botón con teclas arriba/abajo y luego pulse 'OK' para adjuntar la función."
 
 msgid "Press or select button and then press 'OK' for attach next function or edit attached."
 msgstr "Presione o seleccione el botón y luego presione 'OK' para adjuntar la siguiente función o la edición adjunta."
