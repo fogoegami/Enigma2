@@ -14523,3 +14523,7 @@ msgstr "Punto de montaje Local"
 
 msgid "Host name"
 msgstr "Nombre del dispositivo montado"
+
+msgid "Modes"
+msgstr "Modos"
+
