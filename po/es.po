@@ -1027,7 +1027,7 @@ msgid "Aruba"
 msgstr "Aruba"
 
 msgid "As defined by the skin"
-msgstr "Definido por la piel"
+msgstr "Definido por skin"
 
 msgid "Ask user"
 msgstr "Preguntar al usuario"
@@ -2297,7 +2297,7 @@ msgid "Do you want to resume this playback?"
 msgstr "¿Quieres continuar esta reproducción?"
 
 msgid "Do you want to select a different skin?"
-msgstr "¿Quieres seleccionar una piel diferente?"
+msgstr "¿Quieres seleccionar un skin diferente?"
 
 #, python-format
 msgid "Do you want to update your receiver to %s?"
@@ -2507,7 +2507,7 @@ msgid "Enigma version: "
 msgstr "Versión de Enigma: "
 
 msgid "Enigma2 skin selector"
-msgstr "Selección de Piel Enigma2"
+msgstr "Selección de Skin Enigma2"
 
 msgid "Enter IP address"
 msgstr "Introduzca dirección IP"
@@ -2638,7 +2638,7 @@ msgid "Ethiopia"
 msgstr "Etiopía"
 
 msgid "Event font size (relative to skin size)"
-msgstr "Tamaño de la fuente del evento (relativa al tamaño de la piel)"
+msgstr "Tamaño de la fuente del evento (relativa al tamaño de skin)"
 
 msgid "Event name first"
 msgstr "Nombre del evento primero"
@@ -3015,7 +3015,7 @@ msgid ""
 "GUI needs a restart to apply a new skin\n"
 "Do you want to restart the GUI now?"
 msgstr ""
-"La GUI necesita reiniciarse para aplicar una nueva piel\n"
+"La GUI necesita reiniciarse para aplicar su nuevo skin\n"
 "¿Desea reiniciar la GUI ahora?"
 
 msgid "Gabon"
@@ -4968,7 +4968,7 @@ msgid "Press OK on your remote control to continue."
 msgstr "Presione OK en su mando para continuar."
 
 msgid "Press OK to activate the selected skin."
-msgstr "Presione OK para activar la piel seleccionada."
+msgstr "Presione OK para activar el skin seleccionado."
 
 msgid "Press OK to activate the settings."
 msgstr "Presione OK para activar la configuración."
@@ -5564,7 +5564,7 @@ msgid "Same as stream"
 msgstr "Mismo que el flujo"
 
 msgid "Same resolution as skin"
-msgstr "Misma resolución que la piel"
+msgstr "Misma resolución que el skin"
 
 msgid "Samoa"
 msgstr "Samoa"
@@ -5982,7 +5982,7 @@ msgid "Select your ATSC provider."
 msgstr "Seleccione su proveedor de ATSC."
 
 msgid "Select your Skin"
-msgstr "Seleccione su piel"
+msgstr "Seleccione su skin"
 
 msgid "Select your country. If not available select 'all'."
 msgstr "Seleccione su país. Si no está disponible seleccione “todo”."
@@ -6396,7 +6396,7 @@ msgid "Skin"
 msgstr "Skin"
 
 msgid "Skins"
-msgstr "Pieles"
+msgstr "Skins"
 
 msgid "Skip empty services"
 msgstr "Omitir servicios vacíos"
@@ -7032,7 +7032,7 @@ msgid ""
 msgstr ""
 "El asistente de overscan le ayuda a configurar su TV de la manera correcta.\n"
 "\n"
-"Para la mayoría de los televisores, el valor predeterminado de fábrica es habilitar el overscan. Esto significa que siempre está viendo una imagen “ampliada” en lugar de HD real, y partes de la interfaz de usuario (piel) pueden no ser visibles.\n"
+"Para la mayoría de los televisores, el valor predeterminado de fábrica es habilitar el overscan. Esto significa que siempre está viendo una imagen “ampliada” en lugar de HD real, y partes de la interfaz de usuario (skin) pueden no ser visibles.\n"
 "\n"
 "El área amarilla significa que un área de borde del 5% de una imagen Full HD será invisible.\n"
 "El área verde significa que un área de borde del 10% de una imagen Full HD será invisible.\n"
@@ -7078,7 +7078,7 @@ msgid "The timer file (timers.xml) is corrupt and could not be loaded."
 msgstr "El archivo de temporizador (timers.xml) está dañado y no se pudo cargar."
 
 msgid "The user interface of the receiver will now restart to select the selected skin"
-msgstr "La interfaz de usuario del receptor ahora se reiniciará para mostrar la piel seleccionada"
+msgstr "La interfaz de usuario del receptor ahora se reiniciará para mostrar su skin seleccionado"
 
 msgid "The user interface of your receiver is restarting"
 msgstr "La interfaz de usuario de su receptor se está reiniciando"
@@ -7212,7 +7212,7 @@ msgid "This option sets the picture brightness."
 msgstr "Esta opción establece el brillo de la imagen."
 
 msgid "This option sets the picture flesh tones."
-msgstr "Esta opción establece los tonos de piel de la imagen."
+msgstr "Esta opción establece los tonos de skin de la imagen."
 
 msgid "This option sets the picture hue."
 msgstr "Esta opción establece el matiz de la imagen."
@@ -7888,7 +7888,7 @@ msgid "View list of available recording extensions"
 msgstr "Ver lista de extensiones de grabación disponibles"
 
 msgid "View list of available skins"
-msgstr "Ver lista de extensiones de pieles disponibles"
+msgstr "Ver lista de extensiones de skins disponibles"
 
 msgid "View list of available software extensions"
 msgstr "Ver lista de extensiones de software disponibles"
@@ -8224,9 +8224,9 @@ msgid ""
 msgstr ""
 "No viste las ocho cabezas de flecha. Esto significa que su TV tiene el overscan habilitado y le presenta una imagen ampliada, causando que pierda parte de una pantalla Full HD. Además, también puede omitir partes de la interfaz de usuario, por ejemplo, barras de volumen y más.\n"
 "\n"
-"Desafortunadamente, su modelo de receptor no es capaz de ajustar las dimensiones de la interfaz de usuario. Si no todo está visible, debe cambiar la piel instalada a una que admita el área de overscan de su TV.\n"
+"Desafortunadamente, su modelo de receptor no es capaz de ajustar las dimensiones de la interfaz de usuario. Si no todo está visible, debe cambiar el skin instalada a una que admita el área de overscan de su TV.\n"
 "\n"
-"Cuando selecciona una piel diferente, la interfaz de usuario de su receptor se reiniciará.\n"
+"Cuando selecciona un skin diferente, la interfaz de usuario de su receptor se reiniciará.\n"
 "\n"
 "Nota: siempre puede iniciar el Asistente Overscan más tarde, a través del\n"
 "\n"
@@ -9721,7 +9721,7 @@ msgid "Configure if behind the subtitles a background is shown."
 msgstr "Configure si detrás de los subtítulos se muestra un fondo."
 
 msgid "Configure if service picons will be shown in display (when supported by the skin)."
-msgstr "Configure si los picons de canal se mostrarán en la pantalla (cuando lo admita la piel)."
+msgstr "Configure si los picons de canal se mostrarán en la pantalla (cuando lo admita el skin)."
 
 msgid "Configure if service picons will be shown in the channel selection list."
 msgstr "Configure si los picons de canal se mostrarán en la lista de canales."
@@ -10557,7 +10557,7 @@ msgid "When enabled, display the EIT now/next eventdata in infobar. When disable
 msgstr "Cuando está habilitado, muestra los datos del evento EIT ahora/próximo en la Infobar. Cuando está deshabilitado, muestra los datos de eventos ahora/próximos de la caché EPG."
 
 msgid "When enabled, encryption info will be shown in the infobar (when supported by the skin)."
-msgstr "Cuando está habilitado, la información de encriptación se mostrará en la Infobar (cuando sea compatible con la piel)."
+msgstr "Cuando está habilitado, la información de encriptación se mostrará en la Infobar (cuando sea compatible con el skin)."
 
 msgid "When enabled, error messages related to zapping will not be shown."
 msgstr "Cuando está habilitado, los mensajes de error relacionados con el zapping no se mostrarán."
@@ -10812,7 +10812,7 @@ msgid "Select a movie"
 msgstr "Selecciona una película"
 
 msgid "Select a skin"
-msgstr "Selecciona una piel"
+msgstr "Selecciona un skin"
 
 msgid "Select a tuner"
 msgstr "Selecciona sintonizador"
