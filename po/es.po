@@ -13421,7 +13421,7 @@ msgid "Mount Manager"
 msgstr "Manejar Montajes"
 
 msgid "Label for device"
-msgstr "Etiqueta para dispositivo"
+msgstr "Etiqueta dispositivo"
 
 msgid "TRIM"
 msgstr "Ajustar"
