@@ -4585,16 +4585,16 @@ msgid "PDC"
 msgstr "PDC"
 
 msgid "PGS file"
-msgstr "PGS file"
+msgstr "PGS archivo"
 
 msgid "PLP ID"
 msgstr "PLP ID"
 
 msgid "PLS Code"
-msgstr "PLS Code"
+msgstr "PLS Código"
 
 msgid "PLS Mode"
-msgstr "PLS Mode"
+msgstr "PLS Modo"
 
 msgid "PMT PID"
 msgstr "PMT PID"
@@ -7528,7 +7528,7 @@ msgid "Tuner not available."
 msgstr "Sintonizador no disponible."
 
 msgid "Tuner setting values"
-msgstr "Valores de ajuste del sintonizador"
+msgstr "Valores ajustes del sintonizador"
 
 msgid "Tuner status:"
 msgstr "Status del sintonizador:"
@@ -7846,7 +7846,7 @@ msgid "Video: %s fps"
 msgstr "Video: %s fps"
 
 msgid "Videocodec, size & format"
-msgstr "Códec de video, tamaño y formato"
+msgstr "Códecvideo, tamaño formato"
 
 msgid "Viet Nam"
 msgstr "Vietnam"
@@ -14350,10 +14350,10 @@ msgstr "Configuración del asistente"
 
 #, python-format
 msgid "Audio PID%s, codec & lang"
-msgstr "PID audio %s, codec & lang"
+msgstr "PID audio %s, codec & leng"
 
 msgid "Audio PID, codec & lang"
-msgstr "PID audio, codec & lang"
+msgstr "PID audio, codec & lenguaje"
 
 msgid "Basic PID info"
 msgstr "Info básica PID"
@@ -14386,7 +14386,7 @@ msgid "Service info - service & Extended PID Info"
 msgstr "Info Servicio - canal & Info PID extendido"
 
 msgid "TXT Subtitles page & lang"
-msgstr "Página Subtítulos TXT & lang"
+msgstr "Subtítulos TXT & lenguaje"
 
 msgid "VOB File"
 msgstr "Archivo VOB"
@@ -14526,4 +14526,3 @@ msgstr "Nombre del dispositivo montado"
 
 msgid "Modes"
 msgstr "Modos"
-
