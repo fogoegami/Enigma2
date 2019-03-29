@@ -4156,7 +4156,7 @@ msgid "Nameserver settings"
 msgstr "Configuración de nombre del servidor"
 
 msgid "Namespace & Orbital pos."
-msgstr "Espacio de nombres y posición orbital."
+msgstr "Espacio nombres pos. orbital."
 
 msgid "Namibia"
 msgstr "Namibia"
@@ -14350,16 +14350,16 @@ msgstr "Configuración del asistente"
 
 #, python-format
 msgid "Audio PID%s, codec & lang"
-msgstr "PID audio %s, codec & leng"
+msgstr "PID audio %s, codec lenguaje"
 
 msgid "Audio PID, codec & lang"
-msgstr "PID audio, codec & lenguaje"
+msgstr "PID audio, codec lenguaje"
 
 msgid "Basic PID info"
 msgstr "Info básica PID"
 
 msgid "DVB Subtitles PID & lang"
-msgstr "Subtítulos DVB PID & lang"
+msgstr "Subtítulos DVB PID lenguaje"
 
 msgid "Embedded"
 msgstr "Embebido"
@@ -14368,7 +14368,7 @@ msgid "Extended PID info"
 msgstr "Extender info PID"
 
 msgid "Other Subtitles & lang"
-msgstr "Otros Subtítulos & lang"
+msgstr "Otros Subtítulos lenguaje"
 
 msgid "PGS File"
 msgstr "Archivo PGS"
@@ -14386,7 +14386,7 @@ msgid "Service info - service & Extended PID Info"
 msgstr "Info Servicio - canal & Info PID extendido"
 
 msgid "TXT Subtitles page & lang"
-msgstr "Subtítulos TXT & lenguaje"
+msgstr "Subtítulos TXT lenguaje"
 
 msgid "VOB File"
 msgstr "Archivo VOB"
