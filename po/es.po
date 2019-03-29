@@ -14530,3 +14530,6 @@ msgstr "Modos"
 #, python-format
 msgid "Skin & Resolution: %s (%sx%s)\n"
 msgstr "Skin & Resolución: %s (%sx%s)\n"
+
+msgid "<Default Skin>"
+msgstr "<Skin por Defecto>"
