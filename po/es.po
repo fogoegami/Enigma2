@@ -13939,7 +13939,7 @@ msgid "HistoryZapSelector"
 msgstr "HistorialZapSelector"
 
 msgid "Preview zap to service ?"
-msgstr "Vista previa zap al servicio?"
+msgstr "Vista previa zapear al canal?"
 
 msgid "Really clear history list ?"
 msgstr "Realmente quiere limpiar el historial?"
