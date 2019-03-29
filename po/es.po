@@ -6393,7 +6393,7 @@ msgid "Site longitude"
 msgstr "Longitud del sitio"
 
 msgid "Skin"
-msgstr "Piel"
+msgstr "Skin"
 
 msgid "Skins"
 msgstr "Pieles"
@@ -14526,3 +14526,7 @@ msgstr "Nombre del dispositivo montado"
 
 msgid "Modes"
 msgstr "Modos"
+
+#, python-format
+msgid "Skin & Resolution: %s (%sx%s)\n"
+msgstr "Skin & Resolución: %s (%sx%s)\n"
