@@ -9769,7 +9769,7 @@ msgid "Configure the contrast level of the front panel display."
 msgstr "Configure el nivel de contraste de la pantalla del panel frontal."
 
 msgid "Configure the cursor behaviour in the channel selection list. When opening the channel selection list you can keep on the current service or already select up/down and you are able to revert the B+/B- buttons."
-msgstr "Configure el comportamiento del cursor en la lista de canales. Al abrir la lista de canales puede continuar con el canal actual o seleccionar arriba/abajo y puede revertir los botones Bouquets+/Bouqueets-."
+msgstr "Configure el comportamiento del cursor en la lista de canales. Al abrir la lista de canales puede continuar con el canal actual o seleccionar arriba/abajo y puede revertir los botones B+/-."
 
 msgid "Configure the duration in minutes for the screensaver."
 msgstr "Configure la duración en minutos para el protector de pantalla."
