@@ -1203,7 +1203,7 @@ msgid "Begin time"
 msgstr "Hora de comienzo"
 
 msgid "Behavior when a movie reaches the end"
-msgstr "Comportamiento cuando una película llega al final"
+msgstr "Comportamiento si una película acaba"
 
 msgid "Belarus"
 msgstr "Bielorrusia"
@@ -14513,10 +14513,10 @@ msgid "update bookmarks"
 msgstr "actualizar marcadores"
 
 msgid "Press or select button and then press 'OK' for attach function."
-msgstr "Presione el botón del mando que quiera asignar o seleccione con botón 'arriba abajo' luego pulse 'OK' para asignar la función."
+msgstr "Presione el botón del mando que quiera asignar directo o seleccione con botón 'arriba abajo' y elíjalo, luego pulse 'OK' para asignar la función."
 
 msgid "Press or select button and then press 'OK' for attach next function or edit attached."
-msgstr "Presione el botón directo o seleccione con botón 'arriba abajo' luego presione 'OK' para asignar una nueva función a la que hay en uso."
+msgstr "Presione el botón del mando que quiere asignar directo o seleccione con botón 'arriba abajo' y elíjalo, luego presione 'OK' para asignar una nueva función a la que hay en uso."
 
 msgid "Local mountpoint"
 msgstr "Punto de montaje Local"
