@@ -1800,7 +1800,7 @@ msgid "Country"
 msgstr "País"
 
 msgid "Cover dashed flickering line for this service"
-msgstr "Cubrir la línea parpadeante discontinua para este servicio"
+msgstr "Cubrir la línea blanca discontinua para este canal"
 
 msgid "Create DVD-ISO"
 msgstr "Crear DVD-ISO"
@@ -6006,7 +6006,7 @@ msgid "Selecting this option allows you to configure a group of satellites in on
 msgstr "Seleccionar esta opción le permite configurar un grupo de satélites en un bloque."
 
 msgid "Send 'sourceactive' before zap timers"
-msgstr "Enviar ‘sourceactive’ antes de zapear temporizadores"
+msgstr "Enviar ‘códigoactivo’ antes de zapear temporizadores"
 
 msgid "Send DiSEqC"
 msgstr "Mandar Diseqc"
@@ -9610,7 +9610,7 @@ msgid "Alternative services tuner priority"
 msgstr "Prioridad de sintonizador de servicios alternativos"
 
 msgid "Always include ECM in recordings"
-msgstr "Incluye siempre ICM en las grabaciones"
+msgstr "Incluye siempre ECM en las grabaciones"
 
 msgid "Always include ECM messages in recordings. This overrides the individual timer settings globally. It allows recordings to be always decrypted afterwards (sometimes called offline decoding), if supported by your receiver. Default: off."
 msgstr "Siempre incluya mensajes ECM en grabaciones. Esto anula las configuraciones de temporizador individuales. Permite que las grabaciones siempre se descifren después (a veces llamada decodificación sin conexión), si su receptor lo soporta. Predeterminado: apagado."
@@ -9829,7 +9829,7 @@ msgid "Configure the number of days old timers are kept before they are automati
 msgstr "Configure la cantidad de días que se guardan los temporizadores antiguos antes de que se eliminen automáticamente de la lista de temporizadores."
 
 msgid "Configure the offline decoding delay in milliseconds. The configured delay is observed at each control word parity change."
-msgstr "Configure el retardo de descodificación offline en milisegundos. El retraso configurado se observa en cada cambio de paridad en palabras de control."
+msgstr "Configure el retardo de decodificación offline en milisegundos. El retraso configurado se observa en cada cambio de paridad en palabras de control."
 
 msgid "Configure the possible fast forward speeds."
 msgstr "Configure las posibles velocidades de avance."
@@ -9979,7 +9979,7 @@ msgid "EPG settings"
 msgstr "Configuración EPG"
 
 msgid "Enable 'neutrino' style channel select controlling"
-msgstr "Activar el control de selección de canal de estilo neutrino"
+msgstr "Activar el control en selección de canal con estilo neutrino"
 
 msgid "Enable 'neutrino' style zap controlling"
 msgstr "Activar el estilo de zapeo neutrino"
@@ -9994,10 +9994,10 @@ msgid "Enable Netmed EPG"
 msgstr "Activar Netmed EPG"
 
 msgid "Enable OK as preview in channel selection"
-msgstr "Activar OK para previsualizar en selección de canales"
+msgstr "Activar OK para previsualizar en lista de canales"
 
 msgid "Enable OK for channel selection"
-msgstr "Activar OK para selección de canal"
+msgstr "Activar OK para lista de canales"
 
 msgid "Enable ViaSat EPG"
 msgstr "Activar Viasat EPG"
@@ -10030,7 +10030,7 @@ msgid "External subtitle color"
 msgstr "Color de los subtítulos externos"
 
 msgid "External subtitle dialog colorisation"
-msgstr "Colorrear los diálogos en subtítulos externos"
+msgstr "Colorizar los diálogos en subtítulos externos"
 
 msgid "External subtitle switch fonts"
 msgstr "Tipo de letra para cambios de subtítulos externos"
@@ -10045,7 +10045,7 @@ msgid "Fast forward speeds"
 msgstr "Velocidades de avance"
 
 msgid "Final scroll delay"
-msgstr "Retardo de scroll final"
+msgstr "Retardo repetición de texto final"
 
 msgid "Finetune"
 msgstr "Ajuste fino"
@@ -10060,7 +10060,7 @@ msgid "Hide channel list in radio mode"
 msgstr "Ocultar la lista de canales en modo radio"
 
 msgid "Hide number markers"
-msgstr "Ocultar marcadores de número"
+msgstr "Ocultar número de marcadores"
 
 msgid "Hide zap errors"
 msgstr "Ocultar errores de zapeo"
@@ -10069,13 +10069,13 @@ msgid "If enabled, display shows 12 chars instead 8, but in latin-1/translit onl
 msgstr "Si está habilitado, la pantalla muestra 12 caracteres en lugar de 8, pero solo en latin-1/translit."
 
 msgid "Ignore DVB-C namespace sub network"
-msgstr "Ignorar DVB-C namespace sub network"
+msgstr "Ignorar DVB-C espacio de nombres subred"
 
 msgid "Ignore DVB-S namespace sub network"
-msgstr "Ignorar DVB-S namespace sub network"
+msgstr "Ignorar DVB-S espacio de nombres subred"
 
 msgid "Ignore DVB-T namespace sub network"
-msgstr "Ignorar DVB-T namespace sub network"
+msgstr "Ignorar DVB-T espacio de nombres subred"
 
 msgid "Include AIT in http streams"
 msgstr "Incluir AIT en streams http"
@@ -10147,7 +10147,7 @@ msgid "OSD settings"
 msgstr "Configuración de OSD"
 
 msgid "Offline decode delay (ms)"
-msgstr "Retraso de descodificación sin conexión (ms)"
+msgstr "Retraso decodificación sin conexión (milisegundos)"
 
 msgid "On valid ONIDs, ignore frequency sub network part"
 msgstr "En ONID válidos, ignore la parte de la frecuencia de subred"
@@ -10174,7 +10174,7 @@ msgid "Prefer subtitles for hearing impaired"
 msgstr "Preferir subtítulos para sordos"
 
 msgid "Prefer subtitles stored by service"
-msgstr "Preferir subtítulos del servicio"
+msgstr "Preferir subtítulos del canal"
 
 msgid "Preferred tuner"
 msgstr "Sintonizador preferido"
@@ -10237,10 +10237,10 @@ msgid "Satellite dish setup"
 msgstr "Configuración de la parabólica"
 
 msgid "Scroll delay"
-msgstr "Retardo del scroll"
+msgstr "Retardo de repetición de texto"
 
 msgid "Scroll repeats"
-msgstr "Repetición del scroll"
+msgstr "Repetición de texto"
 
 msgid "Selects the mode how live tv should be shown on the LCD."
 msgstr "Seleccione el modo en que debe mostrarse la televisión en vivo en la pantalla LCD."
@@ -10309,7 +10309,7 @@ msgid "Show menu paths"
 msgstr "Mostrar rutas de menú"
 
 msgid "Show message when recording starts"
-msgstr "Mostrar mensaje al comensar la grabación"
+msgstr "Mostrar mensaje al comenzar la grabación"
 
 msgid "Show movie lengths in movielist"
 msgstr "Mostrar duración de las películas en la lista"
@@ -10474,7 +10474,7 @@ msgid "Use original teletext position"
 msgstr "Usar la posición original del teletexto"
 
 msgid "Use trash can in movielist"
-msgstr "Usa papelera en lista de películas"
+msgstr "Usar papelera en lista de películas"
 
 msgid "User Mode"
 msgstr "Modo Usuario"
@@ -10596,7 +10596,7 @@ msgid "When enabled, services may be grouped in multiple bouquets."
 msgstr "Cuando está habilitado, los servicios se pueden agrupar en múltiples bouquets."
 
 msgid "When enabled, show channel numbers in the channel selection screen."
-msgstr "Cuando está habilitado, muestra los números de los canales en la pantalla de selección de canales."
+msgstr "Cuando está habilitado, muestra los números de los canales en la lista de canales."
 
 msgid "When enabled, subtitles for the hearing impaired can be used."
 msgstr "Cuando está habilitado, se pueden usar subtítulos para sordos."
@@ -14533,3 +14533,12 @@ msgstr "Skin & Resolución: %s (%sx%s)\n"
 
 msgid "<Default Skin>"
 msgstr "<Skin por Defecto>"
+
+msgid "Show menu or plugin numbers"
+msgstr "Mostrar números de menú o plugin"
+
+msgid "Alternative URL for images listed on FlashImage"
+msgstr "URL alternativa para las imágenes listadas en FlashImage"
+
+msgid "Enter an URL where alternative images could be listed for FlashImage"
+msgstr "Introduzca una URL donde se puedan listar imágenes alternativas para FlashImage"
