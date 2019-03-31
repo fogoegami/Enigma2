@@ -10432,7 +10432,7 @@ msgid "This option allows you to show all symbols on the display."
 msgstr "Esta opción le permite mostrar todos los símbolos en la pantalla."
 
 msgid "This option allows you to show menu number quick links."
-msgstr "Esta opción le permite mostrar enlaces rápidos de números de menú."
+msgstr "Esta opción le permite mostrar números que accederán directos al menú."
 
 msgid "This option allows you to show menu paths."
 msgstr "Esta opción le permite mostrar las rutas del menú."
