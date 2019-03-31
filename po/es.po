@@ -160,7 +160,7 @@ msgid " (higher than any auto)"
 msgstr " (más alto que cualquier auto)"
 
 msgid " (higher than rotor any auto)"
-msgstr " (más alto que el rotor cualquier auto)"
+msgstr " (más alto que el motor cualquier auto)"
 
 msgid " (lower than any auto)"
 msgstr " (más bajo que cualquier auto)"
@@ -1854,7 +1854,7 @@ msgid "Current mode: %s \n"
 msgstr "Modo actual: %s \n"
 
 msgid "Current rotor position: "
-msgstr "Posición del rotor actual: "
+msgstr "Posición del motor actual: "
 
 msgid "Current settings:"
 msgstr "Ajustes actuales:"
@@ -7309,7 +7309,7 @@ msgid ""
 "This will (re-)calculate all positions of your rotor and may remove previously memorised positions and fine-tuning!\n"
 "Are you sure?"
 msgstr ""
-"¡Esto (re)calculará todas las posiciones de su rotor y puede eliminar posiciones previamente memorizadas y ajustes finos!\n"
+"¡Esto (re)calculará todas las posiciones de su motor y puede eliminar posiciones previamente memorizadas y ajustes finos!\n"
 "¿Estás seguro?"
 
 msgid "Three"
@@ -9694,7 +9694,7 @@ msgid "Configure for how many minutes finished events should remain visible in t
 msgstr "Configure por cuántos minutos los eventos terminados deben permanecer visibles en la EPG. Es útil cuando necesita información sobre un evento que acaba de finalizar o se ha retrasado."
 
 msgid "Configure how many channels are shown in the selection list."
-msgstr "Configure cuántos canales se muestran en la lista de selección."
+msgstr "Configure cuántos canales se muestran en la lista de canales."
 
 msgid "Configure how recording filenames are constructed."
 msgstr "Configure cómo se asignan los nombres de los archivos de grabación."
@@ -9769,7 +9769,7 @@ msgid "Configure the contrast level of the front panel display."
 msgstr "Configure el nivel de contraste de la pantalla del panel frontal."
 
 msgid "Configure the cursor behaviour in the channel selection list. When opening the channel selection list you can keep on the current service or already select up/down and you are able to revert the B+/B- buttons."
-msgstr "Configure el comportamiento del cursor en la lista de canales. Al abrir la lista de canales puede continuar con el canal actual o seleccionar arriba/abajo y puede revertir los botones B+/-."
+msgstr "Configure el comportamiento de la cruzeta de flechas del botón '0K' en la lista de canales. Al abrir la lista de canales puede continuar con el canal actual o seleccionar arriba/abajo y puede revertir los botones B+/-."
 
 msgid "Configure the duration in minutes for the screensaver."
 msgstr "Configure la duración en minutos para el protector de pantalla."
@@ -9901,7 +9901,7 @@ msgid "Configure whether (and for how long) a second infobar will be shown when 
 msgstr "Configure si (y por cuánto tiempo) se mostrará una segunda Infobar cuando se presione OK dos veces. La segunda Infobar contiene información adicional sobre el canal actual."
 
 msgid "Configure whether or not a rotor position will be displayed on the infobar"
-msgstr "Configure si se mostrará o no la posición del rotor en la Infobar"
+msgstr "Configure si se mostrará o no la posición del motor en la Infobar"
 
 msgid "Configure whether or not an icon should be shown when your motorized dish is moving."
 msgstr "Configure si se debe mostrar o no un icono cuando su parabólica motorizada se está moviendo."
@@ -9979,7 +9979,7 @@ msgid "EPG settings"
 msgstr "Configuración EPG"
 
 msgid "Enable 'neutrino' style channel select controlling"
-msgstr "Activar el control en selección de canal con estilo neutrino"
+msgstr "Activar el control en lista de canales con estilo neutrino"
 
 msgid "Enable 'neutrino' style zap controlling"
 msgstr "Activar el estilo de zapeo neutrino"
@@ -10018,10 +10018,10 @@ msgid "Enable teletext caching"
 msgstr "Habilitar el caché de teletexto"
 
 msgid "Enable to display all true/false, yes/no, on/off and enable/disable set up options as a graphical switch."
-msgstr "Habilitar para mostrar todo verdadero/falso, sí/no, activar/desactivar y activar/desactivar las opciones de configuración como un interruptor gráfico."
+msgstr "Habilitar para mostrar todo verdadero/falso, sí/no, encendido/apagado y activar/desactivar las opciones de configuración como un interruptor gráfico."
 
 msgid "Enable volume control with arrow buttons"
-msgstr "Habilite el control de volumen con los botones de flecha"
+msgstr "Habilite el control de volumen con botones flecha (cruzeta del botón OK)"
 
 msgid "Enable zapping with CH+/-, B+/-, P+/-"
 msgstr "Habilitar zapping con CH +/-, B +/-, P +/-"
@@ -10249,7 +10249,7 @@ msgid "Set fps for external subtitles"
 msgstr "Establecer fps para subtítulos externos"
 
 msgid "Set the type of the progress indication in the channel selection screen."
-msgstr "Establecer el tipo de indicación de progreso en la pantalla de selección de canal."
+msgstr "Establecer el tipo de indicación de progreso en la lista de canales."
 
 msgid "Setup mode"
 msgstr "Modo de configuración"
@@ -10336,7 +10336,7 @@ msgid "Show second infobar"
 msgstr "Mostrar segunda Infobar"
 
 msgid "Show service type icons"
-msgstr "Mostrar iconos de tipo de servicio"
+msgstr "Mostrar iconos de tipo de canal"
 
 msgid "Show softcam setup in extensions menu"
 msgstr "Mostrar configuración de softcam en menú de extensiones"
@@ -10503,7 +10503,7 @@ msgid "When enabled the set top box is able to wakeup on LAN"
 msgstr "Cuando está habilitado, el decodificador se puede activar desde su LAN"
 
 msgid "When enabled then when you select a new channel in the channel selection the channel selection will not close. It will only close when you select the current playing service. This is a kind of preview mode"
-msgstr "Cuando está habilitado, cuando selecciona un nuevo canal en la lista de canales, la selección del canal no se cierra. Solo se cerrará cuando seleccione el canal de reproducción actual. Este es un tipo de modo de vista previa"
+msgstr "Cuando está habilitado, cuando selecciona un nuevo canal en la lista de canales, la lista de canales no se cierra. Solo se cerrará cuando seleccione el canal de reproducción actual. Este es un tipo de modo de vista previa"
 
 msgid "When enabled you can control the volume with the arrow buttons instead of getting the channel selection list"
 msgstr "Cuando está habilitado, puede controlar el volumen con los botones de flecha en lugar de obtener la lista de canales"
@@ -10560,7 +10560,7 @@ msgid "When enabled, encryption info will be shown in the infobar (when supporte
 msgstr "Cuando está habilitado, la información de encriptación se mostrará en la Infobar (cuando sea compatible con el skin)."
 
 msgid "When enabled, error messages related to zapping will not be shown."
-msgstr "Cuando está habilitado, los mensajes de error relacionados con el zapping no se mostrarán."
+msgstr "Cuando está habilitado, los mensajes de error relacionados con la sintonización no se mostrarán."
 
 msgid "When enabled, external subtitles will be always turned on for playback movie."
 msgstr "Cuando está habilitado, los subtítulos externos estarán siempre activados para la reproducción de películas."
@@ -10584,7 +10584,7 @@ msgid "When enabled, it is possible to leave the movieplayer with exit."
 msgstr "Cuando está habilitado, es posible abandonar el reproductor de películas con exit."
 
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
-msgstr "Cuando esté habilitado, mida el consumo de energía para detectar cuándo el rotor deja de girar (cuando es compatible con el sintonizador)."
+msgstr "Cuando esté habilitado, mida el consumo de energía para detectar cuándo el motor deja de girar (cuando es compatible con el sintonizador)."
 
 msgid "When enabled, number markers will be hidden."
 msgstr "Cuando está habilitado, los marcadores numéricos estarán ocultos."
@@ -10593,7 +10593,7 @@ msgid "When enabled, reformat subtitles to match the width of the screen."
 msgstr "Cuando esté activado, reformatee los subtítulos para que coincidan con el ancho de la pantalla."
 
 msgid "When enabled, services may be grouped in multiple bouquets."
-msgstr "Cuando está habilitado, los servicios se pueden agrupar en múltiples bouquets."
+msgstr "Cuando está habilitado, los canales se pueden agrupar en múltiples bouquets."
 
 msgid "When enabled, show channel numbers in the channel selection screen."
 msgstr "Cuando está habilitado, muestra los números de los canales en la lista de canales."
@@ -14404,7 +14404,7 @@ msgid "When enabled, HDMI-CEC is enabled with standard configuration"
 msgstr "Si está habilitado, HDMI-CEC está habilitado en configuración estándar"
 
 msgid "This option allows you to show menu and/or plugin number quick links."
-msgstr "Esta opción le permite mostrar enlaces rápidos y/o número de complemento."
+msgstr "Esta opción le permite mostrar números que accederan directo al menu y/o plugins."
 
 msgid "in menu and plugins"
 msgstr "en menu y plugins"
