@@ -1527,10 +1527,10 @@ msgid "Chinese - Traditional"
 msgstr "Chino - Tradicional"
 
 msgid "Choose Tuner"
-msgstr "Escoge Sintonizador"
+msgstr "Elegir Sintonizador"
 
 msgid "Choose bouquet"
-msgstr "Escoge Ramo"
+msgstr "Elegir bouquet"
 
 msgid "Christmas Island"
 msgstr "Isla de Pascua"
@@ -11361,7 +11361,7 @@ msgid "Adding schedule..."
 msgstr "Agregando horario."
 
 msgid "After a successful refresh the AutoTimer will automatically search for new matches if this is enabled."
-msgstr "Después de una actualización exitosa, el Temporizador Automático automáticamente nuevas coincidencias si está habilitado."
+msgstr "Después de una actualización exitosa, el Temporizador Automático buscará nuevas coincidencias si está habilitado."
 
 msgid "Are you sure you want to load the EPG data from:\n"
 msgstr "Seguro que quieres cargar los datos EPG desde:\n"
@@ -11536,7 +11536,7 @@ msgid "Enable this to show the EPGRefresh configuration menu in the extension me
 msgstr "Habilítelo para mostrar el menú de configuración de Actualización EPG en el menú de extensiones."
 
 msgid "Extend the list of services to refresh by those your AutoTimers use?"
-msgstr "¿Extiende la lista de servicios para actualizar por aquellos que usan los AutoTimers?"
+msgstr "Extender la lista de canales para actualizar por aquellos que usan los Temporizador Automático?"
 
 msgid "Fake recording"
 msgstr "Grabación falsa"
@@ -12016,7 +12016,7 @@ msgid " (if services are enabled, bouquets are ignored.)."
 msgstr " (si los canales están habilitados, los bouquets se ignoran)."
 
 msgid " (only services from bouquets when use \"favorites description match\")."
-msgstr " (solo los servicios de los ramos cuando se usa \"descripción de los favoritos coincide con\")."
+msgstr " (solo se usa canales desde bouquets \"descripción de favoritos coinciden\")."
 
 msgid " - Version: "
 msgstr " - Version: "
@@ -12985,7 +12985,7 @@ msgid ""
 "An Event will only match this AutoTimer if it's on a specific and not denied Service (inside a Bouquet).\n"
 "Press BLUE to add a new restriction and YELLOW to remove the selected one."
 msgstr ""
-"Es posible restringir un AutoTimer a ciertos Servicios o Ramos o denegar algunos específicos.\n"
+"Es posible restringir un Temporizador Automático a ciertos Canales o Bouquets o denegar algunos específicos.\n"
 "Un Evento solo coincidirá con este Temporizador Automático si se trata de un canal específico y no denegado (dentro de un Bouquet).\n"
 "Presione AZUL para agregar una nueva restricción y AMARILLO para eliminar la seleccionada."
 
@@ -12996,7 +12996,7 @@ msgid ""
 "Thank you for using the wizard. Your new AutoTimer has been added to the List.\n"
 "Please press OK to continue."
 msgstr ""
-"Gracias por usar el asistente. Su nuevo AutoTimer ha sido agregado a la lista.\n"
+"Gracias por usar el asistente. Su nuevo Temporizador Automático ha sido agregado a la lista.\n"
 "Por favor, presione OK para continuar."
 
 msgid ""
