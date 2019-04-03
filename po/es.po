@@ -12545,9 +12545,6 @@ msgstr "Porcentaje de duplicados"
 msgid "Please provide a Text to match"
 msgstr "Proporcione un texto para que coincida"
 
-msgid "Poll Interval (in h)"
-msgstr "Intervalo de refresco (en horas)"
-
 msgid "Poll automatically"
 msgstr "Encuesta automáticamente"
 
@@ -12576,7 +12573,7 @@ msgid "Record on"
 msgstr "Grabar en"
 
 msgid "Reload timers list after search events"
-msgstr "Volver a cargar lista de temporizadores después de eventos de búsqueda"
+msgstr "Cargar temporizadores después de búsqueda de eventos"
 
 #, python-format
 msgid ""
