@@ -13385,10 +13385,10 @@ msgid "Add new network mount point"
 msgstr "Agregar nuevo punto de montaje de red"
 
 msgid "Press OK to expand this host"
-msgstr "Presione OK para expandir este huésped"
+msgstr "Presione OK para expandir este hostname"
 
 msgid "Press OK to collapse this host"
-msgstr "Presione OK para contraer este huésped"
+msgstr "Presione OK para contraer este hostname"
 
 msgid "Search for network shares..."
 msgstr "Buscar recursos compartidos de red ..."
