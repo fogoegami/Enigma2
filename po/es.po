@@ -5391,7 +5391,7 @@ msgid "Restart both"
 msgstr "Reiniciar ambos"
 
 msgid "Restart cardserver"
-msgstr "Reiniciar servidor de tarjetas"
+msgstr "Reiniciar servidor de tarjeta"
 
 msgid "Restart enigma"
 msgstr "Reiniciar Enigma2"
