@@ -851,7 +851,7 @@ msgid "Alignment of events"
 msgstr "Alineamiento de eventos"
 
 msgid "Alignment of service names"
-msgstr "Alineamiento de nombres de servicio"
+msgstr "Alineamiento nombres de canal"
 
 msgid "All"
 msgstr "Todo"
@@ -2501,7 +2501,7 @@ msgstr "Inglés"
 
 #, python-format
 msgid "Enigma (re)starts: %d\n"
-msgstr "Enigma (re)starts: %d\n"
+msgstr "Reinicios Enigma2: %d\n"
 
 msgid "Enigma version: "
 msgstr "Versión de Enigma: "
@@ -3594,10 +3594,10 @@ msgid "Italy"
 msgstr "Italia"
 
 msgid "Items per page "
-msgstr "Artículos por página "
+msgstr "Canales por página "
 
 msgid "Items per page for list screen"
-msgstr "Artículos por página para pantalla de lista"
+msgstr "Canales por página en lista con pantalla"
 
 msgid "Jamaica"
 msgstr "Jamaica"
@@ -6080,7 +6080,7 @@ msgid "Service scan"
 msgstr "Búsqueda de canal"
 
 msgid "Service title mode"
-msgstr "Modo de título de servicio"
+msgstr "Modo de título de canal"
 
 msgid ""
 "Service unavailable!\n"
@@ -6399,7 +6399,7 @@ msgid "Skins"
 msgstr "Skins"
 
 msgid "Skip empty services"
-msgstr "Omitir servicios vacíos"
+msgstr "Omitir eventos vacíos"
 
 msgid "SleepTimer Configuration"
 msgstr "Configuración del temporizador de descanso"
@@ -6646,7 +6646,7 @@ msgid "Start timeshift"
 msgstr "Iniciar Timeshift"
 
 msgid "Start with list screen"
-msgstr "Iniciar con pantalla de lista"
+msgstr "Iniciar lista con pantalla"
 
 msgid "Starting on"
 msgstr "A partir de la fecha"
@@ -7331,7 +7331,7 @@ msgid "Time"
 msgstr "Tiempo"
 
 msgid "Time scale"
-msgstr "Escale de tiempo"
+msgstr "Escala de tiempo"
 
 msgid "Timer"
 msgstr "Temporizador"
@@ -8330,7 +8330,7 @@ msgid "Zap back to service before positioner setup?"
 msgstr "Volver al canal antes de la configuración del motor?"
 
 msgid "Zap bouquets blindly on zap buttons"
-msgstr "Zapear bouques a ciegas en botones de zapeo"
+msgstr "Zapear bouquets a ciegas en botones de zapeo"
 
 msgid "Zap down"
 msgstr "Zapeo abajo"
