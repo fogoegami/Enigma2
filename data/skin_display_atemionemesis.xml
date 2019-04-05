@@ -168,7 +168,6 @@
 		</widget>		
 		<panel name="SummaryIconsPanel"/>
 		<panel name="SummaryTunerStatusPanel"/>
-		<panel name="SummaryClockPanel"/>
 	</screen>		
     <screen name="MovieContextMenuSummary" position="0,0" size="255,64">
 	    <widget source="parent.Title" render="Label" position="0,0" size="170,18" font="FdLcD;15" halign="left" valign="top" noWrap="1"/>

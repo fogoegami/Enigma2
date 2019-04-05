@@ -1203,7 +1203,7 @@ msgid "Begin time"
 msgstr "Hora de comienzo"
 
 msgid "Behavior when a movie reaches the end"
-msgstr "Comportamiento si una película acaba"
+msgstr "Cuando una película acaba"
 
 msgid "Belarus"
 msgstr "Bielorrusia"
@@ -3343,7 +3343,7 @@ msgid "If enabled, bookmarks will be updated with the new location when you move
 msgstr "Si está habilitado, los marcadores se actualizarán con la nueva ubicación cuando mueva o copie una grabación."
 
 msgid "If is enabled and movie playback is finished, then after return to movielist will not be automaticaly start service playback."
-msgstr "Si está habilitado y la reproducción de la película ha finalizado, luego de regresar la lista no se iniciará automáticamente la reproducción del servicio."
+msgstr "Si está habilitado y la reproducción de la película ha finalizado, luego de regresar la lista no se iniciará automáticamente la reproducción."
 
 msgid "If set as 'Yes', then audiofiles are played in 'list mode' only, instead in full screen player."
 msgstr "Si se establece como ‘Sí’, las pistas de audio solo se reproducen en ‘modo de lista’, en vez de en un reproductor de pantalla completa."
@@ -6246,7 +6246,7 @@ msgid "Show help"
 msgstr "Mostrar ayuda"
 
 msgid "Show icon for new/unseen items"
-msgstr "Mostrar icono para artículos nuevos/no vistos"
+msgstr "Mostrar icono para eventos nuevos/no vistos"
 
 msgid "Show in extensions menu"
 msgstr "Mostrar en menú de extensiones"
@@ -6718,7 +6718,7 @@ msgid "Stop recordings:"
 msgstr "Detener grabaciones:"
 
 msgid "Stop service on return to movie list"
-msgstr "Detener el canal al regresar a la lista de películas"
+msgstr "Detener la reproducción al regresar a la lista de películas"
 
 msgid "Stop test"
 msgstr "Detener prueba"
@@ -7359,7 +7359,7 @@ msgid "Timer recording location"
 msgstr "Ubicación de grabación del temporizador"
 
 msgid "Timer sanity error"
-msgstr "Error de congruencia del temporizador"
+msgstr "Error conflicto temporizador"
 
 msgid "Timer selection"
 msgstr "Selección del temporizador"
@@ -8188,7 +8188,7 @@ msgid "You can continue watching TV etc. while this is running."
 msgstr "Puede continuar viendo TV, etc. mientras esto se está ejecutando."
 
 msgid "You can enable if will be displayed extended EPG description for item."
-msgstr "Puede habilitar si se mostrará la descripción extendida de EPG para el artículo."
+msgstr "Puede habilitar si se mostrará la descripción extendida de EPG para el evento."
 
 msgid "You can install this plugin."
 msgstr "Puede instalar este plugin."
