@@ -7510,7 +7510,7 @@ msgid "Tune and focus"
 msgstr "Sintonizar y enfocar"
 
 msgid "Tune failed!"
-msgstr "Sintonización fallida!"
+msgstr "Fallo de Sintonización!"
 
 msgid "Tuner"
 msgstr "Sintonizador"
