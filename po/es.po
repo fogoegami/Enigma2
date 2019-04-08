@@ -851,7 +851,7 @@ msgid "Alignment of events"
 msgstr "Alineamiento de eventos"
 
 msgid "Alignment of service names"
-msgstr "Alineamiento nombres de canal"
+msgstr "Alineación nombres de canales"
 
 msgid "All"
 msgstr "Todo"
@@ -7510,7 +7510,7 @@ msgid "Tune and focus"
 msgstr "Sintonizar y enfocar"
 
 msgid "Tune failed!"
-msgstr "Fallo de Sintonización!"
+msgstr "Falló la Sintonización!"
 
 msgid "Tuner"
 msgstr "Sintonizador"
