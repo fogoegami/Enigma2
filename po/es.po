@@ -8455,7 +8455,7 @@ msgid "alphabetic"
 msgstr "alfabético"
 
 msgid "alphabetic reverse"
-msgstr "alfabético reverso"
+msgstr "alfabético inverso"
 
 msgid "alphabetical"
 msgstr "alfabéticamente"
@@ -8756,10 +8756,10 @@ msgid "fitness & health"
 msgstr "ejercicio y salud"
 
 msgid "flat alphabetic"
-msgstr "alfabético plano"
+msgstr "alfabético lista completa"
 
 msgid "flat alphabetic reverse"
-msgstr "alfabético plano inverso"
+msgstr "alfabético lista completa inversa"
 
 msgid "folk/traditional music"
 msgstr "música folk/tradicional"
@@ -9155,7 +9155,7 @@ msgid "restore deleted userbouquets"
 msgstr "restaurar bouquets de usuario borrados"
 
 msgid "reverse by date"
-msgstr "revertir por fecha"
+msgstr "fecha más antigua"
 
 msgid "rewind to the previous chapter"
 msgstr "rebobinar al capítulo anterior"
