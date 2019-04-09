@@ -3833,7 +3833,7 @@ msgid "Long filenames"
 msgstr "Nombres largos de archivo"
 
 msgid "Long key press"
-msgstr "Presión larga de tecla"
+msgstr "Pulsación larga"
 
 msgid "Longitude"
 msgstr "Longitud"
