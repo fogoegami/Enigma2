@@ -9967,7 +9967,7 @@ msgid "Display message before playing next movie"
 msgstr "Mostrar mensaje antes de reproducir la próxima película"
 
 msgid "Display setup"
-msgstr "Configuración de pantalla"
+msgstr "Configuración Display"
 
 msgid "EPG language selection 1"
 msgstr "Selección del idioma de EPG 1"
