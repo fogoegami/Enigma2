@@ -3694,7 +3694,7 @@ msgid "Last upgrade: "
 msgstr "Última actualización: "
 
 msgid "Latest Commits"
-msgstr "Alvaro"
+msgstr "Cambios Álvaro"
 
 msgid "Latest upgrade log"
 msgstr "Último registro de actualización"
@@ -3935,7 +3935,7 @@ msgid "Mayotte"
 msgstr "Mayotte"
 
 msgid "Media player"
-msgstr "Reproductor de medios"
+msgstr "Reproductor MediaPlayer"
 
 msgid "Media scanner"
 msgstr "Escáner de medios"

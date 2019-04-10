@@ -7,6 +7,7 @@ ALVARO
 @fogo: Actualizado Enigma2 OpenPLi. 
 
 ##Novedades##:
-* Hay tuners que pueden hacer ya de DVB-S2/T/C a la vez.
-* De momento solo soporte en algunos receptores con tuner soportado.
-* Actualizado skin Adriatic-HD.
+*Actualizado E2 OpenPLi
+*Nuevas pantallas adaptadas a nuestro skin:
+-help foreca graphicalMultiList EPG.
+-adaptado skin con nuevo font.
