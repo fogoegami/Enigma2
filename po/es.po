@@ -6491,7 +6491,7 @@ msgid "Sorry, deleting directories can (for now) only be done through the trash 
 msgstr "Lo siento, borrar directorios puede (por ahora) hacerse solo a través de la papelera."
 
 msgid "Sorry, no backups found!"
-msgstr "Lo siento, no sencontró copia de seguridad!"
+msgstr "Lo siento, no se ha encontrado copia de seguridad!"
 
 msgid "Sorry, no details available!"
 msgstr "Lo siento, no hay detalles disponibles!"
