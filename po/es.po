@@ -3064,10 +3064,10 @@ msgid "Go to first movie or top of list"
 msgstr "Ir a la primera película o al primer artículo"
 
 msgid "Go to first service"
-msgstr "Ir al primer servicio"
+msgstr "Ir al primer canal"
 
 msgid "Go to last service"
-msgstr "Ir al último servicio"
+msgstr "Ir al último canal"
 
 msgid "Go to next event"
 msgstr "Ir al siguiente evento"
@@ -3106,7 +3106,7 @@ msgid "Goto next day of events"
 msgstr "Ir al día siguiente de los eventos"
 
 msgid "Goto next page of events"
-msgstr "Ir a la página siguiente de los eventos"
+msgstr "Ir a la siguiente página de canales"
 
 msgid "Goto position"
 msgstr "Ir a posición"
@@ -3115,7 +3115,7 @@ msgid "Goto previous day of events"
 msgstr "Ir al día anterior de los eventos"
 
 msgid "Goto previous page of events"
-msgstr "Ir a la página previa de los eventos"
+msgstr "Ir a la página previa de canales"
 
 msgid "Goto primetime / now"
 msgstr "Ir a primetime / ahora"
