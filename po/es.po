@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 22:21+0200\n"
-"PO-Revision-Date: 2018-08-29 09:36+0200\n"
+"PO-Revision-Date: 2019-04-11 09:35+0200\n"
 "Language-Team: Álvaro <mi casa>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 2.2.1\n"
 "Last-Translator: Kuatto\n"
 "Language: es_ES\n"
 
@@ -13100,7 +13100,7 @@ msgid "Don't auto-restore this next time"
 msgstr "No restaurar automáticamente esta próxima vez"
 
 msgid "Done"
-msgstr "Realizada"
+msgstr "Hecho"
 
 msgid "Last backup date"
 msgstr "Última fecha de la copia de seguridad"
@@ -14542,3 +14542,15 @@ msgstr "Introduzca una URL donde se puedan listar imágenes alternativas para Fl
 
 msgid "Unable to create the required directories on the media (e.g. USB stick or Harddisk) - Please verify media and try again!"
 msgstr "No se pueden crear los directorios requeridos en el medio (ejemplo, una memoria USB o un disco duro). Verifique los medios y vuelva a intentarlo!"
+
+msgid "Alternative 1"
+msgstr "Alternativa 1"
+
+msgid "Alternative 2"
+msgstr "Alternativa 2"
+
+msgid "Save / Enter text and exit"
+msgstr "Guardar/ingresar texto y salir"
+
+msgid "T2MI PID"
+msgstr "PID T2MI"
