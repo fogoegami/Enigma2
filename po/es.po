@@ -3073,13 +3073,13 @@ msgid "Go to next event"
 msgstr "Ir al siguiente evento"
 
 msgid "Go to next page of service"
-msgstr "Ir a la siguiente página de servicios"
+msgstr "Ir a la siguiente página de canales"
 
 msgid "Go to previous event"
 msgstr "Ir al evento previo"
 
 msgid "Go to previous page of service"
-msgstr "Ir a la página de servicios previa"
+msgstr "Ir a la página previa de canales"
 
 msgid "Go up the list"
 msgstr "Sube la lista"
@@ -3106,7 +3106,7 @@ msgid "Goto next day of events"
 msgstr "Ir al día siguiente de los eventos"
 
 msgid "Goto next page of events"
-msgstr "Ir a la siguiente página de canales"
+msgstr "Ir a la siguiente página de eventos"
 
 msgid "Goto position"
 msgstr "Ir a posición"
@@ -3115,7 +3115,7 @@ msgid "Goto previous day of events"
 msgstr "Ir al día anterior de los eventos"
 
 msgid "Goto previous page of events"
-msgstr "Ir a la página previa de canales"
+msgstr "Ir a la página previa de eventos"
 
 msgid "Goto primetime / now"
 msgstr "Ir a primetime / ahora"
