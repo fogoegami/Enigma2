@@ -13100,7 +13100,7 @@ msgid "Don't auto-restore this next time"
 msgstr "No restaurar automáticamente esta próxima vez"
 
 msgid "Done"
-msgstr "Hecho"
+msgstr "Realizada"
 
 msgid "Last backup date"
 msgstr "Última fecha de la copia de seguridad"
