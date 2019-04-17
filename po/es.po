@@ -2016,7 +2016,7 @@ msgid "Delay after set voltage before measure motor power"
 msgstr "Retardo después de configurar el voltaje antes de medir la potencia del motor"
 
 msgid "Delay after toneburst"
-msgstr "Retardo después de toneburst"
+msgstr "Retardo después de MiniDiseqC"
 
 msgid "Delay after voltage change before motor command"
 msgstr "Retardo después del cambio de voltaje tras el comando de motor"
@@ -2919,7 +2919,7 @@ msgid "Force LNB Power"
 msgstr "Forzar alimentación LNB"
 
 msgid "Force ToneBurst"
-msgstr "Forzar ToneBurst"
+msgstr "Forzar MiniDiseqC"
 
 msgid "Force legacy signal stats"
 msgstr "Forzar estadísticas de señales heredadas"
@@ -7440,10 +7440,10 @@ msgid "Tone mode"
 msgstr "Modo de tono"
 
 msgid "Toneburst"
-msgstr "Toneburst"
+msgstr "MiniDiseqC"
 
 msgid "Toneburst A/B"
-msgstr "Toneburst A/B"
+msgstr "MiniDiseqC A/B"
 
 msgid "Tonga"
 msgstr "Tonga"
