@@ -1,13 +1,12 @@
 ##########################################
 ALVARO
 ########################################
-* Imagen basada en mi Github
+* Imagen basada en mi Github imagen OpenPLi
 
 
 @fogo: Actualizado Enigma2 OpenPLi. 
 
 ##Novedades##:
 *Actualizado E2 OpenPLi
-*Nuevas pantallas adaptadas a nuestro skin:
--help-foreca-graphicalMultiListEPG.
--adaptado skin con nuevo font.
+-Adaptado skin con nuevo font.
+*Eliminado IMDB descargar del feed TMDB

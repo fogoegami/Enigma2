@@ -1702,7 +1702,7 @@ msgid "Configure your wireless LAN again"
 msgstr "Configura su red inalámbrica otra vez"
 
 msgid "Configures which video output connector will be used."
-msgstr "Configura que conectar de salida de video se usará."
+msgstr "Configura qué conector de salida de video se utilizará."
 
 msgid "Configuring"
 msgstr "Configurando"
@@ -2151,7 +2151,7 @@ msgid "Disable Picture in Picture"
 msgstr "Desactivar PiP"
 
 msgid "Disable current event but not coming events"
-msgstr "Desactivar evento actual pero no los próximos"
+msgstr "Desactivar evento actual pero no los siguientes"
 
 msgid "Disable timer"
 msgstr "Desactivar temporizador"
@@ -2322,7 +2322,7 @@ msgid "Don't save and stop timeshift"
 msgstr "No guardar y parar timeshift"
 
 msgid "Don't stop current event but disable coming events"
-msgstr "No parar evento actual pero desactivar los próximos eventos"
+msgstr "No parar evento actual pero desactivar los siguientes eventos"
 
 msgid "Don't zap"
 msgstr "No cambiar canal"
@@ -4537,7 +4537,7 @@ msgid "Open select location as timer name"
 msgstr "Abrir la ubicación de selección como nombre del temporizador"
 
 msgid "Open service list"
-msgstr "Abrir lista de servicios"
+msgstr "Abrir lista de canales"
 
 msgid "Open setup tuner "
 msgstr "Abrir la configuración del sintonizador "
@@ -6291,10 +6291,10 @@ msgid "Show second InfoBar"
 msgstr "Mostrar segunda InfoBar"
 
 msgid "Show service list"
-msgstr "Mostrar lista de servicios"
+msgstr "Mostrar lista de canales"
 
 msgid "Show servicelist or movies"
-msgstr "Mostrar lista de servicios o películas"
+msgstr "Mostrar lista de canales o películas"
 
 msgid "Show single service EPG"
 msgstr "Mostrar EPG de un solo canal"
@@ -6688,7 +6688,7 @@ msgid "Stop and delete recordings:"
 msgstr "Detener y borrar grabaciones:"
 
 msgid "Stop current event and disable coming events"
-msgstr "Detener el evento actual y deshabilitar los próximos eventos"
+msgstr "Detener el evento actual y deshabilitar los siguientes eventos"
 
 msgid "Stop current event but not coming events"
 msgstr "Detener el evento actual pero no eventos venideros"
@@ -6763,7 +6763,7 @@ msgid "Strongest position"
 msgstr "Posición más fuerte"
 
 msgid "Subservice list..."
-msgstr "Lista de subservicios …"
+msgstr "Lista de satélites …"
 
 msgid "Subservices"
 msgstr "Subservicios"
@@ -6844,16 +6844,16 @@ msgid "Switch to filelist"
 msgstr "Cambiar a modo lista"
 
 msgid "Switch to next bouquet"
-msgstr "Cambiar al próximo bouquet"
+msgstr "Cambiar al siguiente bouquet"
 
 msgid "Switch to next channel"
-msgstr "Cambiar al próximo canal"
+msgstr "Cambiar al siguiente canal"
 
 msgid "Switch to next channel in history"
-msgstr "Cambiar al próximo canal en historial"
+msgstr "Cambiar al siguiente canal en historial"
 
 msgid "Switch to next sub service"
-msgstr "Cambiar al próximo subservicio"
+msgstr "Cambiar al siguiente canal"
 
 msgid "Switch to playlist"
 msgstr "Cambiar a lista de reproducción"
@@ -6868,7 +6868,7 @@ msgid "Switch to previous channel in history"
 msgstr "Cambiar al canal previo en historial"
 
 msgid "Switch to previous sub service"
-msgstr "Cambiar al subservicio previo"
+msgstr "Cambiar al canal previo"
 
 msgid "Switch to radio mode"
 msgstr "Cambiar a modo radio"
@@ -8837,7 +8837,7 @@ msgid "jump back to the previous title"
 msgstr "retroceder al título anterior"
 
 msgid "jump forward to the next title"
-msgstr "saltar al próximo título"
+msgstr "saltar al siguiente título"
 
 msgid "jump to chapter by number"
 msgstr "saltar al capítulo por número"
@@ -10554,7 +10554,7 @@ msgid "When enabled, deleted recordings are moved to the trash can, instead of b
 msgstr "Cuando está habilitado, las grabaciones eliminadas se mueven a la papelera, en lugar de eliminarse de inmediato."
 
 msgid "When enabled, display the EIT now/next eventdata in infobar. When disabled, display now/next eventdata from the EPG cache instead."
-msgstr "Cuando está habilitado, muestra los datos del evento EIT ahora/próximo en la Infobar. Cuando está deshabilitado, muestra los datos de eventos ahora/próximos de la caché EPG."
+msgstr "Cuando está habilitado, muestra los datos del evento EIT ahora/siguiente en la Infobar. Cuando está deshabilitado, muestra los datos de eventos ahora/siguiente de la caché EPG."
 
 msgid "When enabled, encryption info will be shown in the infobar (when supported by the skin)."
 msgstr "Cuando está habilitado, la información de encriptación se mostrará en la Infobar (cuando sea compatible con el skin)."
