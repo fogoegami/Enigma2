@@ -794,7 +794,7 @@ msgid "Add to favourites"
 msgstr "Añadir a favoritos"
 
 msgid "Add/remove change timer for current event"
-msgstr "Añadir/eliminar el temporizador de cambio para el evento actual"
+msgstr "Añadir/eliminar cambio temporizador para evento actual"
 
 msgid "Additional motor options allow you to enter details from your motor's spec sheet so enigma can work out how long it will take to move the dish from one satellite to another satellite."
 msgstr "Las opciones de motor adicional te permiten introducir detalles de especificaciones de su motor para que enigma pueda trabajar mientras se mueve su antena de un satélite a otro."
@@ -4558,7 +4558,7 @@ msgid "Original"
 msgstr "Original"
 
 msgid "Other"
-msgstr "Otro"
+msgstr "Otros"
 
 msgid "Output"
 msgstr "Salida"
@@ -8348,7 +8348,7 @@ msgid "Zap to selected channel"
 msgstr "Zapear a canal seleccionado"
 
 msgid "Zap to selected channel, or show detailed event info (depends on configuration)"
-msgstr "Zapear al canal seleccionado, o muestre información detallada del evento (depende de la configuración)"
+msgstr "Zap canal seleccionado, o muestre información evento"
 
 msgid "Zap up"
 msgstr "Zapea arriba"
@@ -10755,7 +10755,7 @@ msgid "Installing software..."
 msgstr "Instalando software…"
 
 msgid "MORE"
-msgstr "MAS"
+msgstr "Más"
 
 msgid "Message..."
 msgstr "Mensaje…"
@@ -10767,13 +10767,10 @@ msgid "Mute"
 msgstr "Sin sonido"
 
 msgid "NEXT"
-msgstr "PROXIMO"
+msgstr "Siguiente"
 
 msgid "NOW"
-msgstr "AHORA"
-
-msgid "Import CCcam.cfg"
-msgstr "Importar CCcam.cfg"
+msgstr "Ahora"
 
 msgid "Nameserver setup"
 msgstr "Configuración del servidor de nombres"
