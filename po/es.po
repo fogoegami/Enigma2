@@ -2501,7 +2501,7 @@ msgstr "Inglés"
 
 #, python-format
 msgid "Enigma (re)starts: %d\n"
-msgstr "Reinicios Enigma2: %d\n"
+msgstr "Reinicios E2 & Completos: %d\n"
 
 msgid "Enigma version: "
 msgstr "Versión de Enigma: "
