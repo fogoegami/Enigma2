@@ -6460,7 +6460,7 @@ msgid "Software"
 msgstr "Software"
 
 msgid "Software management"
-msgstr "Gestión de software"
+msgstr "Administrador de Software"
 
 msgid "Software manager setup"
 msgstr "Configuración del administrador de software"
@@ -13182,7 +13182,7 @@ msgid "Add a new NFS or CIFS mount point to your Receiver."
 msgstr "Agregue un nuevo punto de montaje NFS o CIFS a su receptor."
 
 msgid "Mountpoints management"
-msgstr "Gestión de puntos de montaje"
+msgstr "Administrador de montajes"
 
 msgid "View, edit or delete mountpoints on your Receiver."
 msgstr "Vea, edite o elimine puntos de montaje en su receptor."
@@ -13197,7 +13197,7 @@ msgid "Enter new hostname for your Receiver"
 msgstr "Ingrese un nuevo nombre de host para su receptor"
 
 msgid "Add new network mount point"
-msgstr "Agregar nuevo punto de montaje de red"
+msgstr "Agregar nuevo punto de montaje en red"
 
 msgid "Press OK to expand this host"
 msgstr "Presione OK para expandir este hostname"
@@ -13206,7 +13206,7 @@ msgid "Press OK to collapse this host"
 msgstr "Presione OK para contraer este hostname"
 
 msgid "Search for network shares..."
-msgstr "Buscar recursos compartidos de red ..."
+msgstr "Buscar recursos compartidos en red ..."
 
 msgid "Browse network neighbourhood"
 msgstr "Navegador de Red Local"
