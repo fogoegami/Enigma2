@@ -14372,3 +14372,7 @@ msgstr "Guardar/ingresar texto y salir"
 
 msgid "T2MI PID"
 msgstr "PID T2MI"
+
+msgid "No images found"
+msgstr "No se encontraron imágenes"
+
