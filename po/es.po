@@ -13140,10 +13140,10 @@ msgid "Save previous backup"
 msgstr "Guardar copia previa"
 
 msgid "Run autoinstall"
-msgstr "Ejecutar auto instalación"
+msgstr "Ejecutar auto Reinstalación"
 
 msgid "Remove autoinstall list"
-msgstr "Borrar lista autoinstalación"
+msgstr "Borrar lista de autoinstalación"
 
 msgid "Running..."
 msgstr "Ejecutando..."
@@ -14376,3 +14376,9 @@ msgstr "PID T2MI"
 msgid "No images found"
 msgstr "No se encontraron imágenes"
 
+msgid ""
+"This will reinstall all plugins from your backup on %s.\n"
+"Do you really want to reinstall?"
+msgstr ""
+"Esto reinstalará todos los complementos de su copia de seguridad en %s.\n"
+"Realmente quieres reinstalar?"
