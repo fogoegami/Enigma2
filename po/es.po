@@ -14382,3 +14382,6 @@ msgid ""
 msgstr ""
 "Esto reinstalará todos los complementos de su copia de seguridad en %s.\n"
 "Realmente quieres reinstalar?"
+
+msgid "Please set your time zone"
+msgstr "Por favor, establezca su zona horaria"
