@@ -35,7 +35,8 @@
 			</menu>
 			<menu weight="5" level="0" text="System" entryID="system_selection">
 				<id val="system"/>
-
+				<item level="0" text="Language" entryID="language_setup"><screen module="LanguageSelection"/></item>
+				<item level="0" entryID="timezone_setup"><setup id="timezone"/></item>
 				<menu level="0" text="Audio / Video" entryID="video_selection">
 				<id val="video"/>
 				<item level="0" entryID="av_setup"><setup id="avsetup"/></item>
@@ -47,8 +48,6 @@
 
 				<menu level="0" text="GUI Settings" entryID="gui_settings">
 				<id val="gui"/>
-				<item level="0" text="Language" entryID="language_setup"><screen module="LanguageSelection"/></item>
-				<item level="0" entryID="timezone_setup"><setup id="timezone"/></item>
 				<item level="2" entryID="epg_settings"><setup id="epgsettings"/></item>				
 				<item level="0" entryID="user_interface"><setup id="userinterface"/></item>
 				</menu>
