@@ -210,10 +210,10 @@ void bsodFatal(const char *component)
 
 	os.str("");
 	os.clear();
-	os << "We are really sorry. Your STB encountered "
-		"a software problem, and needs to be restarted.\n"
-		"Please send the logfile " << crashlog_name << " to " << crash_emailaddr << ".\n"
-		"Your STB restarts in 10 seconds!\n"
+	os << "Lo sentimos mucho. Su Receptor ha encontrado "
+		"un problema de software y necesita ser reiniciado.\n"
+		"Por favor envíe el archivo de registro " << crashlog_name << " a " << crash_emailaddr << ".\n"
+		"Su Receptor se reinicia en 10 segundos!\n"
 		"Component: " << component;
 
 	p.renderText(usable_area, os.str().c_str(), gPainter::RT_WRAP|gPainter::RT_HALIGN_LEFT);
