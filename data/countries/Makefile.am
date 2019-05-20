@@ -16,7 +16,6 @@ dist_install_DATA = \
     fr_FR.png \
     fy_NL.png \
     he_IL.png \
-    zh_HK.png \
     hr_HR.png \
     hu_HU.png \
     id_ID.png \
@@ -41,5 +40,5 @@ dist_install_DATA = \
     th_TH.png \
     tr_TR.png \
     uk_UA.png \
-	 zh_HK.png \
+    zh_HK.png \
     zh_CN.png
