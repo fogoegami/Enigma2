@@ -9263,6 +9263,14 @@ msgid "skip forward"
 msgstr "saltar hacia delante"
 
 #, python-format
+msgid "slot%s - %s"
+msgstr "slot%s - %s"
+
+#, python-format
+msgid "slot%s - %s (current image)"
+msgstr "slot%s - %s (imagen actual)"
+
+#, python-format
 msgid "slot%s - %s (current image) with, backup"
 msgstr "slot%s - %s (imagen actual) con, copia"
 
