@@ -14426,3 +14426,6 @@ msgstr ""
 "\n"
 "Las pantallas cambian con los botones izquierda/derecha o usan rojo, verde, azul para alternar.\n"
 "Amarillo por volver a introducir"
+
+msgid "No active subservices available."
+msgstr "No hay subservicios activos disponibles."
