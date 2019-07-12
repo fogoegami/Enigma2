@@ -14429,3 +14429,53 @@ msgstr ""
 
 msgid "No active subservices available."
 msgstr "No hay subservicios activos disponibles."
+
+msgid "Blinking red"
+msgstr "Rojo intermitente"
+
+msgid "Audio Sync"
+msgstr "Sincronizar Audio"
+
+msgid "Service delay"
+msgstr "Retraso en el servicio"
+
+msgid "Global delay"
+msgstr "Retraso Global"
+
+msgid "Save to key"
+msgstr "Guardar en tecla"
+
+msgid "Channel audio:"
+msgstr "Canal audio:"
+
+msgid "Boot to Android image"
+msgstr "Arrancar en imagen Android"
+
+msgid "Boot to Recovery menu"
+msgstr "Arrancar en menu Recuperación"
+
+msgid "Recovery"
+msgstr "Recuperación"
+
+msgid "Retrieving image slots - Please wait..."
+msgstr "Recuperando ranuras de imagen - Espere por favor..."
+
+msgid "Flashing image successful"
+msgstr "Flash imagen con éxito"
+
+msgid "Flashing image was not successful\n"
+"%s"
+msgstr "Flash imagen no tuvo éxito\n"
+"%s"
+
+msgid "Edit menu"
+msgstr "Editar menú"
+
+msgid "user defined hidden"
+msgstr "definido por el usuario oculto"
+
+msgid "Move Menu Up/Down"
+msgstr "Mover Menu Arriba/Abajo"
+
+msgid "Cancel Changes"
+msgstr "Cancelar Cambios"
