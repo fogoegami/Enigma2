@@ -10439,8 +10439,8 @@ msgstr "Esta opción le permite agregar la configuración de softcam en el menú
 msgid "This option allows you to alphabetically sort setup menu entries."
 msgstr "Esta opción le permite ordenar alfabéticamente las entradas del menú de configuración."
 
-msgid "This option allows you to hide and sort menu entries. When selecting user you can change order and hide menu items via the blue button"
-msgstr "Esta opción le permite ocultar y ordenar entradas de menú. Al seleccionar usuario puede cambiar el orden y ocultar los elementos del menú a través del botón azul"
+msgid "This option allows you to hide and sort menu entries. When selecting user you can change order and hide menu items via the blue button. With the user defined hidden the blue button is not shown in the menus"
+msgstr "Esta opción le permite ocultar y ordenar las entradas del menú. Al seleccionar 'definido por el usuario', puede cambiar el orden y ocultar los elementos del menú mediante el botón azul. Si NO está 'definido por el usuario', el botón azul NO se muestra en los menús"
 
 msgid "This option allows you to power off the display."
 msgstr "Esta opción te permite apagar la pantalla."
