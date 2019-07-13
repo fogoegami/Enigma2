@@ -5774,7 +5774,7 @@ msgid "Select 'Unicable' if this tuner will use a Unicable device. For all other
 msgstr "Seleccione ‘Unicable’ si este sintonizador usará un dispositivo Unicable. Para todas las demás configuraciones, seleccione ‘FBC automático’."
 
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
-msgstr "\\Seleccione ‘banda’ si usa un LNB ‘universal’; de lo contrario, consulte la hoja de especificaciones de LNB."
+msgstr "Seleccione ‘banda’ si usa un LNB ‘universal’; de lo contrario, consulte la hoja de especificaciones de LNB."
 
 msgid "Select 'enabled' if this tuner has a signal cable connected, otherwise select 'nothing connected'."
 msgstr "Seleccione ‘habilitado’ si este sintonizador tiene un cable de señal conectado; de lo contrario, seleccione ‘nada conectado’."
@@ -5923,6 +5923,15 @@ msgstr "Seleccione el método de clasificación:"
 
 msgid "Select target folder"
 msgstr "Seleccionar carpeta de destino"
+
+msgid "Select the protocol used by your SCR device. Choices are 'SCR Unicable' (Unicable), or 'SCR JESS' (JESS, also known as Unicable II)."
+msgstr "Seleccione el protocolo utilizado por su dispositivo SCR. Las opciones son 'SCR Unicable' (Unicable) o 'SCR JESS' (JESS, también conocido como Unicable II)."
+
+msgid "Select the User Band frequency to be assigned to this tuner. This is the frequency the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
+msgstr "Seleccione la frecuencia de la banda de usuario que se asignará a este sintonizador. Esta es la frecuencia que utiliza el interruptor SCR o SCR LNB para pasar el transpondedor solicitado al sintonizador."
+
+msgid "Consult your SCR device spec sheet for this information."
+msgstr "Consulte la hoja de especificaciones de su dispositivo SCR para obtener esta información."
 
 msgid "Select the Unicable channel to be assigned to this tuner. This is a unique value. Be certain that no other device connected to this same Unicable system is allocated to the same Unicable channel."
 msgstr "Seleccione el canal Unicable que se asignará a este sintonizador. Este es un valor único. Asegúrese de que ningún otro dispositivo conectado a este mismo sistema Unicable esté asignado al mismo canal Unicable."
@@ -6393,7 +6402,7 @@ msgid "Site longitude"
 msgstr "Longitud del sitio"
 
 msgid "Skin"
-msgstr "Skin"
+msgstr "Cambiar Skin"
 
 msgid "Skins"
 msgstr "Skins"
@@ -7334,7 +7343,7 @@ msgid "Time scale"
 msgstr "Escala de tiempo"
 
 msgid "Timer"
-msgstr "Temporizador"
+msgstr "Temporizadores de Grabación"
 
 msgid "Timer Overview"
 msgstr "Resumen del Temporizador"
@@ -9543,7 +9552,7 @@ msgid "Flash image"
 msgstr "Flashear imagen"
 
 msgid "GUI Settings"
-msgstr "Ajustes interfaz usuario & EPG"
+msgstr "Ajustes Interfaz Usuario"
 
 msgid "Harddisk"
 msgstr "Disco Duro"
@@ -14479,3 +14488,6 @@ msgstr "Mover Menu Arriba/Abajo"
 
 msgid "Cancel Changes"
 msgstr "Cancelar Cambios"
+
+msgid "Tuners & scanning"
+msgstr "Sintonizadores & Búsqueda"

@@ -35,6 +35,7 @@
 			</menu>
 			<menu weight="5" level="0" text="System" entryID="system_selection">
 				<id val="system"/>
+				<item level="0" text="Network" entryID="network_setup"><screen module="NetworkSetup" screen="NetworkAdapterSelection"/></item>				
 				<item level="0" text="Language" entryID="language_setup"><screen module="LanguageSelection"/></item>
 				<item level="0" entryID="timezone_setup"><setup id="timezone"/></item>
 				<menu level="0" text="Audio / Video" entryID="video_selection">
@@ -46,8 +47,6 @@
 				<item level="0" entryID="usage_setup"><setup id="usage"/></item>
 				<menu level="0" text="GUI Settings" entryID="gui_settings">
 					<id val="gui"/>
-					<item level="0" text="Language" entryID="language_setup"><screen module="LanguageSelection"/></item>
-					<item level="0" entryID="timezone_setup"><setup id="timezone"/></item>
 					<item level="0" entryID="user_interface"><setup id="userinterface"/></item>
 				</menu>
 				<menu level="0" text="EPG" entryID="epg_menu">
@@ -66,7 +65,6 @@
 					<item level="0" text="Initialization" entryID="harddisk_init"><screen module="HarddiskSetup" screen="HarddiskSelection"/></item>
 					<item level="0" text="Filesystem check" entryID="harddisk_check"><screen module="HarddiskSetup" screen="HarddiskFsckSelection"/></item>
 					</menu>
-				<item level="0" text="Network" entryID="network_setup"><screen module="NetworkSetup" screen="NetworkAdapterSelection"/></item>
 				<item level="1" text="Input devices" entryID="input_device_setup"><screen module="InputDeviceSetup" screen="InputDeviceSelection"/></item>
 				<item entryID="lcd_setup" requires="Display"><setup level="1" id="lcd"/></item>
 				<item entryID="keyboard_setup" text="Keyboard"><setup id="keyboard"/></item>

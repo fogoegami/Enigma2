@@ -40,6 +40,7 @@ class LanguageSelection(Screen):
 		}, -1)
 
 	def selectActiveLanguage(self):
+		self.setTitle(self.title)
 		pos = 0
 		for pos, x in enumerate(self.list):
 			if x[0] == self.oldActiveLanguage:
@@ -48,26 +49,20 @@ class LanguageSelection(Screen):
 
 	def save(self):
 		self.commit(self.run())
-		if self.oldActiveLanguage != config.osd.language.value:
-			if InfoBar.instance:
-				self.session.openWithCallback(self.restartGUI, MessageBox,_("GUI needs a restart to apply a new language\nDo you want to restart the GUI now?"), MessageBox.TYPE_YESNO, title=_("Restart GUI now?"))
-			else:
-				self.restartGUI()
+		if InfoBar.instance and self.oldActiveLanguage != config.osd.language.value:
+			self.close(True)
 		else:
 			self.close()
-
-	def restartGUI(self, answer=True):
-		answer and self.session.open(TryQuitMainloop, 3)
 
 	def cancel(self):
 		language.activateLanguage(self.oldActiveLanguage)
 		self.close()
 
 	def run(self):
-		print "updating language..."
+		print "[LanguageSelection] updating language..."
 		lang = self["languages"].getCurrent()[0]
 		if lang != config.osd.language.value:
-			config.osd.language.value = lang
+			config.osd.language.setValue(lang)
 			config.osd.language.save()
 		return lang
 
