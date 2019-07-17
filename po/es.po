@@ -14491,3 +14491,24 @@ msgstr "Cancelar Cambios"
 
 msgid "Tuners & scanning"
 msgstr "Sintonizadores & Búsqueda"
+
+msgid "Destination of fallback remote receiver for ATSC"
+msgstr "Destino del receptor remoto alternativo para ATSC"
+
+msgid "Destination of fallback remote receiver for DVB-C"
+msgstr "Destino del receptor remoto alternativo para DVB-C"
+
+msgid "Destination of fallback remote receiver for DVB-T"
+msgstr "Destino del receptor remoto alternativo para DVB-T"
+
+msgid "Fallback remote receiver for ATSC"
+msgstr "Receptor remoto de reserva para ATSC"
+
+msgid "Fallback remote receiver for DVB-C"
+msgstr "Receptor remoto de reserva para DVB-C"
+
+msgid "Fallback remote receiver for DVB-T"
+msgstr "Receptor remoto de reserva para DVB-T"
+
+msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
+msgstr "Establecer sintonizadores alternativos para DVB-T/C o ATSC"
