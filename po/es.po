@@ -11133,7 +11133,7 @@ msgid ""
 "You need a PC connected to your receiver. If you need further instructions, please visit the website https://openpli.org\n"
 "Your receiver will now be halted. After you have performed the update instructions from the website, your new firmware will ask you to restore your settings."
 msgstr ""
-"Necesita un PC conectado a su receptor. Si necesita más instrucciones, visite https://boxtvmania.com\n"
+"Necesita un PC conectado a su receptor. Si necesita más instrucciones, visite https://openpli.org\n"
 "Su receptor ahora se detendrá. Tras haber realizado las instrucciones de actualización desde el sitio web, su nuevo firmware le pedirá restablecer su configuración."
 
 msgid "Your backup succeeded. We will now continue to explain the further upgrade process."
