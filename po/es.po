@@ -14512,3 +14512,6 @@ msgstr "Receptor remoto de reserva para DVB-T"
 
 msgid "Set alternative fallback tuners for DVB-T/C or ATSC"
 msgstr "Establecer sintonizadores alternativos para DVB-T/C o ATSC"
+
+msgid "All slots"
+msgstr "Todos los slots"
