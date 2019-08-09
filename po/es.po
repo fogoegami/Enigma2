@@ -14515,3 +14515,6 @@ msgstr "Establecer sintonizadores alternativos para DVB-T/C o ATSC"
 
 msgid "All slots"
 msgstr "Todos los slots"
+
+msgid "Use OpenTV EPG information when it is available."
+msgstr "Utilice la información OpenTV EPG cuando esté disponible."
